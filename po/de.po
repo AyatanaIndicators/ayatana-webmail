@@ -1,0 +1,304 @@
+# German translation for ayatana-webmail
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the ayatana-webmail package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ayatana-webmail\n"
+"Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/issues\n"
+"POT-Creation-Date: 2020-04-03 12:21+0200\n"
+"PO-Revision-Date: 2018-06-11 11:01+0000\n"
+"Last-Translator: Tobias Bannert <tobannert@gmail.com>\n"
+"Language-Team: German <de@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
+"X-Generator: Launchpad (build a296f04231dee355be5db73cc878b9e21689a253)\n"
+
+#: ayatanawebmail/accounts.py:18
+msgid "Select account"
+msgstr "Konto auswählen"
+
+#: ayatanawebmail/accounts.py:29
+msgid "Which account's command/web page would you like to open?"
+msgstr "Welche(n) Kontobefehl/-Seite möchten Sie öffnen?"
+
+#: ayatanawebmail/actions.py:15
+msgid "Message actions"
+msgstr "Nachrichtenaktionen"
+
+#: ayatanawebmail/actions.py:15
+msgid "Delete"
+msgstr "Löschen"
+
+#: ayatanawebmail/actions.py:15
+msgid "Mark as read"
+msgstr "Als gelesen markieren"
+
+#: ayatanawebmail/actions.py:15
+msgid "Open message/Run command"
+msgstr "Nachricht öffnen / Befehl ausführen"
+
+#: ayatanawebmail/actions.py:24
+msgid "Sender"
+msgstr "Absender"
+
+#: ayatanawebmail/actions.py:26
+msgid "Subject"
+msgstr "Betreff"
+
+#: ayatanawebmail/application.py:205
+msgid "Open webmail home page"
+msgstr "Webmail-Startseite öffnen"
+
+#: ayatanawebmail/application.py:212
+msgid "Clear"
+msgstr "Leeren"
+
+#: ayatanawebmail/application.py:219
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: ayatanawebmail/application.py:980
+msgid "No subject"
+msgstr "Kein Betreff"
+
+#: ayatanawebmail/application.py:1132
+msgid "Connection error"
+msgstr "Verbindungsfehler"
+
+#: ayatanawebmail/application.py:1133
+#, python-brace-format
+msgid ""
+"Unable to connect to account \"{accountName}\", the application will now "
+"exit."
+msgstr ""
+"Zu Konto »{accountName}« kann nicht verbunden werden, die Anwendung wird "
+"jetzt beendet."
+
+#: ayatanawebmail/application.py:1133
+#, python-brace-format
+msgid "You can run \"{command}\" to delete all your login settings."
+msgstr "Sie können »{command}« ausführen, um alle Anmeldedaten zu löschen."
+
+#: ayatanawebmail/application.py:1158
+#, python-format
+msgid "You have %d unread mail"
+msgid_plural "You have %d unread mails"
+msgstr[0] "Sie haben %d ungelesene Nachricht"
+msgstr[1] "Sie haben %d ungelesene Nachrichten"
+
+#: ayatanawebmail/application.py:1185
+#, python-format
+msgid "from %(t0)s, %(t1)s and others"
+msgstr "von %(t0)s, %(t1)s und anderen"
+
+#: ayatanawebmail/application.py:1187
+#, python-format
+msgid "from %(t0)s and %(t1)s"
+msgstr "von %(t0)s und %(t1)s"
+
+#: ayatanawebmail/application.py:1189
+#, python-format
+msgid "from %s"
+msgstr "von %s"
+
+#: ayatanawebmail/application.py:1202
+#, python-format
+msgid "New mail from %s"
+msgstr "Neue E-Mail von %s"
+
+#: ayatanawebmail/dialog.py:60
+msgid "Web page"
+msgstr "Internetseite"
+
+#: ayatanawebmail/dialog.py:61
+msgid "Command"
+msgstr "Befehl"
+
+#: ayatanawebmail/dialog.py:93
+msgid ""
+"Append an additional string - you can use the $MSG_THREAD and $MSG_UID "
+"placeholders."
+msgstr ""
+
+#: ayatanawebmail/dialog.py:114 ayatanawebmail/dialog.py:128
+msgid "(None)"
+msgstr "(–––)"
+
+#: ayatanawebmail/dialog.py:156
+msgid "Ayatana Webmail Preferences"
+msgstr "Ayatana-Webmail-Einstellungen"
+
+#: ayatanawebmail/dialog.py:164
+msgid "Accounts"
+msgstr "Konten"
+
+#: ayatanawebmail/dialog.py:165
+msgid "Options"
+msgstr "Optionen"
+
+#: ayatanawebmail/dialog.py:166
+msgid "Support"
+msgstr "Unterstützung"
+
+#: ayatanawebmail/dialog.py:167
+msgid "About"
+msgstr "Info"
+
+#: ayatanawebmail/dialog.py:228
+msgid ""
+"Please visit the following link and enable access for less secure apps:"
+msgstr ""
+"Bitte besuchen Sie den folgenden Verweis und aktivieren Sie den Zugriff für "
+"weniger sichere Anwendungen:"
+
+#: ayatanawebmail/dialog.py:230
+msgid "Access blocked by Google"
+msgstr "Zugriff durch Google gesperrt"
+
+#: ayatanawebmail/dialog.py:234
+msgid "Failed to connect to mail account. The returned error was:"
+msgstr ""
+"Verbindung zum E-Mail-Konto fehlgeschlagen. Der zurückgegebene Fehler war:"
+
+#: ayatanawebmail/dialog.py:235
+msgid "Connection failure"
+msgstr "Verbindungsfehler"
+
+#: ayatanawebmail/dialog.py:254
+msgid "Choose an account"
+msgstr "Konto auswählen"
+
+#: ayatanawebmail/dialog.py:259
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: ayatanawebmail/dialog.py:261
+msgid "Remove"
+msgstr "Entfernen"
+
+#: ayatanawebmail/dialog.py:276
+msgid "Server data"
+msgstr "Serverdaten"
+
+#: ayatanawebmail/dialog.py:278
+msgid "Account data"
+msgstr "Kontodaten"
+
+#: ayatanawebmail/dialog.py:289
+msgid "Links"
+msgstr "Verknüpfungen"
+
+#: ayatanawebmail/dialog.py:297
+msgid "Host:"
+msgstr "Host:"
+
+#: ayatanawebmail/dialog.py:299
+msgid "Port:"
+msgstr "Port:"
+
+#: ayatanawebmail/dialog.py:302
+msgid "Login:"
+msgstr "Benutzername:"
+
+#: ayatanawebmail/dialog.py:304
+msgid "Password:"
+msgstr "Passwort:"
+
+#: ayatanawebmail/dialog.py:306
+msgid "Folders:"
+msgstr "Ordner:"
+
+#: ayatanawebmail/dialog.py:309
+msgid "Home:"
+msgstr "Privat:"
+
+#: ayatanawebmail/dialog.py:311
+msgid "Compose:"
+msgstr "Erstellen:"
+
+#: ayatanawebmail/dialog.py:313
+msgid "Inbox:"
+msgstr "Posteingang:"
+
+#: ayatanawebmail/dialog.py:316
+msgid "Sent:"
+msgstr "Gesendet:"
+
+#: ayatanawebmail/dialog.py:354
+msgid "Mark message as read"
+msgstr "Nachrichten als gelesen markieren"
+
+#: ayatanawebmail/dialog.py:355
+msgid "Open message in browser/Execute command"
+msgstr "Nachricht im Browser öffnen / Befehl ausführen"
+
+#: ayatanawebmail/dialog.py:356
+msgid "Ask me what to do"
+msgstr "Fragen was zu tun ist"
+
+#: ayatanawebmail/dialog.py:366
+msgid "Enable notifications:"
+msgstr "Benachrichtigungen aktivieren:"
+
+#: ayatanawebmail/dialog.py:368
+msgid "Play sound when a message is received:"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:370
+msgid "Merge messages from the same conversation:"
+msgstr "Nachrichten aus derselben Konversation zusammenführen:"
+
+#: ayatanawebmail/dialog.py:372
+msgid "Hide count when zero:"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:374
+msgid "When a message is activated:"
+msgstr "Wenn eine Nachricht aktiviert ist:"
+
+#: ayatanawebmail/dialog.py:377
+msgid "Execute this command when a message is received:"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:384
+msgid "Custom sound to play:"
+msgstr "Benutzerdefinierter Ton zum Abspielen:"
+
+#: ayatanawebmail/dialog.py:400
+msgid "Report a bug/Request a feature"
+msgstr "Einen Fehler melden / Eine Funktion anfragen"
+
+#: ayatanawebmail/dialog.py:402
+msgid "Ask a question"
+msgstr "Eine Frage stellen"
+
+#: ayatanawebmail/dialog.py:404
+msgid "Help translate"
+msgstr "Übersetzen helfen"
+
+#: ayatanawebmail/dialog.py:406
+msgid "Project page"
+msgstr "Projektseite"
+
+#: ayatanawebmail/dialog.py:408
+msgid "Source code"
+msgstr "Quelltext"
+
+#: ayatanawebmail/dialog.py:410
+msgid "Repository"
+msgstr "Paketquelle"
+
+#: ayatanawebmail/dialog.py:412
+msgid "Home page"
+msgstr "Startseite"
+
+#: ayatanawebmail/dialog.py:426
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Tobias Bannert https://launchpad.net/~toba"

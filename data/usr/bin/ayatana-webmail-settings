@@ -1,0 +1,44 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# Ayatana Webmail, Show the settings dialog
+# Authors: Robert Tari <robert@tari.in>
+# License: GNU GPL 3 or higher; http://www.gnu.org/licenses/gpl.html
+
+import sys
+import dbus
+import subprocess
+from gi.repository import GLib
+from dbus.mainloop.glib import DBusGMainLoop
+from ayatanawebmail.common import isRunning
+
+oLoop = None
+
+if __name__ == '__main__':
+
+    DBusGMainLoop(set_as_default=True)
+    oSessionBus = dbus.SessionBus()
+
+    if isRunning():
+
+        try:
+
+            oSession = oSessionBus.get_object('org.ayatana.webmail', '/org/ayatana/webmail')
+            oInterface = dbus.Interface(oSession, 'org.ayatana.webmail')
+
+            oInterface.settings(reply_handler=lambda: oLoop.quit(), error_handler=lambda o: oLoop.quit())
+
+            oLoop = GLib.MainLoop()
+            oLoop.run()
+
+        except dbus.DBusException as oDBusException:
+
+            print(oDBusException)
+            sys.exit(1)
+
+        sys.exit(0)
+
+    else:
+
+        subprocess.Popen(['ayatana-webmail'], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+
+    sys.exit(1)

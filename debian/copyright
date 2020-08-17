@@ -1,0 +1,32 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Ayatana Webmail
+Upstream-Contact: Robert Tari <robert@tari.in>
+Source: https://github.com/AyatanaIndicators/ayatana-webmail
+
+Files: *
+Copyright: 2011-2014, Dmitry Shachnev <mitya57@gmail.com>
+           2016-2020, Robert Tari <robert@tari.in>
+License: GPL-3+
+
+Files: po/*.po
+Copyright: 2011-2020, Rosetta Contributors and Canonical Ltd
+License: GPL-3+
+
+Files: debian/*
+Copyright: 2011-2014, Dmitry Shachnev <mitya57@gmail.com>
+           2016-2020, Robert Tari <robert@tari.in>
+License: GPL-3+
+
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 3 can be found in "/usr/share/common-licenses/GPL-3".

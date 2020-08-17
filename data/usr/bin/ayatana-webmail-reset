@@ -1,0 +1,27 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# Ayatana Webmail, Remove all connection data from keyring
+# Authors: Dmitry Shachnev <mitya57@gmail.com>
+#          Robert Tari <robert@tari.in>
+# License: GNU GPL 3 or higher; http://www.gnu.org/licenses/gpl.html
+
+import sys
+import secretstorage
+
+if __name__ == '__main__':
+
+    oBus = secretstorage.dbus_init()
+    oCollection = secretstorage.get_default_collection(oBus)
+    oCollection.unlock()
+
+    try:
+
+        for oItem in oCollection.search_items({'application': 'ayatana-webmail'}):
+            oItem.delete()
+
+    except:
+
+        pass
+
+    sys.exit(0)
+

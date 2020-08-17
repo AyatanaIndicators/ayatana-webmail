@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <enum id="org.ayatana.webmail.message-actions">
+    <value nick="Open message in browser/Execute command" value="1"/>
+    <value nick="Mark message as read" value="2"/>
+    <value nick="Ask me what to do" value="3"/>
+  </enum>
+  <schema id="org.ayatana.webmail" path="/org/ayatana/webmail/" gettext-domain="ayatanawebmail">
+    <key type="i" name="max-item-count">
+      <default>20</default>
+      <summary>Maximum item count</summary>
+      <description>Limit the number of mails to retrieve per folder.</description>
+    </key>
+    <key type="b" name="enable-notifications">
+      <default>true</default>
+      <summary>Enable notifications</summary>
+      <description>Show OSD notifications when new messages arrive.</description>
+    </key>
+    <key type="b" name="enable-sound">
+      <default>true</default>
+      <summary>Enable sound</summary>
+      <description>Play sound when new messages arrive.</description>
+    </key>
+    <key type="b" name="hide-messages-count">
+      <default>true</default>
+      <summary>Hide message count</summary>
+      <description>Hide message count when there are no messages.</description>
+    </key>
+    <key type="s" name="exec-on-receive">
+      <default>''</default>
+        <summary>Execute on receive</summary>
+        <description>Run this command when new messages arrive.</description>
+    </key>
+    <key type="s" name="custom-sound">
+      <default>''</default>
+      <summary>Custom sound</summary>
+      <description>Play a custom sound when new messages arrive.</description>
+    </key>
+    <key type="b" name="merge-messages">
+      <default>false</default>
+      <summary>Merge messages</summary>
+      <description>Merge messages belonging to the same conversation.</description>
+    </key>
+    <key enum="org.ayatana.webmail.message-actions" name="message-action">
+      <default>'Open message in browser/Execute command'</default>
+      <summary>Message action</summary>
+      <description>Action to perform when a message is activated.</description>
+    </key>
+    <key type="s" name="home">
+      <default>'https://mail.google.com/mail/'</default>
+      <summary>Home</summary>
+      <description>URL or command for the "Home" link.</description>
+    </key>
+    <key type="s" name="compose">
+      <default>'https://mail.google.com/mail/#compose'</default>
+      <summary>Compose</summary>
+      <description>URL or command for the "Compose" link.</description>
+    </key>
+    <key type="s" name="inbox">
+      <default>'https://mail.google.com/mail/#inbox'</default>
+      <summary>Inbox</summary>
+      <description>URL or command for the "Inbox" link.</description>
+    </key>
+    <key type="s" name="sent">
+      <default>'https://mail.google.com/mail/#sent'</default>
+      <summary>Sent</summary>
+      <description>URL or command for the "Sent" link.</description>
+    </key>
+  </schema>
+</schemalist>

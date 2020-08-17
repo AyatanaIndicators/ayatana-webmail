@@ -1,0 +1,5 @@
+ayatana-webmail (20.8.16) unstable; urgency=medium
+
+  * Port from Unity Mail
+
+ -- Robert Tari <robert@tari.in>  Sun, 16 Aug 2020 12:28:00 +0100

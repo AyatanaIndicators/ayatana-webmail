@@ -1,0 +1,296 @@
+# Estonian translation for ayatana-webmail
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the ayatana-webmail package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ayatana-webmail\n"
+"Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/issues\n"
+"POT-Creation-Date: 2020-04-03 12:21+0200\n"
+"PO-Revision-Date: 2018-06-04 07:34+0000\n"
+"Language-Team: Estonian <et@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
+"X-Generator: Launchpad (build a296f04231dee355be5db73cc878b9e21689a253)\n"
+
+#: ayatanawebmail/accounts.py:18
+msgid "Select account"
+msgstr ""
+
+#: ayatanawebmail/accounts.py:29
+msgid "Which account's command/web page would you like to open?"
+msgstr ""
+
+#: ayatanawebmail/actions.py:15
+msgid "Message actions"
+msgstr ""
+
+#: ayatanawebmail/actions.py:15
+msgid "Delete"
+msgstr ""
+
+#: ayatanawebmail/actions.py:15
+msgid "Mark as read"
+msgstr ""
+
+#: ayatanawebmail/actions.py:15
+msgid "Open message/Run command"
+msgstr ""
+
+#: ayatanawebmail/actions.py:24
+msgid "Sender"
+msgstr ""
+
+#: ayatanawebmail/actions.py:26
+msgid "Subject"
+msgstr ""
+
+#: ayatanawebmail/application.py:205
+msgid "Open webmail home page"
+msgstr ""
+
+#: ayatanawebmail/application.py:212
+msgid "Clear"
+msgstr ""
+
+#: ayatanawebmail/application.py:219
+msgid "Settings"
+msgstr ""
+
+#: ayatanawebmail/application.py:980
+msgid "No subject"
+msgstr ""
+
+#: ayatanawebmail/application.py:1132
+msgid "Connection error"
+msgstr ""
+
+#: ayatanawebmail/application.py:1133
+#, python-brace-format
+msgid ""
+"Unable to connect to account \"{accountName}\", the application will now "
+"exit."
+msgstr ""
+
+#: ayatanawebmail/application.py:1133
+#, python-brace-format
+msgid "You can run \"{command}\" to delete all your login settings."
+msgstr ""
+
+#: ayatanawebmail/application.py:1158
+#, python-format
+msgid "You have %d unread mail"
+msgid_plural "You have %d unread mails"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ayatanawebmail/application.py:1185
+#, python-format
+msgid "from %(t0)s, %(t1)s and others"
+msgstr ""
+
+#: ayatanawebmail/application.py:1187
+#, python-format
+msgid "from %(t0)s and %(t1)s"
+msgstr ""
+
+#: ayatanawebmail/application.py:1189
+#, python-format
+msgid "from %s"
+msgstr ""
+
+#: ayatanawebmail/application.py:1202
+#, python-format
+msgid "New mail from %s"
+msgstr "Uus kiri %s-lt"
+
+#: ayatanawebmail/dialog.py:60
+msgid "Web page"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:61
+msgid "Command"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:93
+msgid ""
+"Append an additional string - you can use the $MSG_THREAD and $MSG_UID "
+"placeholders."
+msgstr ""
+
+#: ayatanawebmail/dialog.py:114 ayatanawebmail/dialog.py:128
+msgid "(None)"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:156
+msgid "Ayatana Webmail Preferences"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:164
+msgid "Accounts"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:165
+msgid "Options"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:166
+msgid "Support"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:167
+msgid "About"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:228
+msgid ""
+"Please visit the following link and enable access for less secure apps:"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:230
+msgid "Access blocked by Google"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:234
+msgid "Failed to connect to mail account. The returned error was:"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:235
+msgid "Connection failure"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:254
+msgid "Choose an account"
+msgstr "Vali konto"
+
+#: ayatanawebmail/dialog.py:259
+msgid "Add"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:261
+msgid "Remove"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:276
+msgid "Server data"
+msgstr "Serveri andmed"
+
+#: ayatanawebmail/dialog.py:278
+msgid "Account data"
+msgstr "Konto andmed"
+
+#: ayatanawebmail/dialog.py:289
+msgid "Links"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:297
+msgid "Host:"
+msgstr "Server:"
+
+#: ayatanawebmail/dialog.py:299
+msgid "Port:"
+msgstr "Port:"
+
+#: ayatanawebmail/dialog.py:302
+msgid "Login:"
+msgstr "Kasutajanimi:"
+
+#: ayatanawebmail/dialog.py:304
+msgid "Password:"
+msgstr "Parool:"
+
+#: ayatanawebmail/dialog.py:306
+msgid "Folders:"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:309
+msgid "Home:"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:311
+msgid "Compose:"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:313
+msgid "Inbox:"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:316
+msgid "Sent:"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:354
+msgid "Mark message as read"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:355
+msgid "Open message in browser/Execute command"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:356
+msgid "Ask me what to do"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:366
+msgid "Enable notifications:"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:368
+msgid "Play sound when a message is received:"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:370
+msgid "Merge messages from the same conversation:"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:372
+msgid "Hide count when zero:"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:374
+msgid "When a message is activated:"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:377
+msgid "Execute this command when a message is received:"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:384
+msgid "Custom sound to play:"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:400
+msgid "Report a bug/Request a feature"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:402
+msgid "Ask a question"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:404
+msgid "Help translate"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:406
+msgid "Project page"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:408
+msgid "Source code"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:410
+msgid "Repository"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:412
+msgid "Home page"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:426
+msgid "translator-credits"
+msgstr ""

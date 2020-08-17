@@ -1,0 +1,29 @@
+#!/bin/bash
+
+set -e
+
+case "$1" in
+
+    configure)
+
+        cp -n /usr/share/ayatanawebmail/indicator-messages-new.svg /usr/share/icons/hicolor/scalable/status/indicator-messages-new.svg
+        cp -n /usr/share/ayatanawebmail/indicator-messages.svg /usr/share/icons/hicolor/scalable/status/indicator-messages.svg
+        mkdir -p /usr/share/icons/matefaenza/apps/scalable
+        ln -sf /usr/share/icons/Faenza/apps/scalable/ayatanawebmail.svg /usr/share/icons/matefaenza/apps/scalable/ayatanawebmail.svg
+
+        update-icon-caches /usr/share/icons/hicolor /usr/share/icons/Faenza /usr/share/icons/matefaenza
+        glib-compile-schemas /usr/share/glib-2.0/schemas
+    ;;
+
+    abort-upgrade|abort-remove|abort-deconfigure)
+    ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+#DEBHELPER#
+
+exit 0
