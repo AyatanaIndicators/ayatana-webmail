@@ -1129,7 +1129,7 @@ class AyatanaWebmail(object):
                 logger.error('"{0}:{1}" could not connect: {2}'.format(oConnection.strLogin, oConnection.strFolder, str(oException)))
 
                 oNotification = Notify.Notification.new(_('Connection error'), '', APPNAME)
-                oNotification.set_property('body', _('Unable to connect to account "{accountName}", the application will now exit.').format(accountName=oConnection.strLogin) + '\n\n' + _('You can run "{command}" to delete all your login settings.').format(command='ayatana-webmail-reset'))
+                oNotification.set_property('body', _('Unable to connect to account "{accountName}", the application will now exit.').format(accountName=oConnection.strLogin))
                 oNotification.set_hint('desktop-entry', GLib.Variant.new_string(APPNAME))
                 oNotification.set_timeout(Notify.EXPIRES_NEVER)
                 oNotification.show()
