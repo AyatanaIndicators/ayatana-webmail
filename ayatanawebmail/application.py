@@ -893,7 +893,7 @@ class AyatanaWebmail(object):
         if search[1][0] is not None:
             lstMessages = search[1][0].split()
 
-        for m in lstMessages[-self.nMaxCount:]:
+        for m in lstMessages[-1 * (self.nMaxCount // len(self.lstConnections)) : ]:
 
             typ = None
             msg_data = None
@@ -1067,6 +1067,7 @@ class AyatanaWebmail(object):
         if lstNewMessages:
 
             for cMessage in lstNewMessages:
+
                 self.appendToIndicator(cMessage)
 
         try:

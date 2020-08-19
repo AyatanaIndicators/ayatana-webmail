@@ -241,7 +241,6 @@ class PreferencesDialog(Gtk.Dialog):
 
     def initConfig(self):
 
-        self.nMaxCount = g_oSettings.get_int('max-item-count')
         self.bEnableNotifications = g_oSettings.get_boolean('enable-notifications')
         self.bPlaySound = g_oSettings.get_boolean('enable-sound')
         self.bHideCount = g_oSettings.get_boolean('hide-messages-count')
@@ -280,6 +279,7 @@ class PreferencesDialog(Gtk.Dialog):
         infolabel.set_markup('<b>'+_('Account data')+'</b>')
         self.oListStore = Gtk.ListStore(str, str, bool)
         oTreeView = Gtk.TreeView(self.oListStore, headers_visible=False, activate_on_single_click=True, margin_left=5, margin_top=5, margin_right=5, margin_bottom=5)
+        oTreeView.set_property('height-request', 200)
         oTreeView.connect('row-activated', self.onFolderActivated)
         oTreeViewColumnBool = Gtk.TreeViewColumn('bool', Gtk.CellRendererToggle(), active=2)
         oTreeViewColumnBool.get_cells()[0].set_property('xalign', 1.0)
@@ -478,7 +478,6 @@ class PreferencesDialog(Gtk.Dialog):
 
     def saveAllSettings(self):
 
-        g_oSettings.set_int('max-item-count', self.nMaxCount)
         g_oSettings.set_boolean('enable-notifications', self.notifyswitch.get_active())
         g_oSettings.set_boolean('enable-sound', self.sndswitch.get_active())
         g_oSettings.set_boolean('hide-messages-count', self.hcswitch.get_active())
