@@ -5,7 +5,6 @@ Maintainer: Robert Tari <robert@tari.in>
 Build-Depends: debhelper (>= 10), dh-python, python3 (>= 3.6), python3-setuptools, python3-polib
 Standards-Version: 4.5.0
 Homepage: https://tari.in/www/software/ayatana-webmail/
-Rules-Requires-Root: no
 Vcs-Git: https://github.com/AyatanaIndicators/ayatana-webmail
 Vcs-Browser: https://github.com/AyatanaIndicators/ayatana-webmail
 X-Python3-Version: >= 3.6
