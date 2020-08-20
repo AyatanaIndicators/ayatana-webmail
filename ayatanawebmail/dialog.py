@@ -172,7 +172,7 @@ class PreferencesDialog(Gtk.Dialog):
         oContentArea.add(self.oNotebook)
         self.oButtonConnect = self.get_widget_for_response(100)
         self.oButtonApply = self.get_widget_for_response(Gtk.ResponseType.APPLY)
-        self.lstDicts = [{'Host': 'imap.gmail.com', 'Port': '993', 'Login': '', 'Passwd': '', 'Folders': 'INBOX', 'InboxAppend': '/$MSG_THREAD'}]
+        self.lstDicts = [{'Host': 'imap.example.com', 'Port': '993', 'Login': '', 'Passwd': '', 'Folders': 'INBOX', 'InboxAppend': '/$MSG_THREAD'}]
         self.lstDicts[0].update(g_dctDefaultURLs)
         self.set_keep_above(True)
         self.show_all()
@@ -489,7 +489,7 @@ class PreferencesDialog(Gtk.Dialog):
     def onAddAccount(self, btn):
 
         self.updateAccounts()
-        self.lstDicts.append({'Host': 'imap.gmail.com', 'Port': '993', 'Login': '', 'Passwd': '', 'Folders': 'INBOX', 'InboxAppend': '/$MSG_THREAD'})
+        self.lstDicts.append({'Host': 'imap.example.com', 'Port': '993', 'Login': '', 'Passwd': '', 'Folders': 'INBOX', 'InboxAppend': '/$MSG_THREAD'})
         self.lstDicts[-1].update(g_dctDefaultURLs)
         self.sb.set_range(1, len(self.lstDicts))
         self.sb.set_value(len(self.lstDicts))

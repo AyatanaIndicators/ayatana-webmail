@@ -47,22 +47,22 @@
       <description>Action to perform when a message is activated.</description>
     </key>
     <key type="s" name="home">
-      <default>'https://mail.google.com/mail/'</default>
+      <default>'https://mail.example.com'</default>
       <summary>Home</summary>
       <description>URL or command for the "Home" link.</description>
     </key>
     <key type="s" name="compose">
-      <default>'https://mail.google.com/mail/#compose'</default>
+      <default>'https://mail.example.com/compose'</default>
       <summary>Compose</summary>
       <description>URL or command for the "Compose" link.</description>
     </key>
     <key type="s" name="inbox">
-      <default>'https://mail.google.com/mail/#inbox'</default>
+      <default>'https://mail.example.com/inbox'</default>
       <summary>Inbox</summary>
       <description>URL or command for the "Inbox" link.</description>
     </key>
     <key type="s" name="sent">
-      <default>'https://mail.google.com/mail/#sent'</default>
+      <default>'https://mail.example.com/sent'</default>
       <summary>Sent</summary>
       <description>URL or command for the "Sent" link.</description>
     </key>

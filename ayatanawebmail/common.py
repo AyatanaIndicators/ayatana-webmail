@@ -20,7 +20,7 @@ except IOError:
 
 g_oTranslation.install()
 
-g_dctDefaultURLs = {'Home': 'https://mail.google.com/mail/', 'Compose': 'https://mail.google.com/mail/#compose', 'Inbox': 'https://mail.google.com/mail/#inbox', 'Sent': 'https://mail.google.com/mail/#sent'}
+g_dctDefaultURLs = {'Home': 'https://mail.example.com', 'Compose': 'https://mail.example.com/compose', 'Inbox': 'https://mail.example.com/inbox', 'Sent': 'https://mail.example.com/sent'}
 g_oSettings = Gio.Settings.new('org.ayatana.webmail')
 g_lstAccounts = []
 
