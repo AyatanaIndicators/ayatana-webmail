@@ -407,12 +407,12 @@ class PreferencesDialog(Gtk.Dialog):
         oGrid.attach(Gtk.Label(_('Ask a question'), xalign=0), 0, 5, 1, 1)
         oGrid.attach(Gtk.Label('<a href="https://github.com/AyatanaIndicators/ayatana-webmail/issues">https://github.com/AyatanaIndicators/ayatana-webmail/issues</a>', xalign=0, use_markup=True), 0, 6, 1, 1)
         oGrid.attach(Gtk.Label(_('It\'s a good idea to add the {labelname} label to your issue.').format(labelname='<b>question</b>'), xalign=0, margin_bottom=10, use_markup=True), 0, 7, 1, 1)
-        #oGrid.attach(Gtk.Label(_('Help translate'), xalign=0), 0, 4, 1, 1)
-        #oGrid.attach(Gtk.Label('<a href="https://translations.launchpad.net/ayatana-webmail/trunk">https://translations.launchpad.net/ayatana-webmail/trunk</a>', xalign=0, use_markup=True, margin_bottom=10), 0, 5, 1, 1)
-        oGrid.attach(Gtk.Label(_('Source code'), xalign=0), 0, 8, 1, 1)
-        oGrid.attach(Gtk.Label('<a href="https://github.com/AyatanaIndicators/ayatana-webmail">https://github.com/AyatanaIndicators/ayatana-webmail</a>', xalign=0, use_markup=True, margin_bottom=10), 0, 9, 1, 1)
-        oGrid.attach(Gtk.Label(_('Home page'), xalign=0), 0, 10, 1, 1)
-        oGrid.attach(Gtk.Label('<a href="https://tari.in/www/software/ayatana-webmail/">https://tari.in/www/software/ayatana-webmail/</a>', xalign=0, use_markup=True, margin_bottom=10), 0, 11, 1, 1)
+        oGrid.attach(Gtk.Label(_('Help translate'), xalign=0), 0, 8, 1, 1)
+        oGrid.attach(Gtk.Label('<a href="https://hosted.weblate.org/projects/ayatana-indicators/ayatana-webmail/">https://hosted.weblate.org/projects/ayatana-indicators/ayatana-webmail/</a>', xalign=0, use_markup=True, margin_bottom=10), 0, 9, 1, 1)
+        oGrid.attach(Gtk.Label(_('Source code'), xalign=0), 0, 10, 1, 1)
+        oGrid.attach(Gtk.Label('<a href="https://github.com/AyatanaIndicators/ayatana-webmail">https://github.com/AyatanaIndicators/ayatana-webmail</a>', xalign=0, use_markup=True, margin_bottom=10), 0, 11, 1, 1)
+        oGrid.attach(Gtk.Label(_('Home page'), xalign=0), 0, 12, 1, 1)
+        oGrid.attach(Gtk.Label('<a href="https://tari.in/www/software/ayatana-webmail/">https://tari.in/www/software/ayatana-webmail/</a>', xalign=0, use_markup=True, margin_bottom=10), 0, 13, 1, 1)
 
         return oGrid
 
