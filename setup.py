@@ -5,65 +5,45 @@ import os, polib, configparser
 from setuptools import setup
 from ayatanawebmail.appdata import *
 
-oFile = open('data/etc/xdg/autostart/ayatana-webmail-autostart.desktop', 'r+')
-oConfigParser = configparser.ConfigParser()
-oConfigParser.optionxform = str
-oConfigParser.read_file(oFile)
+for sFile in ['data/etc/xdg/autostart/ayatana-webmail-autostart.desktop', 'data/usr/share/applications/ayatana-webmail.desktop']:
 
-for strRoot, lstDirnames, lstFilenames in os.walk('po.ayatana-webmail-autostart.desktop'):
+    oFile = open(sFile, 'r+')
+    oConfigParser = configparser.ConfigParser()
+    oConfigParser.optionxform = str
+    oConfigParser.read_file(oFile)
 
-    for strFilename in lstFilenames:
+    for strRoot, lstDirnames, lstFilenames in os.walk('po'):
 
-        if strFilename.endswith('po'):
+        for strFilename in lstFilenames:
 
-            strLocale = os.path.splitext(strFilename)[0]
+            if strFilename.endswith('po'):
 
-            for oEntry in polib.pofile('po.ayatana-webmail-autostart.desktop/' + strFilename).translated_entries():
+                strLocale = os.path.splitext(strFilename)[0]
 
-                if oEntry.msgid == oConfigParser['Desktop Entry']['Name']:
-                    oConfigParser['Desktop Entry']['Name[' + strLocale + ']'] = oEntry.msgstr
-                elif oEntry.msgid == oConfigParser['Desktop Entry']['Comment']:
-                    oConfigParser['Desktop Entry']['Comment[' + strLocale + ']'] = oEntry.msgstr
+                for oEntry in polib.pofile('po/' + strFilename).translated_entries():
 
-oFile.seek(0)
-oConfigParser.write(oFile, False)
-oFile.truncate()
-oFile.close()
+                    if oEntry.msgid == oConfigParser['Desktop Entry']['Name']:
 
-oFile = open('data/usr/share/applications/ayatana-webmail.desktop', 'r+')
-oConfigParser = configparser.ConfigParser()
-oConfigParser.optionxform = str
-oConfigParser.read_file(oFile)
+                        oConfigParser['Desktop Entry']['Name[' + strLocale + ']'] = oEntry.msgstr
 
-for strRoot, lstDirnames, lstFilenames in os.walk('po.ayatana-webmail.desktop'):
+                    elif oEntry.msgid == oConfigParser['Desktop Entry']['Comment']:
 
-    for strFilename in lstFilenames:
+                        oConfigParser['Desktop Entry']['Comment[' + strLocale + ']'] = oEntry.msgstr
 
-        if strFilename.endswith('po'):
+                    for sAction in ['Clear', 'Compose', 'Sent', 'Change', 'Inbox']:
 
-            strLocale = os.path.splitext(strFilename)[0]
+                        if 'Desktop Action ' + sAction in oConfigParser and oEntry.msgid == oConfigParser['Desktop Action ' + sAction]['Name']:
 
-            for oEntry in polib.pofile('po.ayatana-webmail.desktop/' + strFilename).translated_entries():
+                            oConfigParser['Desktop Action ' + sAction]['Name[' + strLocale + ']'] = oEntry.msgstr
 
-                if oEntry.msgid == oConfigParser['Desktop Entry']['Name']:
-                    oConfigParser['Desktop Entry']['Name[' + strLocale + ']'] = oEntry.msgstr
-                elif oEntry.msgid == oConfigParser['Desktop Entry']['Comment']:
-                    oConfigParser['Desktop Entry']['Comment[' + strLocale + ']'] = oEntry.msgstr
-                elif oEntry.msgid == oConfigParser['Desktop Action Clear']['Name']:
-                    oConfigParser['Desktop Action Clear']['Name[' + strLocale + ']'] = oEntry.msgstr
-                elif oEntry.msgid == oConfigParser['Desktop Action Compose']['Name']:
-                    oConfigParser['Desktop Action Compose']['Name[' + strLocale + ']'] = oEntry.msgstr
-                elif oEntry.msgid == oConfigParser['Desktop Action Sent']['Name']:
-                    oConfigParser['Desktop Action Sent']['Name[' + strLocale + ']'] = oEntry.msgstr
-                elif oEntry.msgid == oConfigParser['Desktop Action Change']['Name']:
-                    oConfigParser['Desktop Action Change']['Name[' + strLocale + ']'] = oEntry.msgstr
-                elif oEntry.msgid == oConfigParser['Desktop Action Inbox']['Name']:
-                    oConfigParser['Desktop Action Inbox']['Name[' + strLocale + ']'] = oEntry.msgstr
+    for sSection in oConfigParser.sections():
 
-oFile.seek(0)
-oConfigParser.write(oFile, False)
-oFile.truncate()
-oFile.close()
+        oConfigParser[sSection] = dict(sorted(oConfigParser[sSection].items(), key=lambda lParams: lParams[0]))
+
+    oFile.seek(0)
+    oConfigParser.write(oFile, False)
+    oFile.truncate()
+    oFile.close()
 
 m_lstDataFiles = []
 

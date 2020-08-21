@@ -304,3 +304,39 @@ msgstr ""
 "Launchpad Contributions:\n"
 "  Jean-Marc https://launchpad.net/~m-balthazar\n"
 "  rcspam https://launchpad.net/~rcspam"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:4
+msgid "Ayatana Webmail"
+msgstr ""
+
+#: data/usr/share/applications/ayatana-webmail.desktop:39
+msgid "Webmail notifications and actions for any desktop"
+msgstr ""
+
+#: data/usr/share/applications/ayatana-webmail.desktop:74
+msgid "Mark all as read"
+msgstr "Tout marquer comme lu"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:112
+msgid "Compose Mail"
+msgstr "Nouveau message"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:152
+msgid "Sent"
+msgstr "Messages envoyés"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:192
+msgid "Settings"
+msgstr "Préférences"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:228
+msgid "Inbox"
+msgstr "Boîte de réception"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
+msgid "Ayatana Webmail (service)"
+msgstr ""
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:38
+msgid "Display notifications about new mail"
+msgstr "Afficher les alertes de nouveaux courriels"

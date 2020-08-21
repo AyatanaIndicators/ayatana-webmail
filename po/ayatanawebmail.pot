@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: ayatana-webmail 20.7.7\n"
+"Project-Id-Version: ayatana-webmail 20.8.16\n"
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/issues\n"
-"POT-Creation-Date: 2020-07-07 20:29+0200\n"
+"POT-Creation-Date: 2020-08-21 01:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,6 +59,7 @@ msgid "Clear"
 msgstr ""
 
 #: ayatanawebmail/application.py:218
+#: data/usr/share/applications/ayatana-webmail.desktop:192
 msgid "Settings"
 msgstr ""
 
@@ -66,43 +67,38 @@ msgstr ""
 msgid "No subject"
 msgstr ""
 
-#: ayatanawebmail/application.py:1131
+#: ayatanawebmail/application.py:1132
 msgid "Connection error"
 msgstr ""
 
-#: ayatanawebmail/application.py:1132
+#: ayatanawebmail/application.py:1133
 #, python-brace-format
 msgid "Unable to connect to account \"{accountName}\", the application will now exit."
 msgstr ""
 
-#: ayatanawebmail/application.py:1132
-#, python-brace-format
-msgid "You can run \"{command}\" to delete all your login settings."
-msgstr ""
-
-#: ayatanawebmail/application.py:1157
+#: ayatanawebmail/application.py:1158
 #, python-format
 msgid "You have %d unread mail"
 msgid_plural "You have %d unread mails"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ayatanawebmail/application.py:1184
+#: ayatanawebmail/application.py:1185
 #, python-format
 msgid "from %(t0)s, %(t1)s and others"
 msgstr ""
 
-#: ayatanawebmail/application.py:1186
+#: ayatanawebmail/application.py:1187
 #, python-format
 msgid "from %(t0)s and %(t1)s"
 msgstr ""
 
-#: ayatanawebmail/application.py:1188
+#: ayatanawebmail/application.py:1189
 #, python-format
 msgid "from %s"
 msgstr ""
 
-#: ayatanawebmail/application.py:1201
+#: ayatanawebmail/application.py:1202
 #, python-format
 msgid "New mail from %s"
 msgstr ""
@@ -159,23 +155,23 @@ msgstr ""
 msgid "Connection failure"
 msgstr ""
 
-#: ayatanawebmail/dialog.py:256
+#: ayatanawebmail/dialog.py:255
 msgid "Choose an account"
 msgstr ""
 
-#: ayatanawebmail/dialog.py:261
+#: ayatanawebmail/dialog.py:260
 msgid "Add"
 msgstr ""
 
-#: ayatanawebmail/dialog.py:263
+#: ayatanawebmail/dialog.py:262
 msgid "Remove"
 msgstr ""
 
-#: ayatanawebmail/dialog.py:278
+#: ayatanawebmail/dialog.py:277
 msgid "Server data"
 msgstr ""
 
-#: ayatanawebmail/dialog.py:280
+#: ayatanawebmail/dialog.py:279
 msgid "Account data"
 msgstr ""
 
@@ -260,25 +256,66 @@ msgid "Custom sound to play:"
 msgstr ""
 
 #: ayatanawebmail/dialog.py:402
-msgid "Report a bug/Request a feature"
+msgid "Report a bug"
 msgstr ""
 
 #: ayatanawebmail/dialog.py:404
+msgid "Request a feature"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:406 ayatanawebmail/dialog.py:409
+#, python-brace-format
+msgid "It's a good idea to add the {labelname} label to your issue."
+msgstr ""
+
+#: ayatanawebmail/dialog.py:407
 msgid "Ask a question"
 msgstr ""
 
-#: ayatanawebmail/dialog.py:406
+#: ayatanawebmail/dialog.py:410
 msgid "Help translate"
 msgstr ""
 
-#: ayatanawebmail/dialog.py:408
+#: ayatanawebmail/dialog.py:412
 msgid "Source code"
 msgstr ""
 
-#: ayatanawebmail/dialog.py:410
+#: ayatanawebmail/dialog.py:414
 msgid "Home page"
 msgstr ""
 
-#: ayatanawebmail/dialog.py:430
+#: ayatanawebmail/dialog.py:434
 msgid "translator-credits"
+msgstr ""
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
+msgid "Ayatana Webmail (service)"
+msgstr ""
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:38
+msgid "Display notifications about new mail"
+msgstr ""
+
+#: data/usr/share/applications/ayatana-webmail.desktop:4
+msgid "Ayatana Webmail"
+msgstr ""
+
+#: data/usr/share/applications/ayatana-webmail.desktop:39
+msgid "Webmail notifications and actions for any desktop"
+msgstr ""
+
+#: data/usr/share/applications/ayatana-webmail.desktop:74
+msgid "Mark all as read"
+msgstr ""
+
+#: data/usr/share/applications/ayatana-webmail.desktop:112
+msgid "Compose Mail"
+msgstr ""
+
+#: data/usr/share/applications/ayatana-webmail.desktop:152
+msgid "Sent"
+msgstr ""
+
+#: data/usr/share/applications/ayatana-webmail.desktop:228
+msgid "Inbox"
 msgstr ""
