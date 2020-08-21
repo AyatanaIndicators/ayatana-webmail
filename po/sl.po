@@ -318,10 +318,6 @@ msgstr "Sestavi pošto"
 msgid "Sent"
 msgstr "Poslano"
 
-#: data/usr/share/applications/ayatana-webmail.desktop:192
-msgid "Settings"
-msgstr "Nastavitve"
-
 #: data/usr/share/applications/ayatana-webmail.desktop:228
 msgid "Inbox"
 msgstr "Prejeto"

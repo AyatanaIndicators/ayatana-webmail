@@ -315,10 +315,6 @@ msgstr "Stel een e-mail op"
 msgid "Sent"
 msgstr "Verzonden"
 
-#: data/usr/share/applications/ayatana-webmail.desktop:192
-msgid "Settings"
-msgstr ""
-
 #: data/usr/share/applications/ayatana-webmail.desktop:228
 msgid "Inbox"
 msgstr "Postvak IN"

@@ -317,10 +317,6 @@ msgstr "Nova poruka"
 msgid "Sent"
 msgstr "Poslano"
 
-#: data/usr/share/applications/ayatana-webmail.desktop:192
-msgid "Settings"
-msgstr ""
-
 #: data/usr/share/applications/ayatana-webmail.desktop:228
 msgid "Inbox"
 msgstr "Pristigla pošta"

@@ -317,10 +317,6 @@ msgstr "撰写邮件"
 msgid "Sent"
 msgstr "已发邮件"
 
-#: data/usr/share/applications/ayatana-webmail.desktop:192
-msgid "Settings"
-msgstr "设置"
-
 #: data/usr/share/applications/ayatana-webmail.desktop:228
 msgid "Inbox"
 msgstr "收件箱"

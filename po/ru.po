@@ -317,10 +317,6 @@ msgstr "Написать письмо"
 msgid "Sent"
 msgstr "Отправленные"
 
-#: data/usr/share/applications/ayatana-webmail.desktop:192
-msgid "Settings"
-msgstr ""
-
 #: data/usr/share/applications/ayatana-webmail.desktop:228
 msgid "Inbox"
 msgstr "Входящие"

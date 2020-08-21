@@ -316,10 +316,6 @@ msgstr "Napsat email"
 msgid "Sent"
 msgstr "Odeslané"
 
-#: data/usr/share/applications/ayatana-webmail.desktop:192
-msgid "Settings"
-msgstr ""
-
 #: data/usr/share/applications/ayatana-webmail.desktop:228
 msgid "Inbox"
 msgstr "Příchozí"

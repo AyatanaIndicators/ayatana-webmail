@@ -315,10 +315,6 @@ msgstr "Compor Mensagem"
 msgid "Sent"
 msgstr "Enviado"
 
-#: data/usr/share/applications/ayatana-webmail.desktop:192
-msgid "Settings"
-msgstr ""
-
 #: data/usr/share/applications/ayatana-webmail.desktop:228
 msgid "Inbox"
 msgstr "Caixa de entrada"
