@@ -46,25 +46,10 @@
       <summary>Message action</summary>
       <description>Action to perform when a message is activated.</description>
     </key>
-    <key type="s" name="home">
-      <default>'https://mail.example.com'</default>
-      <summary>Home</summary>
-      <description>URL or command for the "Home" link.</description>
-    </key>
-    <key type="s" name="compose">
-      <default>'https://mail.example.com/compose'</default>
-      <summary>Compose</summary>
-      <description>URL or command for the "Compose" link.</description>
-    </key>
-    <key type="s" name="inbox">
-      <default>'https://mail.example.com/inbox'</default>
-      <summary>Inbox</summary>
-      <description>URL or command for the "Inbox" link.</description>
-    </key>
-    <key type="s" name="sent">
-      <default>'https://mail.example.com/sent'</default>
-      <summary>Sent</summary>
-      <description>URL or command for the "Sent" link.</description>
+    <key type="as" name="servers">
+      <default>['Custom\timap.example.com\t993\thttps://mail.example.com\thttps://mail.example.com/compose\thttps://mail.example.com/sent\thttps://mail.example.com/inbox\t/$MSG_UID', 'Google\timap.gmail.com\t993\thttps://mail.google.com/mail/\thttps://mail.google.com/mail/#compose\thttps://mail.google.com/mail/#sent\thttps://mail.google.com/mail/#inbox\t/$MSG_THREAD', 'RoundCube\tmail.example.com\t993\thttps://mail.example.com/?_task=mail&amp;_mbox=INBOX\thttps://mail.example.com/?_task=mail&amp;_action=compose\thttps://mail.example.com/?_task=mail&amp;_mbox=Sent\thttps://mail.example.com/?_task=mail&amp;_mbox=INBOX\t&amp;_uid=$MSG_UID']</default>
+      <summary>Webmail server templates</summary>
+      <description>Stores the list of predefined settings for certain webmail servers.</description>
     </key>
   </schema>
 </schemalist>

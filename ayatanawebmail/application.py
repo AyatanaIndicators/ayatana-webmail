@@ -33,7 +33,7 @@ from gi.repository import Gio, GLib, Gtk, Notify
 from socket import error as socketerror
 from dbus.mainloop.glib import DBusGMainLoop
 from babel.dates import format_timedelta
-from ayatanawebmail.common import g_oTranslation, g_oSettings, openURLOrCommand, g_lstAccounts, g_dctDefaultURLs
+from ayatanawebmail.common import g_oTranslation, g_oSettings, openURLOrCommand, g_lstAccounts
 from ayatanawebmail.idler import Idler
 from ayatanawebmail.dialog import PreferencesDialog, MESSAGEACTION
 from ayatanawebmail.actions import DialogActions
@@ -727,33 +727,11 @@ class AyatanaWebmail(object):
                 strLogin = dctAttributes['username']
                 strPasswd = key.get_secret().decode('utf-8')
                 strFolders = dctAttributes['folders']
-                strHome = g_oSettings.get_string('home')
-                strCompose = g_oSettings.get_string('compose')
-                strInbox = g_oSettings.get_string('inbox')
-                strSent = g_oSettings.get_string('sent')
-                strInboxAppend = ''
-
-                try:
-
-                    strHome = dctAttributes['home']
-                    strCompose = dctAttributes['compose']
-                    strInbox = dctAttributes['inbox']
-                    strSent = dctAttributes['sent']
-
-                except KeyError:
-
-                    pass
-
-                try:
-
-                    strInboxAppend = dctAttributes['InboxAppend']
-
-                except KeyError:
-
-                    if strInbox == g_dctDefaultURLs['Inbox']:
-                        strInboxAppend = '/$MSG_THREAD'
-
-                    pass
+                strHome = dctAttributes['home']
+                strCompose = dctAttributes['compose']
+                strInbox = dctAttributes['inbox']
+                strSent = dctAttributes['sent']
+                strInboxAppend = dctAttributes['InboxAppend']
 
                 g_lstAccounts.append({'Host': strHost, 'Port': nPort, 'Login': strLogin, 'Passwd': strPasswd, 'Folders': strFolders, 'Home': strHome, 'Compose': strCompose, 'Inbox': strInbox, 'Sent': strSent, 'InboxAppend': strInboxAppend})
 

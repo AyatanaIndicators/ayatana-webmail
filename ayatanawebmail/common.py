@@ -19,8 +19,6 @@ except IOError:
     g_oTranslation = gettext.NullTranslations()
 
 g_oTranslation.install()
-
-g_dctDefaultURLs = {'Home': 'https://mail.example.com', 'Compose': 'https://mail.example.com/compose', 'Inbox': 'https://mail.example.com/inbox', 'Sent': 'https://mail.example.com/sent'}
 g_oSettings = Gio.Settings.new('org.ayatana.webmail')
 g_lstAccounts = []
 
@@ -80,7 +78,7 @@ def resolveURL(strURL):
 
 def openURLOrCommand(strURL):
 
-    if strURL in g_dctDefaultURLs:
+    if strURL in ['Home', 'Compose', 'Inbox', 'Sent']:
 
         strURL0 = g_lstAccounts[0][strURL]
 

@@ -9,7 +9,7 @@ import ayatanawebmail.imaplib2 as imaplib
 import os.path
 from socket import error as socketerror
 from gi.repository import Gtk, GdkPixbuf, Gdk
-from ayatanawebmail.common import g_oSettings, getDataPath, g_dctDefaultURLs
+from ayatanawebmail.common import g_oSettings, getDataPath
 from ayatanawebmail.appdata import APPVERSION, APPURL, APPDESCRIPTION, APPAUTHOR, APPYEAR, APPTITLE
 import webbrowser
 
@@ -52,56 +52,30 @@ def utf7dec(lstInput):
 
     return ''.join(lstResult)
 
-class ComboEntry(Gtk.ButtonBox):
+class Entry(Gtk.Entry):
 
     def __init__(self, strId, **kwargs):
 
-        Gtk.ButtonBox.__init__(self, orientation=Gtk.Orientation.HORIZONTAL, layout_style=Gtk.ButtonBoxStyle.EXPAND, **kwargs)
-
-        self.oComboBoxText = Gtk.ComboBoxText()
-        self.oComboBoxText.append('HTTP:', _('Web page'))
-        self.oComboBoxText.append('Exec:', _('Command'))
-        self.oEntry = Gtk.Entry()
-        self.oEntry.set_icon_from_icon_name(Gtk.EntryIconPosition.SECONDARY, 'gtk-revert-to-saved-ltr')
-        self.oEntry.connect('icon-press', self.onReset)
-        self.oComboBoxText.set_active_id('HTTP:')
-        self.pack_start(self.oComboBoxText, False, False, 0)
-        self.pack_start(self.oEntry, True, True, 0)
-        self.set_homogeneous(False)
-        self.strId = strId
-
-    def onReset(self, oWidget, nPosition, oEvent):
-
-        self.setText(g_dctDefaultURLs[self.strId]);
+        Gtk.Entry.__init__(self, **kwargs)
+        self.set_tooltip_text(_('If this string starts with http:// or https://, the application will open it in your browser - otherwise, it will be run as a command'))
 
     def setText(self, strText):
 
-        self.oEntry.set_text(strText[5:] if strText.startswith('Exec:') else strText)
-        self.oComboBoxText.set_active_id('Exec:' if strText.startswith('Exec:') else 'HTTP:')
+        if strText.startswith('Exec:'):
+
+            strText = strText[5:]
+
+        self.set_text(strText)
 
     def getText(self):
 
-        return ('Exec:' if self.oComboBoxText.get_active_id() == 'Exec:' else '') + self.oEntry.get_text()
+        strText = self.get_text()
 
-class EntryReset(Gtk.Entry):
+        if not strText.startswith('http://') and not strText.startswith('https://'):
 
-    def __init__(self, oComboEntry, **kwargs):
+            strText = 'Exec:' + strText
 
-        Gtk.Entry.__init__(self, **kwargs)
-
-        self.set_icon_from_icon_name(Gtk.EntryIconPosition.SECONDARY, 'gtk-revert-to-saved-ltr')
-        self.connect('icon-press', self.onReset)
-        self.oComboEntry = oComboEntry
-        self.set_tooltip_text(_('Append an additional string - you can use the $MSG_THREAD and $MSG_UID placeholders.'))
-
-    def onReset(self, oWidget, nPosition, oEvent):
-
-        strText = ''
-
-        if self.oComboEntry.oComboBoxText.get_active_id() == 'HTTP:' and self.oComboEntry.getText() == g_dctDefaultURLs['Inbox']:
-            strText = '/$MSG_THREAD'
-
-        self.set_text(strText);
+        return strText
 
 class FileChooserButtonEx(Gtk.ButtonBox):
 
@@ -162,7 +136,7 @@ class PreferencesDialog(Gtk.Dialog):
         self.set_position(Gtk.WindowPosition.CENTER)
         self.set_property('width-request', 640)
         self.set_property('height-request', 480)
-        self.oNotebook = Gtk.Notebook(vexpand=True, margin_left=5, margin_top=5, margin_right=5)
+        self.oNotebook = Gtk.Notebook(vexpand=True, margin_left=5, margin_top=5, margin_right=5, margin_bottom=5)
         self.oNotebook.append_page(self.pageAccounts(), Gtk.Label(_('Accounts')))
         self.oNotebook.append_page(self.pageOptions(), Gtk.Label(_('Options')))
         self.oNotebook.append_page(self.pageSupport(), Gtk.Label(_('Support')))
@@ -172,12 +146,12 @@ class PreferencesDialog(Gtk.Dialog):
         oContentArea.add(self.oNotebook)
         self.oButtonConnect = self.get_widget_for_response(100)
         self.oButtonApply = self.get_widget_for_response(Gtk.ResponseType.APPLY)
-        self.lstDicts = [{'Host': 'imap.example.com', 'Port': '993', 'Login': '', 'Passwd': '', 'Folders': 'INBOX', 'InboxAppend': '/$MSG_THREAD'}]
-        self.lstDicts[0].update(g_dctDefaultURLs)
+        self.lstDicts = [{'Host': self.lServers[0]['host'], 'Port': self.lServers[0]['port'], 'Login': '', 'Passwd': '', 'Folders': 'INBOX', 'InboxAppend': self.lServers[0]['message'], 'Home': self.lServers[0]['home'], 'Compose': self.lServers[0]['compose'], 'Inbox': self.lServers[0]['inbox'], 'Sent': self.lServers[0]['sent']}]
         self.set_keep_above(True)
         self.show_all()
         self.bInit = True
         self.nIndex = 0
+        self.bIgnoreServerChange = False
 
     def onResponse(self, oWidget, nResponse):
 
@@ -248,11 +222,19 @@ class PreferencesDialog(Gtk.Dialog):
         self.strCustomSound = g_oSettings.get_string('custom-sound')
         self.bMergeConversation = g_oSettings.get_boolean('merge-messages')
         self.nMessageAction = g_oSettings.get_enum('message-action')
+        self.lServers = []
+
+        for sServer in g_oSettings.get_strv('servers'):
+
+            lValues = sServer.split('\t')
+            lValues.append('\t'.join(lValues[1:]))
+            dServer = dict(zip(['name', 'host', 'port', 'home', 'compose', 'sent', 'inbox', 'message', 'raw'], lValues))
+            self.lServers.append(dServer)
+
+        self.lServers[0]['name'] = _('Custom')
 
     def pageAccounts(self):
 
-        acclabel = Gtk.Label(xalign=0, hexpand=True)
-        acclabel.set_markup('<b>'+_('Choose an account')+'</b>')
         self.sb = Gtk.SpinButton.new_with_range(1, 1, 1)
         self.sb.set_numeric(True)
         self.sb.set_update_policy(Gtk.SpinButtonUpdatePolicy.IF_VALID)
@@ -265,6 +247,14 @@ class PreferencesDialog(Gtk.Dialog):
         accbox.pack_start(self.sb, True, True, 0)
         accbox.pack_end(self.rmbtn, False, False, 0)
         accbox.pack_end(self.addbtn, False, False, 0)
+        self.pComboBoxTextServer = Gtk.ComboBoxText()
+        self.pComboBoxTextServer.connect('changed', self.onComboBoxTextServerChanged)
+
+        for dServer in self.lServers:
+
+            self.pComboBoxTextServer.append(None, dServer['name'])
+
+        self.pComboBoxTextServer.set_active_id('custom')
         self.EntryHost = Gtk.Entry(hexpand=True)
         self.EntryHost.connect('changed', lambda w: self.updateUI())
         self.EntryPort = Gtk.Entry(hexpand=True)
@@ -273,53 +263,53 @@ class PreferencesDialog(Gtk.Dialog):
         self.EntryLogin.connect('changed', lambda w: self.updateUI())
         self.EntryPassword = Gtk.Entry(visibility=False, caps_lock_warning=True, hexpand=True)
         self.EntryPassword.connect('changed', lambda w: self.updateUI())
-        srvlabel = Gtk.Label(xalign=0, margin_top=5, hexpand=True)
-        srvlabel.set_markup('<b>'+_('Server data')+'</b>')
-        infolabel = Gtk.Label(xalign=0, margin_top=5, hexpand=True)
-        infolabel.set_markup('<b>'+_('Account data')+'</b>')
         self.oListStore = Gtk.ListStore(str, str, bool)
         oTreeView = Gtk.TreeView(self.oListStore, headers_visible=False, activate_on_single_click=True, margin_left=5, margin_top=5, margin_right=5, margin_bottom=5)
-        oTreeView.set_property('height-request', 200)
         oTreeView.connect('row-activated', self.onFolderActivated)
         oTreeViewColumnBool = Gtk.TreeViewColumn('bool', Gtk.CellRendererToggle(), active=2)
         oTreeViewColumnBool.get_cells()[0].set_property('xalign', 1.0)
         oTreeView.append_column(Gtk.TreeViewColumn('folder', Gtk.CellRendererText(), text=1))
         oTreeView.append_column(oTreeViewColumnBool)
         oFrame = Gtk.ScrolledWindow(shadow_type=Gtk.ShadowType.IN, hexpand=True, vexpand=True)
+        oFrame.set_property('height-request', 200)
         oFrame.add(oTreeView)
-        oLabelLinks = Gtk.Label(xalign=0, margin_top=5, hexpand=True)
-        oLabelLinks.set_markup('<b>'+_('Links')+'</b>')
-        self.oEntryHome = ComboEntry('Home', hexpand=True)
-        self.oEntryCompose = ComboEntry('Compose', hexpand=True)
-        self.oEntryInbox = ComboEntry('Inbox', hexpand=True)
-        self.oEntrySent = ComboEntry('Sent', hexpand=True)
-        self.oEntryInboxAppend = EntryReset(self.oEntryInbox)
+        self.oEntryHome = Entry('Home', hexpand=True)
+        self.oEntryHome.connect('changed', lambda w: self.updateUI())
+        self.oEntryCompose = Entry('Compose', hexpand=True)
+        self.oEntryCompose.connect('changed', lambda w: self.updateUI())
+        self.oEntryInbox = Entry('Inbox', hexpand=True)
+        self.oEntryInbox.connect('changed', lambda w: self.updateUI())
+        self.oEntrySent = Entry('Sent', hexpand=True)
+        self.oEntrySent.connect('changed', lambda w: self.updateUI())
+        self.oEntryInboxAppend = Gtk.Entry(hexpand=True)
+        self.oEntryInboxAppend.connect('changed', lambda w: self.updateUI())
+        self.oEntryInboxAppend.set_tooltip_text(_('The application will append this string to "Inbox" to access a specific message - you can use the $MSG_THREAD and $MSG_UID placeholders'))
         oGrid = Gtk.Grid(row_spacing=5, column_spacing=5, vexpand=True)
-        oGrid.attach(srvlabel, 0, 0, 3, 1)
-        oGrid.attach(Gtk.Label(_('Host:'), xalign=0, margin_right=5), 0, 1, 1, 1)
-        oGrid.attach(self.EntryHost, 1, 1, 2, 1)
-        oGrid.attach(Gtk.Label(_('Port:'), xalign=0, margin_right=5), 0, 2, 1, 1)
-        oGrid.attach(self.EntryPort, 1, 2, 2, 1)
-        oGrid.attach(infolabel, 0, 3, 3, 1)
-        oGrid.attach(Gtk.Label(_('Login:'), xalign=0, margin_right=5), 0, 4, 1, 1)
-        oGrid.attach(self.EntryLogin, 1, 4, 2, 1)
+        oGrid.attach(Gtk.Label(_('Account:'), xalign=0, margin_right=5), 0, 0, 1, 1)
+        oGrid.attach(accbox, 1, 0, 1, 1)
+        oGrid.attach(Gtk.Label(_('Server:'), xalign=0, margin_right=5), 0, 1, 1, 1)
+        oGrid.attach(self.pComboBoxTextServer, 1, 1, 1, 1)
+        oGrid.attach(Gtk.Label(_('Host:'), xalign=0, margin_right=5), 0, 2, 1, 1)
+        oGrid.attach(self.EntryHost, 1, 2, 1, 1)
+        oGrid.attach(Gtk.Label(_('Port:'), xalign=0, margin_right=5), 0, 3, 1, 1)
+        oGrid.attach(self.EntryPort, 1, 3, 1, 1)
+        oGrid.attach(Gtk.Label(_('Username:'), xalign=0, margin_right=5), 0, 4, 1, 1)
+        oGrid.attach(self.EntryLogin, 1, 4, 1, 1)
         oGrid.attach(Gtk.Label(_('Password:'), xalign=0, margin_right=5), 0, 5, 1, 1)
-        oGrid.attach(self.EntryPassword, 1, 5, 2, 1)
+        oGrid.attach(self.EntryPassword, 1, 5, 1, 1)
         oGrid.attach(Gtk.Label(_('Folders:'), xalign=0, margin_right=5), 0, 6, 1, 1)
-        oGrid.attach(oFrame, 1, 6, 2, 1)
-        oGrid.attach(oLabelLinks, 0, 7, 3, 1)
-        oGrid.attach(Gtk.Label(_('Home:'), xalign=0, margin_right=5), 0, 8, 1, 1)
-        oGrid.attach(self.oEntryHome, 1, 8, 2, 1)
-        oGrid.attach(Gtk.Label(_('Compose:'), xalign=0, margin_right=5), 0, 9, 1, 1)
-        oGrid.attach(self.oEntryCompose, 1, 9, 2, 1)
+        oGrid.attach(oFrame, 1, 6, 1, 1)
+        oGrid.attach(Gtk.Label(_('Home:'), xalign=0, margin_right=5), 0, 7, 1, 1)
+        oGrid.attach(self.oEntryHome, 1, 7, 1, 1)
+        oGrid.attach(Gtk.Label(_('Compose:'), xalign=0, margin_right=5), 0, 8, 1, 1)
+        oGrid.attach(self.oEntryCompose, 1, 8, 1, 1)
+        oGrid.attach(Gtk.Label(_('Sent:'), xalign=0, margin_right=5), 0, 9, 1, 1)
+        oGrid.attach(self.oEntrySent, 1, 9, 1, 1)
         oGrid.attach(Gtk.Label(_('Inbox:'), xalign=0, margin_right=5), 0, 10, 1, 1)
         oGrid.attach(self.oEntryInbox, 1, 10, 1, 1)
-        oGrid.attach(self.oEntryInboxAppend, 2, 10, 1, 1)
-        oGrid.attach(Gtk.Label(_('Sent:'), xalign=0, margin_right=5), 0, 11, 1, 1)
-        oGrid.attach(self.oEntrySent, 1, 11, 2, 1)
+        oGrid.attach(Gtk.Label(_('Message:'), xalign=0, margin_right=5), 0, 11, 1, 1)
+        oGrid.attach(self.oEntryInboxAppend, 1, 11, 1, 1)
         page = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=5, border_width=10, vexpand=True)
-        page.add(acclabel)
-        page.add(accbox)
         page.add(oGrid)
         oScrolledWindow = Gtk.ScrolledWindow()
         oScrolledWindow.add(page)
@@ -461,12 +451,29 @@ class PreferencesDialog(Gtk.Dialog):
         bHasFolderSelection = [oRow for oRow in self.oListStore if oRow[2]]
         bHasAccountData = all([oWidget.get_text() for oWidget in [self.EntryHost, self.EntryPort, self.EntryLogin, self.EntryPassword]])
         bHasMultipleAccounts = len(self.lstDicts) > 1
+        bHasLinkData = all([oWidget.get_text() for oWidget in [self.oEntryHome, self.oEntryCompose, self.oEntryInbox, self.oEntrySent, self.oEntryInboxAppend]])
 
         self.oButtonConnect.set_sensitive(bHasAccountData)
-        self.oButtonApply.set_sensitive(bHasFolderSelection and bHasAccountData)
+        self.oButtonApply.set_sensitive(bHasFolderSelection and bHasAccountData and bHasLinkData)
         self.rmbtn.set_sensitive(bHasMultipleAccounts)
-        self.addbtn.set_sensitive(bHasFolderSelection and bHasAccountData)
-        self.sb.set_sensitive(bHasFolderSelection and bHasAccountData and bHasMultipleAccounts)
+        self.addbtn.set_sensitive(bHasFolderSelection and bHasAccountData and bHasLinkData)
+        self.sb.set_sensitive(bHasFolderSelection and bHasAccountData and bHasMultipleAccounts and bHasLinkData)
+
+        nServerActive = 0
+
+        for nServer, dServer in enumerate(self.lServers):
+
+            if dServer['raw'] == self.EntryHost.get_text() + '\t' + self.EntryPort.get_text() + '\t' + self.oEntryHome.get_text() + '\t' + self.oEntryCompose.get_text() + '\t' + self.oEntrySent.get_text() + '\t' + self.oEntryInbox.get_text() + '\t' + self.oEntryInboxAppend.get_text():
+
+                nServerActive = nServer
+
+                break
+
+        if self.pComboBoxTextServer.get_active() != nServerActive:
+
+            self.bIgnoreServerChange = True
+            self.pComboBoxTextServer.set_active(nServerActive)
+            self.bIgnoreServerChange = False
 
     def run(self):
 
@@ -489,8 +496,8 @@ class PreferencesDialog(Gtk.Dialog):
     def onAddAccount(self, btn):
 
         self.updateAccounts()
-        self.lstDicts.append({'Host': 'imap.example.com', 'Port': '993', 'Login': '', 'Passwd': '', 'Folders': 'INBOX', 'InboxAppend': '/$MSG_THREAD'})
-        self.lstDicts[-1].update(g_dctDefaultURLs)
+        nServer = self.pComboBoxTextServer.get_active()
+        self.lstDicts.append({'Host': self.lServers[nServer]['host'], 'Port': self.lServers[nServer]['port'], 'Login': '', 'Passwd': '', 'Folders': 'INBOX', 'InboxAppend': self.lServers[nServer]['message'], 'Home': self.lServers[nServer]['home'], 'Compose': self.lServers[nServer]['compose'], 'Inbox': self.lServers[nServer]['inbox'], 'Sent': self.lServers[nServer]['sent']})
         self.sb.set_range(1, len(self.lstDicts))
         self.sb.set_value(len(self.lstDicts))
         self.updateUI()
@@ -560,6 +567,41 @@ class PreferencesDialog(Gtk.Dialog):
             self.oEntryInbox.setText(self.lstDicts[nIndex]['Inbox'])
             self.oEntrySent.setText(self.lstDicts[nIndex]['Sent'])
             self.oEntryInboxAppend.set_text(self.lstDicts[nIndex]['InboxAppend'])
+
+            nServerActive = 0
+
+            for nServer, dServer in enumerate(self.lServers):
+
+                if dServer['raw'] == self.EntryHost.get_text() + '\t' + self.EntryPort.get_text() + '\t' + self.oEntryHome.get_text() + '\t' + self.oEntryCompose.get_text() + '\t' + self.oEntrySent.get_text() + '\t' + self.oEntryInbox.get_text() + '\t' + self.oEntryInboxAppend.get_text():
+
+                    nServerActive = nServer
+
+                    break
+
+            if self.pComboBoxTextServer.get_active() != nServerActive:
+
+                self.bIgnoreServerChange = True
+                self.pComboBoxTextServer.set_active(nServerActive)
+                self.bIgnoreServerChange = False
+
+    def onComboBoxTextServerChanged(self, pComboBoxText):
+
+        if not self.bIgnoreServerChange:
+
+            nServer = self.pComboBoxTextServer.get_active()
+
+            if self.lServers[nServer]['raw'] != self.EntryHost.get_text() + '\t' + self.EntryPort.get_text() + '\t' + self.oEntryHome.get_text() + '\t' + self.oEntryCompose.get_text() + '\t' + self.oEntrySent.get_text() + '\t' + self.oEntryInbox.get_text() + '\t' + self.oEntryInboxAppend.get_text():
+
+                self.EntryHost.set_text(self.lServers[nServer]['host'])
+                self.EntryPort.set_text(self.lServers[nServer]['port'])
+                self.EntryLogin.set_text('')
+                self.EntryPassword.set_text('')
+                self.oListStore.clear()
+                self.oEntryHome.setText(self.lServers[nServer]['home'])
+                self.oEntryCompose.setText(self.lServers[nServer]['compose'])
+                self.oEntryInbox.setText(self.lServers[nServer]['inbox'])
+                self.oEntrySent.setText(self.lServers[nServer]['sent'])
+                self.oEntryInboxAppend.set_text(self.lServers[nServer]['message'])
 
     def updateAccounts(self):
 
