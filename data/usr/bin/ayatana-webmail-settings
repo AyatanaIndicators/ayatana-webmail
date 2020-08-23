@@ -15,30 +15,32 @@ oLoop = None
 
 if __name__ == '__main__':
 
-    DBusGMainLoop(set_as_default=True)
-    oSessionBus = dbus.SessionBus()
+    if isRunning('-settings') == 1:
 
-    if isRunning():
+        DBusGMainLoop(set_as_default=True)
+        oSessionBus = dbus.SessionBus()
 
-        try:
+        if isRunning():
 
-            oSession = oSessionBus.get_object('org.ayatana.webmail', '/org/ayatana/webmail')
-            oInterface = dbus.Interface(oSession, 'org.ayatana.webmail')
+            try:
 
-            oInterface.settings(reply_handler=lambda: oLoop.quit(), error_handler=lambda o: oLoop.quit())
+                oSession = oSessionBus.get_object('org.ayatana.webmail', '/org/ayatana/webmail')
+                oInterface = dbus.Interface(oSession, 'org.ayatana.webmail')
 
-            oLoop = GLib.MainLoop()
-            oLoop.run()
+                oInterface.settings(reply_handler=lambda: oLoop.quit(), error_handler=lambda o: oLoop.quit())
 
-        except dbus.DBusException as oDBusException:
+                oLoop = GLib.MainLoop()
+                oLoop.run()
 
-            print(oDBusException)
-            sys.exit(1)
+            except dbus.DBusException as oDBusException:
 
-        sys.exit(0)
+                print(oDBusException)
+                sys.exit(1)
 
-    else:
+            sys.exit(0)
 
-        subprocess.Popen(['ayatana-webmail'], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+        else:
+
+            subprocess.Popen(['ayatana-webmail'], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
 
     sys.exit(1)

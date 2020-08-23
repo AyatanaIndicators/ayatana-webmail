@@ -39,7 +39,7 @@ def getDataPath(strPath):
 
     return strPath
 
-def isRunning():
+def isRunning(sAppend = ''):
 
     nCount = 0
 
@@ -60,10 +60,10 @@ def isRunning():
 
             for strCmd in lstCmdline:
 
-                if strCmd.endswith('ayatana-webmail'):
+                if strCmd.endswith('ayatana-webmail' + sAppend):
                     nCount += 1
 
-        elif strName.endswith('ayatana-webmail'):
+        elif strName.endswith('ayatana-webmail' + sAppend):
 
             nCount += 1
 
