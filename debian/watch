@@ -1,2 +1,2 @@
 version=3
-https://releases.ayatana-indicators.org/source/ayatana-webmail/ayatana-webmail-([0-9.]+)\.tar\.gz
+https://github.com/AyatanaIndicators/ayatana-webmail/archive/([0-9.]+)\.tar\.gz
