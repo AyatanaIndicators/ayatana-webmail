@@ -6,75 +6,79 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
-"Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
+"issues\n"
 "POT-Creation-Date: 2020-04-03 12:21+0200\n"
-"PO-Revision-Date: 2018-06-04 07:33+0000\n"
-"Language-Team: Japanese <ja@li.org>\n"
+"PO-Revision-Date: 2020-09-07 12:36+0000\n"
+"Last-Translator: Baka Gaijin <lewdwarrior@waifu.club>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/"
+"ayatana-indicators/ayatana-webmail/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.3-dev\n"
 "X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
-"X-Generator: Launchpad (build a296f04231dee355be5db73cc878b9e21689a253)\n"
 
 #: ayatanawebmail/accounts.py:18
 msgid "Select account"
-msgstr ""
+msgstr "アカウントを選択ください"
 
 #: ayatanawebmail/accounts.py:29
 msgid "Which account's command/web page would you like to open?"
-msgstr ""
+msgstr "どのアカウントのコマンドや ウェブページを開きますか？"
 
 #: ayatanawebmail/actions.py:15
 msgid "Message actions"
-msgstr ""
+msgstr "メッセージのアクション"
 
 #: ayatanawebmail/actions.py:15
 msgid "Delete"
-msgstr ""
+msgstr "削除"
 
 #: ayatanawebmail/actions.py:15
 msgid "Mark as read"
-msgstr ""
+msgstr "既読にする"
 
 #: ayatanawebmail/actions.py:15
 msgid "Open message/Run command"
-msgstr ""
+msgstr "メッセージを開く/コマンドを実行"
 
 #: ayatanawebmail/actions.py:24
 msgid "Sender"
-msgstr ""
+msgstr "送信者"
 
 #: ayatanawebmail/actions.py:26
 msgid "Subject"
-msgstr ""
+msgstr "件名"
 
 #: ayatanawebmail/application.py:205
 msgid "Open webmail home page"
-msgstr ""
+msgstr "ウェブメールのホームページを開く"
 
 #: ayatanawebmail/application.py:212
 msgid "Clear"
-msgstr ""
+msgstr "クリア"
 
 #: ayatanawebmail/application.py:219
 msgid "Settings"
-msgstr ""
+msgstr "設定"
 
 #: ayatanawebmail/application.py:980
 msgid "No subject"
-msgstr ""
+msgstr "件名なし"
 
 #: ayatanawebmail/application.py:1132
 msgid "Connection error"
-msgstr ""
+msgstr "接続エラー"
 
 #: ayatanawebmail/application.py:1133
 #, python-brace-format
 msgid ""
 "Unable to connect to account \"{accountName}\", the application will now "
 "exit."
-msgstr ""
+msgstr "アカウント「{accountName}」に接続出来ません、アプリケーションが終了します."
 
 #: ayatanawebmail/application.py:1133
 #, python-brace-format
@@ -85,8 +89,7 @@ msgstr ""
 #, python-format
 msgid "You have %d unread mail"
 msgid_plural "You have %d unread mails"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d 未読メールがあります"
 
 #: ayatanawebmail/application.py:1185
 #, python-format
@@ -110,11 +113,11 @@ msgstr "%sからの新着メール"
 
 #: ayatanawebmail/dialog.py:60
 msgid "Web page"
-msgstr ""
+msgstr "ウェブページ"
 
 #: ayatanawebmail/dialog.py:61
 msgid "Command"
-msgstr ""
+msgstr "コマンド"
 
 #: ayatanawebmail/dialog.py:93
 msgid ""
@@ -124,27 +127,27 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:114 ayatanawebmail/dialog.py:128
 msgid "(None)"
-msgstr ""
+msgstr "(なし)"
 
 #: ayatanawebmail/dialog.py:156
 msgid "Ayatana Webmail Preferences"
-msgstr ""
+msgstr "Ayatanaウェブメールの設定"
 
 #: ayatanawebmail/dialog.py:164
 msgid "Accounts"
-msgstr ""
+msgstr "アカウント"
 
 #: ayatanawebmail/dialog.py:165
 msgid "Options"
-msgstr ""
+msgstr "オプション"
 
 #: ayatanawebmail/dialog.py:166
 msgid "Support"
-msgstr ""
+msgstr "サポート"
 
 #: ayatanawebmail/dialog.py:167
 msgid "About"
-msgstr ""
+msgstr "について"
 
 #: ayatanawebmail/dialog.py:228
 msgid ""
@@ -157,11 +160,11 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:234
 msgid "Failed to connect to mail account. The returned error was:"
-msgstr ""
+msgstr "メールアカウントに接続できませんでした。返されたエラーは:"
 
 #: ayatanawebmail/dialog.py:235
 msgid "Connection failure"
-msgstr ""
+msgstr "接続失敗しました"
 
 #: ayatanawebmail/dialog.py:254
 msgid "Choose an account"
@@ -169,11 +172,11 @@ msgstr "アカウントを選択"
 
 #: ayatanawebmail/dialog.py:259
 msgid "Add"
-msgstr ""
+msgstr "追加する"
 
 #: ayatanawebmail/dialog.py:261
 msgid "Remove"
-msgstr ""
+msgstr "削除"
 
 #: ayatanawebmail/dialog.py:276
 msgid "Server data"
@@ -185,7 +188,7 @@ msgstr "アカウント情報"
 
 #: ayatanawebmail/dialog.py:289
 msgid "Links"
-msgstr ""
+msgstr "リンク"
 
 #: ayatanawebmail/dialog.py:297
 msgid "Host:"
@@ -205,31 +208,31 @@ msgstr "パスワード:"
 
 #: ayatanawebmail/dialog.py:306
 msgid "Folders:"
-msgstr ""
+msgstr "フォルダー:"
 
 #: ayatanawebmail/dialog.py:309
 msgid "Home:"
-msgstr ""
+msgstr "ホーム:"
 
 #: ayatanawebmail/dialog.py:311
 msgid "Compose:"
-msgstr ""
+msgstr "作成:"
 
 #: ayatanawebmail/dialog.py:313
 msgid "Inbox:"
-msgstr ""
+msgstr "受信トレイ:"
 
 #: ayatanawebmail/dialog.py:316
 msgid "Sent:"
-msgstr ""
+msgstr "送信済み:"
 
 #: ayatanawebmail/dialog.py:354
 msgid "Mark message as read"
-msgstr ""
+msgstr "メッセージを既読にする"
 
 #: ayatanawebmail/dialog.py:355
 msgid "Open message in browser/Execute command"
-msgstr ""
+msgstr "ブラウザでメッセージを開く/コマンドを実行する"
 
 #: ayatanawebmail/dialog.py:356
 msgid "Ask me what to do"
@@ -237,11 +240,11 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:366
 msgid "Enable notifications:"
-msgstr ""
+msgstr "通知を有効にする:"
 
 #: ayatanawebmail/dialog.py:368
 msgid "Play sound when a message is received:"
-msgstr ""
+msgstr "メッセージを受信した時に音を鳴らします:"
 
 #: ayatanawebmail/dialog.py:370
 msgid "Merge messages from the same conversation:"
@@ -249,47 +252,47 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:372
 msgid "Hide count when zero:"
-msgstr ""
+msgstr "ゼロの時にカウントを非表示にします:"
 
 #: ayatanawebmail/dialog.py:374
 msgid "When a message is activated:"
-msgstr ""
+msgstr "メッセージがアクティブ化された場合:"
 
 #: ayatanawebmail/dialog.py:377
 msgid "Execute this command when a message is received:"
-msgstr ""
+msgstr "メッセージを受信した時にこのコマンドを実行します:"
 
 #: ayatanawebmail/dialog.py:384
 msgid "Custom sound to play:"
-msgstr ""
+msgstr "再生するカスタムサウンド:"
 
 #: ayatanawebmail/dialog.py:400
 msgid "Report a bug/Request a feature"
-msgstr ""
+msgstr "バグを報告する/機能をリクエストする"
 
 #: ayatanawebmail/dialog.py:402
 msgid "Ask a question"
-msgstr ""
+msgstr "質問する"
 
 #: ayatanawebmail/dialog.py:404
 msgid "Help translate"
-msgstr ""
+msgstr "翻訳を手伝う"
 
 #: ayatanawebmail/dialog.py:406
 msgid "Project page"
-msgstr ""
+msgstr "プロジェクトページ"
 
 #: ayatanawebmail/dialog.py:408
 msgid "Source code"
-msgstr ""
+msgstr "ソースコード"
 
 #: ayatanawebmail/dialog.py:410
 msgid "Repository"
-msgstr ""
+msgstr "リポジトリ"
 
 #: ayatanawebmail/dialog.py:412
 msgid "Home page"
-msgstr ""
+msgstr "ホームページ"
 
 #: ayatanawebmail/dialog.py:426
 msgid "translator-credits"
@@ -297,31 +300,31 @@ msgstr ""
 
 #: data/usr/share/applications/ayatana-webmail.desktop:4
 msgid "Ayatana Webmail"
-msgstr ""
+msgstr "Ayatana ウェブメール"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:39
 msgid "Webmail notifications and actions for any desktop"
-msgstr ""
+msgstr "デスクトップのウェブメール通知とアクション"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:74
 msgid "Mark all as read"
-msgstr ""
+msgstr "すべて既読にする"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:112
 msgid "Compose Mail"
-msgstr ""
+msgstr "メールを作成する"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:152
 msgid "Sent"
-msgstr ""
+msgstr "送信済み"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:228
 msgid "Inbox"
-msgstr ""
+msgstr "受信トレイ"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
 msgid "Ayatana Webmail (service)"
-msgstr ""
+msgstr "Ayatana ウェブメール (サービス)"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:38
 msgid "Display notifications about new mail"
