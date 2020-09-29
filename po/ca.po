@@ -6,48 +6,52 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
-"Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
+"issues\n"
 "POT-Creation-Date: 2020-04-03 12:21+0200\n"
-"PO-Revision-Date: 2018-06-04 07:34+0000\n"
-"Language-Team: Catalan <ca@li.org>\n"
+"PO-Revision-Date: 2020-09-30 12:46+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
+"Language-Team: Catalan <https://hosted.weblate.org/projects/"
+"ayatana-indicators/ayatana-webmail/ca/>\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.3-dev\n"
 "X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
-"X-Generator: Launchpad (build a296f04231dee355be5db73cc878b9e21689a253)\n"
 
 #: ayatanawebmail/accounts.py:18
 msgid "Select account"
-msgstr ""
+msgstr "Seleccioneu un compte"
 
 #: ayatanawebmail/accounts.py:29
 msgid "Which account's command/web page would you like to open?"
-msgstr ""
+msgstr "Quina ordre o pàgina web del compte voleu obrir?"
 
 #: ayatanawebmail/actions.py:15
 msgid "Message actions"
-msgstr ""
+msgstr "Accions del missatge"
 
 #: ayatanawebmail/actions.py:15
 msgid "Delete"
-msgstr ""
+msgstr "Suprimeix"
 
 #: ayatanawebmail/actions.py:15
 msgid "Mark as read"
-msgstr ""
+msgstr "Marca’l com a llegit"
 
 #: ayatanawebmail/actions.py:15
 msgid "Open message/Run command"
-msgstr ""
+msgstr "Obre un missatge/executa una ordre"
 
 #: ayatanawebmail/actions.py:24
 msgid "Sender"
-msgstr ""
+msgstr "Remitent"
 
 #: ayatanawebmail/actions.py:26
 msgid "Subject"
-msgstr ""
+msgstr "Assumpte"
 
 #: ayatanawebmail/application.py:205
 msgid "Open webmail home page"
@@ -55,11 +59,11 @@ msgstr ""
 
 #: ayatanawebmail/application.py:212
 msgid "Clear"
-msgstr ""
+msgstr "Neteja"
 
 #: ayatanawebmail/application.py:219
 msgid "Settings"
-msgstr ""
+msgstr "Paràmetres"
 
 #: ayatanawebmail/application.py:980
 msgid "No subject"
@@ -75,17 +79,21 @@ msgid ""
 "Unable to connect to account \"{accountName}\", the application will now "
 "exit."
 msgstr ""
+"No s’ha pogut connectar al compte «{accountName}»; l’aplicació es tancarà "
+"ara."
 
 #: ayatanawebmail/application.py:1133
 #, python-brace-format
 msgid "You can run \"{command}\" to delete all your login settings."
 msgstr ""
+"Ara podeu executar «{command}» per a suprimir tota la vostra configuració d’"
+"inici de sessió."
 
 #: ayatanawebmail/application.py:1158
 #, python-format
 msgid "You have %d unread mail"
 msgid_plural "You have %d unread mails"
-msgstr[0] "Teniu %d missatge(s) per llegir"
+msgstr[0] "Teniu %d missatge per llegir"
 msgstr[1] "Teniu %d missatges per llegir"
 
 #: ayatanawebmail/application.py:1185
@@ -110,11 +118,11 @@ msgstr "Correu nou de %s"
 
 #: ayatanawebmail/dialog.py:60
 msgid "Web page"
-msgstr ""
+msgstr "Pàgina web"
 
 #: ayatanawebmail/dialog.py:61
 msgid "Command"
-msgstr ""
+msgstr "Ordre"
 
 #: ayatanawebmail/dialog.py:93
 msgid ""
@@ -124,11 +132,11 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:114 ayatanawebmail/dialog.py:128
 msgid "(None)"
-msgstr ""
+msgstr "(Cap)"
 
 #: ayatanawebmail/dialog.py:156
 msgid "Ayatana Webmail Preferences"
-msgstr ""
+msgstr "Preferències de l’Ayatana Webmail"
 
 #: ayatanawebmail/dialog.py:164
 msgid "Accounts"
@@ -140,20 +148,21 @@ msgstr "Opcions"
 
 #: ayatanawebmail/dialog.py:166
 msgid "Support"
-msgstr ""
+msgstr "Assistència"
 
 #: ayatanawebmail/dialog.py:167
 msgid "About"
-msgstr ""
+msgstr "Quant a"
 
 #: ayatanawebmail/dialog.py:228
 msgid ""
 "Please visit the following link and enable access for less secure apps:"
 msgstr ""
+"Visiteu l’enllaç següent i activeu l’accés a les aplicacions menys segures:"
 
 #: ayatanawebmail/dialog.py:230
 msgid "Access blocked by Google"
-msgstr ""
+msgstr "Google n’ha blocat l’accés"
 
 #: ayatanawebmail/dialog.py:234
 msgid "Failed to connect to mail account. The returned error was:"
@@ -169,7 +178,7 @@ msgstr "Trieu un compte"
 
 #: ayatanawebmail/dialog.py:259
 msgid "Add"
-msgstr ""
+msgstr "Afegeix"
 
 #: ayatanawebmail/dialog.py:261
 msgid "Remove"
@@ -185,11 +194,11 @@ msgstr "Dades del compte"
 
 #: ayatanawebmail/dialog.py:289
 msgid "Links"
-msgstr ""
+msgstr "Enllaços"
 
 #: ayatanawebmail/dialog.py:297
 msgid "Host:"
-msgstr "Servidor:"
+msgstr "Amfitrió:"
 
 #: ayatanawebmail/dialog.py:299
 msgid "Port:"
@@ -197,7 +206,7 @@ msgstr "Port:"
 
 #: ayatanawebmail/dialog.py:302
 msgid "Login:"
-msgstr "Nom d'usuari:"
+msgstr "Nom d’usuari:"
 
 #: ayatanawebmail/dialog.py:304
 msgid "Password:"
@@ -205,11 +214,11 @@ msgstr "Contrasenya:"
 
 #: ayatanawebmail/dialog.py:306
 msgid "Folders:"
-msgstr ""
+msgstr "Carpetes:"
 
 #: ayatanawebmail/dialog.py:309
 msgid "Home:"
-msgstr "Inici"
+msgstr "Inici:"
 
 #: ayatanawebmail/dialog.py:311
 msgid "Compose:"
@@ -217,15 +226,15 @@ msgstr "Redacció:"
 
 #: ayatanawebmail/dialog.py:313
 msgid "Inbox:"
-msgstr "Safata d'entrada:"
+msgstr "Safata d’entrada:"
 
 #: ayatanawebmail/dialog.py:316
 msgid "Sent:"
-msgstr "Enviat:"
+msgstr "Enviats:"
 
 #: ayatanawebmail/dialog.py:354
 msgid "Mark message as read"
-msgstr ""
+msgstr "Marca el missatge com a llegit"
 
 #: ayatanawebmail/dialog.py:355
 msgid "Open message in browser/Execute command"
@@ -269,31 +278,31 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:402
 msgid "Ask a question"
-msgstr ""
+msgstr "Feu-nos una pregunta"
 
 #: ayatanawebmail/dialog.py:404
 msgid "Help translate"
-msgstr ""
+msgstr "Ajudeu amb la traducció"
 
 #: ayatanawebmail/dialog.py:406
 msgid "Project page"
-msgstr ""
+msgstr "Pàgina del projecte"
 
 #: ayatanawebmail/dialog.py:408
 msgid "Source code"
-msgstr ""
+msgstr "Codi font"
 
 #: ayatanawebmail/dialog.py:410
 msgid "Repository"
-msgstr ""
+msgstr "Dipòsit"
 
 #: ayatanawebmail/dialog.py:412
 msgid "Home page"
-msgstr ""
+msgstr "Lloc web"
 
 #: ayatanawebmail/dialog.py:426
 msgid "translator-credits"
-msgstr ""
+msgstr "Adolfo Jayme Barrientos <fitojb@ubuntu.com>, 2020"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:4
 msgid "Ayatana Webmail"
@@ -305,7 +314,7 @@ msgstr ""
 
 #: data/usr/share/applications/ayatana-webmail.desktop:74
 msgid "Mark all as read"
-msgstr ""
+msgstr "Marca-ho tot com a llegit"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:112
 msgid "Compose Mail"
@@ -317,7 +326,7 @@ msgstr "Enviat"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:228
 msgid "Inbox"
-msgstr "Safata d'entrada"
+msgstr "Safata d’entrada"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
 msgid "Ayatana Webmail (service)"
