@@ -9,8 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
 "issues\n"
 "POT-Creation-Date: 2020-04-03 12:21+0200\n"
-"PO-Revision-Date: 2020-09-05 16:36+0000\n"
-"Last-Translator: Rokas Kasnauskas <rokas.kasnauskas@gmail.com>\n"
+"PO-Revision-Date: 2020-10-05 19:26+0000\n"
+"Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-webmail/lt/>\n"
 "Language: lt\n"
@@ -286,15 +286,15 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:406
 msgid "Project page"
-msgstr ""
+msgstr "Projekto puslapis"
 
 #: ayatanawebmail/dialog.py:408
 msgid "Source code"
-msgstr ""
+msgstr "Pirminis kodas"
 
 #: ayatanawebmail/dialog.py:410
 msgid "Repository"
-msgstr ""
+msgstr "Saugykla"
 
 #: ayatanawebmail/dialog.py:412
 msgid "Home page"
@@ -302,7 +302,7 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:426
 msgid "translator-credits"
-msgstr ""
+msgstr "Moo"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:4
 #, fuzzy
