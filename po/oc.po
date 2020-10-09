@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
 "issues\n"
 "POT-Creation-Date: 2020-04-03 12:21+0200\n"
-"PO-Revision-Date: 2020-09-26 17:40+0000\n"
+"PO-Revision-Date: 2020-10-11 16:26+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-webmail/oc/>\n"
@@ -173,11 +173,11 @@ msgstr "Causir un compte"
 
 #: ayatanawebmail/dialog.py:259
 msgid "Add"
-msgstr ""
+msgstr "Ajustar"
 
 #: ayatanawebmail/dialog.py:261
 msgid "Remove"
-msgstr ""
+msgstr "Tirar"
 
 #: ayatanawebmail/dialog.py:276
 msgid "Server data"
