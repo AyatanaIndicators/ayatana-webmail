@@ -9,8 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
 "issues\n"
 "POT-Creation-Date: 2020-04-03 12:21+0200\n"
-"PO-Revision-Date: 2020-09-07 12:36+0000\n"
-"Last-Translator: Baka Gaijin <lewdwarrior@waifu.club>\n"
+"PO-Revision-Date: 2020-10-23 08:26+0000\n"
+"Last-Translator: Kei Homma <kei.homma@soundmouse.co.jp>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-webmail/ja/>\n"
 "Language: ja\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.3-dev\n"
+"X-Generator: Weblate 4.3.1\n"
 "X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
 
 #: ayatanawebmail/accounts.py:18
@@ -83,7 +83,7 @@ msgstr "アカウント「{accountName}」に接続出来ません、アプリ�
 #: ayatanawebmail/application.py:1133
 #, python-brace-format
 msgid "You can run \"{command}\" to delete all your login settings."
-msgstr ""
+msgstr "{command}より全てのログイン設定を消去することができます。"
 
 #: ayatanawebmail/application.py:1158
 #, python-format
@@ -94,7 +94,7 @@ msgstr[0] "%d 未読メールがあります"
 #: ayatanawebmail/application.py:1185
 #, python-format
 msgid "from %(t0)s, %(t1)s and others"
-msgstr ""
+msgstr "%(t0)s、%(t1)sなどから"
 
 #: ayatanawebmail/application.py:1187
 #, python-format
@@ -104,7 +104,7 @@ msgstr ""
 #: ayatanawebmail/application.py:1189
 #, python-format
 msgid "from %s"
-msgstr ""
+msgstr "%sから"
 
 #: ayatanawebmail/application.py:1202
 #, python-format
@@ -164,7 +164,7 @@ msgstr "メールアカウントに接続できませんでした。返された
 
 #: ayatanawebmail/dialog.py:235
 msgid "Connection failure"
-msgstr "接続失敗しました"
+msgstr "接続に失敗しました"
 
 #: ayatanawebmail/dialog.py:254
 msgid "Choose an account"
