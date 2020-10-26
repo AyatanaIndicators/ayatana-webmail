@@ -9,135 +9,141 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
 "issues\n"
 "POT-Creation-Date: 2020-08-22 20:15+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-10-26 13:14+0000\n"
+"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/"
+"ayatana-indicators/ayatana-webmail/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.3.2-dev\n"
 
 #: ayatanawebmail/accounts.py:18
 msgid "Select account"
-msgstr ""
+msgstr "Välj konto"
 
 #: ayatanawebmail/accounts.py:29
 msgid "Which account's command/web page would you like to open?"
-msgstr ""
+msgstr "Vilket kontos kommando/webbsida vill du öppna?"
 
 #: ayatanawebmail/actions.py:15
 msgid "Message actions"
-msgstr ""
+msgstr "Meddelandeåtgärder"
 
 #: ayatanawebmail/actions.py:15
 msgid "Delete"
-msgstr ""
+msgstr "Ta bort"
 
 #: ayatanawebmail/actions.py:15
 msgid "Mark as read"
-msgstr ""
+msgstr "Markera som läst"
 
 #: ayatanawebmail/actions.py:15
 msgid "Open message/Run command"
-msgstr ""
+msgstr "Öppna meddelande/Kör kommando"
 
 #: ayatanawebmail/actions.py:24
 msgid "Sender"
-msgstr ""
+msgstr "Avsändare"
 
 #: ayatanawebmail/actions.py:26
 msgid "Subject"
-msgstr ""
+msgstr "Ämne"
 
 #: ayatanawebmail/application.py:204
 msgid "Open webmail home page"
-msgstr ""
+msgstr "Öppna hemsidan för webbmail"
 
 #: ayatanawebmail/application.py:211
 msgid "Clear"
-msgstr ""
+msgstr "Rensa"
 
 #: ayatanawebmail/application.py:218
 #: data/usr/share/applications/ayatana-webmail.desktop:35
 msgid "Settings"
-msgstr ""
+msgstr "Inställningar"
 
 #: ayatanawebmail/application.py:957
 msgid "No subject"
-msgstr ""
+msgstr "Inget ämne"
 
 #: ayatanawebmail/application.py:1110
 msgid "Connection error"
-msgstr ""
+msgstr "Anslutningsfel"
 
 #: ayatanawebmail/application.py:1111
 #, python-brace-format
 msgid "Unable to connect to account \"{accountName}\", the application will now exit."
 msgstr ""
+"Kunde inte ansluta till konto \"{accountName}\", applikationen kommer att "
+"avslutas nu."
 
 #: ayatanawebmail/application.py:1136
 #, python-format
 msgid "You have %d unread mail"
 msgid_plural "You have %d unread mails"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Du har %d oläst mail"
+msgstr[1] "Du har %d olästa mail"
 
 #: ayatanawebmail/application.py:1163
 #, python-format
 msgid "from %(t0)s, %(t1)s and others"
-msgstr ""
+msgstr "från %(t0)s,%(t1)s och andra"
 
 #: ayatanawebmail/application.py:1165
 #, python-format
 msgid "from %(t0)s and %(t1)s"
-msgstr ""
+msgstr "från %(t0)s och %(t1)s"
 
 #: ayatanawebmail/application.py:1167
 #, python-format
 msgid "from %s"
-msgstr ""
+msgstr "från %s"
 
 #: ayatanawebmail/application.py:1180
 #, python-format
 msgid "New mail from %s"
-msgstr ""
+msgstr "Nya mail från %s"
 
 #: ayatanawebmail/dialog.py:60
 msgid "If this string starts with http:// or https://, the application will open it in your browser - otherwise, it will be run as a command"
 msgstr ""
+"Om den här strängen börjar med http:// eller https:// öppnar applikationen "
+"den i din webbläsare - annars körs den som ett kommando"
 
 #: ayatanawebmail/dialog.py:90 ayatanawebmail/dialog.py:104
 msgid "(None)"
-msgstr ""
+msgstr "(inga)"
 
 #: ayatanawebmail/dialog.py:132
 msgid "Ayatana Webmail Preferences"
-msgstr ""
+msgstr "Ayatana Webmail Inställningar"
 
 #: ayatanawebmail/dialog.py:140
 msgid "Accounts"
-msgstr ""
+msgstr "Konton"
 
 #: ayatanawebmail/dialog.py:141
 msgid "Options"
-msgstr ""
+msgstr "Alternativ"
 
 #: ayatanawebmail/dialog.py:142
 msgid "Support"
-msgstr ""
+msgstr "Support"
 
 #: ayatanawebmail/dialog.py:143
 msgid "About"
-msgstr ""
+msgstr "Om"
 
 #: ayatanawebmail/dialog.py:204
 msgid "Please visit the following link and enable access for less secure apps:"
-msgstr ""
+msgstr "Besök följande länk och aktivera åtkomst för mindre säkra appar:"
 
 #: ayatanawebmail/dialog.py:206
 msgid "Access blocked by Google"
-msgstr ""
+msgstr "Åtkomst blockerad av Google"
 
 #: ayatanawebmail/dialog.py:210
 msgid "Failed to connect to mail account. The returned error was:"
@@ -145,95 +151,98 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:211
 msgid "Connection failure"
-msgstr ""
+msgstr "Anslutningsfel"
 
 #: ayatanawebmail/dialog.py:234
 msgid "Custom"
-msgstr ""
+msgstr "Anpassad"
 
 #: ayatanawebmail/dialog.py:242
 msgid "Add"
-msgstr ""
+msgstr "Lägg till"
 
 #: ayatanawebmail/dialog.py:244
 msgid "Remove"
-msgstr ""
+msgstr "Ta bort"
 
 #: ayatanawebmail/dialog.py:286
 msgid "The application will append this string to \"Inbox\" to access a specific message - you can use the $MSG_THREAD and $MSG_UID placeholders"
 msgstr ""
+"Applikationen lägger till den här strängen i \"Inkorgen\" för att komma åt "
+"ett specifikt meddelande - du kan använda $MSG_THREAD och $ MSG_UID "
+"platshållarna"
 
 #: ayatanawebmail/dialog.py:288
 msgid "Account:"
-msgstr ""
+msgstr "Konto:"
 
 #: ayatanawebmail/dialog.py:290
 msgid "Server:"
-msgstr ""
+msgstr "Server:"
 
 #: ayatanawebmail/dialog.py:292
 msgid "Host:"
-msgstr ""
+msgstr "Värdnamn:"
 
 #: ayatanawebmail/dialog.py:294
 msgid "Port:"
-msgstr ""
+msgstr "Port:"
 
 #: ayatanawebmail/dialog.py:296
 msgid "Username:"
-msgstr ""
+msgstr "Användarnamn:"
 
 #: ayatanawebmail/dialog.py:298
 msgid "Password:"
-msgstr ""
+msgstr "Lösenord:"
 
 #: ayatanawebmail/dialog.py:300
 msgid "Folders:"
-msgstr ""
+msgstr "Mappar:"
 
 #: ayatanawebmail/dialog.py:302
 msgid "Home:"
-msgstr ""
+msgstr "Hem:"
 
 #: ayatanawebmail/dialog.py:304
 msgid "Compose:"
-msgstr ""
+msgstr "Skriv:"
 
 #: ayatanawebmail/dialog.py:306
 msgid "Sent:"
-msgstr ""
+msgstr "Skickat:"
 
 #: ayatanawebmail/dialog.py:308
 msgid "Inbox:"
-msgstr ""
+msgstr "Inkorg:"
 
 #: ayatanawebmail/dialog.py:310
 msgid "Message:"
-msgstr ""
+msgstr "Meddelande:"
 
 #: ayatanawebmail/dialog.py:346
 msgid "Mark message as read"
-msgstr ""
+msgstr "Markera meddelande som läst"
 
 #: ayatanawebmail/dialog.py:347
 msgid "Open message in browser/Execute command"
-msgstr ""
+msgstr "Öppna meddelandet i webbläsaren/Kör kommando"
 
 #: ayatanawebmail/dialog.py:348
 msgid "Ask me what to do"
-msgstr ""
+msgstr "Fråga mig vad jag vill göra"
 
 #: ayatanawebmail/dialog.py:358
 msgid "Enable notifications:"
-msgstr ""
+msgstr "Aktivera notifieringar:"
 
 #: ayatanawebmail/dialog.py:360
 msgid "Play sound when a message is received:"
-msgstr ""
+msgstr "Spela ett ljud när ett meddelande är mottaget:"
 
 #: ayatanawebmail/dialog.py:362
 msgid "Merge messages from the same conversation:"
-msgstr ""
+msgstr "Sammanfoga meddelanden från samma konversation:"
 
 #: ayatanawebmail/dialog.py:364
 msgid "Hide count when zero:"
@@ -241,23 +250,23 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:366
 msgid "When a message is activated:"
-msgstr ""
+msgstr "När ett meddelande är aktiverat:"
 
 #: ayatanawebmail/dialog.py:369
 msgid "Execute this command when a message is received:"
-msgstr ""
+msgstr "Utför detta kommando när ett meddelande har tagits emot:"
 
 #: ayatanawebmail/dialog.py:376
 msgid "Custom sound to play:"
-msgstr ""
+msgstr "Anpassat ljud att spela:"
 
 #: ayatanawebmail/dialog.py:392
 msgid "Report a bug"
-msgstr ""
+msgstr "Rapportera en bugg"
 
 #: ayatanawebmail/dialog.py:394
 msgid "Request a feature"
-msgstr ""
+msgstr "Fråga om en funktion"
 
 #: ayatanawebmail/dialog.py:396 ayatanawebmail/dialog.py:399
 #, python-brace-format
@@ -266,52 +275,52 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:397
 msgid "Ask a question"
-msgstr ""
+msgstr "Ställ en fråga"
 
 #: ayatanawebmail/dialog.py:400
 msgid "Help translate"
-msgstr ""
+msgstr "Hjälp till att översätta"
 
 #: ayatanawebmail/dialog.py:402
 msgid "Source code"
-msgstr ""
+msgstr "Källkod"
 
 #: ayatanawebmail/dialog.py:404
 msgid "Home page"
-msgstr ""
+msgstr "Hemsida"
 
 #: ayatanawebmail/dialog.py:424
 msgid "translator-credits"
-msgstr ""
+msgstr "translator-credits"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
 msgid "Ayatana Webmail (service)"
-msgstr ""
+msgstr "Ayatana Webmail (tjänst)"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
 msgid "Display notifications about new mail"
-msgstr ""
+msgstr "Visa notifieringar om nya mail"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:4
 msgid "Ayatana Webmail"
-msgstr ""
+msgstr "Ayatana Webmail"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:5
 msgid "Webmail notifications and actions for any desktop"
-msgstr ""
+msgstr "Webmail notifieringar och åtgärder för alla skrivbord"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:15
 msgid "Mark all as read"
-msgstr ""
+msgstr "Markera alla som lästa"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:20
 msgid "Compose Mail"
-msgstr ""
+msgstr "Skriv Mail"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:25
 msgid "Sent"
-msgstr ""
+msgstr "Skickat"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:30
 msgid "Inbox"
-msgstr ""
+msgstr "Inkorg"
