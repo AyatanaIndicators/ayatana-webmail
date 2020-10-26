@@ -9,8 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
 "issues\n"
 "POT-Creation-Date: 2020-08-22 20:15+0200\n"
-"PO-Revision-Date: 2020-10-26 13:14+0000\n"
-"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
+"PO-Revision-Date: 2020-10-27 14:36+0000\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-webmail/sv/>\n"
 "Language: sv\n"
@@ -169,8 +169,8 @@ msgstr "Ta bort"
 msgid "The application will append this string to \"Inbox\" to access a specific message - you can use the $MSG_THREAD and $MSG_UID placeholders"
 msgstr ""
 "Applikationen lägger till den här strängen i \"Inkorgen\" för att komma åt "
-"ett specifikt meddelande - du kan använda $MSG_THREAD och $ MSG_UID "
-"platshållarna"
+"ett specifikt meddelande - du kan använda platshållarna $MSG_THREAD och $ "
+"MSG_UID"
 
 #: ayatanawebmail/dialog.py:288
 msgid "Account:"
@@ -291,7 +291,7 @@ msgstr "Hemsida"
 
 #: ayatanawebmail/dialog.py:424
 msgid "translator-credits"
-msgstr "translator-credits"
+msgstr "Luna Jernberg, 2020"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
 msgid "Ayatana Webmail (service)"
@@ -307,7 +307,7 @@ msgstr "Ayatana Webmail"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:5
 msgid "Webmail notifications and actions for any desktop"
-msgstr "Webmail notifieringar och åtgärder för alla skrivbord"
+msgstr "Webmail-notifieringar och åtgärder för alla skrivbord"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:15
 msgid "Mark all as read"
