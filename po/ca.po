@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
 "issues\n"
 "POT-Creation-Date: 2020-04-03 12:21+0200\n"
-"PO-Revision-Date: 2020-10-27 14:36+0000\n"
+"PO-Revision-Date: 2020-10-30 00:26+0000\n"
 "Last-Translator: Joan CiberSheep <cibersheep@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-webmail/ca/>\n"
@@ -55,7 +55,7 @@ msgstr "Assumpte"
 
 #: ayatanawebmail/application.py:205
 msgid "Open webmail home page"
-msgstr ""
+msgstr "Obre la pàgina d'inici de correu web"
 
 #: ayatanawebmail/application.py:212
 msgid "Clear"
@@ -71,7 +71,7 @@ msgstr "Sense assumpte"
 
 #: ayatanawebmail/application.py:1132
 msgid "Connection error"
-msgstr ""
+msgstr "Error de connexió"
 
 #: ayatanawebmail/application.py:1133
 #, python-brace-format
@@ -129,6 +129,8 @@ msgid ""
 "Append an additional string - you can use the $MSG_THREAD and $MSG_UID "
 "placeholders."
 msgstr ""
+"Afegiu una cadena addicional: podeu utilitzar les variables $MSG_THREAD i "
+"$MSG_UID."
 
 #: ayatanawebmail/dialog.py:114 ayatanawebmail/dialog.py:128
 msgid "(None)"
@@ -166,11 +168,11 @@ msgstr "Google n’ha blocat l’accés"
 
 #: ayatanawebmail/dialog.py:234
 msgid "Failed to connect to mail account. The returned error was:"
-msgstr ""
+msgstr "La connexió al compte de correu ha fallat amb error:"
 
 #: ayatanawebmail/dialog.py:235
 msgid "Connection failure"
-msgstr ""
+msgstr "La connexió ha fallat"
 
 #: ayatanawebmail/dialog.py:254
 msgid "Choose an account"
@@ -238,11 +240,11 @@ msgstr "Marca el missatge com a llegit"
 
 #: ayatanawebmail/dialog.py:355
 msgid "Open message in browser/Execute command"
-msgstr ""
+msgstr "Obre el missatge al navegador o executa una ordre"
 
 #: ayatanawebmail/dialog.py:356
 msgid "Ask me what to do"
-msgstr ""
+msgstr "Demana'm què fer"
 
 #: ayatanawebmail/dialog.py:366
 msgid "Enable notifications:"
@@ -250,23 +252,23 @@ msgstr "Habilita les notificacions:"
 
 #: ayatanawebmail/dialog.py:368
 msgid "Play sound when a message is received:"
-msgstr ""
+msgstr "Reprodueix un so en rebre un missatge:"
 
 #: ayatanawebmail/dialog.py:370
 msgid "Merge messages from the same conversation:"
-msgstr ""
+msgstr "Uneix els missatges d'una mateixa conversa:"
 
 #: ayatanawebmail/dialog.py:372
 msgid "Hide count when zero:"
-msgstr ""
+msgstr "Amaga el recompte si és zero:"
 
 #: ayatanawebmail/dialog.py:374
 msgid "When a message is activated:"
-msgstr ""
+msgstr "Quan s'activa un missatge:"
 
 #: ayatanawebmail/dialog.py:377
 msgid "Execute this command when a message is received:"
-msgstr ""
+msgstr "Executa aquesta ordre en rebre un missatge:"
 
 #: ayatanawebmail/dialog.py:384
 msgid "Custom sound to play:"
@@ -274,7 +276,7 @@ msgstr "So personalitzat a reproduir:"
 
 #: ayatanawebmail/dialog.py:400
 msgid "Report a bug/Request a feature"
-msgstr ""
+msgstr "Informeu d'un error o demaneu una funció"
 
 #: ayatanawebmail/dialog.py:402
 msgid "Ask a question"
@@ -310,7 +312,7 @@ msgstr "Correu de l'Ayatana"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:39
 msgid "Webmail notifications and actions for any desktop"
-msgstr ""
+msgstr "Notificacions i accions de correu web per a qualsevol escriptori"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:74
 msgid "Mark all as read"
@@ -330,7 +332,7 @@ msgstr "Safata d’entrada"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
 msgid "Ayatana Webmail (service)"
-msgstr ""
+msgstr "Correu web Ayatana (servei)"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:38
 msgid "Display notifications about new mail"
