@@ -6,60 +6,64 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
-"Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
+"issues\n"
 "POT-Creation-Date: 2020-04-03 12:21+0200\n"
-"PO-Revision-Date: 2018-06-04 07:33+0000\n"
-"Language-Team: Czech <cs@li.org>\n"
+"PO-Revision-Date: 2020-10-30 00:26+0000\n"
+"Last-Translator: Milan Korecky <milan.korecky@gmail.com>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/ayatana-indicators/"
+"ayatana-webmail/cs/>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.3.2-dev\n"
 "X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
-"X-Generator: Launchpad (build a296f04231dee355be5db73cc878b9e21689a253)\n"
 
 #: ayatanawebmail/accounts.py:18
 msgid "Select account"
-msgstr ""
+msgstr "Zvolit účet"
 
 #: ayatanawebmail/accounts.py:29
 msgid "Which account's command/web page would you like to open?"
-msgstr ""
+msgstr "Který příkaz / webovou stránku účtů chcete otevřít?"
 
 #: ayatanawebmail/actions.py:15
 msgid "Message actions"
-msgstr ""
+msgstr "Akce zpráv"
 
 #: ayatanawebmail/actions.py:15
 msgid "Delete"
-msgstr ""
+msgstr "Vymazat"
 
 #: ayatanawebmail/actions.py:15
 msgid "Mark as read"
-msgstr ""
+msgstr "Označit jako přečtené"
 
 #: ayatanawebmail/actions.py:15
 msgid "Open message/Run command"
-msgstr ""
+msgstr "Otevřít zprávu/Spustit příkaz"
 
 #: ayatanawebmail/actions.py:24
 msgid "Sender"
-msgstr ""
+msgstr "Odesílatel"
 
 #: ayatanawebmail/actions.py:26
 msgid "Subject"
-msgstr ""
+msgstr "Věc"
 
 #: ayatanawebmail/application.py:205
 msgid "Open webmail home page"
-msgstr ""
+msgstr "Otevřít webmail domovskou stránku"
 
 #: ayatanawebmail/application.py:212
 msgid "Clear"
-msgstr ""
+msgstr "Vyčistit"
 
 #: ayatanawebmail/application.py:219
 msgid "Settings"
-msgstr ""
+msgstr "Nastavení"
 
 #: ayatanawebmail/application.py:980
 msgid "No subject"
@@ -67,19 +71,21 @@ msgstr "Žádný předmět"
 
 #: ayatanawebmail/application.py:1132
 msgid "Connection error"
-msgstr ""
+msgstr "Chyba spojení"
 
 #: ayatanawebmail/application.py:1133
 #, python-brace-format
 msgid ""
 "Unable to connect to account \"{accountName}\", the application will now "
 "exit."
-msgstr ""
+msgstr "Nelze se připojit k účtu „{accountName}“, aplikace bude nyní ukončena."
 
 #: ayatanawebmail/application.py:1133
 #, python-brace-format
 msgid "You can run \"{command}\" to delete all your login settings."
 msgstr ""
+"Spuštěním příkazu \"{command}\" můžete smazat všechna vaše nastavení "
+"přihlášení."
 
 #: ayatanawebmail/application.py:1158
 #, python-format
@@ -111,21 +117,23 @@ msgstr "Nový email od %s"
 
 #: ayatanawebmail/dialog.py:60
 msgid "Web page"
-msgstr ""
+msgstr "Webová stránka"
 
 #: ayatanawebmail/dialog.py:61
 msgid "Command"
-msgstr ""
+msgstr "Příkaz"
 
 #: ayatanawebmail/dialog.py:93
 msgid ""
 "Append an additional string - you can use the $MSG_THREAD and $MSG_UID "
 "placeholders."
 msgstr ""
+"Připojte další řetězec - můžete použít zástupné symboly $ MSG_THREAD a $ "
+"MSG_UID."
 
 #: ayatanawebmail/dialog.py:114 ayatanawebmail/dialog.py:128
 msgid "(None)"
-msgstr ""
+msgstr "(Žádný)"
 
 #: ayatanawebmail/dialog.py:156
 msgid "Ayatana Webmail Preferences"
@@ -141,28 +149,29 @@ msgstr "Volby"
 
 #: ayatanawebmail/dialog.py:166
 msgid "Support"
-msgstr ""
+msgstr "Podpora"
 
 #: ayatanawebmail/dialog.py:167
 msgid "About"
-msgstr ""
+msgstr "O aplikaci"
 
 #: ayatanawebmail/dialog.py:228
 msgid ""
 "Please visit the following link and enable access for less secure apps:"
 msgstr ""
+"Navštivte následující odkaz a povolte přístup pro méně zabezpečené aplikace:"
 
 #: ayatanawebmail/dialog.py:230
 msgid "Access blocked by Google"
-msgstr ""
+msgstr "Přístup blokovaný společností Google"
 
 #: ayatanawebmail/dialog.py:234
 msgid "Failed to connect to mail account. The returned error was:"
-msgstr ""
+msgstr "Připojení k e-mailovému účtu se nezdařilo. Vrácená chyba byla:"
 
 #: ayatanawebmail/dialog.py:235
 msgid "Connection failure"
-msgstr ""
+msgstr "Připojení selhalo"
 
 #: ayatanawebmail/dialog.py:254
 msgid "Choose an account"
@@ -170,11 +179,11 @@ msgstr "Vybrat účet"
 
 #: ayatanawebmail/dialog.py:259
 msgid "Add"
-msgstr ""
+msgstr "Přidat"
 
 #: ayatanawebmail/dialog.py:261
 msgid "Remove"
-msgstr ""
+msgstr "Odstranit"
 
 #: ayatanawebmail/dialog.py:276
 msgid "Server data"
@@ -186,7 +195,7 @@ msgstr "Údaje o účtu"
 
 #: ayatanawebmail/dialog.py:289
 msgid "Links"
-msgstr ""
+msgstr "Odkazy"
 
 #: ayatanawebmail/dialog.py:297
 msgid "Host:"
@@ -206,7 +215,7 @@ msgstr "Heslo:"
 
 #: ayatanawebmail/dialog.py:306
 msgid "Folders:"
-msgstr ""
+msgstr "Složky:"
 
 #: ayatanawebmail/dialog.py:309
 msgid "Home:"
@@ -226,15 +235,15 @@ msgstr "Odeslat:"
 
 #: ayatanawebmail/dialog.py:354
 msgid "Mark message as read"
-msgstr ""
+msgstr "Označit zprávy jako přečtené"
 
 #: ayatanawebmail/dialog.py:355
 msgid "Open message in browser/Execute command"
-msgstr ""
+msgstr "Otevřít zprávu v prohlížeči/provést příkaz"
 
 #: ayatanawebmail/dialog.py:356
 msgid "Ask me what to do"
-msgstr ""
+msgstr "Zeptejte se mě, co se má dělat"
 
 #: ayatanawebmail/dialog.py:366
 msgid "Enable notifications:"
@@ -242,23 +251,23 @@ msgstr "Povolit oznámení"
 
 #: ayatanawebmail/dialog.py:368
 msgid "Play sound when a message is received:"
-msgstr ""
+msgstr "Přehrát zvuk při přijetí zprávy:"
 
 #: ayatanawebmail/dialog.py:370
 msgid "Merge messages from the same conversation:"
-msgstr ""
+msgstr "Sloučit zprávy ze stejné konverzace:"
 
 #: ayatanawebmail/dialog.py:372
 msgid "Hide count when zero:"
-msgstr ""
+msgstr "Skrýt počet při nule:"
 
 #: ayatanawebmail/dialog.py:374
 msgid "When a message is activated:"
-msgstr ""
+msgstr "Když je zpráva aktivována:"
 
 #: ayatanawebmail/dialog.py:377
 msgid "Execute this command when a message is received:"
-msgstr ""
+msgstr "Po přijetí zprávy proveďte tento příkaz:"
 
 #: ayatanawebmail/dialog.py:384
 msgid "Custom sound to play:"
@@ -266,35 +275,35 @@ msgstr "Vlastní zvuk:"
 
 #: ayatanawebmail/dialog.py:400
 msgid "Report a bug/Request a feature"
-msgstr ""
+msgstr "Nahlásit chybu / Požádat o funkci"
 
 #: ayatanawebmail/dialog.py:402
 msgid "Ask a question"
-msgstr ""
+msgstr "Položit otázku"
 
 #: ayatanawebmail/dialog.py:404
 msgid "Help translate"
-msgstr ""
+msgstr "Pomozte překládat"
 
 #: ayatanawebmail/dialog.py:406
 msgid "Project page"
-msgstr ""
+msgstr "Stránka projektu"
 
 #: ayatanawebmail/dialog.py:408
 msgid "Source code"
-msgstr ""
+msgstr "Zdrojový kód"
 
 #: ayatanawebmail/dialog.py:410
 msgid "Repository"
-msgstr ""
+msgstr "Úložiště"
 
 #: ayatanawebmail/dialog.py:412
 msgid "Home page"
-msgstr ""
+msgstr "Domovská stránka"
 
 #: ayatanawebmail/dialog.py:426
 msgid "translator-credits"
-msgstr ""
+msgstr "poděkování-překladatelům"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:4
 msgid "Ayatana Webmail"
@@ -302,11 +311,11 @@ msgstr "Ayatana Webmail"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:39
 msgid "Webmail notifications and actions for any desktop"
-msgstr ""
+msgstr "Oznámení a akce webmailu pro jakoukoli plochu"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:74
 msgid "Mark all as read"
-msgstr ""
+msgstr "Označit vše jako přečtené"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:112
 msgid "Compose Mail"
