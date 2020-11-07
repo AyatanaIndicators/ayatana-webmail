@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
 "issues\n"
 "POT-Creation-Date: 2020-04-03 12:21+0200\n"
-"PO-Revision-Date: 2020-10-24 16:26+0000\n"
+"PO-Revision-Date: 2020-11-08 21:26+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-webmail/oc/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.3.2-dev\n"
+"X-Generator: Weblate 4.3.2\n"
 "X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
 
 #: ayatanawebmail/accounts.py:18
@@ -79,11 +79,15 @@ msgid ""
 "Unable to connect to account \"{accountName}\", the application will now "
 "exit."
 msgstr ""
+"Connexion impossibla al compte « {accountName} », l’aplicacion es per quitar "
+"ara."
 
 #: ayatanawebmail/application.py:1133
 #, python-brace-format
 msgid "You can run \"{command}\" to delete all your login settings."
 msgstr ""
+"Podètz executar « {command} » per suprimir totes vòstres paramètres de "
+"connexion."
 
 #: ayatanawebmail/application.py:1158
 #, python-format
@@ -125,6 +129,8 @@ msgid ""
 "Append an additional string - you can use the $MSG_THREAD and $MSG_UID "
 "placeholders."
 msgstr ""
+"Ajustatz una cadena addicionala - podètz utilizar las variablas especialas $"
+"MSG_THREAD e $MSG_UID."
 
 #: ayatanawebmail/dialog.py:114 ayatanawebmail/dialog.py:128
 msgid "(None)"
@@ -154,6 +160,8 @@ msgstr "A prepaus"
 msgid ""
 "Please visit the following link and enable access for less secure apps:"
 msgstr ""
+"Consultatz lo ligam seguent e autorizatz l’accès a las aplicacions mens "
+"seguras :"
 
 #: ayatanawebmail/dialog.py:230
 msgid "Access blocked by Google"
@@ -161,7 +169,7 @@ msgstr "Accès blocat per Google"
 
 #: ayatanawebmail/dialog.py:234
 msgid "Failed to connect to mail account. The returned error was:"
-msgstr ""
+msgstr "Connexion impossibla al compte. Error :"
 
 #: ayatanawebmail/dialog.py:235
 msgid "Connection failure"
@@ -229,11 +237,11 @@ msgstr "Mandat :"
 
 #: ayatanawebmail/dialog.py:354
 msgid "Mark message as read"
-msgstr ""
+msgstr "Marcar lo messatge coma legit"
 
 #: ayatanawebmail/dialog.py:355
 msgid "Open message in browser/Execute command"
-msgstr ""
+msgstr "Dobrir lo navegador / Executar una comanda"
 
 #: ayatanawebmail/dialog.py:356
 msgid "Ask me what to do"
@@ -261,7 +269,7 @@ msgstr "Quand un messatge es seleccionat :"
 
 #: ayatanawebmail/dialog.py:377
 msgid "Execute this command when a message is received:"
-msgstr ""
+msgstr "Executar aquesta comanda quand arriba un messatge :"
 
 #: ayatanawebmail/dialog.py:384
 msgid "Custom sound to play:"
@@ -269,7 +277,7 @@ msgstr "Son personalizat de legir :"
 
 #: ayatanawebmail/dialog.py:400
 msgid "Report a bug/Request a feature"
-msgstr ""
+msgstr "Senhalar una avaria / Demandar una foncionalitat"
 
 #: ayatanawebmail/dialog.py:402
 msgid "Ask a question"
@@ -306,6 +314,7 @@ msgstr "Corrièl Ayatana"
 #: data/usr/share/applications/ayatana-webmail.desktop:39
 msgid "Webmail notifications and actions for any desktop"
 msgstr ""
+"Notificacions e accions de corrièl per quin environament de burèu que siá"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:74
 msgid "Mark all as read"
