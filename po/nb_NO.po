@@ -9,99 +9,103 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
 "issues\n"
 "POT-Creation-Date: 2020-08-22 20:15+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-11-12 00:28+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
+"ayatana-indicators/ayatana-webmail/nb_NO/>\n"
 "Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4-dev\n"
 
 #: ayatanawebmail/accounts.py:18
 msgid "Select account"
-msgstr ""
+msgstr "Velg konto"
 
 #: ayatanawebmail/accounts.py:29
+#, fuzzy
 msgid "Which account's command/web page would you like to open?"
-msgstr ""
+msgstr "Hvilken konto sin kommando/nettside ønsker du å åpne?"
 
 #: ayatanawebmail/actions.py:15
 msgid "Message actions"
-msgstr ""
+msgstr "Meldingshandlinger"
 
 #: ayatanawebmail/actions.py:15
 msgid "Delete"
-msgstr ""
+msgstr "Slett"
 
 #: ayatanawebmail/actions.py:15
 msgid "Mark as read"
-msgstr ""
+msgstr "Marker som lest"
 
 #: ayatanawebmail/actions.py:15
 msgid "Open message/Run command"
-msgstr ""
+msgstr "Åpne melding/kjør kommando"
 
 #: ayatanawebmail/actions.py:24
 msgid "Sender"
-msgstr ""
+msgstr "Avsender"
 
 #: ayatanawebmail/actions.py:26
 msgid "Subject"
-msgstr ""
+msgstr "Emne"
 
 #: ayatanawebmail/application.py:204
 msgid "Open webmail home page"
-msgstr ""
+msgstr "Åpne vevpost-hjemmesiden"
 
 #: ayatanawebmail/application.py:211
 msgid "Clear"
-msgstr ""
+msgstr "Tøm"
 
 #: ayatanawebmail/application.py:218
 #: data/usr/share/applications/ayatana-webmail.desktop:35
 msgid "Settings"
-msgstr ""
+msgstr "Innstillinger"
 
 #: ayatanawebmail/application.py:957
 msgid "No subject"
-msgstr ""
+msgstr "Uten emne"
 
 #: ayatanawebmail/application.py:1110
 msgid "Connection error"
-msgstr ""
+msgstr "Tilkoblingsfeil"
 
 #: ayatanawebmail/application.py:1111
 #, python-brace-format
 msgid "Unable to connect to account \"{accountName}\", the application will now exit."
 msgstr ""
+"Kunne ikke koble til kontoen «{accountName}», programmet vil nå avsluttes."
 
 #: ayatanawebmail/application.py:1136
-#, python-format
+#, fuzzy, python-format
 msgid "You have %d unread mail"
 msgid_plural "You have %d unread mails"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Du har %d ulest e-post"
+msgstr[1] "Du har %d uleste e-poster"
 
 #: ayatanawebmail/application.py:1163
 #, python-format
 msgid "from %(t0)s, %(t1)s and others"
-msgstr ""
+msgstr "fra %(t0)s, %(t1)s og andre"
 
 #: ayatanawebmail/application.py:1165
 #, python-format
 msgid "from %(t0)s and %(t1)s"
-msgstr ""
+msgstr "fra %(t0)s og %(t1)s"
 
 #: ayatanawebmail/application.py:1167
 #, python-format
 msgid "from %s"
-msgstr ""
+msgstr "fra %s"
 
 #: ayatanawebmail/application.py:1180
-#, python-format
+#, fuzzy, python-format
 msgid "New mail from %s"
-msgstr ""
+msgstr "Ny e-post fra %s"
 
 #: ayatanawebmail/dialog.py:60
 msgid "If this string starts with http:// or https://, the application will open it in your browser - otherwise, it will be run as a command"
@@ -109,209 +113,215 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:90 ayatanawebmail/dialog.py:104
 msgid "(None)"
-msgstr ""
+msgstr "(Ingen)"
 
 #: ayatanawebmail/dialog.py:132
 msgid "Ayatana Webmail Preferences"
-msgstr ""
+msgstr "Ayatana-vevpostinnstillinger"
 
 #: ayatanawebmail/dialog.py:140
 msgid "Accounts"
-msgstr ""
+msgstr "Kontoer"
 
 #: ayatanawebmail/dialog.py:141
 msgid "Options"
-msgstr ""
+msgstr "Innstillinger"
 
 #: ayatanawebmail/dialog.py:142
 msgid "Support"
-msgstr ""
+msgstr "Støtte"
 
 #: ayatanawebmail/dialog.py:143
 msgid "About"
-msgstr ""
+msgstr "Om"
 
 #: ayatanawebmail/dialog.py:204
 msgid "Please visit the following link and enable access for less secure apps:"
-msgstr ""
+msgstr "Besøk følgende lenke og skru på tilgang for mindre sikre programmer:"
 
 #: ayatanawebmail/dialog.py:206
 msgid "Access blocked by Google"
-msgstr ""
+msgstr "Tilgang blokkert av Google"
 
 #: ayatanawebmail/dialog.py:210
+#, fuzzy
 msgid "Failed to connect to mail account. The returned error was:"
-msgstr ""
+msgstr "Klarte ikke å koble til e-postkonto. Feilen er:"
 
 #: ayatanawebmail/dialog.py:211
 msgid "Connection failure"
-msgstr ""
+msgstr "Tilkoblingsfeil"
 
 #: ayatanawebmail/dialog.py:234
 msgid "Custom"
-msgstr ""
+msgstr "Tilpasset"
 
 #: ayatanawebmail/dialog.py:242
 msgid "Add"
-msgstr ""
+msgstr "Legg til"
 
 #: ayatanawebmail/dialog.py:244
 msgid "Remove"
-msgstr ""
+msgstr "Fjern"
 
 #: ayatanawebmail/dialog.py:286
 msgid "The application will append this string to \"Inbox\" to access a specific message - you can use the $MSG_THREAD and $MSG_UID placeholders"
 msgstr ""
+"Programmet vil legge til denne stringen i «Innboks» for å nå en gitt melding "
+"- du kan bruke $MSG_THREAD og $MSG_UID-plassholdere"
 
 #: ayatanawebmail/dialog.py:288
 msgid "Account:"
-msgstr ""
+msgstr "Konto:"
 
 #: ayatanawebmail/dialog.py:290
 msgid "Server:"
-msgstr ""
+msgstr "Tjener:"
 
 #: ayatanawebmail/dialog.py:292
 msgid "Host:"
-msgstr ""
+msgstr "Vert:"
 
 #: ayatanawebmail/dialog.py:294
 msgid "Port:"
-msgstr ""
+msgstr "Port:"
 
 #: ayatanawebmail/dialog.py:296
 msgid "Username:"
-msgstr ""
+msgstr "Brukernavn:"
 
 #: ayatanawebmail/dialog.py:298
 msgid "Password:"
-msgstr ""
+msgstr "Passord:"
 
 #: ayatanawebmail/dialog.py:300
 msgid "Folders:"
-msgstr ""
+msgstr "Mapper:"
 
 #: ayatanawebmail/dialog.py:302
 msgid "Home:"
-msgstr ""
+msgstr "Hjem:"
 
 #: ayatanawebmail/dialog.py:304
 msgid "Compose:"
-msgstr ""
+msgstr "Skriv ny:"
 
 #: ayatanawebmail/dialog.py:306
 msgid "Sent:"
-msgstr ""
+msgstr "Sendt:"
 
 #: ayatanawebmail/dialog.py:308
 msgid "Inbox:"
-msgstr ""
+msgstr "Innboks:"
 
 #: ayatanawebmail/dialog.py:310
 msgid "Message:"
-msgstr ""
+msgstr "Melding:"
 
 #: ayatanawebmail/dialog.py:346
 msgid "Mark message as read"
-msgstr ""
+msgstr "Marker melding som lest"
 
 #: ayatanawebmail/dialog.py:347
+#, fuzzy
 msgid "Open message in browser/Execute command"
-msgstr ""
+msgstr "Åpne melding i nettleser/kjør kommando"
 
 #: ayatanawebmail/dialog.py:348
 msgid "Ask me what to do"
-msgstr ""
+msgstr "Spør meg hva som skal gjøres"
 
 #: ayatanawebmail/dialog.py:358
+#, fuzzy
 msgid "Enable notifications:"
-msgstr ""
+msgstr "Skru på merknader:"
 
 #: ayatanawebmail/dialog.py:360
 msgid "Play sound when a message is received:"
-msgstr ""
+msgstr "Spill lyd når en melding mottas:"
 
 #: ayatanawebmail/dialog.py:362
 msgid "Merge messages from the same conversation:"
-msgstr ""
+msgstr "Flett meldinger fra samme samtale:"
 
 #: ayatanawebmail/dialog.py:364
 msgid "Hide count when zero:"
-msgstr ""
+msgstr "Skjul antall når null:"
 
 #: ayatanawebmail/dialog.py:366
 msgid "When a message is activated:"
-msgstr ""
+msgstr "Når en melding er aktivert:"
 
 #: ayatanawebmail/dialog.py:369
 msgid "Execute this command when a message is received:"
-msgstr ""
+msgstr "Kjør denne kommandoen når en melding mottas:"
 
 #: ayatanawebmail/dialog.py:376
 msgid "Custom sound to play:"
-msgstr ""
+msgstr "Tilpasset lyd å spille:"
 
 #: ayatanawebmail/dialog.py:392
 msgid "Report a bug"
-msgstr ""
+msgstr "Innrapporter en feil"
 
 #: ayatanawebmail/dialog.py:394
 msgid "Request a feature"
-msgstr ""
+msgstr "Forespør en funksjon"
 
 #: ayatanawebmail/dialog.py:396 ayatanawebmail/dialog.py:399
 #, python-brace-format
 msgid "It's a good idea to add the {labelname} label to your issue."
-msgstr ""
+msgstr "Det er en god idé å legge til {labelname}-etikett for ditt problem."
 
 #: ayatanawebmail/dialog.py:397
 msgid "Ask a question"
-msgstr ""
+msgstr "Still et spørsmål"
 
 #: ayatanawebmail/dialog.py:400
 msgid "Help translate"
-msgstr ""
+msgstr "Hjelp til i oversettelsen"
 
 #: ayatanawebmail/dialog.py:402
 msgid "Source code"
-msgstr ""
+msgstr "Kildekode"
 
 #: ayatanawebmail/dialog.py:404
 msgid "Home page"
-msgstr ""
+msgstr "Hjemmeside"
 
 #: ayatanawebmail/dialog.py:424
 msgid "translator-credits"
-msgstr ""
+msgstr "Allan Nordhøy <epost@anotheragency.no>"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
 msgid "Ayatana Webmail (service)"
-msgstr ""
+msgstr "Ayatana-vevpost (tjeneste)"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
+#, fuzzy
 msgid "Display notifications about new mail"
-msgstr ""
+msgstr "Vis merknader om ny e-post"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:4
 msgid "Ayatana Webmail"
-msgstr ""
+msgstr "Ayatana-vevpost"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:5
 msgid "Webmail notifications and actions for any desktop"
-msgstr ""
+msgstr "Vevpost-merknader og handlinger for alle skrivebord"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:15
 msgid "Mark all as read"
-msgstr ""
+msgstr "Marker alle som lest"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:20
 msgid "Compose Mail"
-msgstr ""
+msgstr "Skriv e-post"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:25
 msgid "Sent"
-msgstr ""
+msgstr "Sendt"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:30
 msgid "Inbox"
-msgstr ""
+msgstr "Innboks"
