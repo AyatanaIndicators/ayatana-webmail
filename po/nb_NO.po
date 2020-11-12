@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
 "issues\n"
 "POT-Creation-Date: 2020-08-22 20:15+0200\n"
-"PO-Revision-Date: 2020-11-12 00:28+0000\n"
+"PO-Revision-Date: 2020-11-13 14:28+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-webmail/nb_NO/>\n"
@@ -110,6 +110,8 @@ msgstr "Ny e-post fra %s"
 #: ayatanawebmail/dialog.py:60
 msgid "If this string starts with http:// or https://, the application will open it in your browser - otherwise, it will be run as a command"
 msgstr ""
+"Hvis denne strengen starter med http:// eller https:// vil programmet åpne "
+"det i din nettleser, ellers vil det bli kjørt som en kommando"
 
 #: ayatanawebmail/dialog.py:90 ayatanawebmail/dialog.py:104
 msgid "(None)"
