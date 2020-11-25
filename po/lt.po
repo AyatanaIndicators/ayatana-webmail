@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
 "issues\n"
 "POT-Creation-Date: 2020-04-03 12:21+0200\n"
-"PO-Revision-Date: 2020-11-19 20:29+0000\n"
+"PO-Revision-Date: 2020-11-27 13:29+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-webmail/lt/>\n"
@@ -56,7 +56,7 @@ msgstr "Tema"
 
 #: ayatanawebmail/application.py:205
 msgid "Open webmail home page"
-msgstr ""
+msgstr "Atverti pagrindinį saityno pašto puslapį"
 
 #: ayatanawebmail/application.py:212
 msgid "Clear"
@@ -131,6 +131,8 @@ msgid ""
 "Append an additional string - you can use the $MSG_THREAD and $MSG_UID "
 "placeholders."
 msgstr ""
+"Pridėti papildomą eilutę - galite naudoti $MSG_THREAD ir $MSG_UID "
+"vietaženklius."
 
 #: ayatanawebmail/dialog.py:114 ayatanawebmail/dialog.py:128
 msgid "(None)"
@@ -138,7 +140,7 @@ msgstr "(Nėra)"
 
 #: ayatanawebmail/dialog.py:156
 msgid "Ayatana Webmail Preferences"
-msgstr ""
+msgstr "Ayatana saityno pašto nuostatos"
 
 #: ayatanawebmail/dialog.py:164
 msgid "Accounts"
@@ -160,6 +162,7 @@ msgstr "Apie"
 msgid ""
 "Please visit the following link and enable access for less secure apps:"
 msgstr ""
+"Apsilankykite šiame tinklalapyje ir įjunkite nelabai saugių programų prieigą:"
 
 #: ayatanawebmail/dialog.py:230
 msgid "Access blocked by Google"
@@ -218,22 +221,20 @@ msgid "Folders:"
 msgstr "Aplankai:"
 
 #: ayatanawebmail/dialog.py:309
-#, fuzzy
 msgid "Home:"
 msgstr "Pagrindinis:"
 
 #: ayatanawebmail/dialog.py:311
 msgid "Compose:"
-msgstr ""
+msgstr "Rašyti:"
 
 #: ayatanawebmail/dialog.py:313
 msgid "Inbox:"
-msgstr ""
+msgstr "Gauta:"
 
 #: ayatanawebmail/dialog.py:316
-#, fuzzy
 msgid "Sent:"
-msgstr "Išsiųsti"
+msgstr "Išsiųsta:"
 
 #: ayatanawebmail/dialog.py:354
 msgid "Mark message as read"
@@ -245,7 +246,7 @@ msgstr "Atverti laišką naršyklėje/Vykdyti komandą"
 
 #: ayatanawebmail/dialog.py:356
 msgid "Ask me what to do"
-msgstr ""
+msgstr "Klausti, ką daryti"
 
 #: ayatanawebmail/dialog.py:366
 msgid "Enable notifications:"
@@ -257,27 +258,27 @@ msgstr "Gavus laišką, atkurti garsą:"
 
 #: ayatanawebmail/dialog.py:370
 msgid "Merge messages from the same conversation:"
-msgstr ""
+msgstr "Sulieti el. laiškus iš to paties pokalbio:"
 
 #: ayatanawebmail/dialog.py:372
 msgid "Hide count when zero:"
-msgstr ""
+msgstr "Slėpti skaičių, kai nulis:"
 
 #: ayatanawebmail/dialog.py:374
 msgid "When a message is activated:"
-msgstr ""
+msgstr "Aktyvavus el. laišką:"
 
 #: ayatanawebmail/dialog.py:377
 msgid "Execute this command when a message is received:"
-msgstr ""
+msgstr "Gavus el. laišką, vykdyti šią komandą:"
 
 #: ayatanawebmail/dialog.py:384
 msgid "Custom sound to play:"
-msgstr ""
+msgstr "Atkurti šį tinkintą garsą:"
 
 #: ayatanawebmail/dialog.py:400
 msgid "Report a bug/Request a feature"
-msgstr ""
+msgstr "Pranešti apie klaidą/Prašyti naujos ypatybės"
 
 #: ayatanawebmail/dialog.py:402
 msgid "Ask a question"
@@ -308,13 +309,12 @@ msgid "translator-credits"
 msgstr "Moo, Enigma"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:4
-#, fuzzy
 msgid "Ayatana Webmail"
-msgstr "Ayatana Webmail"
+msgstr "Ayatana saityno paštas"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:39
 msgid "Webmail notifications and actions for any desktop"
-msgstr ""
+msgstr "Saityno pašto pranešimai ir veiksmai bet kuriam darbalaukiui"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:74
 msgid "Mark all as read"
@@ -334,7 +334,7 @@ msgstr "Gauti laiškai"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
 msgid "Ayatana Webmail (service)"
-msgstr ""
+msgstr "Ayatana saityno paštas (tarnyba)"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:38
 msgid "Display notifications about new mail"
