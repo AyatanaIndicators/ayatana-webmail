@@ -9,8 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
 "issues\n"
 "POT-Creation-Date: 2020-04-03 12:21+0200\n"
-"PO-Revision-Date: 2020-09-19 22:40+0000\n"
-"Last-Translator: Talking Panda <memredogan3626@gmail.com>\n"
+"PO-Revision-Date: 2020-12-02 19:29+0000\n"
+"Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-webmail/tr/>\n"
 "Language: tr\n"
@@ -18,44 +18,44 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3-dev\n"
+"X-Generator: Weblate 4.4-dev\n"
 "X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
 
 #: ayatanawebmail/accounts.py:18
 msgid "Select account"
-msgstr ""
+msgstr "Hesap seç"
 
 #: ayatanawebmail/accounts.py:29
 msgid "Which account's command/web page would you like to open?"
-msgstr ""
+msgstr "Hangi hesabın komutunu/web sayfasını açmak istiyorsunuz?"
 
 #: ayatanawebmail/actions.py:15
 msgid "Message actions"
-msgstr ""
+msgstr "Mesaj eylemleri"
 
 #: ayatanawebmail/actions.py:15
 msgid "Delete"
-msgstr ""
+msgstr "Sil"
 
 #: ayatanawebmail/actions.py:15
 msgid "Mark as read"
-msgstr ""
+msgstr "Okundu olarak işaretle"
 
 #: ayatanawebmail/actions.py:15
 msgid "Open message/Run command"
-msgstr ""
+msgstr "Mesajı aç /Komutu çalıştır"
 
 #: ayatanawebmail/actions.py:24
 msgid "Sender"
-msgstr ""
+msgstr "Gönderen"
 
 #: ayatanawebmail/actions.py:26
 msgid "Subject"
-msgstr ""
+msgstr "Konu"
 
 #: ayatanawebmail/application.py:205
 msgid "Open webmail home page"
-msgstr ""
+msgstr "Web e-posta ana sayfasını aç"
 
 #: ayatanawebmail/application.py:212
 msgid "Clear"
@@ -71,36 +71,38 @@ msgstr "Başlık yok"
 
 #: ayatanawebmail/application.py:1132
 msgid "Connection error"
-msgstr ""
+msgstr "Bağlantı hatası"
 
 #: ayatanawebmail/application.py:1133
 #, python-brace-format
 msgid ""
 "Unable to connect to account \"{accountName}\", the application will now "
 "exit."
-msgstr ""
+msgstr "\"{accountName}\" hesabına bağlanılamadı, uygulama şimdi çıkacak."
 
 #: ayatanawebmail/application.py:1133
 #, python-brace-format
 msgid "You can run \"{command}\" to delete all your login settings."
 msgstr ""
+"Tüm oturum açma ayarlarınızı silmek için \"{command}\" komutunu "
+"çalıştırabilirsiniz."
 
 #: ayatanawebmail/application.py:1158
 #, python-format
 msgid "You have %d unread mail"
 msgid_plural "You have %d unread mails"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d okunmamış e-postanız var"
+msgstr[1] "%d okunmamış e-postanız var"
 
 #: ayatanawebmail/application.py:1185
 #, python-format
 msgid "from %(t0)s, %(t1)s and others"
-msgstr ""
+msgstr "%(t0)s, %(t1)s ve diğerlerinden"
 
 #: ayatanawebmail/application.py:1187
 #, python-format
 msgid "from %(t0)s and %(t1)s"
-msgstr ""
+msgstr "%(t0)s ve %(t1)s'den"
 
 #: ayatanawebmail/application.py:1189
 #, python-format
@@ -110,25 +112,27 @@ msgstr "%s'den"
 #: ayatanawebmail/application.py:1202
 #, python-format
 msgid "New mail from %s"
-msgstr "%s adlı kişiden yeni mail"
+msgstr "%s kişisinden yeni e-posta"
 
 #: ayatanawebmail/dialog.py:60
 msgid "Web page"
-msgstr ""
+msgstr "Web sayfası"
 
 #: ayatanawebmail/dialog.py:61
 msgid "Command"
-msgstr ""
+msgstr "Komut"
 
 #: ayatanawebmail/dialog.py:93
 msgid ""
 "Append an additional string - you can use the $MSG_THREAD and $MSG_UID "
 "placeholders."
 msgstr ""
+"Ek bir dizge ekleyin - $MSG_THREAD ve $MSG_UID yer tutucularını "
+"kullanabilirsiniz."
 
 #: ayatanawebmail/dialog.py:114 ayatanawebmail/dialog.py:128
 msgid "(None)"
-msgstr ""
+msgstr "(Yok)"
 
 #: ayatanawebmail/dialog.py:156
 msgid "Ayatana Webmail Preferences"
@@ -144,28 +148,30 @@ msgstr "Seçenekler"
 
 #: ayatanawebmail/dialog.py:166
 msgid "Support"
-msgstr ""
+msgstr "Destek"
 
 #: ayatanawebmail/dialog.py:167
 msgid "About"
-msgstr ""
+msgstr "Hakkında"
 
 #: ayatanawebmail/dialog.py:228
 msgid ""
 "Please visit the following link and enable access for less secure apps:"
 msgstr ""
+"Lütfen aşağıdaki bağlantıyı ziyaret edin ve daha az güvenli uygulamalar için "
+"erişimi etkinleştirin:"
 
 #: ayatanawebmail/dialog.py:230
 msgid "Access blocked by Google"
-msgstr ""
+msgstr "Erişim Google tarafından engellendi"
 
 #: ayatanawebmail/dialog.py:234
 msgid "Failed to connect to mail account. The returned error was:"
-msgstr ""
+msgstr "E-posta hesabına bağlanılamadı. Alınan hata:"
 
 #: ayatanawebmail/dialog.py:235
 msgid "Connection failure"
-msgstr ""
+msgstr "Bağlantı hatası"
 
 #: ayatanawebmail/dialog.py:254
 msgid "Choose an account"
@@ -189,7 +195,7 @@ msgstr "Hesap bilgileri"
 
 #: ayatanawebmail/dialog.py:289
 msgid "Links"
-msgstr ""
+msgstr "Bağlantılar"
 
 #: ayatanawebmail/dialog.py:297
 msgid "Host:"
@@ -209,7 +215,7 @@ msgstr "Parola:"
 
 #: ayatanawebmail/dialog.py:306
 msgid "Folders:"
-msgstr ""
+msgstr "Klasörler:"
 
 #: ayatanawebmail/dialog.py:309
 msgid "Home:"
@@ -229,15 +235,15 @@ msgstr "Gönderilen:"
 
 #: ayatanawebmail/dialog.py:354
 msgid "Mark message as read"
-msgstr ""
+msgstr "Mesajı okundu olarak işaretle"
 
 #: ayatanawebmail/dialog.py:355
 msgid "Open message in browser/Execute command"
-msgstr ""
+msgstr "Mesajı tarayıcıda aç/Komutu çalıştır"
 
 #: ayatanawebmail/dialog.py:356
 msgid "Ask me what to do"
-msgstr ""
+msgstr "Ne yapılacağını bana sor"
 
 #: ayatanawebmail/dialog.py:366
 msgid "Enable notifications:"
@@ -245,59 +251,59 @@ msgstr "Bildirimleri etkinleştir:"
 
 #: ayatanawebmail/dialog.py:368
 msgid "Play sound when a message is received:"
-msgstr ""
+msgstr "Bir mesaj alındığında ses çal:"
 
 #: ayatanawebmail/dialog.py:370
 msgid "Merge messages from the same conversation:"
-msgstr ""
+msgstr "Aynı görüşmedeki mesajları birleştir:"
 
 #: ayatanawebmail/dialog.py:372
 msgid "Hide count when zero:"
-msgstr ""
+msgstr "Sıfır olduğunda sayıyı gizle:"
 
 #: ayatanawebmail/dialog.py:374
 msgid "When a message is activated:"
-msgstr ""
+msgstr "Bir mesaj etkinleştirildiğinde:"
 
 #: ayatanawebmail/dialog.py:377
 msgid "Execute this command when a message is received:"
-msgstr ""
+msgstr "Bir mesaj alındığında bu komutu çalıştır:"
 
 #: ayatanawebmail/dialog.py:384
 msgid "Custom sound to play:"
-msgstr ""
+msgstr "Çalınacak özel ses:"
 
 #: ayatanawebmail/dialog.py:400
 msgid "Report a bug/Request a feature"
-msgstr ""
+msgstr "Hata bildir/Özellik iste"
 
 #: ayatanawebmail/dialog.py:402
 msgid "Ask a question"
-msgstr ""
+msgstr "Bir soru sor"
 
 #: ayatanawebmail/dialog.py:404
 msgid "Help translate"
-msgstr ""
+msgstr "Çeviriye yardım et"
 
 #: ayatanawebmail/dialog.py:406
 msgid "Project page"
-msgstr ""
+msgstr "Proje sayfası"
 
 #: ayatanawebmail/dialog.py:408
 msgid "Source code"
-msgstr ""
+msgstr "Kaynak kodları"
 
 #: ayatanawebmail/dialog.py:410
 msgid "Repository"
-msgstr ""
+msgstr "Depo"
 
 #: ayatanawebmail/dialog.py:412
 msgid "Home page"
-msgstr ""
+msgstr "Ana sayfa"
 
 #: ayatanawebmail/dialog.py:426
 msgid "translator-credits"
-msgstr ""
+msgstr "Oğuz Ersen"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:4
 msgid "Ayatana Webmail"
@@ -305,15 +311,15 @@ msgstr "Ayatana Webmail"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:39
 msgid "Webmail notifications and actions for any desktop"
-msgstr ""
+msgstr "Herhangi bir masaüstü için web e-posta bildirimleri ve eylemleri"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:74
 msgid "Mark all as read"
-msgstr ""
+msgstr "Tümünü okundu olarak işaretle"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:112
 msgid "Compose Mail"
-msgstr "Mektup Yaz"
+msgstr "E-posta Oluştur"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:152
 msgid "Sent"
@@ -329,4 +335,4 @@ msgstr "Ayatana Webmail (hizmet)"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:38
 msgid "Display notifications about new mail"
-msgstr "Yeni mektuplar için bildirimleri göster"
+msgstr "Yeni e-posta bildirimlerini görüntüle"
