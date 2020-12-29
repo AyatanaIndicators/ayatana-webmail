@@ -6,60 +6,64 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
-"Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
+"issues\n"
 "POT-Creation-Date: 2020-04-03 12:21+0200\n"
-"PO-Revision-Date: 2018-06-04 07:33+0000\n"
-"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"PO-Revision-Date: 2020-12-31 03:29+0000\n"
+"Last-Translator: Wellington Terumi Uemura <wellingtonuemura@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"ayatana-indicators/ayatana-webmail/pt_BR/>\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.4.1-dev\n"
 "X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
-"X-Generator: Launchpad (build a296f04231dee355be5db73cc878b9e21689a253)\n"
 
 #: ayatanawebmail/accounts.py:18
 msgid "Select account"
-msgstr ""
+msgstr "Selecione a conta"
 
 #: ayatanawebmail/accounts.py:29
 msgid "Which account's command/web page would you like to open?"
-msgstr ""
+msgstr "Qual a página do comando/web da conta que você gostaria de abrir?"
 
 #: ayatanawebmail/actions.py:15
 msgid "Message actions"
-msgstr ""
+msgstr "Ações das mensagens"
 
 #: ayatanawebmail/actions.py:15
 msgid "Delete"
-msgstr ""
+msgstr "Excluir"
 
 #: ayatanawebmail/actions.py:15
 msgid "Mark as read"
-msgstr ""
+msgstr "Marque como lido"
 
 #: ayatanawebmail/actions.py:15
 msgid "Open message/Run command"
-msgstr ""
+msgstr "Abra a mensagem/Execute o comando"
 
 #: ayatanawebmail/actions.py:24
 msgid "Sender"
-msgstr ""
+msgstr "Remetente"
 
 #: ayatanawebmail/actions.py:26
 msgid "Subject"
-msgstr ""
+msgstr "Assunto"
 
 #: ayatanawebmail/application.py:205
 msgid "Open webmail home page"
-msgstr ""
+msgstr "Abra a página inicial do webmail"
 
 #: ayatanawebmail/application.py:212
 msgid "Clear"
-msgstr ""
+msgstr "Remover"
 
 #: ayatanawebmail/application.py:219
 msgid "Settings"
-msgstr ""
+msgstr "Configurações"
 
 #: ayatanawebmail/application.py:980
 msgid "No subject"
@@ -67,7 +71,7 @@ msgstr "Sem assunto"
 
 #: ayatanawebmail/application.py:1132
 msgid "Connection error"
-msgstr ""
+msgstr "Erro de conexão"
 
 #: ayatanawebmail/application.py:1133
 #, python-brace-format
@@ -75,11 +79,15 @@ msgid ""
 "Unable to connect to account \"{accountName}\", the application will now "
 "exit."
 msgstr ""
+"Não foi possível conectar-se à conta \"{accountName}\", o aplicativo será "
+"encerrado."
 
 #: ayatanawebmail/application.py:1133
 #, python-brace-format
 msgid "You can run \"{command}\" to delete all your login settings."
 msgstr ""
+"Você pode executar \"{command}\" para excluir todas as suas configurações de "
+"login."
 
 #: ayatanawebmail/application.py:1158
 #, python-format
@@ -110,21 +118,23 @@ msgstr "Novo email de %s"
 
 #: ayatanawebmail/dialog.py:60
 msgid "Web page"
-msgstr ""
+msgstr "Página Web"
 
 #: ayatanawebmail/dialog.py:61
 msgid "Command"
-msgstr ""
+msgstr "Comando"
 
 #: ayatanawebmail/dialog.py:93
 msgid ""
 "Append an additional string - you can use the $MSG_THREAD and $MSG_UID "
 "placeholders."
 msgstr ""
+"Anexe um string adicional - você pode usar os marcadores $MSG_THREAD e "
+"$MSG_UID."
 
 #: ayatanawebmail/dialog.py:114 ayatanawebmail/dialog.py:128
 msgid "(None)"
-msgstr ""
+msgstr "(Nenhum)"
 
 #: ayatanawebmail/dialog.py:156
 msgid "Ayatana Webmail Preferences"
@@ -140,11 +150,11 @@ msgstr "Preferências"
 
 #: ayatanawebmail/dialog.py:166
 msgid "Support"
-msgstr ""
+msgstr "Suporte"
 
 #: ayatanawebmail/dialog.py:167
 msgid "About"
-msgstr ""
+msgstr "Sobre"
 
 #: ayatanawebmail/dialog.py:228
 msgid ""
@@ -237,7 +247,7 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:366
 msgid "Enable notifications:"
-msgstr "Ativar notificações"
+msgstr "Ative as notificações:"
 
 #: ayatanawebmail/dialog.py:368
 msgid "Play sound when a message is received:"
