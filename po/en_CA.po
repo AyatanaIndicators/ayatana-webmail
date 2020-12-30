@@ -6,16 +6,20 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
-"Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
+"issues\n"
 "POT-Creation-Date: 2020-04-03 12:21+0200\n"
-"PO-Revision-Date: 2018-06-04 07:33+0000\n"
-"Language-Team: English (Canada) <en_CA@li.org>\n"
+"PO-Revision-Date: 2020-12-31 03:29+0000\n"
+"Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
+"Language-Team: English (Canada) <https://hosted.weblate.org/projects/"
+"ayatana-indicators/ayatana-webmail/en_CA/>\n"
+"Language: en_CA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.1-dev\n"
 "X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
-"X-Generator: Launchpad (build a296f04231dee355be5db73cc878b9e21689a253)\n"
 
 #: ayatanawebmail/accounts.py:18
 msgid "Select account"
@@ -55,11 +59,11 @@ msgstr ""
 
 #: ayatanawebmail/application.py:212
 msgid "Clear"
-msgstr ""
+msgstr "Clear"
 
 #: ayatanawebmail/application.py:219
 msgid "Settings"
-msgstr ""
+msgstr "Settings"
 
 #: ayatanawebmail/application.py:980
 msgid "No subject"
@@ -169,11 +173,11 @@ msgstr "Choose an account"
 
 #: ayatanawebmail/dialog.py:259
 msgid "Add"
-msgstr ""
+msgstr "Add"
 
 #: ayatanawebmail/dialog.py:261
 msgid "Remove"
-msgstr ""
+msgstr "Remove"
 
 #: ayatanawebmail/dialog.py:276
 msgid "Server data"
