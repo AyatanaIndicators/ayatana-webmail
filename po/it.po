@@ -9,8 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
 "issues\n"
 "POT-Creation-Date: 2020-04-03 12:21+0200\n"
-"PO-Revision-Date: 2020-10-27 14:36+0000\n"
-"Last-Translator: Michele <miguel2000@livecom.it>\n"
+"PO-Revision-Date: 2020-12-31 03:29+0000\n"
+"Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-webmail/it/>\n"
 "Language: it\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3.2-dev\n"
+"X-Generator: Weblate 4.4.1-dev\n"
 "X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
 
 #: ayatanawebmail/accounts.py:18
@@ -79,15 +79,14 @@ msgid ""
 "Unable to connect to account \"{accountName}\", the application will now "
 "exit."
 msgstr ""
-"Impossibile connettersi all'account \"{accountName}\", l'applicazione si "
+"Impossibile connettersi all'account «{accountName}», l'applicazione si "
 "chiuderà."
 
 #: ayatanawebmail/application.py:1133
 #, python-brace-format
 msgid "You can run \"{command}\" to delete all your login settings."
 msgstr ""
-"Puoi eseguire \"{command}\" per eliminare tutte le tue impostazioni di "
-"accesso."
+"Puoi eseguire «{command}» per eliminare tutte le tue impostazioni di accesso."
 
 #: ayatanawebmail/application.py:1158
 #, python-format
@@ -168,7 +167,7 @@ msgstr "Accesso bloccato da Google"
 
 #: ayatanawebmail/dialog.py:234
 msgid "Failed to connect to mail account. The returned error was:"
-msgstr "Connessione all'account mail fallita. Errore :"
+msgstr "Connessione all'account e-mail fallita. Errore:"
 
 #: ayatanawebmail/dialog.py:235
 msgid "Connection failure"
@@ -196,7 +195,7 @@ msgstr "Dati dell'account"
 
 #: ayatanawebmail/dialog.py:289
 msgid "Links"
-msgstr "Link"
+msgstr "Collegamenti"
 
 #: ayatanawebmail/dialog.py:297
 msgid "Host:"
@@ -296,7 +295,7 @@ msgstr "Codice sorgente"
 
 #: ayatanawebmail/dialog.py:410
 msgid "Repository"
-msgstr ""
+msgstr "Repository"
 
 #: ayatanawebmail/dialog.py:412
 msgid "Home page"
@@ -313,7 +312,6 @@ msgid "Ayatana Webmail"
 msgstr "Ayatana Webmail"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:39
-#, fuzzy
 msgid "Webmail notifications and actions for any desktop"
 msgstr "Notifiche e azioni webmail per qualsiasi desktop"
 
