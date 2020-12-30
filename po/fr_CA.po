@@ -9,14 +9,16 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
 "issues\n"
 "POT-Creation-Date: 2020-08-22 20:15+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-12-31 03:29+0000\n"
+"Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
+"Language-Team: French (Canada) <https://hosted.weblate.org/projects/"
+"ayatana-indicators/ayatana-webmail/fr_CA/>\n"
 "Language: fr_CA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.4.1-dev\n"
 
 #: ayatanawebmail/accounts.py:18
 msgid "Select account"
@@ -56,12 +58,12 @@ msgstr ""
 
 #: ayatanawebmail/application.py:211
 msgid "Clear"
-msgstr ""
+msgstr "Effacer"
 
 #: ayatanawebmail/application.py:218
 #: data/usr/share/applications/ayatana-webmail.desktop:35
 msgid "Settings"
-msgstr ""
+msgstr "Paramètres"
 
 #: ayatanawebmail/application.py:957
 msgid "No subject"
@@ -75,6 +77,8 @@ msgstr ""
 #, python-brace-format
 msgid "Unable to connect to account \"{accountName}\", the application will now exit."
 msgstr ""
+"Impossible de se connecter au compte « {accountName} », l'application va "
+"maintenant se fermer."
 
 #: ayatanawebmail/application.py:1136
 #, python-format
@@ -162,6 +166,9 @@ msgstr ""
 #: ayatanawebmail/dialog.py:286
 msgid "The application will append this string to \"Inbox\" to access a specific message - you can use the $MSG_THREAD and $MSG_UID placeholders"
 msgstr ""
+"L'application ajoutera cette chaîne à « Boîte de réception » pour accéder à "
+"un message spécifique – vous pouvez utiliser les espaces réservés $ "
+"MSG_THREAD et $ MSG_UID"
 
 #: ayatanawebmail/dialog.py:288
 msgid "Account:"
