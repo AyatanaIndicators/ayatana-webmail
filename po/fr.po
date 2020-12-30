@@ -9,8 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
 "issues\n"
 "POT-Creation-Date: 2020-04-03 12:21+0200\n"
-"PO-Revision-Date: 2020-10-25 21:26+0000\n"
-"Last-Translator: William Desportes <williamdes@wdes.fr>\n"
+"PO-Revision-Date: 2020-12-31 03:29+0000\n"
+"Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-webmail/fr/>\n"
 "Language: fr\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.3.2-dev\n"
+"X-Generator: Weblate 4.4.1-dev\n"
 "X-Launchpad-Export-Date: 2020-05-18 06:03+0000\n"
 
 #: ayatanawebmail/accounts.py:18
@@ -55,7 +55,7 @@ msgstr "Objet"
 
 #: ayatanawebmail/application.py:205
 msgid "Open webmail home page"
-msgstr "Ouvrir la page d'accueil du webmail"
+msgstr "Ouvrir la page d'accueil de la messagerie"
 
 #: ayatanawebmail/application.py:212
 msgid "Clear"
@@ -79,14 +79,14 @@ msgid ""
 "Unable to connect to account \"{accountName}\", the application will now "
 "exit."
 msgstr ""
-"Impossible de se connecter au compte \"{accountName}\", l'application va "
+"Impossible de se connecter au compte « {accountName} », l'application va "
 "maintenant se fermer."
 
 #: ayatanawebmail/application.py:1133
 #, python-brace-format
 msgid "You can run \"{command}\" to delete all your login settings."
 msgstr ""
-"Vous pouvez lancer \"{command}\" pour effacer tous vos réglages de connexion."
+"Vous pouvez lancer « {command} » pour effacer tous vos réglages de connexion."
 
 #: ayatanawebmail/application.py:1158
 #, python-format
@@ -184,7 +184,7 @@ msgstr "Ajouter"
 
 #: ayatanawebmail/dialog.py:261
 msgid "Remove"
-msgstr "Supprimer"
+msgstr "Retirer"
 
 #: ayatanawebmail/dialog.py:276
 msgid "Server data"
@@ -311,11 +311,11 @@ msgstr ""
 
 #: data/usr/share/applications/ayatana-webmail.desktop:4
 msgid "Ayatana Webmail"
-msgstr ""
+msgstr "Messagerie Ayatana"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:39
 msgid "Webmail notifications and actions for any desktop"
-msgstr ""
+msgstr "Notifications et actions de messagerie Web pour n'importe quel bureau"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:74
 msgid "Mark all as read"
@@ -335,7 +335,7 @@ msgstr "Boîte de réception"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
 msgid "Ayatana Webmail (service)"
-msgstr ""
+msgstr "Messagerie Ayatana (service)"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:38
 msgid "Display notifications about new mail"
