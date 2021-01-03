@@ -1133,7 +1133,7 @@ class AyatanaWebmail(object):
                 oConnection.lstNotificationQueue = []
 
         number_of_mails = len(lstNotificationsQueue)
-        basemessage = g_oTranslation.ngettext('You have %d unread mail', 'You have %d unread mails', number_of_mails)
+        basemessage = g_oTranslation.ngettext('You have %d unread message', 'You have %d unread messages', number_of_mails)
         basemessage = basemessage.replace('%d', '{0}')
 
         if number_of_mails and self.bPlaySound:
