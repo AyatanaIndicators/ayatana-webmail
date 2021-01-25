@@ -1,0 +1,622 @@
+2021-01-25 17:21:55 +0100 Mike Gabriel
+
+	* release 21.1.25 (HEAD -> master)
+
+2021-01-25 17:14:07 +0100 Mike Gabriel (c0d3aa7)
+
+	* debian/control: Add myself to Uploaders: field.
+
+2021-01-17 06:16:48 +0000 Kristjan Räts (1031b6d)
+
+	* Translated using Weblate (Estonian)
+
+2021-01-15 17:11:32 +0100 Mike Gabriel (3fdbc35)
+
+	* Merge branch 'pr/fix-message-text'
+
+2021-01-03 14:42:57 +0100 Robert Tari (781e904)
+
+	* Fix grammar bug
+
+2020-12-30 03:22:38 +0000 J. Lavoie (70a00cd)
+
+	* Translated using Weblate (French (Canada))
+
+2020-12-29 14:00:47 +0000 Wellington Terumi Uemura (a32e9d5)
+
+	* Translated using Weblate (Portuguese (Brazil))
+
+2020-12-30 03:19:33 +0000 J. Lavoie (06ffbdf)
+
+	* Translated using Weblate (Italian)
+
+2020-12-30 03:20:16 +0000 J. Lavoie (0997d16)
+
+	* Translated using Weblate (French)
+
+2020-12-30 03:17:00 +0000 J. Lavoie (c10efd3)
+
+	* Translated using Weblate (English (Canada))
+
+2020-12-23 09:55:15 +0000 Anders Jonsson (1e842c8)
+
+	* Translated using Weblate (Swedish)
+
+2020-12-01 19:09:16 +0000 Oğuz Ersen (a727083)
+
+	* Translated using Weblate (Turkish)
+
+2020-11-25 15:31:13 +0000 Moo (2ad4843)
+
+	* Translated using Weblate (Lithuanian)
+
+2020-11-26 13:26:56 +0000 Ács Zoltán (02911a0)
+
+	* Translated using Weblate (Hungarian)
+
+2020-11-17 20:57:14 +0000 Quentin PAGÈS (6b47e0a)
+
+	* Translated using Weblate (Occitan)
+
+2020-11-18 19:40:13 +0000 Moo (a891a99)
+
+	* Translated using Weblate (Lithuanian)
+
+2020-11-12 14:06:36 +0000 Allan Nordhøy (bfee100)
+
+	* Translated using Weblate (Norwegian Bokmål)
+
+2020-11-12 13:57:24 +0000 Mike Gabriel (1d4aa00)
+
+	* Translated using Weblate (German)
+
+2020-11-10 23:44:10 +0000 Allan Nordhøy (ec1732c)
+
+	* Translated using Weblate (Norwegian Bokmål)
+
+2020-11-07 21:02:30 +0000 Quentin PAGÈS (036dbec)
+
+	* Translated using Weblate (Occitan)
+
+2020-10-31 12:31:36 +0100 Weblate (6a89179)
+
+	* Added translation using Weblate (Italian)
+
+2020-10-31 12:31:30 +0100 Weblate (a26be3a)
+
+	* Added translation using Weblate (Tamil (Sri Lanka))
+
+2020-10-31 12:31:25 +0100 Weblate (5bb0f47)
+
+	* Added translation using Weblate (Dhivehi)
+
+2020-10-31 12:31:19 +0100 Weblate (131151f)
+
+	* Added translation using Weblate (Venetian)
+
+2020-10-31 12:31:13 +0100 Weblate (d87166a)
+
+	* Added translation using Weblate (Kashubian)
+
+2020-10-31 12:31:07 +0100 Weblate (bf4da27)
+
+	* Added translation using Weblate (Macedonian)
+
+2020-10-31 12:31:01 +0100 Weblate (76c2043)
+
+	* Added translation using Weblate (Friulian)
+
+2020-10-31 12:30:56 +0100 Weblate (8f37bb0)
+
+	* Added translation using Weblate (Tatar)
+
+2020-10-29 00:21:47 +0000 Milan Korecky (de7cb89)
+
+	* Translated using Weblate (Czech)
+
+2020-10-28 21:51:35 +0000 Joan CiberSheep (c49c079)
+
+	* Translated using Weblate (Catalan)
+
+2020-10-27 10:42:11 +0000 Adrià Martín (b342552)
+
+	* Translated using Weblate (Sardinian)
+
+2020-10-26 21:52:45 +0000 Anders Jonsson (90ba059)
+
+	* Translated using Weblate (Swedish)
+
+2020-10-26 14:11:17 +0000 Michele (a4dfee6)
+
+	* Translated using Weblate (Italian)
+
+2020-10-26 23:46:13 +0000 Joan CiberSheep (a2e93c2)
+
+	* Translated using Weblate (Catalan)
+
+2020-10-26 12:26:54 +0000 Luna Jernberg (d809542)
+
+	* Translated using Weblate (Swedish)
+
+2020-10-26 12:27:15 +0000 Michele (41a0987)
+
+	* Translated using Weblate (Italian)
+
+2020-10-26 12:54:24 +0100 Weblate (1c3c50c)
+
+	* Added translation using Weblate (Norwegian Bokmål)
+
+2020-10-26 12:54:20 +0100 Weblate (2ca906b)
+
+	* Added translation using Weblate (German (Walser))
+
+2020-10-26 12:54:15 +0100 Weblate (20b864d)
+
+	* Added translation using Weblate (Shan)
+
+2020-10-26 12:54:10 +0100 Weblate (c5d9d7a)
+
+	* Added translation using Weblate (Meadow Mari)
+
+2020-10-26 12:53:59 +0100 Weblate (61ce79d)
+
+	* Added translation using Weblate (Crimean Tatar)
+
+2020-10-26 12:53:52 +0100 Weblate (aead277)
+
+	* Added translation using Weblate (Bemba)
+
+2020-10-26 12:53:49 +0100 Weblate (12f0211)
+
+	* Added translation using Weblate (Manx)
+
+2020-10-26 12:53:45 +0100 Weblate (67347fe)
+
+	* Added translation using Weblate (Chuvash)
+
+2020-10-26 12:53:40 +0100 Weblate (54d4aa8)
+
+	* Added translation using Weblate (Corsican)
+
+2020-10-26 12:53:37 +0100 Weblate (71c0705)
+
+	* Added translation using Weblate (Chechen)
+
+2020-10-26 12:53:31 +0100 Weblate (5e7f19e)
+
+	* Added translation using Weblate (Afar)
+
+2020-10-26 12:53:25 +0100 Weblate (84a1573)
+
+	* Added translation using Weblate (Silesian)
+
+2020-10-26 12:53:20 +0100 Weblate (a6f5701)
+
+	* Added translation using Weblate (Sanskrit)
+
+2020-10-26 12:53:09 +0100 Weblate (9e29c17)
+
+	* Added translation using Weblate (Latin)
+
+2020-10-26 12:53:04 +0100 Weblate (f92c618)
+
+	* Added translation using Weblate (Nyanja)
+
+2020-10-26 12:53:00 +0100 Weblate (7eae797)
+
+	* Added translation using Weblate (French (Canada))
+
+2020-10-26 12:52:55 +0100 Weblate (bd74a9d)
+
+	* Added translation using Weblate (Chinese (Traditional))
+
+2020-10-26 12:52:47 +0100 Weblate (c8c2548)
+
+	* Added translation using Weblate (Franco-Provençal)
+
+2020-10-26 12:52:43 +0100 Weblate (b4c8943)
+
+	* Added translation using Weblate (Ossetian)
+
+2020-10-26 12:52:38 +0100 Weblate (4691317)
+
+	* Added translation using Weblate (Sindhi)
+
+2020-10-26 12:52:33 +0100 Weblate (08a3b58)
+
+	* Added translation using Weblate (Northern Sami)
+
+2020-10-26 12:52:28 +0100 Weblate (8b77da4)
+
+	* Added translation using Weblate (Burmese)
+
+2020-10-26 12:52:23 +0100 Weblate (81d3724)
+
+	* Added translation using Weblate (Greenlandic)
+
+2020-10-26 12:52:19 +0100 Weblate (73e71a1)
+
+	* Added translation using Weblate (Assamese)
+
+2020-10-26 12:52:14 +0100 Weblate (b78fca8)
+
+	* Added translation using Weblate (Sardinian)
+
+2020-10-26 12:52:08 +0100 Weblate (b8fd731)
+
+	* Added translation using Weblate (Wolof)
+
+2020-10-26 12:52:00 +0100 Weblate (6a79272)
+
+	* Added translation using Weblate (Haitian)
+
+2020-10-26 12:51:55 +0100 Weblate (aceb408)
+
+	* Added translation using Weblate (Central Kurdish)
+
+2020-10-26 12:51:44 +0100 Weblate (8615699)
+
+	* Added translation using Weblate (Uzbek)
+
+2020-10-26 12:51:40 +0100 Weblate (d448724)
+
+	* Added translation using Weblate (Urdu)
+
+2020-10-26 12:51:33 +0100 Weblate (1a13420)
+
+	* Added translation using Weblate (Kyrgyz)
+
+2020-10-26 12:51:28 +0100 Weblate (9c38c20)
+
+	* Added translation using Weblate (Kurdish)
+
+2020-10-26 12:51:24 +0100 Weblate (2a3d94e)
+
+	* Added translation using Weblate (Cornish)
+
+2020-10-26 12:51:19 +0100 Weblate (50237da)
+
+	* Added translation using Weblate (Sinhala)
+
+2020-10-26 12:51:14 +0100 Weblate (462cba8)
+
+	* Added translation using Weblate (Central Khmer)
+
+2020-10-26 12:51:07 +0100 Weblate (95bf7f2)
+
+	* Added translation using Weblate (Kannada)
+
+2020-10-26 12:51:04 +0100 Weblate (3c68730)
+
+	* Added translation using Weblate (Korean)
+
+2020-10-26 12:50:50 +0100 Weblate (7f01981)
+
+	* Added translation using Weblate (Albanian)
+
+2020-10-26 12:50:46 +0100 Weblate (ee05bdb)
+
+	* Added translation using Weblate (Georgian)
+
+2020-10-26 12:50:41 +0100 Weblate (cb3413f)
+
+	* Added translation using Weblate (Faroese)
+
+2020-10-26 12:50:38 +0100 Weblate (767c2b0)
+
+	* Added translation using Weblate (Persian)
+
+2020-10-26 12:50:34 +0100 Weblate (181dd90)
+
+	* Added translation using Weblate (Swedish)
+
+2020-10-26 12:50:30 +0100 Weblate (83d33b1)
+
+	* Added translation using Weblate (Frisian)
+
+2020-10-26 12:50:26 +0100 Weblate (2d4882c)
+
+	* Added translation using Weblate (Nepali)
+
+2020-10-26 12:50:19 +0100 Weblate (b0c2d9c)
+
+	* Added translation using Weblate (Indonesian)
+
+2020-10-26 12:50:15 +0100 Weblate (4590fca)
+
+	* Added translation using Weblate (Azerbaijani)
+
+2020-10-26 12:50:08 +0100 Weblate (9e31a60)
+
+	* Added translation using Weblate (Interlingua)
+
+2020-10-26 12:50:04 +0100 Weblate (5b0b763)
+
+	* Added translation using Weblate (Arabic)
+
+2020-10-26 12:50:01 +0100 Weblate (663564c)
+
+	* Added translation using Weblate (Aragonese)
+
+2020-10-26 12:49:56 +0100 Weblate (e7e74ae)
+
+	* Added translation using Weblate (Amharic)
+
+2020-10-26 12:49:53 +0100 Weblate (57f8463)
+
+	* Added translation using Weblate (Swahili)
+
+2020-10-26 12:49:46 +0100 Weblate (4ce2835)
+
+	* Added translation using Weblate (Afrikaans)
+
+2020-10-26 12:49:39 +0100 Weblate (8cd5120)
+
+	* Added translation using Weblate (Marathi)
+
+2020-10-26 12:49:32 +0100 Weblate (206fa4f)
+
+	* Added translation using Weblate (Maori)
+
+2020-10-26 12:49:28 +0100 Weblate (5f40ec1)
+
+	* Added translation using Weblate (Malayalam)
+
+2020-10-26 12:49:26 +0100 Weblate (ab5887e)
+
+	* Added translation using Weblate (Malagasy)
+
+2020-10-26 12:49:21 +0100 Weblate (95b0c22)
+
+	* Added translation using Weblate (Hebrew)
+
+2020-10-26 12:49:09 +0100 Weblate (9b0206b)
+
+	* Added translation using Weblate (Hindi)
+
+2020-10-26 12:49:03 +0100 Weblate (4f2ce4d)
+
+	* Added translation using Weblate (Armenian)
+
+2020-10-26 12:48:58 +0100 Weblate (ee1f272)
+
+	* Added translation using Weblate (Icelandic)
+
+2020-10-26 12:48:56 +0100 Weblate (84e0eb3)
+
+	* Added translation using Weblate (Vietnamese)
+
+2020-10-26 12:48:52 +0100 Weblate (ed75a7c)
+
+	* Added translation using Weblate (Punjabi)
+
+2020-10-26 12:48:49 +0100 Weblate (13ccd05)
+
+	* Added translation using Weblate (Pashto)
+
+2020-10-26 12:48:40 +0100 Weblate (ea254c1)
+
+	* Added translation using Weblate (Bosnian)
+
+2020-10-26 12:48:35 +0100 Weblate (24bcb7a)
+
+	* Added translation using Weblate (Breton)
+
+2020-10-26 12:48:30 +0100 Weblate (78d3745)
+
+	* Added translation using Weblate (Tibetan)
+
+2020-10-26 12:48:28 +0100 Weblate (a364399)
+
+	* Added translation using Weblate (Asturian)
+
+2020-10-26 12:48:22 +0100 Weblate (22838b3)
+
+	* Added translation using Weblate (Belarusian)
+
+2020-10-26 12:48:11 +0100 Weblate (95dd0a0)
+
+	* Added translation using Weblate (Romanian)
+
+2020-10-26 12:48:07 +0100 Weblate (8ea26a1)
+
+	* Added translation using Weblate (Basque)
+
+2020-10-26 12:48:00 +0100 Weblate (88e3ffd)
+
+	* Added translation using Weblate (Esperanto)
+
+2020-10-26 12:47:58 +0100 Weblate (1b0893b)
+
+	* Added translation using Weblate (Danish)
+
+2020-10-26 12:47:48 +0100 Weblate (478eb47)
+
+	* Added translation using Weblate (Chinese (Traditional, Hong Kong))
+
+2020-10-26 12:47:43 +0100 Weblate (ba0064a)
+
+	* Added translation using Weblate (Tamil)
+
+2020-10-26 12:47:38 +0100 Weblate (7894fc1)
+
+	* Added translation using Weblate (Filipino)
+
+2020-10-26 12:47:28 +0100 Weblate (64c4021)
+
+	* Added translation using Weblate (Tajik)
+
+2020-10-26 12:47:21 +0100 Weblate (a7ee035)
+
+	* Added translation using Weblate (Tigrinya)
+
+2020-10-26 12:47:18 +0100 Weblate (039fe70)
+
+	* Added translation using Weblate (Thai)
+
+2020-10-26 12:47:15 +0100 Weblate (c26c096)
+
+	* Added translation using Weblate (Lao)
+
+2020-10-26 12:47:10 +0100 Weblate (7be4f1f)
+
+	* Added translation using Weblate (Luxembourgish)
+
+2020-10-26 12:47:06 +0100 Weblate (27a3282)
+
+	* Added translation using Weblate (Irish)
+
+2020-10-26 12:47:01 +0100 Weblate (69f2d6d)
+
+	* Added translation using Weblate (Gaelic)
+
+2020-10-26 12:46:55 +0100 Weblate (1b610af)
+
+	* Added translation using Weblate (Valencian)
+
+2020-10-26 12:46:50 +0100 Weblate (8a9447f)
+
+	* Added translation using Weblate (Gujarati)
+
+2020-10-24 21:25:21 +0000 Ács Zoltán (2242583)
+
+	* Translated using Weblate (Hungarian)
+
+2020-10-24 19:17:47 +0000 William Desportes (441c9fc)
+
+	* Translated using Weblate (French)
+
+2020-10-23 15:55:52 +0000 Quentin PAGÈS (2e12ef8)
+
+	* Translated using Weblate (Occitan)
+
+2020-10-22 07:53:04 +0000 Kei Homma (ea0ed65)
+
+	* Translated using Weblate (Japanese)
+
+2020-10-10 15:35:30 +0000 Yota321 (0f01398)
+
+	* Translated using Weblate (Bengali)
+
+2020-10-09 20:13:58 +0000 Quentin PAGÈS (fad9770)
+
+	* Translated using Weblate (Occitan)
+
+2020-10-10 00:51:02 +0000 Rob Pearson (5b91251)
+
+	* Translated using Weblate (English (United Kingdom))
+
+2020-10-10 00:53:43 +0000 Rob Pearson (ffb7188)
+
+	* Translated using Weblate (English (Australia))
+
+2020-10-10 17:30:49 +0200 Yota321 (c1b64a4)
+
+	* Added translation using Weblate (Bengali)
+
+2020-10-08 11:08:25 +0000 koffevar (927381a)
+
+	* Translated using Weblate (Russian)
+
+2020-10-04 18:30:32 +0000 Moo (6e6239d)
+
+	* Translated using Weblate (Lithuanian)
+
+2020-09-29 13:11:18 +0000 Adolfo Jayme Barrientos (73000f0)
+
+	* Translated using Weblate (Catalan)
+
+2020-09-28 04:45:27 +0000 Adolfo Jayme Barrientos (64e494c)
+
+	* Translated using Weblate (Spanish)
+
+2020-09-25 17:02:37 +0000 Quentin PAGÈS (9f1a389)
+
+	* Translated using Weblate (Occitan)
+
+2020-09-18 22:24:38 +0000 Talking Panda (1249fc6)
+
+	* Translated using Weblate (Turkish)
+
+2020-09-10 23:28:54 +0200 Robert Tari (80dfeba)
+
+	* README.md: Add a readme file to the project
+
+2020-09-08 01:30:53 +0000 Milo Ivir (b4dcb26)
+
+	* Translated using Weblate (Croatian)
+
+2020-09-06 11:53:23 +0000 Baka Gaijin (9d366e6)
+
+	* Translated using Weblate (Japanese)
+
+2020-09-06 13:47:01 +0200 sai vineeth kumar tumu (a88b797)
+
+	* Added translation using Weblate (Telugu)
+
+2020-09-04 10:51:32 +0000 antuketot76 (d07d2d2)
+
+	* Translated using Weblate (Malay)
+
+2020-09-04 16:08:54 +0000 Rokas Kasnauskas (8d4864b)
+
+	* Translated using Weblate (Lithuanian)
+
+2020-08-23 22:48:42 +0200 Robert Tari (1c7c5d7)
+
+	* Do not queue settings dialogs if one is already shown
+
+2020-08-23 16:15:28 +0200 Robert Tari (1322890)
+
+	* Fix Debian watch file
+
+2020-08-22 20:19:03 +0200 Robert Tari (ef27a57)
+
+	* Use server configuration templates + set minimum folder list height
+
+2020-08-21 22:21:03 +0000 Mike Gabriel (eb462c2)
+
+	* Translated using Weblate (German)
+
+2020-08-21 20:55:04 +0200 Robert Tari (dc0910f)
+
+	* Fix duplicate translation strings
+
+2020-08-21 14:23:25 +0200 Robert Tari (54f82d4)
+
+	* Merge and update translations
+
+2020-08-20 14:37:31 +0200 Robert Tari (efc5857)
+
+	* Bring back the translation link on the support page
+
+2020-08-20 13:48:18 +0200 Robert Tari (71e54c5)
+
+	* Remove all GMail references
+
+2020-08-20 07:03:06 +0000 Mike Gabriel (4cdf023)
+
+	* Translated using Weblate (German)
+
+2020-08-19 20:28:48 +0200 Robert Tari (5d48084)
+
+	* Allow at most max-item-count fetches per connection
+
+2020-08-19 09:21:50 +0200 Mike Gabriel (32dc97f)
+
+	* debian/source/format: Switch to formate version 1.0.
+
+2020-08-19 09:19:40 +0200 Mike Gabriel (5190e90)
+
+	* debian/control: Drop R³-field. The buildserver hosts are still on
+          stretch (and the src:pkg is built on the hosts themselves,
+          not in a chroot)..
+
+2020-08-18 15:50:07 +0200 Robert Tari (c1b5c8d)
+
+	* Change crash notication message (tag: 20.8.16)
+
+2020-08-17 17:40:59 +0200 Robert Tari (7110500)
+
+	* Initial port from Unity Mail
+

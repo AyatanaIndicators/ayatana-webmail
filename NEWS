@@ -1,0 +1,15 @@
+Overview of changes in ayatana-webmail 21.1.25
+
+  - Allow at most max-item-count fetches per connection.
+  - Remove all GMail references.
+  - Bring back the translation link on the support page.
+  - Fix duplicate translation strings.
+  - Use server configuration templates + set minimum folder list height.
+  - Do not queue settings dialogs if one is already shown.
+  - Add README.md.
+  - Update translation files.
+
+Overview of changes in ayatana-webmail 20.8.16
+
+  - Port from Unity Mail.
+  - Change crash notication message.
