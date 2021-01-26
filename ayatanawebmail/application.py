@@ -175,7 +175,7 @@ class MessagingMenu(object):
 
             return
 
-        if 'ayatana-indicator-application-service' in lstProcesses:
+        else:
 
             try:
 
@@ -186,11 +186,6 @@ class MessagingMenu(object):
 
                 gi.require_version('AppIndicator3', '0.1')
                 self.oAppIndicator = importlib.import_module('gi.repository.AppIndicator3')
-
-        if not self.oAppIndicator:
-
-            gi.require_version('AppIndicator3', '0.1')
-            self.oAppIndicator = importlib.import_module('gi.repository.AppIndicator3')
 
         self.oIndicator = self.oAppIndicator.Indicator.new(APPNAME, 'indicator-messages', self.oAppIndicator.IndicatorCategory.APPLICATION_STATUS)
         self.oIndicator.set_attention_icon('indicator-messages-new')
