@@ -1,0 +1,38 @@
+'\" -*- coding: utf-8 -*-
+'\" vim:fenc=utf-8
+.if \n(.g .ds T< \\FC
+.if \n(.g .ds T> \\F[\n[.fam]]
+.de URL
+\\$2 \(la\\$1\(ra\\$3
+..
+.if \n(.g .mso www.tmac
+.TH ayatana-webmail-settings 1 "Jan 2021" "Version 21.1.25" "Ayatana Webmail"
+.SH NAME
+ayatana-webmail-settings \- Webmail Integration into your Desktop
+.SH SYNOPSIS
+'nh
+.fi
+.ad l
+\fBayatana-webmail-settings\fR \kx
+.if (\nx>(\n(.l/2)) .nr x (\n(.l/5)
+'in \n(.iu+\nxu
+[
+\fIoptions\fR
+]
+'in \n(.iu-\nxu
+.ad b
+'hy
+.SH DESCRIPTION
+Ayatana Webmail is an application that integrates your webmail into
+MATE, Xfce, LXDE and other environments. For further details see the
+\fBayatana-webmail\fR(1) man page.
+.PP
+The \fBayatana-webmail-settings\fR executable does not have any command
+line options. It launches the Ayatana Webmail Configuration dialog
+window.
+.PP
+.SH SEE ALSO
+ayatana-webmail(1), ayatana-webmail-clear(1), ayatana-webmail-reset(1), ayatana-webmail-url(1)
+.SH AUTHOR
+This manual has been written for the Ayatana Indicators project by Mike
+Gabriel <mike.gabriel@das-netzwerkteam.de>.
