@@ -1,0 +1,45 @@
+'\" -*- coding: utf-8 -*-
+'\" vim:fenc=utf-8
+.if \n(.g .ds T< \\FC
+.if \n(.g .ds T> \\F[\n[.fam]]
+.de URL
+\\$2 \(la\\$1\(ra\\$3
+..
+.if \n(.g .mso www.tmac
+.TH ayatana-webmail-reset 1 "Jan 2021" "Version 21.1.25" "Ayatana Webmail"
+.SH NAME
+ayatana-webmail-reset \- Webmail Integration into your Desktop
+.SH SYNOPSIS
+'nh
+.fi
+.ad l
+\fBayatana-webmail-reset\fR \kx
+.if (\nx>(\n(.l/2)) .nr x (\n(.l/5)
+'in \n(.iu+\nxu
+[
+\fIoptions\fR
+]
+'in \n(.iu-\nxu
+.ad b
+'hy
+.SH DESCRIPTION
+WARNING: Read the full description below before using this command line tool.
+.PP
+Ayatana Webmail is an application that integrates your webmail into
+MATE, Xfce, LXDE and other environments. For further details see the
+\fBayatana-webmail\fR(1) man page.
+.PP
+When this command gets executed, it will reset the complete
+settings for
+\fBayatana-webmail\fR to its 'factory-defaults'. All IMAP profiles will
+be removed when using this command. You have to reconfigure \fBayatana-webmail\fR from scratch.
+Only run this command if you want a fresh start with \fBayatana-webmail\fR.
+.PP
+The \fBayatana-webmail-reset\fR executable does not have any command line
+options.
+.PP
+.SH SEE ALSO
+ayatana-webmail(1), ayatana-webmail-clear(1), ayatana-webmail-settings(1), ayatana-webmail-url(1)
+.SH AUTHOR
+This manual has been written for the Ayatana Indicators project by Mike
+Gabriel <mike.gabriel@das-netzwerkteam.de>.
