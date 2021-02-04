@@ -6,16 +6,20 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
-"Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
+"issues\n"
 "POT-Creation-Date: 2020-04-03 12:21+0200\n"
-"PO-Revision-Date: 2018-06-04 07:33+0000\n"
-"Language-Team: Greek <el@li.org>\n"
+"PO-Revision-Date: 2021-02-05 23:41+0000\n"
+"Last-Translator: Michalis <michalisntovas@yahoo.gr>\n"
+"Language-Team: Greek <https://hosted.weblate.org/projects/ayatana-indicators/"
+"ayatana-webmail/el/>\n"
+"Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.5-dev\n"
 "X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
-"X-Generator: Launchpad (build a296f04231dee355be5db73cc878b9e21689a253)\n"
 
 #: ayatanawebmail/accounts.py:18
 msgid "Select account"
@@ -189,7 +193,7 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:297
 msgid "Host:"
-msgstr "Διακομιστής:"
+msgstr "Εξυπηρετητής:"
 
 #: ayatanawebmail/dialog.py:299
 msgid "Port:"
