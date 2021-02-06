@@ -187,8 +187,8 @@ class MessagingMenu(object):
                 gi.require_version('AppIndicator3', '0.1')
                 self.oAppIndicator = importlib.import_module('gi.repository.AppIndicator3')
 
-        self.oIndicator = self.oAppIndicator.Indicator.new(APPNAME, 'indicator-messages', self.oAppIndicator.IndicatorCategory.APPLICATION_STATUS)
-        self.oIndicator.set_attention_icon('indicator-messages-new')
+        self.oIndicator = self.oAppIndicator.Indicator.new(APPNAME, 'ayatanawebmail-messages', self.oAppIndicator.IndicatorCategory.APPLICATION_STATUS)
+        self.oIndicator.set_attention_icon('ayatanawebmail-messages-new')
         self.oIndicator.set_status(self.oAppIndicator.IndicatorStatus.ACTIVE)
         self.oMenu = Gtk.Menu()
         self.oMenu.append(Gtk.SeparatorMenuItem())
