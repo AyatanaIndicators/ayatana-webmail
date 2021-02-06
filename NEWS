@@ -1,3 +1,13 @@
+Overview of changes in ayatana-webmail 21.2.6
+
+  - ayatanawebmail/application.py: If no Ayatana Indicator Application is
+    running, still attempt loading the AyatanaAppIndicator GIO module before
+    falling back to the (less maintained) AppIndicator GIO module.
+  - Drop the bundled Faenza icon.
+  - man/*: Add man pages for all the command line tools we ship.
+  - Ship app's own status icons instead those of the Messages Indicator.
+  - Translation updates.
+
 Overview of changes in ayatana-webmail 21.1.25
 
   - Allow at most max-item-count fetches per connection.
