@@ -9,14 +9,16 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
 "issues\n"
 "POT-Creation-Date: 2020-08-22 20:15+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-03-18 17:29+0000\n"
+"Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/"
+"ayatana-indicators/ayatana-webmail/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.5.2-dev\n"
 
 #: ayatanawebmail/accounts.py:18
 msgid "Select account"
@@ -56,12 +58,12 @@ msgstr ""
 
 #: ayatanawebmail/application.py:211
 msgid "Clear"
-msgstr ""
+msgstr "Bersihkan"
 
 #: ayatanawebmail/application.py:218
 #: data/usr/share/applications/ayatana-webmail.desktop:35
 msgid "Settings"
-msgstr ""
+msgstr "Pengaturan"
 
 #: ayatanawebmail/application.py:957
 msgid "No subject"
@@ -152,11 +154,11 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:242
 msgid "Add"
-msgstr ""
+msgstr "Tambah"
 
 #: ayatanawebmail/dialog.py:244
 msgid "Remove"
-msgstr ""
+msgstr "Hapus"
 
 #: ayatanawebmail/dialog.py:286
 msgid "The application will append this string to \"Inbox\" to access a specific message - you can use the $MSG_THREAD and $MSG_UID placeholders"
