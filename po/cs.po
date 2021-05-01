@@ -9,8 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
 "issues\n"
 "POT-Creation-Date: 2020-04-03 12:21+0200\n"
-"PO-Revision-Date: 2020-10-30 00:26+0000\n"
-"Last-Translator: Milan Korecky <milan.korecky@gmail.com>\n"
+"PO-Revision-Date: 2021-05-01 17:02+0000\n"
+"Last-Translator: Tomáš Marný <tomik.marny@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/ayatana-indicators/"
 "ayatana-webmail/cs/>\n"
 "Language: cs\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.3.2-dev\n"
+"X-Generator: Weblate 4.7-dev\n"
 "X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
 
 #: ayatanawebmail/accounts.py:18
@@ -55,7 +55,7 @@ msgstr "Věc"
 
 #: ayatanawebmail/application.py:205
 msgid "Open webmail home page"
-msgstr "Otevřít webmail domovskou stránku"
+msgstr "Otevřít domovskou stránku webmailu"
 
 #: ayatanawebmail/application.py:212
 msgid "Clear"
@@ -113,7 +113,7 @@ msgstr "od %s"
 #: ayatanawebmail/application.py:1202
 #, python-format
 msgid "New mail from %s"
-msgstr "Nový email od %s"
+msgstr "Nový e-mail od %s"
 
 #: ayatanawebmail/dialog.py:60
 msgid "Web page"
@@ -227,7 +227,7 @@ msgstr "Napsat:"
 
 #: ayatanawebmail/dialog.py:313
 msgid "Inbox:"
-msgstr "Inbox:"
+msgstr "Přijaté:"
 
 #: ayatanawebmail/dialog.py:316
 msgid "Sent:"
@@ -247,7 +247,7 @@ msgstr "Zeptejte se mě, co se má dělat"
 
 #: ayatanawebmail/dialog.py:366
 msgid "Enable notifications:"
-msgstr "Povolit oznámení"
+msgstr "Povolit oznámení:"
 
 #: ayatanawebmail/dialog.py:368
 msgid "Play sound when a message is received:"
@@ -303,7 +303,9 @@ msgstr "Domovská stránka"
 
 #: ayatanawebmail/dialog.py:426
 msgid "translator-credits"
-msgstr "poděkování-překladatelům"
+msgstr ""
+"Milan Korecky <milan.korecky@gmail.com>\n"
+"Tomáš Marný <tomik.marny@gmail.com>"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:4
 msgid "Ayatana Webmail"
@@ -311,7 +313,7 @@ msgstr "Ayatana Webmail"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:39
 msgid "Webmail notifications and actions for any desktop"
-msgstr "Oznámení a akce webmailu pro jakoukoli plochu"
+msgstr "Oznámení a akce webmailu pro jakékoli pracovní prostředí"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:74
 msgid "Mark all as read"
@@ -319,7 +321,7 @@ msgstr "Označit vše jako přečtené"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:112
 msgid "Compose Mail"
-msgstr "Napsat email"
+msgstr "Napsat e-mail"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:152
 msgid "Sent"
@@ -335,4 +337,4 @@ msgstr "Ayatana Webmail (služba)"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:38
 msgid "Display notifications about new mail"
-msgstr "Zobrazovat upozornění o novém emailu"
+msgstr "Zobrazovat upozornění o novém e-mailu"
