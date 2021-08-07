@@ -9,8 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
 "issues\n"
 "POT-Creation-Date: 2020-04-03 12:21+0200\n"
-"PO-Revision-Date: 2020-11-27 13:29+0000\n"
-"Last-Translator: Moo <hazap@hotmail.com>\n"
+"PO-Revision-Date: 2021-08-08 18:33+0000\n"
+"Last-Translator: Gediminas Murauskas <muziejusinfo@gmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-webmail/lt/>\n"
 "Language: lt\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
 "%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.8-dev\n"
 "X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
 
 #: ayatanawebmail/accounts.py:18
@@ -28,7 +28,7 @@ msgstr "Pasirinkite paskyrą"
 
 #: ayatanawebmail/accounts.py:29
 msgid "Which account's command/web page would you like to open?"
-msgstr "Kurios paskyros komandą/saityno puslapį norėtumėte atverti?"
+msgstr "Kurios paskyros komandą/žiniatinklio puslapį norėtumėte atverti?"
 
 #: ayatanawebmail/actions.py:15
 msgid "Message actions"
@@ -56,7 +56,7 @@ msgstr "Tema"
 
 #: ayatanawebmail/application.py:205
 msgid "Open webmail home page"
-msgstr "Atverti pagrindinį saityno pašto puslapį"
+msgstr "Atverti pagrindinį žiniatinklio pašto puslapį"
 
 #: ayatanawebmail/application.py:212
 msgid "Clear"
@@ -140,7 +140,7 @@ msgstr "(Nėra)"
 
 #: ayatanawebmail/dialog.py:156
 msgid "Ayatana Webmail Preferences"
-msgstr "Ayatana saityno pašto nuostatos"
+msgstr "Ayatana žiniatinklio pašto nuostatos"
 
 #: ayatanawebmail/dialog.py:164
 msgid "Accounts"
@@ -306,15 +306,15 @@ msgstr "Pagrindinis puslapis"
 
 #: ayatanawebmail/dialog.py:426
 msgid "translator-credits"
-msgstr "Moo, Enigma"
+msgstr "Moo, Enigma, Gediminas Murauskas"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:4
 msgid "Ayatana Webmail"
-msgstr "Ayatana saityno paštas"
+msgstr "Ayatana žiniatinklio paštas"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:39
 msgid "Webmail notifications and actions for any desktop"
-msgstr "Saityno pašto pranešimai ir veiksmai bet kuriam darbalaukiui"
+msgstr "Žiniatinklio pašto pranešimai ir veiksmai bet kuriam darbalaukiui"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:74
 msgid "Mark all as read"
@@ -334,7 +334,7 @@ msgstr "Gauti laiškai"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
 msgid "Ayatana Webmail (service)"
-msgstr "Ayatana saityno paštas (tarnyba)"
+msgstr "Ayatana žiniatinklio paštas (tarnyba)"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:38
 msgid "Display notifications about new mail"
