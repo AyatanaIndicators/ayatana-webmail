@@ -15,7 +15,8 @@ oLoop = None
 
 if __name__ == '__main__':
 
-    if isRunning('-settings') == 1:
+    # HACK: Debian reports that ayatana-webmail-settings is not running, but shows two instances of ayatana-webmail
+    if isRunning('-settings') == 1 or isRunning() == 2:
 
         DBusGMainLoop(set_as_default=True)
         oSessionBus = dbus.SessionBus()
