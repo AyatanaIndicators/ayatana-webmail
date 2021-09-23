@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
 "issues\n"
 "POT-Creation-Date: 2020-04-03 12:21+0200\n"
-"PO-Revision-Date: 2020-12-31 03:29+0000\n"
+"PO-Revision-Date: 2021-09-24 14:40+0000\n"
 "Last-Translator: Wellington Terumi Uemura <wellingtonuemura@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-webmail/pt_BR/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.4.1-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 "X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
 
 #: ayatanawebmail/accounts.py:18
@@ -160,18 +160,19 @@ msgstr "Sobre"
 msgid ""
 "Please visit the following link and enable access for less secure apps:"
 msgstr ""
+"Visite o link a seguir e ative o acesso para os aplicativos menos seguros:"
 
 #: ayatanawebmail/dialog.py:230
 msgid "Access blocked by Google"
-msgstr ""
+msgstr "Acesso bloqueado pelo Google"
 
 #: ayatanawebmail/dialog.py:234
 msgid "Failed to connect to mail account. The returned error was:"
-msgstr ""
+msgstr "Houve uma falha ao se conectar à conta de e-mail. O erro retornado foi:"
 
 #: ayatanawebmail/dialog.py:235
 msgid "Connection failure"
-msgstr ""
+msgstr "Falha na conexão"
 
 #: ayatanawebmail/dialog.py:254
 msgid "Choose an account"
@@ -179,11 +180,11 @@ msgstr "Escolha uma conta"
 
 #: ayatanawebmail/dialog.py:259
 msgid "Add"
-msgstr ""
+msgstr "Adicione"
 
 #: ayatanawebmail/dialog.py:261
 msgid "Remove"
-msgstr ""
+msgstr "Remova"
 
 #: ayatanawebmail/dialog.py:276
 msgid "Server data"
@@ -215,7 +216,7 @@ msgstr "Senha:"
 
 #: ayatanawebmail/dialog.py:306
 msgid "Folders:"
-msgstr ""
+msgstr "Pastas:"
 
 #: ayatanawebmail/dialog.py:309
 msgid "Home:"
@@ -235,15 +236,15 @@ msgstr "Enviados:"
 
 #: ayatanawebmail/dialog.py:354
 msgid "Mark message as read"
-msgstr ""
+msgstr "Marque a mensagem como lida"
 
 #: ayatanawebmail/dialog.py:355
 msgid "Open message in browser/Execute command"
-msgstr ""
+msgstr "Abra a mensagem no navegador/Execute o comando"
 
 #: ayatanawebmail/dialog.py:356
 msgid "Ask me what to do"
-msgstr ""
+msgstr "Me pergunte o que fazer"
 
 #: ayatanawebmail/dialog.py:366
 msgid "Enable notifications:"
@@ -251,27 +252,27 @@ msgstr "Ative as notificações:"
 
 #: ayatanawebmail/dialog.py:368
 msgid "Play sound when a message is received:"
-msgstr ""
+msgstr "Toque um som quando uma mensagem for recebida:"
 
 #: ayatanawebmail/dialog.py:370
 msgid "Merge messages from the same conversation:"
-msgstr ""
+msgstr "Mescle as mensagens da mesma conversa:"
 
 #: ayatanawebmail/dialog.py:372
 msgid "Hide count when zero:"
-msgstr ""
+msgstr "Oculte a contagem quando for zero:"
 
 #: ayatanawebmail/dialog.py:374
 msgid "When a message is activated:"
-msgstr ""
+msgstr "Quando uma mensagem está ativada:"
 
 #: ayatanawebmail/dialog.py:377
 msgid "Execute this command when a message is received:"
-msgstr ""
+msgstr "Execute este comando quando uma mensagem for recebida:"
 
 #: ayatanawebmail/dialog.py:384
 msgid "Custom sound to play:"
-msgstr ""
+msgstr "Som personalizado para tocar:"
 
 #: ayatanawebmail/dialog.py:400
 msgid "Report a bug/Request a feature"
@@ -279,11 +280,11 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:402
 msgid "Ask a question"
-msgstr ""
+msgstr "Faça uma pergunta"
 
 #: ayatanawebmail/dialog.py:404
 msgid "Help translate"
-msgstr ""
+msgstr "Ajude a traduzir"
 
 #: ayatanawebmail/dialog.py:406
 msgid "Project page"
@@ -291,7 +292,7 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:408
 msgid "Source code"
-msgstr ""
+msgstr "Código fonte"
 
 #: ayatanawebmail/dialog.py:410
 msgid "Repository"
@@ -299,11 +300,11 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:412
 msgid "Home page"
-msgstr ""
+msgstr "Página inicial"
 
 #: ayatanawebmail/dialog.py:426
 msgid "translator-credits"
-msgstr ""
+msgstr "créditos da tradução"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:4
 msgid "Ayatana Webmail"
@@ -311,11 +312,11 @@ msgstr "Ayatana Webmail"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:39
 msgid "Webmail notifications and actions for any desktop"
-msgstr ""
+msgstr "As notificações e as ações do Webmail para qualquer desktop"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:74
 msgid "Mark all as read"
-msgstr ""
+msgstr "Marque tudo como lido"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:112
 msgid "Compose Mail"
