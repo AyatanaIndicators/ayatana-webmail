@@ -1,3 +1,9 @@
+Overview of changes in ayatana-webmail 21.11.17
+
+  - Settings process count hack. Make opening Ayatana Webmail
+    settings more robust.
+  - Translation updates.
+
 Overview of changes in ayatana-webmail 21.2.6
 
   - ayatanawebmail/application.py: If no Ayatana Indicator Application is
