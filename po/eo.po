@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
 "issues\n"
 "POT-Creation-Date: 2020-08-22 20:15+0200\n"
-"PO-Revision-Date: 2021-11-21 03:51+0000\n"
+"PO-Revision-Date: 2021-11-22 22:35+0000\n"
 "Last-Translator: phlostically <phlostically@mailinator.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-webmail/eo/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 4.10-dev\n"
 
 #: ayatanawebmail/accounts.py:18
 msgid "Select account"
@@ -77,6 +77,7 @@ msgstr "Eraro pri konekto"
 #, python-brace-format
 msgid "Unable to connect to account \"{accountName}\", the application will now exit."
 msgstr ""
+"Ne eblas konekti al la konto «{accountName}»; pro tio, la programo nun ĉesos."
 
 #: ayatanawebmail/application.py:1136
 #, python-format
@@ -143,7 +144,7 @@ msgstr "Google malpermesas la atingon"
 
 #: ayatanawebmail/dialog.py:210
 msgid "Failed to connect to mail account. The returned error was:"
-msgstr ""
+msgstr "Malsukcesis konekti al retpoŝta konto. Jen la eraro:"
 
 #: ayatanawebmail/dialog.py:211
 msgid "Connection failure"
@@ -219,7 +220,7 @@ msgstr "Marki mesaĝon kiel legitan"
 
 #: ayatanawebmail/dialog.py:347
 msgid "Open message in browser/Execute command"
-msgstr ""
+msgstr "Malfermi mesaĝon en TTT-legilo/Ruli komandon"
 
 #: ayatanawebmail/dialog.py:348
 msgid "Ask me what to do"
@@ -231,7 +232,7 @@ msgstr "Montri sciigojn:"
 
 #: ayatanawebmail/dialog.py:360
 msgid "Play sound when a message is received:"
-msgstr ""
+msgstr "Ludi sonon post ricevo de mesaĝo:"
 
 #: ayatanawebmail/dialog.py:362
 msgid "Merge messages from the same conversation:"
@@ -239,11 +240,11 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:364
 msgid "Hide count when zero:"
-msgstr ""
+msgstr "Kaŝi la kalkulon, se ĝi estas nul:"
 
 #: ayatanawebmail/dialog.py:366
 msgid "When a message is activated:"
-msgstr ""
+msgstr "Kiam mesaĝo estas aktivigita:"
 
 #: ayatanawebmail/dialog.py:369
 msgid "Execute this command when a message is received:"
@@ -292,7 +293,7 @@ msgstr "Ayatana Webmail (servo)"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
 msgid "Display notifications about new mail"
-msgstr ""
+msgstr "Sciigi pri novaj mesaĝoj"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:4
 msgid "Ayatana Webmail"
