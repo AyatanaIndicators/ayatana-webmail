@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
 "issues\n"
 "POT-Creation-Date: 2020-08-22 20:15+0200\n"
-"PO-Revision-Date: 2021-11-22 22:35+0000\n"
+"PO-Revision-Date: 2021-11-24 14:52+0000\n"
 "Last-Translator: phlostically <phlostically@mailinator.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-webmail/eo/>\n"
@@ -156,7 +156,7 @@ msgstr "Propra"
 
 #: ayatanawebmail/dialog.py:242
 msgid "Add"
-msgstr ""
+msgstr "Enmeti"
 
 #: ayatanawebmail/dialog.py:244
 msgid "Remove"
