@@ -6,7 +6,6 @@
 # License: GNU GPL 3 or higher; http://www.gnu.org/licenses/gpl.html
 
 import sys
-import subprocess
 import dbus
 from gi.repository import GLib
 from dbus.mainloop.glib import DBusGMainLoop
@@ -50,17 +49,14 @@ if __name__ == '__main__':
             except dbus.DBusException as oDBusException:
 
                 print(oDBusException)
-                sys.exit(1)
 
         else:
 
-            subprocess.Popen(['ayatana-webmail'], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-            sys.exit(0)
+            print("Cannot start ayatana-webmail-url - Ayatana Webmail is not running.")
 
     else:
 
         print('ayatana-webmail-url must be called with one of these arguments: Home, Compose, Inbox or Sent')
-        sys.exit(1)
 
-    sys.exit(0)
+    sys.exit(1)
 

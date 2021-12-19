@@ -1081,33 +1081,36 @@ class AyatanaWebmail(object):
         logger.info('Checking network...')
 
         if not checkNetwork():
+
             return False
 
-        logger.info('Network connection active, connecting...')
+        if (lstConnections):
 
-        for oConnection in lstConnections:
+            logger.info('Network connection active, connecting...')
 
-            oConnection.close()
+            for oConnection in lstConnections:
 
-            try:
+                oConnection.close()
 
-                oConnection.connect()
-                oConnection.bConnecting = False
+                try:
 
-            except KeyboardInterrupt:
+                    oConnection.connect()
+                    oConnection.bConnecting = False
 
-                self.close(0)
+                except KeyboardInterrupt:
 
-            except Exception as oException:
+                    self.close(0)
 
-                logger.error('"{0}:{1}" could not connect: {2}'.format(oConnection.strLogin, oConnection.strFolder, str(oException)))
+                except Exception as oException:
 
-                oNotification = Notify.Notification.new(_('Connection error'), '', APPNAME)
-                oNotification.set_property('body', _('Unable to connect to account "{accountName}", the application will now exit.').format(accountName=oConnection.strLogin))
-                oNotification.set_hint('desktop-entry', GLib.Variant.new_string(APPNAME))
-                oNotification.set_timeout(Notify.EXPIRES_NEVER)
-                oNotification.show()
-                self.close(1)
+                    logger.error('"{0}:{1}" could not connect: {2}'.format(oConnection.strLogin, oConnection.strFolder, str(oException)))
+
+                    oNotification = Notify.Notification.new(_('Connection error'), '', APPNAME)
+                    oNotification.set_property('body', _('Unable to connect to account "{accountName}", the application will now exit.').format(accountName=oConnection.strLogin))
+                    oNotification.set_hint('desktop-entry', GLib.Variant.new_string(APPNAME))
+                    oNotification.set_timeout(Notify.EXPIRES_NEVER)
+                    oNotification.show()
+                    self.close(1)
 
         return False
 

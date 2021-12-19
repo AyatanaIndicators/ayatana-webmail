@@ -6,7 +6,6 @@
 
 import sys
 import dbus
-
 from gi.repository import GLib
 from dbus.mainloop.glib import DBusGMainLoop
 from ayatanawebmail.common import isRunning
@@ -15,10 +14,10 @@ oLoop = None
 
 if __name__ == '__main__':
 
-    DBusGMainLoop(set_as_default=True)
-    oSessionBus = dbus.SessionBus()
-
     if isRunning():
+
+        DBusGMainLoop(set_as_default=True)
+        oSessionBus = dbus.SessionBus()
 
         try:
 
@@ -29,12 +28,14 @@ if __name__ == '__main__':
 
             oLoop = GLib.MainLoop()
             oLoop.run()
+            sys.exit(0)
 
         except dbus.DBusException as oDBusException:
 
             print(oDBusException)
-            sys.exit(1)
 
-        sys.exit(0)
+    else:
+
+        print("Cannot start ayatana-webmail-clear - Ayatana Webmail is not running.")
 
     sys.exit(1)
