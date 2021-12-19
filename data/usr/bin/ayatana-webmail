@@ -5,11 +5,14 @@
 #          Robert Tari <robert@tari.in>
 # License: GNU GPL 3 or higher; http://www.gnu.org/licenses/gpl.html
 
+m_bDebug = False
+
 try:
 
     import devpath
     from ayatanawebmail.appdata import APPDEBUG
     APPDEBUG.append(True)
+    m_bDebug = True
 
 except:
 
@@ -25,4 +28,4 @@ if __name__ == '__main__':
 
         sys.exit(0)
 
-    AyatanaWebmail(len(sys.argv) == 2 and sys.argv[1] == 'debug')
+    AyatanaWebmail((len(sys.argv) == 2 and sys.argv[1] == 'debug') or m_bDebug)
