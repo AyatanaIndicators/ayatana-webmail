@@ -548,15 +548,12 @@ class AyatanaWebmail(object):
         elif self.bNoNetwork:
 
             self.bNoNetwork = False
+            self.bIdlerRunning = True
 
-            if not self.bIdlerRunning:
+            for oConnection in self.lstConnections:
+                oConnection.bConnecting = True
 
-                self.bIdlerRunning = True
-
-                for oConnection in self.lstConnections:
-                    oConnection.bConnecting = True
-
-                GLib.timeout_add_seconds(5, self.connect, self.lstConnections)
+            GLib.timeout_add_seconds(5, self.connect, self.lstConnections)
 
         return True
 
