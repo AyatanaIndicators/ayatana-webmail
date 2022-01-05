@@ -1,5 +1,19 @@
 #!/usr/bin/env python
 
+m_bDebug = False
+
+try:
+
+    from ayatanawebmail.appdata import APPDEBUG
+
+    if APPDEBUG:
+
+        m_bDebug = True
+
+except:
+
+    pass
+
 """Threaded IMAP4 client for Python 3.
 
 Based on RFC 3501 and original imaplib module.
@@ -181,7 +195,7 @@ class Request(object):
 
     def get_response(self, exc_fmt=None):
         self.callback = None
-        if __debug__: self.parent._log(3, '%s:%s.ready.wait' % (self.name, self.tag))
+        if m_bDebug: self.parent._log(3, '%s:%s.ready.wait' % (self.name, self.tag))
         self.ready.wait()
 
         if self.aborted is not None:
@@ -200,7 +214,7 @@ class Request(object):
 
         self.response = response
         self.ready.set()
-        if __debug__: self.parent._log(3, '%s:%s.ready.set' % (self.name, self.tag))
+        if m_bDebug: self.parent._log(3, '%s:%s.ready.set' % (self.name, self.tag))
 
 
 
@@ -321,7 +335,7 @@ class IMAP4(object):
 
         self._mode_ascii()
 
-        if __debug__: self._init_debug(debug, debug_file, debug_buf_lvl)
+        if m_bDebug: self._init_debug(debug, debug_file, debug_buf_lvl)
 
         self.resp_timeout = timeout     # Timeout waiting for command response
 
@@ -335,7 +349,7 @@ class IMAP4(object):
 
         self.open(host, port)
 
-        if __debug__:
+        if m_bDebug:
             if debug:
                 self._mesg('connected to %s on port %s' % (self.host, self.port))
 
@@ -376,14 +390,14 @@ class IMAP4(object):
 
             if self._get_untagged_response('PREAUTH'):
                 self.state = AUTH
-                if __debug__: self._log(1, 'state => AUTH')
+                if m_bDebug: self._log(1, 'state => AUTH')
             elif self._get_untagged_response('OK'):
-                if __debug__: self._log(1, 'state => NONAUTH')
+                if m_bDebug: self._log(1, 'state => NONAUTH')
             else:
                 raise self.error('unrecognised server welcome message: %s' % repr(self.welcome))
 
             self._get_capabilities()
-            if __debug__: self._log(1, 'CAPABILITY: %r' % (self.capabilities,))
+            if m_bDebug: self._log(1, 'CAPABILITY: %r' % (self.capabilities,))
 
             for version in AllowedVersions:
                 if not version in self.capabilities:
@@ -581,7 +595,7 @@ class IMAP4(object):
             typ, dat = self._simple_command('COMPRESS', 'DEFLATE')
             if typ == 'OK':
                 self.start_compressing()
-                if __debug__: self._log(1, 'Enabled COMPRESS=DEFLATE')
+                if m_bDebug: self._log(1, 'Enabled COMPRESS=DEFLATE')
         finally:
             self._release_state_change()
 
@@ -682,7 +696,7 @@ class IMAP4(object):
             if typ != 'OK':
                 self._deliver_exc(self.error, dat[-1], kw)
             self.state = AUTH
-            if __debug__: self._log(1, 'state => AUTH')
+            if m_bDebug: self._log(1, 'state => AUTH')
         finally:
             self._release_state_change()
         return self._deliver_dat(typ, dat, kw)
@@ -717,7 +731,7 @@ class IMAP4(object):
             typ, dat = self._simple_command('CLOSE')
         finally:
             self.state = AUTH
-            if __debug__: self._log(1, 'state => AUTH')
+            if m_bDebug: self._log(1, 'state => AUTH')
             self._release_state_change()
         return self._deliver_dat(typ, dat, kw)
 
@@ -896,7 +910,7 @@ class IMAP4(object):
             if typ != 'OK':
                 self._deliver_exc(self.error, dat[-1], kw)
             self.state = AUTH
-            if __debug__: self._log(1, 'state => AUTH')
+            if m_bDebug: self._log(1, 'state => AUTH')
         finally:
             self._release_state_change()
         return self._deliver_dat(typ, dat, kw)
@@ -925,20 +939,20 @@ class IMAP4(object):
         NB: You must call this to shut down threads before discarding an instance."""
 
         self.state = LOGOUT
-        if __debug__: self._log(1, 'state => LOGOUT')
+        if m_bDebug: self._log(1, 'state => LOGOUT')
 
         try:
             try:
                 typ, dat = self._simple_command('LOGOUT')
             except:
                 typ, dat = 'NO', ['%s: %s' % sys.exc_info()[:2]]
-                if __debug__: self._log(1, dat)
+                if m_bDebug: self._log(1, dat)
 
             self._close_threads()
         finally:
             self._release_state_change()
 
-        if __debug__: self._log(1, 'connection closed')
+        if m_bDebug: self._log(1, 'connection closed')
 
         bye = self._get_untagged_response('BYE', leave=True)
         if bye:
@@ -978,7 +992,7 @@ class IMAP4(object):
         """(typ, [data]) = noop()
         Send NOOP command."""
 
-        if __debug__: self._dump_ur(3)
+        if m_bDebug: self._dump_ur(3)
         return self._simple_command('NOOP', **kw)
 
 
@@ -1046,17 +1060,17 @@ class IMAP4(object):
             if typ != 'OK':
                 if self.state == SELECTED:
                     self.state = AUTH
-                if __debug__: self._log(1, 'state => AUTH')
+                if m_bDebug: self._log(1, 'state => AUTH')
                 if typ == 'BAD':
                     self._deliver_exc(self.error, '%s command error: %s %s. Data: %.100s' % (name, typ, dat, mailbox), kw)
                 return self._deliver_dat(typ, dat, kw)
             self.state = SELECTED
-            if __debug__: self._log(1, 'state => SELECTED')
+            if m_bDebug: self._log(1, 'state => SELECTED')
         finally:
             self._release_state_change()
 
         if self._get_untagged_response('READ-ONLY', leave=True) and not readonly:
-            if __debug__: self._dump_ur(1)
+            if m_bDebug: self._dump_ur(1)
             self._deliver_exc(self.readonly, '%s is not writable' % mailbox, kw)
         typ, dat = self._untagged_response(typ, [None], 'EXISTS')
         return self._deliver_dat(typ, dat, kw)
@@ -1264,7 +1278,7 @@ class IMAP4(object):
 
         self.commands_lock.release()
 
-        if __debug__: self._log(5, 'untagged_responses[%s] %s += ["%.80r"]' % (typ, len(urd)-1, dat))
+        if m_bDebug: self._log(5, 'untagged_responses[%s] %s += ["%.80r"]' % (typ, len(urd)-1, dat))
 
 
     def _check_bye(self):
@@ -1283,7 +1297,7 @@ class IMAP4(object):
             if arg is not None:
                  if isinstance(arg, dflttyp):
                      return arg
-                 if __debug__: self._log(0, 'bad arg is %s, expecting %s' % (type(arg), dflttyp))
+                 if m_bDebug: self._log(0, 'bad arg is %s, expecting %s' % (type(arg), dflttyp))
         return dflt
 
 
@@ -1294,16 +1308,16 @@ class IMAP4(object):
         else:
             cmdtyp = 'sync'
 
-        if __debug__: self._log(1, '[%s] %s %s' % (cmdtyp, name, args))
+        if m_bDebug: self._log(1, '[%s] %s %s' % (cmdtyp, name, args))
 
-        if __debug__: self._log(3, 'state_change_pending.acquire')
+        if m_bDebug: self._log(3, 'state_change_pending.acquire')
         self.state_change_pending.acquire()
 
         self._end_idle()
 
         if cmdtyp == 'async':
             self.state_change_pending.release()
-            if __debug__: self._log(3, 'state_change_pending.release')
+            if m_bDebug: self._log(3, 'state_change_pending.release')
         else:
             # Need to wait for all async commands to complete
             self._check_bye()
@@ -1315,9 +1329,9 @@ class IMAP4(object):
                 need_event = False
             self.commands_lock.release()
             if need_event:
-                if __debug__: self._log(3, 'sync command %s waiting for empty commands Q' % name)
+                if m_bDebug: self._log(3, 'sync command %s waiting for empty commands Q' % name)
                 self.state_change_free.wait()
-                if __debug__: self._log(3, 'sync command %s proceeding' % name)
+                if m_bDebug: self._log(3, 'sync command %s proceeding' % name)
 
         if self.state not in Commands[name][CMD_VAL_STATES]:
             self.literal = None
@@ -1361,7 +1375,7 @@ class IMAP4(object):
                 literator = None
                 data = data + bytes(' {%s}' % len(literal), self._encoding)
 
-        if __debug__: self._log(4, 'data=%r' % data)
+        if m_bDebug: self._log(4, 'data=%r' % data)
 
         rqb.data = data + CRLF
 
@@ -1378,7 +1392,7 @@ class IMAP4(object):
             # Wait for continuation response
 
             ok, data = crqb.get_response('command: %s => %%s' % name)
-            if __debug__: self._log(4, 'continuation => %s, %r' % (ok, data))
+            if m_bDebug: self._log(4, 'continuation => %s, %r' % (ok, data))
 
             # NO/BAD response?
 
@@ -1400,7 +1414,7 @@ class IMAP4(object):
                 # Need new request for next continuation response
                 crqb = self._request_push(name=name, tag='continuation')
 
-            if __debug__: self._log(4, 'write literal size %s' % len(literal))
+            if m_bDebug: self._log(4, 'write literal size %s' % len(literal))
             crqb.data = literal + CRLF
             self.ouq.put(crqb)
 
@@ -1417,7 +1431,7 @@ class IMAP4(object):
         self._check_bye()
         typ, dat = rqb.get_response('command: %s => %%s' % rqb.name)
         if typ == 'BAD':
-            if __debug__: self._print_log()
+            if m_bDebug: self._print_log()
             raise self.error('%s command error: %s %s. Data: %.100s' % (rqb.name, typ, dat, rqb.data))
         if 'untagged_response' in kw:
             return self._untagged_response(typ, dat, kw['untagged_response'])
@@ -1432,7 +1446,7 @@ class IMAP4(object):
         rqb.callback = kw['callback']
         rqb.callback_arg = kw.get('cb_arg')
         if error is not None:
-            if __debug__: self._print_log()
+            if m_bDebug: self._print_log()
             typ, val = error
             rqb.abort(typ, val)
             return
@@ -1442,10 +1456,10 @@ class IMAP4(object):
             return
         typ, dat = response
         if typ == 'BAD':
-            if __debug__: self._print_log()
+            if m_bDebug: self._print_log()
             rqb.abort(self.error, '%s command error: %s %s. Data: %.100s' % (rqb.name, typ, dat, rqb.data))
             return
-        if __debug__: self._log(4, '_command_completer(%s, %s, None) = %s' % (response, cb_arg, rqb.tag))
+        if m_bDebug: self._log(4, '_command_completer(%s, %s, None) = %s' % (response, cb_arg, rqb.tag))
         if 'untagged_response' in kw:
             response = self._untagged_response(typ, dat, kw['untagged_response'])
         rqb.deliver(response)
@@ -1477,7 +1491,7 @@ class IMAP4(object):
         self.idle_lock.release()
         irqb.data = bytes('DONE', 'ASCII') + CRLF
         self.ouq.put(irqb)
-        if __debug__: self._log(2, 'server IDLE finished')
+        if m_bDebug: self._log(2, 'server IDLE finished')
 
 
     def _get_capabilities(self):
@@ -1498,7 +1512,7 @@ class IMAP4(object):
                 if not leave:
                     del self.untagged_responses[i]
                 self.commands_lock.release()
-                if __debug__: self._log(5, '_get_untagged_response(%s) => %.80r' % (name, dat))
+                if m_bDebug: self._log(5, '_get_untagged_response(%s) => %.80r' % (name, dat))
                 return dat
 
         self.commands_lock.release()
@@ -1519,7 +1533,7 @@ class IMAP4(object):
         if self._expecting_data:
             rlen = len(resp)
             dlen = min(self._expecting_data_len, rlen)
-            if __debug__: self._log(5, '_put_response expecting data len %s, got %s' % (self._expecting_data_len, rlen))
+            if m_bDebug: self._log(5, '_put_response expecting data len %s, got %s' % (self._expecting_data_len, rlen))
             self._expecting_data_len -= dlen
             self._expecting_data = (self._expecting_data_len != 0)
             if rlen <= dlen:
@@ -1535,7 +1549,7 @@ class IMAP4(object):
 
         # Protocol mandates all lines terminated by CRLF
         resp = resp[:-2]
-        if __debug__: self._log(5, '_put_response(%r)' % resp)
+        if m_bDebug: self._log(5, '_put_response(%r)' % resp)
 
         if 'continuation' in self.tagged_commands:
             continuation_expected = True
@@ -1548,13 +1562,13 @@ class IMAP4(object):
                 self._literal_expected[1] = dat
                 self._expecting_data = True
                 self._expecting_data_len = int(self.mo.group('size'))
-                if __debug__: self._log(4, 'expecting literal size %s' % self._expecting_data_len)
+                if m_bDebug: self._log(4, 'expecting literal size %s' % self._expecting_data_len)
                 return
             typ = self._literal_expected[0]
             self._literal_expected = None
             if dat:
                 self._append_untagged(typ, dat)  # Tail
-            if __debug__: self._log(4, 'literal completed')
+            if m_bDebug: self._log(4, 'literal completed')
         else:
             # Command completion response?
             if self._match(self.tagre, resp):
@@ -1564,7 +1578,7 @@ class IMAP4(object):
                 if typ in ('OK', 'NO', 'BAD') and self._match(self.response_code_cre, dat):
                     self._append_untagged(str(self.mo.group('type'), 'ASCII'), self.mo.group('data'))
                 if not tag in self.tagged_commands:
-                    if __debug__: self._log(1, 'unexpected tagged response: %r' % resp)
+                    if m_bDebug: self._log(1, 'unexpected tagged response: %r' % resp)
                 else:
                     self._request_pop(tag, (typ, [dat]))
             else:
@@ -1581,12 +1595,12 @@ class IMAP4(object):
 
                     if self._match(self.continuation_cre, resp):
                         if not continuation_expected:
-                            if __debug__: self._log(1, "unexpected continuation response: '%r'" % resp)
+                            if m_bDebug: self._log(1, "unexpected continuation response: '%r'" % resp)
                             return
                         self._request_pop('continuation', (True, self.mo.group('data')))
                         return
 
-                    if __debug__: self._log(1, "unexpected response: '%r'" % resp)
+                    if m_bDebug: self._log(1, "unexpected response: '%r'" % resp)
                     return
 
                 typ = str(self.mo.group('type'), 'ASCII')
@@ -1599,7 +1613,7 @@ class IMAP4(object):
                 if self._match(self.literal_cre, dat):
                     self._expecting_data = True
                     self._expecting_data_len = int(self.mo.group('size'))
-                    if __debug__: self._log(4, 'read literal size %s' % self._expecting_data_len)
+                    if m_bDebug: self._log(4, 'read literal size %s' % self._expecting_data_len)
                     self._literal_expected = [typ, dat]
                     return
 
@@ -1620,7 +1634,7 @@ class IMAP4(object):
         if typ in ('NO', 'BAD', 'BYE'):
             if typ == 'BYE':
                 self.Terminate = True
-            if __debug__: self._log(1, '%s response: %r' % (typ, dat))
+            if m_bDebug: self._log(1, '%s response: %r' % (typ, dat))
 
 
     def _quote(self, arg):
@@ -1632,7 +1646,7 @@ class IMAP4(object):
 
         if self.state_change_pending.locked():
             self.state_change_pending.release()
-            if __debug__: self._log(3, 'state_change_pending.release')
+            if m_bDebug: self._log(3, 'state_change_pending.release')
 
 
     def _request_pop(self, name, data):
@@ -1645,11 +1659,11 @@ class IMAP4(object):
             need_event = False
         self.commands_lock.release()
 
-        if __debug__: self._log(4, '_request_pop(%s, %r) [%d] = %s' % (name, data, len(self.tagged_commands), rqb.tag))
+        if m_bDebug: self._log(4, '_request_pop(%s, %r) [%d] = %s' % (name, data, len(self.tagged_commands), rqb.tag))
         rqb.deliver(data)
 
         if need_event:
-            if __debug__: self._log(3, 'state_change_free.set')
+            if m_bDebug: self._log(3, 'state_change_free.set')
             self.state_change_free.set()
 
 
@@ -1661,7 +1675,7 @@ class IMAP4(object):
             tag = rqb.tag
         self.tagged_commands[tag] = rqb
         self.commands_lock.release()
-        if __debug__: self._log(4, '_request_push(%s, %s, %s) = %s' % (tag, name, repr(kw), rqb.tag))
+        if m_bDebug: self._log(4, '_request_push(%s, %s, %s) = %s' % (tag, name, repr(kw), rqb.tag))
         return rqb
 
 
@@ -1686,7 +1700,7 @@ class IMAP4(object):
             if not dat:
                 break
             data += dat
-        if __debug__: self._log(4, '_untagged_response(%s, ?, %s) => %.80r' % (typ, name, data))
+        if m_bDebug: self._log(4, '_untagged_response(%s, ?, %s) => %.80r' % (typ, name, data))
         return typ, data
 
 
@@ -1696,12 +1710,12 @@ class IMAP4(object):
 
     def _close_threads(self):
 
-        if __debug__: self._log(1, '_close_threads')
+        if m_bDebug: self._log(1, '_close_threads')
 
         self.ouq.put(None)
         self.wrth.join()
 
-        if __debug__: self._log(1, 'call shutdown')
+        if m_bDebug: self._log(1, 'call shutdown')
 
         self.shutdown()
 
@@ -1717,7 +1731,7 @@ class IMAP4(object):
 
         time.sleep(0.1)   # Don't start handling before main thread ready
 
-        if __debug__: self._log(1, 'starting')
+        if m_bDebug: self._log(1, 'starting')
 
         typ, val = self.abort, 'connection terminated'
 
@@ -1728,7 +1742,7 @@ class IMAP4(object):
                 timeout = self.idle_timeout - time.time()
                 if timeout <= 0:
                     timeout = 1
-                if __debug__:
+                if m_bDebug:
                     if self.idle_rqb is not None:
                         self._log(5, 'server IDLING, timeout=%.2f' % timeout)
             else:
@@ -1740,17 +1754,17 @@ class IMAP4(object):
             except queue.Empty:
                 if self.idle_rqb is None:
                     if resp_timeout is not None and self.tagged_commands:
-                        if __debug__: self._log(1, 'response timeout')
+                        if m_bDebug: self._log(1, 'response timeout')
                         typ, val = self.abort, 'no response after %s secs' % resp_timeout
                         break
                     continue
                 if self.idle_timeout > time.time():
                     continue
-                if __debug__: self._log(2, 'server IDLE timedout')
+                if m_bDebug: self._log(2, 'server IDLE timedout')
                 line = IDLE_TIMEOUT_RESPONSE
 
             if line is None:
-                if __debug__: self._log(1, 'inq None - terminating')
+                if m_bDebug: self._log(1, 'inq None - terminating')
                 break
 
             if not isinstance(line, bytes):
@@ -1765,7 +1779,7 @@ class IMAP4(object):
 
         self.Terminate = True
 
-        if __debug__: self._log(1, 'terminating: %s' % repr(val))
+        if m_bDebug: self._log(1, 'terminating: %s' % repr(val))
 
         while not self.ouq.empty():
             try:
@@ -1782,9 +1796,9 @@ class IMAP4(object):
             rqb.abort(typ, val)
         self.state_change_free.set()
         self.commands_lock.release()
-        if __debug__: self._log(3, 'state_change_free.set')
+        if m_bDebug: self._log(3, 'state_change_free.set')
 
-        if __debug__: self._log(1, 'finished')
+        if m_bDebug: self._log(1, 'finished')
 
 
     if hasattr(select_module, "poll"):
@@ -1793,7 +1807,7 @@ class IMAP4(object):
 
         threading.currentThread().setName(self.identifier + 'reader')
 
-        if __debug__: self._log(1, 'starting using poll')
+        if m_bDebug: self._log(1, 'starting using poll')
 
         def poll_error(state):
             PollErrors = {
@@ -1820,7 +1834,7 @@ class IMAP4(object):
                 timeout = read_poll_timeout
             try:
                 r = poll.poll(timeout)
-                if __debug__: self._log(5, 'poll => %s' % repr(r))
+                if m_bDebug: self._log(5, 'poll => %s' % repr(r))
                 if not r:
                     continue                                    # Timeout
 
@@ -1830,7 +1844,7 @@ class IMAP4(object):
                     data = self.read(self.read_size)            # Drain ssl buffer if present
                     start = 0
                     dlen = len(data)
-                    if __debug__: self._log(5, 'rcvd %s' % dlen)
+                    if m_bDebug: self._log(5, 'rcvd %s' % dlen)
                     if dlen == 0:
                         rxzero += 1
                         if rxzero > 5:
@@ -1847,7 +1861,7 @@ class IMAP4(object):
                         stop += 1
                         line_part, start, line = \
                             b'', stop, line_part + data[start:stop]
-                        if __debug__: self._log(4, '< %r' % line)
+                        if m_bDebug: self._log(4, '< %r' % line)
                         self.inq.put(line)
                         if self.TerminateReader:
                             terminate = True
@@ -1856,7 +1870,7 @@ class IMAP4(object):
                     raise IOError(poll_error(state))
             except:
                 reason = 'socket error: %s - %s' % sys.exc_info()[:2]
-                if __debug__:
+                if m_bDebug:
                     if not self.Terminate:
                         self._print_log()
                         if self.debug: self.debug += 4          # Output all
@@ -1866,7 +1880,7 @@ class IMAP4(object):
 
         poll.unregister(self.read_fd)
 
-        if __debug__: self._log(1, 'finished')
+        if m_bDebug: self._log(1, 'finished')
 
     else:
 
@@ -1876,7 +1890,7 @@ class IMAP4(object):
 
         threading.currentThread().setName(self.identifier + 'reader')
 
-        if __debug__: self._log(1, 'starting using select')
+        if m_bDebug: self._log(1, 'starting using select')
 
         line_part = b''
 
@@ -1890,14 +1904,14 @@ class IMAP4(object):
                 timeout = self.read_poll_timeout
             try:
                 r,w,e = select.select([self.read_fd], [], [], timeout)
-                if __debug__: self._log(5, 'select => %s, %s, %s' % (r,w,e))
+                if m_bDebug: self._log(5, 'select => %s, %s, %s' % (r,w,e))
                 if not r:                                       # Timeout
                     continue
 
                 data = self.read(self.read_size)                # Drain ssl buffer if present
                 start = 0
                 dlen = len(data)
-                if __debug__: self._log(5, 'rcvd %s' % dlen)
+                if m_bDebug: self._log(5, 'rcvd %s' % dlen)
                 if dlen == 0:
                     rxzero += 1
                     if rxzero > 5:
@@ -1914,13 +1928,13 @@ class IMAP4(object):
                     stop += 1
                     line_part, start, line = \
                         b'', stop, (line_part + data[start:stop]).decode(errors='ignore')
-                    if __debug__: self._log(4, '< %r' % line)
+                    if m_bDebug: self._log(4, '< %r' % line)
                     self.inq.put(line)
                     if self.TerminateReader:
                         terminate = True
             except:
                 reason = 'socket error: %s - %s' % sys.exc_info()[:2]
-                if __debug__:
+                if m_bDebug:
                     if not self.Terminate:
                         self._print_log()
                         if self.debug: self.debug += 4          # Output all
@@ -1928,14 +1942,14 @@ class IMAP4(object):
                 self.inq.put((self.abort, reason))
                 break
 
-        if __debug__: self._log(1, 'finished')
+        if m_bDebug: self._log(1, 'finished')
 
 
     def _writer(self):
 
         threading.currentThread().setName(self.identifier + 'writer')
 
-        if __debug__: self._log(1, 'starting')
+        if m_bDebug: self._log(1, 'starting')
 
         reason = 'Terminated'
 
@@ -1946,10 +1960,10 @@ class IMAP4(object):
 
             try:
                 self.send(rqb.data)
-                if __debug__: self._log(4, '> %r' % rqb.data)
+                if m_bDebug: self._log(4, '> %r' % rqb.data)
             except:
                 reason = 'socket error: %s - %s' % sys.exc_info()[:2]
-                if __debug__:
+                if m_bDebug:
                     if not self.Terminate:
                         self._print_log()
                         if self.debug: self.debug += 4          # Output all
@@ -1959,14 +1973,14 @@ class IMAP4(object):
 
         self.inq.put((self.abort, reason))
 
-        if __debug__: self._log(1, 'finished')
+        if m_bDebug: self._log(1, 'finished')
 
 
 
     #       Debugging
 
 
-    if __debug__:
+    if m_bDebug:
 
         def _init_debug(self, debug=None, debug_file=None, debug_buf_lvl=None):
             self.debug_lock = threading.Lock()
@@ -2037,19 +2051,22 @@ class IMAP4(object):
 
 
         def _print_log(self):
-            self.debug_lock.acquire()
-            i, n = self._cmd_log_idx, self._cmd_log_len
-            if n: self._mesg('last %d log messages:' % n)
-            while n:
-                try:
-                    self._mesg(*self._cmd_log[i])
-                except:
-                    pass
-                i += 1
-                if i >= self._cmd_log_len:
-                    i = 0
-                n -= 1
-            self.debug_lock.release()
+
+            if self.debug:
+
+                self.debug_lock.acquire()
+                i, n = self._cmd_log_idx, self._cmd_log_len
+                if n: self._mesg('last %d log messages:' % n)
+                while n:
+                    try:
+                        self._mesg(*self._cmd_log[i])
+                    except:
+                        pass
+                    i += 1
+                    if i >= self._cmd_log_len:
+                        i = 0
+                    n -= 1
+                self.debug_lock.release()
 
 
 
@@ -2186,7 +2203,7 @@ class IMAP4_stream(IMAP4):
         from subprocess import Popen, PIPE
         from io import DEFAULT_BUFFER_SIZE
 
-        if __debug__: self._log(0, 'opening stream from command "%s"' % self.command)
+        if m_bDebug: self._log(0, 'opening stream from command "%s"' % self.command)
         self._P = Popen(self.command, shell=True, stdin=PIPE, stdout=PIPE, close_fds=True, bufsize=DEFAULT_BUFFER_SIZE)
         self.writefile, self.readfile = self._P.stdin, self._P.stdout
         self.read_fd = self.readfile.fileno()
@@ -2286,7 +2303,7 @@ class _IdleCont(object):
         self.parent.idle_rqb = rqb
         self.parent.idle_timeout = self.timeout + time.time()
         self.parent.idle_lock.release()
-        if __debug__: self.parent._log(2, 'server IDLE started, timeout in %.2f secs' % self.timeout)
+        if m_bDebug: self.parent._log(2, 'server IDLE started, timeout in %.2f secs' % self.timeout)
         return None
 
 
