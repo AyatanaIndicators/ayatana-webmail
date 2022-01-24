@@ -6,17 +6,20 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
-"Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
+"issues\n"
 "POT-Creation-Date: 2020-04-03 12:21+0200\n"
-"PO-Revision-Date: 2019-12-31 07:09+0000\n"
-"Last-Translator: aerowolf <aerowolf@tom.com>\n"
-"Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
+"PO-Revision-Date: 2022-01-25 09:55+0000\n"
+"Last-Translator: Eric <alchemillatruth@purelymail.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"ayatana-indicators/ayatana-webmail/zh_Hans/>\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.11-dev\n"
 "X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
-"X-Generator: Launchpad (build a296f04231dee355be5db73cc878b9e21689a253)\n"
 
 #: ayatanawebmail/accounts.py:18
 msgid "Select account"
@@ -56,7 +59,7 @@ msgstr "打开网页版邮箱"
 
 #: ayatanawebmail/application.py:212
 msgid "Clear"
-msgstr "清空"
+msgstr "清除"
 
 #: ayatanawebmail/application.py:219
 msgid "Settings"
@@ -249,7 +252,7 @@ msgstr "合并同一对话中的邮件："
 
 #: ayatanawebmail/dialog.py:372
 msgid "Hide count when zero:"
-msgstr "当为0时隐藏计数"
+msgstr "当为0时隐藏计数："
 
 #: ayatanawebmail/dialog.py:374
 msgid "When a message is activated:"
