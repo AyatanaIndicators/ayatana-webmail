@@ -870,7 +870,7 @@ class AyatanaWebmail(object):
             thread_id = ''
             msg = None
 
-            try:
+            if any(s in oConnection.strHost for s in ['gmail', 'google'])::
 
                 typ, msg_data = oConnection.oImap.uid('FETCH', m, '(X-GM-THRID BODY.PEEK[HEADER.FIELDS (DATE SUBJECT FROM MESSAGE-ID)])')
 
@@ -881,7 +881,7 @@ class AyatanaWebmail(object):
                         thread_id = '%x' % int(m_reThrid.search(lstField[0]).group(1))
                         break
 
-            except imaplib.IMAP4.error:
+            else:
 
                 typ, msg_data = oConnection.oImap.uid('FETCH', m, '(BODY.PEEK[HEADER.FIELDS (DATE SUBJECT FROM MESSAGE-ID)])')
 
