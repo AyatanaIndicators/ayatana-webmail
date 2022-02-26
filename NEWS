@@ -1,3 +1,13 @@
+Overview of changes in ayatana-webmail 22.2.26
+
+  - ayatanawebmail/application.py: Fetch X-GM-THRID for GMail accounts only.
+  - ayatanawebmail/imaplib2.py: Display debug output in debug mode only.
+  - ayatanawebmail/application.py: Do not check idler state when reconnecting
+    in callback.
+  - Turn on automagic debug mode for developer instance.
+  - Do not run helper applications unless ayatana-webmail is running.
+  - Translation updates.
+
 Overview of changes in ayatana-webmail 21.11.17
 
   - Settings process count hack. Make opening Ayatana Webmail

@@ -1,6 +1,64 @@
+2022-02-26 Mike Gabriel
+
+        * release 22.2.26 (HEAD -> main, tag: 22.2.26)
+
+2022-02-26 Robert Tari
+
+        * ayatanawebmail/application.py: Fix typo (36c9a6f)
+        * ayatanawebmail/application.py: Fetch X-GM-THRID for GMail accounts
+          only (62a1908)
+
+2022-01-24 Eric
+
+        * Translated using Weblate (Chinese (Simplified)) (f02ee93)
+
+2022-01-05 Robert Tari
+
+        * ayatanawebmail/imaplib2.py: Display debug output in debug mode only
+          (822fec4)
+
+2022-01-03 Robert Tari
+
+        * ayatanawebmail/application.py: Do not check idler state when
+          reconnecting in callback (79767c9)
+
+2022-01-02 ssantos
+
+        * Translated using Weblate (Portuguese) (420d356)
+
+2021-12-19 Robert Tari
+
+        * Turn on automagic debug mode for developer instance (138a6b2)
+        * Do not run helper applications unless ayatana-webmail is running
+          (2be507e)
+
+2021-11-23 phlostically
+
+        * Translated using Weblate (Esperanto) (552c611)
+
+2021-11-21 phlostically
+
+        * Translated using Weblate (Esperanto) (df1b59f)
+
+2021-11-20 phlostically
+
+        * Translated using Weblate (Esperanto) (aa8eaae)
+
+2021-11-17 Yaron Shahrabani
+
+        * Translated using Weblate (Hebrew) (6d5095f)
+
+2021-11-18 phlostically
+
+        * Translated using Weblate (Esperanto) (a62422c)
+
+2021-11-16 Phil Clifford
+
+        * Translated using Weblate (Gaelic) (8125cc0)
+
 2021-11-17 Mike Gabriel
 
-        * release 21.11.17 (HEAD -> main, tag: 21.11.17)
+        * release 21.11.17 (d379724) (tag: 21.11.17)
 
 2021-11-10 mamuiz
 
