@@ -14,6 +14,7 @@ from ayatanawebmail.appdata import APPVERSION, APPURL, APPDESCRIPTION, APPAUTHOR
 import webbrowser
 
 MESSAGEACTION = {'OPEN': 1, 'MARK': 2, 'ASK': 3}
+SERVERS = [_('Custom') + '\timap.example.com\t993\thttps://mail.example.com\thttps://mail.example.com/compose\thttps://mail.example.com/sent\thttps://mail.example.com/inbox\t/$MSG_UID', 'Google\timap.gmail.com\t993\thttps://mail.google.com/mail/\thttps://mail.google.com/mail/#compose\thttps://mail.google.com/mail/#sent\thttps://mail.google.com/mail/#inbox\t/$MSG_THREAD', 'RoundCube\tmail.example.com\t993\thttps://mail.example.com/?_task=mail&amp;_mbox=INBOX\thttps://mail.example.com/?_task=mail&amp;_action=compose\thttps://mail.example.com/?_task=mail&amp;_mbox=Sent\thttps://mail.example.com/?_task=mail&amp;_mbox=INBOX\t&amp;_uid=$MSG_UID']
 
 def utf7dec(lstInput):
 
@@ -224,14 +225,12 @@ class PreferencesDialog(Gtk.Dialog):
         self.nMessageAction = g_oSettings.get_enum('message-action')
         self.lServers = []
 
-        for sServer in g_oSettings.get_strv('servers'):
+        for sServer in SERVERS:
 
             lValues = sServer.split('\t')
             lValues.append('\t'.join(lValues[1:]))
             dServer = dict(zip(['name', 'host', 'port', 'home', 'compose', 'sent', 'inbox', 'message', 'raw'], lValues))
             self.lServers.append(dServer)
-
-        self.lServers[0]['name'] = _('Custom')
 
     def pageAccounts(self):
 

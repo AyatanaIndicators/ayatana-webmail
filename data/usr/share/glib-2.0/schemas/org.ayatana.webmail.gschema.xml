@@ -46,10 +46,5 @@
       <summary>Message action</summary>
       <description>Action to perform when a message is activated.</description>
     </key>
-    <key type="as" name="servers">
-      <default>['Custom\timap.example.com\t993\thttps://mail.example.com\thttps://mail.example.com/compose\thttps://mail.example.com/sent\thttps://mail.example.com/inbox\t/$MSG_UID', 'Google\timap.gmail.com\t993\thttps://mail.google.com/mail/\thttps://mail.google.com/mail/#compose\thttps://mail.google.com/mail/#sent\thttps://mail.google.com/mail/#inbox\t/$MSG_THREAD', 'RoundCube\tmail.example.com\t993\thttps://mail.example.com/?_task=mail&amp;_mbox=INBOX\thttps://mail.example.com/?_task=mail&amp;_action=compose\thttps://mail.example.com/?_task=mail&amp;_mbox=Sent\thttps://mail.example.com/?_task=mail&amp;_mbox=INBOX\t&amp;_uid=$MSG_UID']</default>
-      <summary>Webmail server templates</summary>
-      <description>Stores the list of predefined settings for certain webmail servers.</description>
-    </key>
   </schema>
 </schemalist>
