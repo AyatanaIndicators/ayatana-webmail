@@ -9,78 +9,80 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
 "issues\n"
 "POT-Creation-Date: 2020-08-22 20:15+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-03-01 07:58+0000\n"
+"Last-Translator: 이정희 <daemul72@gmail.com>\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/"
+"ayatana-indicators/ayatana-webmail/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.11.1-dev\n"
 
 #: ayatanawebmail/accounts.py:18
 msgid "Select account"
-msgstr ""
+msgstr "계정 선택"
 
 #: ayatanawebmail/accounts.py:29
 msgid "Which account's command/web page would you like to open?"
-msgstr ""
+msgstr "어떤 계정의 명령/웹 페이지를 열고 싶습니까?"
 
 #: ayatanawebmail/actions.py:15
 msgid "Message actions"
-msgstr ""
+msgstr "메시지 작업"
 
 #: ayatanawebmail/actions.py:15
 msgid "Delete"
-msgstr ""
+msgstr "삭제"
 
 #: ayatanawebmail/actions.py:15
 msgid "Mark as read"
-msgstr ""
+msgstr "읽은 것으로 표시"
 
 #: ayatanawebmail/actions.py:15
 msgid "Open message/Run command"
-msgstr ""
+msgstr "메시지 열기/명령 실행"
 
 #: ayatanawebmail/actions.py:24
 msgid "Sender"
-msgstr ""
+msgstr "보낸 사람"
 
 #: ayatanawebmail/actions.py:26
 msgid "Subject"
-msgstr ""
+msgstr "제목"
 
 #: ayatanawebmail/application.py:204
 msgid "Open webmail home page"
-msgstr ""
+msgstr "웹메일 홈페이지 열기"
 
 #: ayatanawebmail/application.py:211
 msgid "Clear"
-msgstr ""
+msgstr "지우기"
 
 #: ayatanawebmail/application.py:218
 #: data/usr/share/applications/ayatana-webmail.desktop:35
 msgid "Settings"
-msgstr ""
+msgstr "설정"
 
 #: ayatanawebmail/application.py:957
 msgid "No subject"
-msgstr ""
+msgstr "제목 없음"
 
 #: ayatanawebmail/application.py:1110
 msgid "Connection error"
-msgstr ""
+msgstr "연결 오류"
 
 #: ayatanawebmail/application.py:1111
 #, python-brace-format
 msgid "Unable to connect to account \"{accountName}\", the application will now exit."
-msgstr ""
+msgstr "\"{accountName}\" 계정에 연결할 수 없습니다. 이제 응용프로그램이 종료됩니다."
 
 #: ayatanawebmail/application.py:1136
 #, python-format
 msgid "You have %d unread mail"
 msgid_plural "You have %d unread mails"
-msgstr[0] ""
+msgstr[0] "읽지 않은 메일이 %d개 있습니다"
 
 #: ayatanawebmail/application.py:1163
 #, python-format
@@ -100,217 +102,221 @@ msgstr ""
 #: ayatanawebmail/application.py:1180
 #, python-format
 msgid "New mail from %s"
-msgstr ""
+msgstr "%s의 새 메일"
 
 #: ayatanawebmail/dialog.py:60
 msgid "If this string starts with http:// or https://, the application will open it in your browser - otherwise, it will be run as a command"
 msgstr ""
+"이 문자열이 http:// 또는 https://로 시작하면 응용 프로그램이 브라우저에서 "
+"해당 문자열을 엽니다. 그렇지 않으면 명령으로 실행됩니다"
 
 #: ayatanawebmail/dialog.py:90 ayatanawebmail/dialog.py:104
 msgid "(None)"
-msgstr ""
+msgstr "(없음)"
 
 #: ayatanawebmail/dialog.py:132
 msgid "Ayatana Webmail Preferences"
-msgstr ""
+msgstr "Ayatana 웹메일 기본설정"
 
 #: ayatanawebmail/dialog.py:140
 msgid "Accounts"
-msgstr ""
+msgstr "계정"
 
 #: ayatanawebmail/dialog.py:141
 msgid "Options"
-msgstr ""
+msgstr "옵션"
 
 #: ayatanawebmail/dialog.py:142
 msgid "Support"
-msgstr ""
+msgstr "지원"
 
 #: ayatanawebmail/dialog.py:143
 msgid "About"
-msgstr ""
+msgstr "정보"
 
 #: ayatanawebmail/dialog.py:204
 msgid "Please visit the following link and enable access for less secure apps:"
-msgstr ""
+msgstr "다음 링크를 방문하여 보안 수준이 낮은 앱에 대한 액세스를 활성화하십시오:"
 
 #: ayatanawebmail/dialog.py:206
 msgid "Access blocked by Google"
-msgstr ""
+msgstr "Google에 의해 액세스가 차단됨"
 
 #: ayatanawebmail/dialog.py:210
 msgid "Failed to connect to mail account. The returned error was:"
-msgstr ""
+msgstr "메일 계정에 연결하지 못했습니다. 반환된 오류는 다음과 같습니다:"
 
 #: ayatanawebmail/dialog.py:211
 msgid "Connection failure"
-msgstr ""
+msgstr "연결에 실패했습니다"
 
 #: ayatanawebmail/dialog.py:234
 msgid "Custom"
-msgstr ""
+msgstr "사용자 지정"
 
 #: ayatanawebmail/dialog.py:242
 msgid "Add"
-msgstr ""
+msgstr "추가"
 
 #: ayatanawebmail/dialog.py:244
 msgid "Remove"
-msgstr ""
+msgstr "제거"
 
 #: ayatanawebmail/dialog.py:286
 msgid "The application will append this string to \"Inbox\" to access a specific message - you can use the $MSG_THREAD and $MSG_UID placeholders"
 msgstr ""
+"응용프로그램은 이 문자열을 \"받은 편지함\"에 추가하여 특정 메시지에 "
+"액세스합니다. $MSG_THREAD 및 $MSG_UID 자리 표시자를 사용할 수 있습니다"
 
 #: ayatanawebmail/dialog.py:288
 msgid "Account:"
-msgstr ""
+msgstr "계정:"
 
 #: ayatanawebmail/dialog.py:290
 msgid "Server:"
-msgstr ""
+msgstr "서버:"
 
 #: ayatanawebmail/dialog.py:292
 msgid "Host:"
-msgstr ""
+msgstr "호스트:"
 
 #: ayatanawebmail/dialog.py:294
 msgid "Port:"
-msgstr ""
+msgstr "포트:"
 
 #: ayatanawebmail/dialog.py:296
 msgid "Username:"
-msgstr ""
+msgstr "사용자이름:"
 
 #: ayatanawebmail/dialog.py:298
 msgid "Password:"
-msgstr ""
+msgstr "비밀번호:"
 
 #: ayatanawebmail/dialog.py:300
 msgid "Folders:"
-msgstr ""
+msgstr "폴더:"
 
 #: ayatanawebmail/dialog.py:302
 msgid "Home:"
-msgstr ""
+msgstr "홈:"
 
 #: ayatanawebmail/dialog.py:304
 msgid "Compose:"
-msgstr ""
+msgstr "작성:"
 
 #: ayatanawebmail/dialog.py:306
 msgid "Sent:"
-msgstr ""
+msgstr "전송됨:"
 
 #: ayatanawebmail/dialog.py:308
 msgid "Inbox:"
-msgstr ""
+msgstr "받은 편지함:"
 
 #: ayatanawebmail/dialog.py:310
 msgid "Message:"
-msgstr ""
+msgstr "메세지:"
 
 #: ayatanawebmail/dialog.py:346
 msgid "Mark message as read"
-msgstr ""
+msgstr "메시지를 읽은 것으로 표시"
 
 #: ayatanawebmail/dialog.py:347
 msgid "Open message in browser/Execute command"
-msgstr ""
+msgstr "브라우저에서 메시지 열기/명령 실행"
 
 #: ayatanawebmail/dialog.py:348
 msgid "Ask me what to do"
-msgstr ""
+msgstr "어떻게 할지 묻기"
 
 #: ayatanawebmail/dialog.py:358
 msgid "Enable notifications:"
-msgstr ""
+msgstr "알림 활성화:"
 
 #: ayatanawebmail/dialog.py:360
 msgid "Play sound when a message is received:"
-msgstr ""
+msgstr "메시지 수신 시 사운드 재생:"
 
 #: ayatanawebmail/dialog.py:362
 msgid "Merge messages from the same conversation:"
-msgstr ""
+msgstr "동일한 대화의 메시지 병합:"
 
 #: ayatanawebmail/dialog.py:364
 msgid "Hide count when zero:"
-msgstr ""
+msgstr "0일 때 카운트 숨김:"
 
 #: ayatanawebmail/dialog.py:366
 msgid "When a message is activated:"
-msgstr ""
+msgstr "메시지가 활성화되면:"
 
 #: ayatanawebmail/dialog.py:369
 msgid "Execute this command when a message is received:"
-msgstr ""
+msgstr "메시지가 수신되면 다음 명령 실행:"
 
 #: ayatanawebmail/dialog.py:376
 msgid "Custom sound to play:"
-msgstr ""
+msgstr "재생할 사용자 지정 사운드:"
 
 #: ayatanawebmail/dialog.py:392
 msgid "Report a bug"
-msgstr ""
+msgstr "버그 신고"
 
 #: ayatanawebmail/dialog.py:394
 msgid "Request a feature"
-msgstr ""
+msgstr "기능 요청"
 
 #: ayatanawebmail/dialog.py:396 ayatanawebmail/dialog.py:399
 #, python-brace-format
 msgid "It's a good idea to add the {labelname} label to your issue."
-msgstr ""
+msgstr "이슈에 {labelname} 레이블을 추가하는 것이 좋습니다."
 
 #: ayatanawebmail/dialog.py:397
 msgid "Ask a question"
-msgstr ""
+msgstr "질문하기"
 
 #: ayatanawebmail/dialog.py:400
 msgid "Help translate"
-msgstr ""
+msgstr "도움말 번역"
 
 #: ayatanawebmail/dialog.py:402
 msgid "Source code"
-msgstr ""
+msgstr "소스 코드"
 
 #: ayatanawebmail/dialog.py:404
 msgid "Home page"
-msgstr ""
+msgstr "홈 페이지"
 
 #: ayatanawebmail/dialog.py:424
 msgid "translator-credits"
-msgstr ""
+msgstr "이정희 <daemul72@gmail.com>"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
 msgid "Ayatana Webmail (service)"
-msgstr ""
+msgstr "Ayatana 웹메일 (서비스)"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
 msgid "Display notifications about new mail"
-msgstr ""
+msgstr "새 메일에 대한 알림 표시"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:4
 msgid "Ayatana Webmail"
-msgstr ""
+msgstr "Ayatana 웹메일"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:5
 msgid "Webmail notifications and actions for any desktop"
-msgstr ""
+msgstr "모든 데스크톱에 대한 웹 메일 알림 및 작업"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:15
 msgid "Mark all as read"
-msgstr ""
+msgstr "모두 읽은 것으로 표시"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:20
 msgid "Compose Mail"
-msgstr ""
+msgstr "메일 작성"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:25
 msgid "Sent"
-msgstr ""
+msgstr "전송됨"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:30
 msgid "Inbox"
-msgstr ""
+msgstr "받은 편지함"
