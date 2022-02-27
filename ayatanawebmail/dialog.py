@@ -420,7 +420,7 @@ class PreferencesDialog(Gtk.Dialog):
         oAboutDialog.set_program_name(APPTITLE)
         oAboutDialog.set_copyright(APPAUTHOR + ' ' + (APPYEAR if APPYEAR[-2:] == APPVERSION[:2] else APPYEAR + '-20' + APPVERSION[:2]))
         oAboutDialog.set_comments(_(APPDESCRIPTION))
-        oAboutDialog.set_authors(['Dmitry Shachnev &lt;mitya57@gmail.com&gt;', 'Robert Tari &lt;robert@tari.in&gt;'])
+        oAboutDialog.set_authors(['Robert Tari &lt;robert@tari.in&gt;'])
         oAboutDialog.set_translator_credits(_('translator-credits'))
         oAboutDialog.set_version(APPVERSION)
         oAboutDialog.set_website(APPURL)
