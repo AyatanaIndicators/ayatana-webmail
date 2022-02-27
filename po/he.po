@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
 "issues\n"
 "POT-Creation-Date: 2020-08-22 20:15+0200\n"
-"PO-Revision-Date: 2021-11-20 00:49+0000\n"
+"PO-Revision-Date: 2022-03-01 07:58+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-webmail/he/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 4.11.1-dev\n"
 
 #: ayatanawebmail/accounts.py:18
 msgid "Select account"
@@ -83,240 +83,244 @@ msgstr "לא ניתן להתחבר לחשבון „{accountName}”, היישו�
 #, python-format
 msgid "You have %d unread mail"
 msgid_plural "You have %d unread mails"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "יש לך הודעה שלא נקראה"
+msgstr[1] "יש לך %d הודעות שלא נקראו"
+msgstr[2] "יש לך %d הודעות שלא נקראו"
+msgstr[3] "יש לך %d הודעות שלא נקראו"
 
 #: ayatanawebmail/application.py:1163
 #, python-format
 msgid "from %(t0)s, %(t1)s and others"
-msgstr ""
+msgstr "מאת %(t0)s, %(t1)s ונוספים"
 
 #: ayatanawebmail/application.py:1165
 #, python-format
 msgid "from %(t0)s and %(t1)s"
-msgstr ""
+msgstr "מאת %(t0)s ו־%(t1)s"
 
 #: ayatanawebmail/application.py:1167
 #, python-format
 msgid "from %s"
-msgstr ""
+msgstr "מאת %s"
 
 #: ayatanawebmail/application.py:1180
 #, python-format
 msgid "New mail from %s"
-msgstr ""
+msgstr "הודעה חדשה מאת %s"
 
 #: ayatanawebmail/dialog.py:60
 msgid "If this string starts with http:// or https://, the application will open it in your browser - otherwise, it will be run as a command"
 msgstr ""
+"אם המחרוזת הזאת מתחילה ב־http://‎ או ב־https://‎, היישום יפתח אותה בדפדפן "
+"שלך - אחרת, היא תופעל כפקודה"
 
 #: ayatanawebmail/dialog.py:90 ayatanawebmail/dialog.py:104
 msgid "(None)"
-msgstr ""
+msgstr "(ללא)"
 
 #: ayatanawebmail/dialog.py:132
 msgid "Ayatana Webmail Preferences"
-msgstr ""
+msgstr "העדפות הדוא״ל של Ayatana"
 
 #: ayatanawebmail/dialog.py:140
 msgid "Accounts"
-msgstr ""
+msgstr "חשבונות"
 
 #: ayatanawebmail/dialog.py:141
 msgid "Options"
-msgstr ""
+msgstr "אפשרויות"
 
 #: ayatanawebmail/dialog.py:142
 msgid "Support"
-msgstr ""
+msgstr "תמיכה"
 
 #: ayatanawebmail/dialog.py:143
 msgid "About"
-msgstr ""
+msgstr "על אודות"
 
 #: ayatanawebmail/dialog.py:204
 msgid "Please visit the following link and enable access for less secure apps:"
-msgstr ""
+msgstr "נא לבקר בקישור הבא ולהפעיל גישה ליישומים פחות מאובטחים:"
 
 #: ayatanawebmail/dialog.py:206
 msgid "Access blocked by Google"
-msgstr ""
+msgstr "הגישה נחסמה על ידי Google"
 
 #: ayatanawebmail/dialog.py:210
 msgid "Failed to connect to mail account. The returned error was:"
-msgstr ""
+msgstr "ההתחברות לחשבון הדוא״ל נכשלה. השגיאה שהוחזרה היא:"
 
 #: ayatanawebmail/dialog.py:211
 msgid "Connection failure"
-msgstr ""
+msgstr "שגיאת התחברות"
 
 #: ayatanawebmail/dialog.py:234
 msgid "Custom"
-msgstr ""
+msgstr "התאמה אישית"
 
 #: ayatanawebmail/dialog.py:242
 msgid "Add"
-msgstr ""
+msgstr "הוספה"
 
 #: ayatanawebmail/dialog.py:244
 msgid "Remove"
-msgstr ""
+msgstr "הסרה"
 
 #: ayatanawebmail/dialog.py:286
 msgid "The application will append this string to \"Inbox\" to access a specific message - you can use the $MSG_THREAD and $MSG_UID placeholders"
 msgstr ""
+"היישום יוסיף את המחרוזת „דואר נכנס” כדי לגשת להודעה מסוימת - אפשר להשתמש "
+"בממלאי המקום ‎$MSG_THREAD ו־‎$MSG_UID"
 
 #: ayatanawebmail/dialog.py:288
 msgid "Account:"
-msgstr ""
+msgstr "חשבון:"
 
 #: ayatanawebmail/dialog.py:290
 msgid "Server:"
-msgstr ""
+msgstr "שרת:"
 
 #: ayatanawebmail/dialog.py:292
 msgid "Host:"
-msgstr ""
+msgstr "מארח:"
 
 #: ayatanawebmail/dialog.py:294
 msgid "Port:"
-msgstr ""
+msgstr "פתחה:"
 
 #: ayatanawebmail/dialog.py:296
 msgid "Username:"
-msgstr ""
+msgstr "שם משתמש:"
 
 #: ayatanawebmail/dialog.py:298
 msgid "Password:"
-msgstr ""
+msgstr "סיסמה:"
 
 #: ayatanawebmail/dialog.py:300
 msgid "Folders:"
-msgstr ""
+msgstr "תיקיות:"
 
 #: ayatanawebmail/dialog.py:302
 msgid "Home:"
-msgstr ""
+msgstr "בית:"
 
 #: ayatanawebmail/dialog.py:304
 msgid "Compose:"
-msgstr ""
+msgstr "כתיבה:"
 
 #: ayatanawebmail/dialog.py:306
 msgid "Sent:"
-msgstr ""
+msgstr "שליחה:"
 
 #: ayatanawebmail/dialog.py:308
 msgid "Inbox:"
-msgstr ""
+msgstr "דואר נכנס:"
 
 #: ayatanawebmail/dialog.py:310
 msgid "Message:"
-msgstr ""
+msgstr "הודעה:"
 
 #: ayatanawebmail/dialog.py:346
 msgid "Mark message as read"
-msgstr ""
+msgstr "סימון ההודעה כנקראה"
 
 #: ayatanawebmail/dialog.py:347
 msgid "Open message in browser/Execute command"
-msgstr ""
+msgstr "פתיחת הודעה בדפדפן/הפעלת פקודה"
 
 #: ayatanawebmail/dialog.py:348
 msgid "Ask me what to do"
-msgstr ""
+msgstr "לשאול אותי מה לעשות"
 
 #: ayatanawebmail/dialog.py:358
 msgid "Enable notifications:"
-msgstr ""
+msgstr "הפעלת התראות:"
 
 #: ayatanawebmail/dialog.py:360
 msgid "Play sound when a message is received:"
-msgstr ""
+msgstr "לנגן צליל כאשר מתקבלת הודעה:"
 
 #: ayatanawebmail/dialog.py:362
 msgid "Merge messages from the same conversation:"
-msgstr ""
+msgstr "מיזוג הודעות מאותו הדיון:"
 
 #: ayatanawebmail/dialog.py:364
 msgid "Hide count when zero:"
-msgstr ""
+msgstr "הסתרת המונה כאשר אפס:"
 
 #: ayatanawebmail/dialog.py:366
 msgid "When a message is activated:"
-msgstr ""
+msgstr "כאשר הודעה מופעלת:"
 
 #: ayatanawebmail/dialog.py:369
 msgid "Execute this command when a message is received:"
-msgstr ""
+msgstr "להריץ פקודה כשמתקבלת הודעה:"
 
 #: ayatanawebmail/dialog.py:376
 msgid "Custom sound to play:"
-msgstr ""
+msgstr "צליל משלך להשמעה:"
 
 #: ayatanawebmail/dialog.py:392
 msgid "Report a bug"
-msgstr ""
+msgstr "דיווח על תקלה"
 
 #: ayatanawebmail/dialog.py:394
 msgid "Request a feature"
-msgstr ""
+msgstr "בקשת יכולת"
 
 #: ayatanawebmail/dialog.py:396 ayatanawebmail/dialog.py:399
 #, python-brace-format
 msgid "It's a good idea to add the {labelname} label to your issue."
-msgstr ""
+msgstr "יכול להיות רעיון מוצלח להוסיף את התווית {labelname} לדיווח שלך."
 
 #: ayatanawebmail/dialog.py:397
 msgid "Ask a question"
-msgstr ""
+msgstr "לשאול שאלה"
 
 #: ayatanawebmail/dialog.py:400
 msgid "Help translate"
-msgstr ""
+msgstr "עזרה בתרגום"
 
 #: ayatanawebmail/dialog.py:402
 msgid "Source code"
-msgstr ""
+msgstr "קוד מקור"
 
 #: ayatanawebmail/dialog.py:404
 msgid "Home page"
-msgstr ""
+msgstr "דף הבית"
 
 #: ayatanawebmail/dialog.py:424
 msgid "translator-credits"
-msgstr ""
+msgstr "ירון שהרבני <sh.yaron@gmail.com>"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
 msgid "Ayatana Webmail (service)"
-msgstr ""
+msgstr "דוא״ל של Ayatana (שירות)"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
 msgid "Display notifications about new mail"
-msgstr ""
+msgstr "הצגת התראות על הודעות חדשות"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:4
 msgid "Ayatana Webmail"
-msgstr ""
+msgstr "דוא״ל של Ayatana"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:5
 msgid "Webmail notifications and actions for any desktop"
-msgstr ""
+msgstr "התראות דוא״ל ופעולות לכל שולחן עבודה"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:15
 msgid "Mark all as read"
-msgstr ""
+msgstr "סימון הכול כנקרא"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:20
 msgid "Compose Mail"
-msgstr ""
+msgstr "כתיבת הודעה"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:25
 msgid "Sent"
-msgstr ""
+msgstr "נשלח"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:30
 msgid "Inbox"
-msgstr ""
+msgstr "דואר נכנס"
