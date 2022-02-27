@@ -14,7 +14,7 @@ from ayatanawebmail.appdata import APPVERSION, APPURL, APPDESCRIPTION, APPAUTHOR
 import webbrowser
 
 MESSAGEACTION = {'OPEN': 1, 'MARK': 2, 'ASK': 3}
-SERVERS = [_('Custom') + '\timap.example.com\t993\thttps://mail.example.com\thttps://mail.example.com/compose\thttps://mail.example.com/sent\thttps://mail.example.com/inbox\t/$MSG_UID', 'Google\timap.gmail.com\t993\thttps://mail.google.com/mail/\thttps://mail.google.com/mail/#compose\thttps://mail.google.com/mail/#sent\thttps://mail.google.com/mail/#inbox\t/$MSG_THREAD', 'RoundCube\tmail.example.com\t993\thttps://mail.example.com/?_task=mail&amp;_mbox=INBOX\thttps://mail.example.com/?_task=mail&amp;_action=compose\thttps://mail.example.com/?_task=mail&amp;_mbox=Sent\thttps://mail.example.com/?_task=mail&amp;_mbox=INBOX\t&amp;_uid=$MSG_UID']
+SERVERS = [_('Custom') + '\timap.example.com\t993\thttps://mail.example.com\thttps://mail.example.com/compose\thttps://mail.example.com/sent\thttps://mail.example.com/inbox\t/$MSG_UID', 'Google\timap.gmail.com\t993\thttps://mail.google.com/mail/\thttps://mail.google.com/mail/#compose\thttps://mail.google.com/mail/#sent\thttps://mail.google.com/mail/#inbox\t/$MSG_THREAD', 'RoundCube\tmail.example.com\t993\thttps://mail.example.com/?_task=mail&amp;_mbox=INBOX\thttps://mail.example.com/?_task=mail&amp;_action=compose\thttps://mail.example.com/?_task=mail&amp;_mbox=Sent\thttps://mail.example.com/?_task=mail&amp;_mbox=INBOX\t&amp;_uid=$MSG_UID', 'GMX\timap.gmx.net\t993\thttps://bap.navigator.gmx.net\thttps://bap.navigator.gmx.net\thttps://bap.navigator.gmx.net\thttps://bap.navigator.gmx.net\t/']
 
 def utf7dec(lstInput):
 
