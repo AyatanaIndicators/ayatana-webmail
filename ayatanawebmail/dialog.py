@@ -200,17 +200,8 @@ class PreferencesDialog(Gtk.Dialog):
             if strError.startswith("b'"):
                 strError = strError[1:]
 
-            if 'https://support.google.com/mail/accounts/answer/78754' in strError:
-
-                oDlg.set_markup( _('Please visit the following link and enable access for less secure apps:') + '\n\n<a href="https://www.google.com/settings/security/lesssecureapps">https://www.google.com/settings/security/lesssecureapps</a>')
-                oDlg.set_property('message_type', Gtk.MessageType.INFO)
-                oDlg.set_title(_('Access blocked by Google'))
-
-            else:
-
-                oDlg.set_property('text', _('Failed to connect to mail account. The returned error was:') + '\n\n' + strError)
-                oDlg.set_title(_('Connection failure'))
-
+            oDlg.set_property('text', _('Failed to connect to mail account. The returned error was:') + '\n\n' + strError)
+            oDlg.set_title(_('Connection failure'))
             oDlg.run()
             oDlg.destroy()
 
