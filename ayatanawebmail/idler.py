@@ -23,8 +23,11 @@ class Idler(object):
     def stop(self):
 
         if self.oConnection.oImap is not None:
-            # Send a NOOP command to interrupt the IDLE mode and free the blocked thread
-            self.oConnection.oImap.noop()
+            try:
+                # Send a NOOP command to interrupt the IDLE mode and free the blocked thread
+                self.oConnection.oImap.noop()
+            except:
+                pass
         self.oEvent.set()
 
     def join(self):
