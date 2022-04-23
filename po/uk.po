@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
 "issues\n"
 "POT-Creation-Date: 2020-04-03 12:21+0200\n"
-"PO-Revision-Date: 2022-04-23 10:54+0000\n"
+"PO-Revision-Date: 2022-04-23 12:18+0000\n"
 "Last-Translator: Sergii Horichenko <m@sgg.im>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-webmail/uk/>\n"
@@ -72,7 +72,7 @@ msgstr "Без теми"
 
 #: ayatanawebmail/application.py:1132
 msgid "Connection error"
-msgstr ""
+msgstr "Помилка з'єднання"
 
 #: ayatanawebmail/application.py:1133
 #, python-brace-format
@@ -185,7 +185,7 @@ msgstr "Додати"
 
 #: ayatanawebmail/dialog.py:261
 msgid "Remove"
-msgstr "Вилучити"
+msgstr "Видалити"
 
 #: ayatanawebmail/dialog.py:276
 msgid "Server data"
@@ -253,15 +253,15 @@ msgstr "Увімкнути сповіщення:"
 
 #: ayatanawebmail/dialog.py:368
 msgid "Play sound when a message is received:"
-msgstr ""
+msgstr "При отримання повідомлення відтворювати звук:"
 
 #: ayatanawebmail/dialog.py:370
 msgid "Merge messages from the same conversation:"
-msgstr "Об'єднувати повідомлення з цієї ж розмови"
+msgstr "Об'єднувати повідомлення тієї самої розмови:"
 
 #: ayatanawebmail/dialog.py:372
 msgid "Hide count when zero:"
-msgstr ""
+msgstr "Приховати кількість, якщо нуль:"
 
 #: ayatanawebmail/dialog.py:374
 msgid "When a message is activated:"
@@ -269,7 +269,7 @@ msgstr "Коли повідомлення активне:"
 
 #: ayatanawebmail/dialog.py:377
 msgid "Execute this command when a message is received:"
-msgstr ""
+msgstr "При отриманні повідомлення виконати цю команду:"
 
 #: ayatanawebmail/dialog.py:384
 msgid "Custom sound to play:"
@@ -315,7 +315,7 @@ msgstr "Ayatana Webmail"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:39
 msgid "Webmail notifications and actions for any desktop"
-msgstr ""
+msgstr "Сповіщення та дії веб-пошти для будь-якого робочого столу"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:74
 msgid "Mark all as read"
@@ -335,7 +335,7 @@ msgstr "Вхідні"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
 msgid "Ayatana Webmail (service)"
-msgstr ""
+msgstr "Ayatana Webmail (служба)"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:38
 msgid "Display notifications about new mail"
