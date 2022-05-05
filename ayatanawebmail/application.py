@@ -114,39 +114,18 @@ def getSenderName(sender):
 
 class MessagingMenu(object):
 
-    oUnity = None
     oMessagingMenu = None
     oAppIndicator = None
 
     def __init__(self, fnActivate, fnSettings, fnUpdateMessageAges, fnCheckNetwork):
 
         self.fnActivate = fnActivate
-        self.launcher = None
         self.nMenuItems = 0
         self.nMessageAgeTimer = None
         self.nNetworkTimer = GLib.timeout_add_seconds(60, fnCheckNetwork)
         self.oMenuItemClear = None
         self.oMailIcon = Gio.Icon.new_for_string('mail-unread')
-
-        try:
-
-            gi.require_version('Unity', '7.0')
-            self.oUnity = importlib.import_module('gi.repository.Unity')
-
-            strDesktopId = 'ayatana-webmail.desktop'
-
-            for strId in self.oUnity.LauncherFavorites.get_default().enumerate_ids():
-
-                if APPNAME in strId:
-
-                    strDesktopId = strId
-                    break
-
-            self.oLauncher = self.oUnity.LauncherEntry.get_for_desktop_id(strDesktopId)
-
-        except Exception as oException:
-
-            pass
+        self.nMessages = 0
 
         lstProcesses = [oProcess.name() for oProcess in psutil.process_iter()]
 
@@ -341,20 +320,19 @@ class MessagingMenu(object):
 
         if nCount == -1:
 
-            if self.oUnity:
-                nCount = self.oLauncher.get_property('count') - 1
-            elif not self.oMessagingMenu:
-                nCount = int(self.oIndicator.get_label()) - 1
+            nCount = self.nMessages - 1
 
         bVisible = bVisible and ((nCount > 0) or not g_oSettings.get_boolean('hide-messages-count'))
+        pBus = Gio.bus_get_sync(Gio.BusType.SESSION)
+        pData = GLib.Variant("a{sv}", {"count": GLib.Variant("x", nCount), "count-visible": GLib.Variant("b", bVisible)})
+        pParams = GLib.Variant.new_tuple(GLib.Variant("s", "application://ayatana-webmail.desktop"), pData)
+        pBus.emit_signal(None, "/com/canonical/unity/launcherentry", "com.canonical.Unity.LauncherEntry", "Update", pParams)
 
-        if self.oUnity:
+        if not self.oMessagingMenu:
 
-            self.oLauncher.set_property('count', nCount)
-            self.oLauncher.set_property('count_visible', bVisible)
-
-        elif not self.oMessagingMenu:
             self.oIndicator.set_label(str(nCount) if bVisible else '', '')
+
+        self.nMessages = nCount
 
         return False
 
@@ -580,6 +558,10 @@ class AyatanaWebmail(object):
 
     def close(self, nCode):
 
+        pBus = Gio.bus_get_sync(Gio.BusType.SESSION)
+        pData = GLib.Variant("a{sv}", {"count": GLib.Variant("x", 0), "count-visible": GLib.Variant("b", False)})
+        pParams = GLib.Variant.new_tuple(GLib.Variant("s", "application://ayatana-webmail.desktop"), pData)
+        pBus.emit_signal(None, "/com/canonical/unity/launcherentry", "com.canonical.Unity.LauncherEntry", "Update", pParams)
         self.oMessagingMenu.close()
         self.closeConnections()
         print()
