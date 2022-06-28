@@ -1,3 +1,14 @@
+Overview of changes in ayatana-webmail 22.6.28
+
+  - Hardcode server list.
+  - ayatanawebmail/dialog.py: Add GMX mail to server list.
+  - Fix blocked idler on calling the `stop` method.
+  - ayatanawebmail/dialog.py: Drop special warning case for Google.
+  - Do not fail in the idler stop method on connection drops.
+  - ayatanawebmail/application.py: Drop libunity and use dbus.
+  - ayatanawebmail/dialog.py: Add Horde template (incomplete).
+  - Translation updates.
+
 Overview of changes in ayatana-webmail 22.2.26
 
   - ayatanawebmail/application.py: Fetch X-GM-THRID for GMail accounts only.

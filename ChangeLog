@@ -1,6 +1,61 @@
+2022-06-28 Mike Gabriel
+
+        * release 22.6.28 (HEAD -> main, tag: 22.6.28)
+
+2022-05-05 Robert Tari
+
+        * ayatanawebmail/dialog.py: Add Horde template (incomplete) (9006184)
+        * debian/control: Drop recommended libunity (87f490f)
+        * ayatanawebmail/application.py: Drop libunity and use dbus (0445a53)
+
+2022-04-23 Sergii Horichenko
+
+        * Translated using Weblate (Ukrainian) (2305d16)
+        * Translated using Weblate (Ukrainian) (64593f9)
+        * Translated using Weblate (Ukrainian) (8bdb10b)
+
+2022-04-04 Robert Tari
+
+        * Merge branch 'IngoMeyer441-fix/idler-stop' (7c0a7db)
+
+2022-04-04 Ingo Meyer
+
+        * Do not fail in the idler stop method on connection drops (7458995)
+
+2022-04-01 Robert Tari
+
+        * ayatanawebmail/dialog.py: Drop special warning case for Google
+          (30a122b)
+
+2022-03-15 이정희
+
+        * Translated using Weblate (Korean) (e7af6fe)
+
+2022-03-02 Robert Tari
+
+        * Merge branch 'IngoMeyer441-fix/blocked-idler' (4e8949f)
+
+2022-03-01 Ingo Meyer
+
+        * Fix blocked idler on calling the `stop` method (aeb27d7)
+
+2022-02-27 이정희
+
+        * Translated using Weblate (Korean) (f19ae55)
+
+2022-02-27 Yaron Shahrabani
+
+        * Translated using Weblate (Hebrew) (97b9751)
+
+2022-02-27 Robert Tari
+
+        * ayatanawebmail/dialog.py: Add GMX mail to server list (0dbadb6)
+        * Hardcode server list (79081b2)
+        * ayatanawebmail/dialog.py: Fix current authors (7ac869d)
+
 2022-02-26 Mike Gabriel
 
-        * release 22.2.26 (HEAD -> main, tag: 22.2.26)
+        * release 22.2.26 (3232a97) (tag: 22.2.26)
 
 2022-02-26 Robert Tari
 
