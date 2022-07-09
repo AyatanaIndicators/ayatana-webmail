@@ -6,7 +6,7 @@ from threading import *
 
 class Idler(object):
 
-    def __init__(self, oConnection, fnCallback, oLogger):
+    def __init__(self, oConnection, fnCallback, oLogger, sDebug):
 
         self.oThread = Thread(target=self.idle)
         self.oConnection = oConnection
@@ -15,6 +15,7 @@ class Idler(object):
         self.bNeedSync = False
         self.oLogger = oLogger
         self.bAborted = False
+        self.sDebug = sDebug
 
     def start(self):
 
@@ -48,7 +49,10 @@ class Idler(object):
 
                 if (lstArgs[2] != None) and (lstArgs[2][0] is self.oConnection.oImap.abort):
 
-                    self.oLogger.info('"{0}:{1}" has been closed by the server.'.format(self.oConnection.strLogin, self.oConnection.strFolder))
+                    if self.sDebug == 'info':
+
+                        self.oLogger.info('"{0}:{1}" has been closed by the server.'.format(self.oConnection.strLogin, self.oConnection.strFolder))
+
                     self.bAborted = True
 
                 else:
@@ -61,7 +65,10 @@ class Idler(object):
 
             while not self.oConnection.isOpen():
 
-                self.oLogger.info('"{0}:{1}" IDLE is waiting for a connection.'.format(self.oConnection.strLogin, self.oConnection.strFolder))
+                if self.sDebug == 'info':
+
+                    self.oLogger.info('"{0}:{1}" IDLE is waiting for a connection.'.format(self.oConnection.strLogin, self.oConnection.strFolder))
+
                 time.sleep(10)
 
             self.oConnection.oImap.idle(callback=callback, timeout=600)

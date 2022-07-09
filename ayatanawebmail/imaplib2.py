@@ -6,7 +6,7 @@ try:
 
     from ayatanawebmail.appdata import APPDEBUG
 
-    if APPDEBUG:
+    if len(APPDEBUG) == 1 and APPDEBUG[0] == 'debug':
 
         m_bDebug = True
 

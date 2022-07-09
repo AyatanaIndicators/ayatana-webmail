@@ -370,9 +370,9 @@ class SessionBus(dbus.service.Object):
 
 class Connection(object):
 
-    def __init__(self, bDebug, host, port, login, passwd, folder, fnIdle, strInbox):
+    def __init__(self, sDebug, host, port, login, passwd, folder, fnIdle, strInbox):
 
-        self.bDebug = bDebug
+        self.sDebug = sDebug
         self.strHost = host
         self.nPort = port
         self.strLogin = login
@@ -407,19 +407,21 @@ class Connection(object):
 
             self.oImap = None
 
-            logger.info('"{0}:{1}" has been cleaned up.'.format(self.strLogin, self.strFolder))
+            if self.sDebug == 'info':
+
+                logger.info('"{0}:{1}" has been cleaned up.'.format(self.strLogin, self.strFolder))
 
     def connect(self):
 
         try:
 
-            self.oImap = imaplib.IMAP4_SSL(self.strHost, self.nPort, debug=int(self.bDebug)*5)
+            self.oImap = imaplib.IMAP4_SSL(self.strHost, self.nPort, debug=int(self.sDebug == 'debug')*5)
 
         except Exception as e:
 
             logger.warning('"{0}:{1}" IMAP4_SSL failed, trying IMAP4.'.format(self.strLogin, self.strFolder))
 
-            self.oImap = imaplib.IMAP4(self.strHost, self.nPort, debug=int(self.bDebug)*5)
+            self.oImap = imaplib.IMAP4(self.strHost, self.nPort, debug=int(self.sDebug)*5)
 
             if 'STARTTLS' in self.oImap.capabilities:
                 self.oImap.starttls()
@@ -443,9 +445,12 @@ class Connection(object):
 
         else:
 
-            logger.info('"{0}:{1}" is now connected.'.format(self.strLogin, self.strFolder))
+            if self.sDebug == 'info':
+
+                logger.info('"{0}:{1}" is now connected.'.format(self.strLogin, self.strFolder))
+
             self.fnIdle(self, False)
-            self.oIdler = Idler(self, self.fnIdle, logger)
+            self.oIdler = Idler(self, self.fnIdle, logger, self.sDebug)
             self.oIdler.start()
 
     def isOpen(self):
@@ -466,9 +471,9 @@ class Message(object):
 
 class AyatanaWebmail(object):
 
-    def __init__(self, bDebug):
+    def __init__(self, sDebug):
 
-        self.bDebug = bDebug
+        self.sDebug = sDebug
         self.dlgSettings = None
         self.nLastMailTimestamp = 0
         self.first_run = True
@@ -506,7 +511,9 @@ class AyatanaWebmail(object):
 
         if not bGoing:
 
-            logger.info('The System has resumed from sleep, reconnecting accounts.')
+            if self.sDebug == 'info':
+
+                logger.info('The System has resumed from sleep, reconnecting accounts.')
 
             for oConnection in self.lstConnections:
 
@@ -519,7 +526,10 @@ class AyatanaWebmail(object):
 
         if not checkNetwork():
 
-            logger.info('No network connection, checking in 1 minute.')
+            if self.sDebug == 'info':
+
+                logger.info('No network connection, checking in 1 minute.')
+
             self.bNoNetwork = True
             self.bIdlerRunning = False
 
@@ -710,7 +720,7 @@ class AyatanaWebmail(object):
                 g_lstAccounts.append({'Host': strHost, 'Port': nPort, 'Login': strLogin, 'Passwd': strPasswd, 'Folders': strFolders, 'Home': strHome, 'Compose': strCompose, 'Inbox': strInbox, 'Sent': strSent, 'InboxAppend': strInboxAppend})
 
                 for strFolder in strFolders.split('\t'):
-                    self.lstConnections.append(Connection(self.bDebug, strHost, nPort, strLogin, strPasswd, strFolder, self.onIdle, strInbox + strInboxAppend))
+                    self.lstConnections.append(Connection(self.sDebug, strHost, nPort, strLogin, strPasswd, strFolder, self.onIdle, strInbox + strInboxAppend))
 
     def createKeyringItem(self, ind, update=False):
 
@@ -805,7 +815,7 @@ class AyatanaWebmail(object):
                 pass
 
             for strFolder in strFolders.split('\t'):
-                self.lstConnections.append(Connection(self.bDebug, dct['Host'], nPort, dct['Login'], dct['Passwd'], strFolder, self.onIdle, dct['Inbox'] + dct['InboxAppend']))
+                self.lstConnections.append(Connection(self.sDebug, dct['Host'], nPort, dct['Login'], dct['Passwd'], strFolder, self.onIdle, dct['Inbox'] + dct['InboxAppend']))
 
     def appendToIndicator(self, message):
 
@@ -831,7 +841,11 @@ class AyatanaWebmail(object):
 
                 oConnection.bConnecting = True
                 GLib.timeout_add_seconds(1, oConnection.close)
-                logger.info('"{0}:{1}" will try to reconnect in 1 minute.'.format(oConnection.strLogin, oConnection.strFolder))
+
+                if self.sDebug == 'info':
+
+                    logger.info('"{0}:{1}" will try to reconnect in 1 minute.'.format(oConnection.strLogin, oConnection.strFolder))
+
                 GLib.timeout_add_seconds(60, self.connect, [oConnection])
 
             return
@@ -1057,7 +1071,9 @@ class AyatanaWebmail(object):
 
     def connect(self, lstConnections):
 
-        logger.info('Checking network...')
+        if self.sDebug == 'info':
+
+            logger.info('Checking network...')
 
         if not checkNetwork():
 
@@ -1065,7 +1081,9 @@ class AyatanaWebmail(object):
 
         if (lstConnections):
 
-            logger.info('Network connection active, connecting...')
+            if self.sDebug == 'info':
+
+                logger.info('Network connection active, connecting...')
 
             for oConnection in lstConnections:
 
