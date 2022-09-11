@@ -6,13 +6,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
-"Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-webmail/"
-"issues\n"
-"POT-Creation-Date: 2020-04-03 12:21+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-11 12:53+0200\n"
 "PO-Revision-Date: 2022-04-23 12:18+0000\n"
 "Last-Translator: Sergii Horichenko <m@sgg.im>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/"
-"ayatana-indicators/ayatana-webmail/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/ayatana-"
+"indicators/ayatana-webmail/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,59 +21,59 @@ msgstr ""
 "X-Generator: Weblate 4.12.1-dev\n"
 "X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
 
-#: ayatanawebmail/accounts.py:18
+#: /ayatanawebmail/accounts.py:18
 msgid "Select account"
 msgstr "Оберіть обліковий запис"
 
-#: ayatanawebmail/accounts.py:29
+#: /ayatanawebmail/accounts.py:29
 msgid "Which account's command/web page would you like to open?"
 msgstr "Яку команду/веб-сторінку облікового запису ви би хотіли відкрити?"
 
-#: ayatanawebmail/actions.py:15
+#: /ayatanawebmail/actions.py:15
 msgid "Message actions"
 msgstr "Дії з повідомленнями"
 
-#: ayatanawebmail/actions.py:15
+#: /ayatanawebmail/actions.py:15
 msgid "Delete"
 msgstr "Видалити"
 
-#: ayatanawebmail/actions.py:15
+#: /ayatanawebmail/actions.py:15
 msgid "Mark as read"
 msgstr "Позначити як прочитане"
 
-#: ayatanawebmail/actions.py:15
+#: /ayatanawebmail/actions.py:15
 msgid "Open message/Run command"
 msgstr "Відкрити повідомлення/Виконати команду"
 
-#: ayatanawebmail/actions.py:24
+#: /ayatanawebmail/actions.py:24
 msgid "Sender"
 msgstr "Відправник"
 
-#: ayatanawebmail/actions.py:26
+#: /ayatanawebmail/actions.py:26
 msgid "Subject"
 msgstr "Тема"
 
-#: ayatanawebmail/application.py:205
+#: /ayatanawebmail/application.py:178
 msgid "Open webmail home page"
 msgstr "Відкрити пошту в оглядачі"
 
-#: ayatanawebmail/application.py:212
+#: /ayatanawebmail/application.py:185
 msgid "Clear"
 msgstr "Очистити"
 
-#: ayatanawebmail/application.py:219
+#: /ayatanawebmail/application.py:192
 msgid "Settings"
 msgstr "Налаштування"
 
-#: ayatanawebmail/application.py:980
+#: /ayatanawebmail/application.py:945
 msgid "No subject"
 msgstr "Без теми"
 
-#: ayatanawebmail/application.py:1132
+#: /ayatanawebmail/application.py:1105
 msgid "Connection error"
 msgstr "Помилка з'єднання"
 
-#: ayatanawebmail/application.py:1133
+#: /ayatanawebmail/application.py:1106
 #, python-brace-format
 msgid ""
 "Unable to connect to account \"{accountName}\", the application will now "
@@ -83,260 +82,351 @@ msgstr ""
 "Неможливо з'єднатись із обліковим записом \"{accountName}\", програма зараз "
 "закриється."
 
-#: ayatanawebmail/application.py:1133
-#, python-brace-format
-msgid "You can run \"{command}\" to delete all your login settings."
-msgstr ""
-"Ви можете запустити \"{command}\" для знищення усіх ваших налаштувань входу."
-
-#: ayatanawebmail/application.py:1158
-#, python-format
-msgid "You have %d unread mail"
-msgid_plural "You have %d unread mails"
+#: /ayatanawebmail/application.py:1131
+#, fuzzy, python-format
+msgid "You have %d unread message"
+msgid_plural "You have %d unread messages"
 msgstr[0] "У вас %d непрочитаний лист"
 msgstr[1] "У вас %d непрочитаних листи"
 msgstr[2] "У вас %d непрочитаних листів"
 
-#: ayatanawebmail/application.py:1185
+#: /ayatanawebmail/application.py:1158
 #, python-format
 msgid "from %(t0)s, %(t1)s and others"
 msgstr "Від %(t0)s, %(t1)s та інших"
 
-#: ayatanawebmail/application.py:1187
+#: /ayatanawebmail/application.py:1160
 #, python-format
 msgid "from %(t0)s and %(t1)s"
 msgstr "Від %(t0)s та %(t1)s"
 
-#: ayatanawebmail/application.py:1189
+#: /ayatanawebmail/application.py:1162
 #, python-format
 msgid "from %s"
 msgstr "від %s"
 
-#: ayatanawebmail/application.py:1202
+#: /ayatanawebmail/application.py:1175
 #, python-format
 msgid "New mail from %s"
 msgstr "Нове повідомлення від %s"
 
-#: ayatanawebmail/dialog.py:60
-msgid "Web page"
-msgstr "Веб-сторінка"
-
-#: ayatanawebmail/dialog.py:61
-msgid "Command"
-msgstr "Команда"
-
-#: ayatanawebmail/dialog.py:93
-msgid ""
-"Append an additional string - you can use the $MSG_THREAD and $MSG_UID "
-"placeholders."
+#: /ayatanawebmail/dialog.py:17
+msgid "Custom"
 msgstr ""
 
-#: ayatanawebmail/dialog.py:114 ayatanawebmail/dialog.py:128
+#: /ayatanawebmail/dialog.py:61
+msgid ""
+"If this string starts with http:// or https://, the application will open it "
+"in your browser - otherwise, it will be run as a command"
+msgstr ""
+
+#: /ayatanawebmail/dialog.py:91 /ayatanawebmail/dialog.py:105
 msgid "(None)"
 msgstr "(Відсутнє)"
 
-#: ayatanawebmail/dialog.py:156
+#: /ayatanawebmail/dialog.py:133
 msgid "Ayatana Webmail Preferences"
 msgstr "Налаштування Ayatana Webmail"
 
-#: ayatanawebmail/dialog.py:164
+#: /ayatanawebmail/dialog.py:141
 msgid "Accounts"
 msgstr "Облікові записи"
 
-#: ayatanawebmail/dialog.py:165
+#: /ayatanawebmail/dialog.py:142
 msgid "Options"
 msgstr "Параметри"
 
-#: ayatanawebmail/dialog.py:166
+#: /ayatanawebmail/dialog.py:143
 msgid "Support"
 msgstr "Підтримка"
 
-#: ayatanawebmail/dialog.py:167
+#: /ayatanawebmail/dialog.py:144
 msgid "About"
 msgstr "Про програму"
 
-#: ayatanawebmail/dialog.py:228
-msgid ""
-"Please visit the following link and enable access for less secure apps:"
-msgstr ""
-"Будь ласка, відвідайте наступне посилання та надайте доступ для менш "
-"безпечних додатків:"
-
-#: ayatanawebmail/dialog.py:230
-msgid "Access blocked by Google"
-msgstr "Доступ заблокований Google"
-
-#: ayatanawebmail/dialog.py:234
+#: /ayatanawebmail/dialog.py:203
 msgid "Failed to connect to mail account. The returned error was:"
 msgstr ""
 "Не вдалось підключитися до поштового облікового запису. Повернено помилку:"
 
-#: ayatanawebmail/dialog.py:235
+#: /ayatanawebmail/dialog.py:204
 msgid "Connection failure"
 msgstr "Невдале з'єднання"
 
-#: ayatanawebmail/dialog.py:254
-msgid "Choose an account"
-msgstr "Виберіть обліковий запис"
-
-#: ayatanawebmail/dialog.py:259
+#: /ayatanawebmail/dialog.py:232
 msgid "Add"
 msgstr "Додати"
 
-#: ayatanawebmail/dialog.py:261
+#: /ayatanawebmail/dialog.py:234
 msgid "Remove"
 msgstr "Видалити"
 
-#: ayatanawebmail/dialog.py:276
-msgid "Server data"
+#: /ayatanawebmail/dialog.py:276
+msgid ""
+"The application will append this string to \"Inbox\" to access a specific "
+"message - you can use the $MSG_THREAD and $MSG_UID placeholders"
+msgstr ""
+
+#: /ayatanawebmail/dialog.py:278
+#, fuzzy
+msgid "Account:"
+msgstr "Облікові записи"
+
+#: /ayatanawebmail/dialog.py:280
+#, fuzzy
+msgid "Server:"
 msgstr "Дані серверу"
 
-#: ayatanawebmail/dialog.py:278
-msgid "Account data"
-msgstr "Дані облікового запису"
-
-#: ayatanawebmail/dialog.py:289
-msgid "Links"
-msgstr "Посилання"
-
-#: ayatanawebmail/dialog.py:297
+#: /ayatanawebmail/dialog.py:282
 msgid "Host:"
 msgstr "Хост:"
 
-#: ayatanawebmail/dialog.py:299
+#: /ayatanawebmail/dialog.py:284
 msgid "Port:"
 msgstr "Порт:"
 
-#: ayatanawebmail/dialog.py:302
-msgid "Login:"
-msgstr "Логін:"
+#: /ayatanawebmail/dialog.py:286
+msgid "Username:"
+msgstr ""
 
-#: ayatanawebmail/dialog.py:304
+#: /ayatanawebmail/dialog.py:288
 msgid "Password:"
 msgstr "Пароль:"
 
-#: ayatanawebmail/dialog.py:306
+#: /ayatanawebmail/dialog.py:290
 msgid "Folders:"
 msgstr "Теки:"
 
-#: ayatanawebmail/dialog.py:309
+#: /ayatanawebmail/dialog.py:292
 msgid "Home:"
 msgstr "Головна сторінка:"
 
-#: ayatanawebmail/dialog.py:311
+#: /ayatanawebmail/dialog.py:294
 msgid "Compose:"
 msgstr "Написати:"
 
-#: ayatanawebmail/dialog.py:313
-msgid "Inbox:"
-msgstr "Вхідні:"
-
-#: ayatanawebmail/dialog.py:316
+#: /ayatanawebmail/dialog.py:296
 msgid "Sent:"
 msgstr "Надіслані:"
 
-#: ayatanawebmail/dialog.py:354
+#: /ayatanawebmail/dialog.py:298
+msgid "Inbox:"
+msgstr "Вхідні:"
+
+#: /ayatanawebmail/dialog.py:300
+#, fuzzy
+msgid "Message:"
+msgstr "Дії з повідомленнями"
+
+#: /ayatanawebmail/dialog.py:336
 msgid "Mark message as read"
 msgstr "Позначити повідомлення як прочитане"
 
-#: ayatanawebmail/dialog.py:355
+#: /ayatanawebmail/dialog.py:337
 msgid "Open message in browser/Execute command"
 msgstr "Відкрити повідомлення в оглядачі/Виконати команду"
 
-#: ayatanawebmail/dialog.py:356
+#: /ayatanawebmail/dialog.py:338
 msgid "Ask me what to do"
 msgstr "Запитати мене, що робити"
 
-#: ayatanawebmail/dialog.py:366
+#: /ayatanawebmail/dialog.py:348
 msgid "Enable notifications:"
 msgstr "Увімкнути сповіщення:"
 
-#: ayatanawebmail/dialog.py:368
+#: /ayatanawebmail/dialog.py:350
 msgid "Play sound when a message is received:"
 msgstr "При отримання повідомлення відтворювати звук:"
 
-#: ayatanawebmail/dialog.py:370
+#: /ayatanawebmail/dialog.py:352
 msgid "Merge messages from the same conversation:"
 msgstr "Об'єднувати повідомлення тієї самої розмови:"
 
-#: ayatanawebmail/dialog.py:372
+#: /ayatanawebmail/dialog.py:354
 msgid "Hide count when zero:"
 msgstr "Приховати кількість, якщо нуль:"
 
-#: ayatanawebmail/dialog.py:374
+#: /ayatanawebmail/dialog.py:356
 msgid "When a message is activated:"
 msgstr "Коли повідомлення активне:"
 
-#: ayatanawebmail/dialog.py:377
+#: /ayatanawebmail/dialog.py:359
 msgid "Execute this command when a message is received:"
 msgstr "При отриманні повідомлення виконати цю команду:"
 
-#: ayatanawebmail/dialog.py:384
+#: /ayatanawebmail/dialog.py:366
 msgid "Custom sound to play:"
 msgstr "Вибрати звук сповіщення:"
 
-#: ayatanawebmail/dialog.py:400
-msgid "Report a bug/Request a feature"
+#: /ayatanawebmail/dialog.py:382
+msgid "Report a bug"
+msgstr ""
+
+#: /ayatanawebmail/dialog.py:384
+#, fuzzy
+msgid "Request a feature"
 msgstr "Повідомити про помилку/Запит про довідку"
 
-#: ayatanawebmail/dialog.py:402
+#: /ayatanawebmail/dialog.py:386 /ayatanawebmail/dialog.py:389
+#, python-brace-format
+msgid "It's a good idea to add the {labelname} label to your issue."
+msgstr ""
+
+#: /ayatanawebmail/dialog.py:387
 msgid "Ask a question"
 msgstr "Запитати"
 
-#: ayatanawebmail/dialog.py:404
+#: /ayatanawebmail/dialog.py:390
 msgid "Help translate"
 msgstr "Допомогти з перекладом"
 
-#: ayatanawebmail/dialog.py:406
-msgid "Project page"
-msgstr "Сторінка проекту"
-
-#: ayatanawebmail/dialog.py:408
+#: /ayatanawebmail/dialog.py:392
 msgid "Source code"
 msgstr "Джерельний код"
 
-#: ayatanawebmail/dialog.py:410
-msgid "Repository"
-msgstr "Репозиторій"
-
-#: ayatanawebmail/dialog.py:412
+#: /ayatanawebmail/dialog.py:394
 msgid "Home page"
 msgstr "Домашня сторінка"
 
-#: ayatanawebmail/dialog.py:426
+#: /ayatanawebmail/dialog.py:414
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
 "  Vitalii Paslavskyi https://launchpad.net/~vpaslavskyi"
 
-#: data/usr/share/applications/ayatana-webmail.desktop:4
-msgid "Ayatana Webmail"
-msgstr "Ayatana Webmail"
+#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:1
+msgid "Maximum item count"
+msgstr ""
 
-#: data/usr/share/applications/ayatana-webmail.desktop:39
-msgid "Webmail notifications and actions for any desktop"
-msgstr "Сповіщення та дії веб-пошти для будь-якого робочого столу"
+#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:2
+msgid "Limit the number of mails to retrieve per folder."
+msgstr ""
 
-#: data/usr/share/applications/ayatana-webmail.desktop:74
-msgid "Mark all as read"
-msgstr "Позначити всі як прочитані"
+#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:3
+#, fuzzy
+msgid "Enable notifications"
+msgstr "Увімкнути сповіщення:"
 
-#: data/usr/share/applications/ayatana-webmail.desktop:112
-msgid "Compose Mail"
-msgstr "Написати листа"
+#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:4
+msgid "Show OSD notifications when new messages arrive."
+msgstr ""
 
-#: data/usr/share/applications/ayatana-webmail.desktop:152
-msgid "Sent"
-msgstr "Надіслані"
+#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:5
+msgid "Enable sound"
+msgstr ""
 
-#: data/usr/share/applications/ayatana-webmail.desktop:228
-msgid "Inbox"
-msgstr "Вхідні"
+#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:6
+#, fuzzy
+msgid "Play sound when new messages arrive."
+msgstr "При отримання повідомлення відтворювати звук:"
 
-#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
-msgid "Ayatana Webmail (service)"
-msgstr "Ayatana Webmail (служба)"
+#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:7
+#, fuzzy
+msgid "Hide message count"
+msgstr "Відкрити повідомлення/Виконати команду"
 
-#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:38
-msgid "Display notifications about new mail"
-msgstr "Показувати повідомлення про новий лист"
+#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:8
+msgid "Hide message count when there are no messages."
+msgstr ""
+
+#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:9
+msgid "Execute on receive"
+msgstr ""
+
+#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:10
+#, fuzzy
+msgid "Run this command when new messages arrive."
+msgstr "При отриманні повідомлення виконати цю команду:"
+
+#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:11
+#, fuzzy
+msgid "Custom sound"
+msgstr "Вибрати звук сповіщення:"
+
+#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:12
+#, fuzzy
+msgid "Play a custom sound when new messages arrive."
+msgstr "При отримання повідомлення відтворювати звук:"
+
+#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:13
+#, fuzzy
+msgid "Merge messages"
+msgstr "Позначити повідомлення як прочитане"
+
+#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:14
+#, fuzzy
+msgid "Merge messages belonging to the same conversation."
+msgstr "Об'єднувати повідомлення тієї самої розмови:"
+
+#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:15
+#, fuzzy
+msgid "Message action"
+msgstr "Дії з повідомленнями"
+
+#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:16
+#, fuzzy
+msgid "Action to perform when a message is activated."
+msgstr "Коли повідомлення активне:"
+
+#, python-brace-format
+#~ msgid "You can run \"{command}\" to delete all your login settings."
+#~ msgstr ""
+#~ "Ви можете запустити \"{command}\" для знищення усіх ваших налаштувань "
+#~ "входу."
+
+#~ msgid "Web page"
+#~ msgstr "Веб-сторінка"
+
+#~ msgid "Command"
+#~ msgstr "Команда"
+
+#~ msgid ""
+#~ "Please visit the following link and enable access for less secure apps:"
+#~ msgstr ""
+#~ "Будь ласка, відвідайте наступне посилання та надайте доступ для менш "
+#~ "безпечних додатків:"
+
+#~ msgid "Access blocked by Google"
+#~ msgstr "Доступ заблокований Google"
+
+#~ msgid "Choose an account"
+#~ msgstr "Виберіть обліковий запис"
+
+#~ msgid "Account data"
+#~ msgstr "Дані облікового запису"
+
+#~ msgid "Links"
+#~ msgstr "Посилання"
+
+#~ msgid "Login:"
+#~ msgstr "Логін:"
+
+#~ msgid "Project page"
+#~ msgstr "Сторінка проекту"
+
+#~ msgid "Repository"
+#~ msgstr "Репозиторій"
+
+#~ msgid "Ayatana Webmail"
+#~ msgstr "Ayatana Webmail"
+
+#~ msgid "Webmail notifications and actions for any desktop"
+#~ msgstr "Сповіщення та дії веб-пошти для будь-якого робочого столу"
+
+#~ msgid "Mark all as read"
+#~ msgstr "Позначити всі як прочитані"
+
+#~ msgid "Compose Mail"
+#~ msgstr "Написати листа"
+
+#~ msgid "Sent"
+#~ msgstr "Надіслані"
+
+#~ msgid "Inbox"
+#~ msgstr "Вхідні"
+
+#~ msgid "Ayatana Webmail (service)"
+#~ msgstr "Ayatana Webmail (служба)"
+
+#~ msgid "Display notifications about new mail"
+#~ msgstr "Показувати повідомлення про новий лист"

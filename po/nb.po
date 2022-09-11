@@ -1,23 +1,21 @@
-# Serbian translation for ayatana-webmail
-# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
-# This file is distributed under the same license as the ayatana-webmail package.
-# Саша Петровић <salepetronije@gmail.com>, 2013.
-# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2016.
+# Norwegian Bokmal translations for PACKAGE package.
+# Copyright (C) 2022 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2022.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: ayatana-webmail\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-11 12:53+0200\n"
-"PO-Revision-Date: 2018-06-04 07:33+0000\n"
-"Language-Team: Serbian <gnom@prevod.org>\n"
-"Language: sr\n"
+"PO-Revision-Date: 2022-09-11 12:53+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: nb\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=ASCII\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
-"X-Generator: Launchpad (build a296f04231dee355be5db73cc878b9e21689a253)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: /ayatanawebmail/accounts.py:18
 msgid "Select account"
@@ -65,7 +63,7 @@ msgstr ""
 
 #: /ayatanawebmail/application.py:945
 msgid "No subject"
-msgstr "Без теме"
+msgstr ""
 
 #: /ayatanawebmail/application.py:1105
 msgid "Connection error"
@@ -79,32 +77,31 @@ msgid ""
 msgstr ""
 
 #: /ayatanawebmail/application.py:1131
-#, fuzzy, python-format
+#, python-format
 msgid "You have %d unread message"
 msgid_plural "You have %d unread messages"
-msgstr[0] "Имате %d непрочитану поруку"
-msgstr[1] "Имате %d непрочитане поруке"
-msgstr[2] "Имате %d непрочитаних порука"
+msgstr[0] ""
+msgstr[1] ""
 
 #: /ayatanawebmail/application.py:1158
 #, python-format
 msgid "from %(t0)s, %(t1)s and others"
-msgstr "од %(t0)s и %(t1)s и осталих"
+msgstr ""
 
 #: /ayatanawebmail/application.py:1160
 #, python-format
 msgid "from %(t0)s and %(t1)s"
-msgstr "ос %(t0)s и %(t1)s"
+msgstr ""
 
 #: /ayatanawebmail/application.py:1162
 #, python-format
 msgid "from %s"
-msgstr "од %s"
+msgstr ""
 
 #: /ayatanawebmail/application.py:1175
 #, python-format
 msgid "New mail from %s"
-msgstr "%s је послао нову поруку"
+msgstr ""
 
 #: /ayatanawebmail/dialog.py:17
 msgid "Custom"
@@ -122,15 +119,15 @@ msgstr ""
 
 #: /ayatanawebmail/dialog.py:133
 msgid "Ayatana Webmail Preferences"
-msgstr "Поставке поште Јунитија"
+msgstr ""
 
 #: /ayatanawebmail/dialog.py:141
 msgid "Accounts"
-msgstr "Налози"
+msgstr ""
 
 #: /ayatanawebmail/dialog.py:142
 msgid "Options"
-msgstr "Могућности"
+msgstr ""
 
 #: /ayatanawebmail/dialog.py:143
 msgid "Support"
@@ -163,22 +160,20 @@ msgid ""
 msgstr ""
 
 #: /ayatanawebmail/dialog.py:278
-#, fuzzy
 msgid "Account:"
-msgstr "Налози"
+msgstr ""
 
 #: /ayatanawebmail/dialog.py:280
-#, fuzzy
 msgid "Server:"
-msgstr "Подаци о серверу"
+msgstr ""
 
 #: /ayatanawebmail/dialog.py:282
 msgid "Host:"
-msgstr "Домаћин:"
+msgstr ""
 
 #: /ayatanawebmail/dialog.py:284
 msgid "Port:"
-msgstr "Прикључник:"
+msgstr ""
 
 #: /ayatanawebmail/dialog.py:286
 msgid "Username:"
@@ -186,7 +181,7 @@ msgstr ""
 
 #: /ayatanawebmail/dialog.py:288
 msgid "Password:"
-msgstr "Лозинка:"
+msgstr ""
 
 #: /ayatanawebmail/dialog.py:290
 msgid "Folders:"
@@ -194,19 +189,19 @@ msgstr ""
 
 #: /ayatanawebmail/dialog.py:292
 msgid "Home:"
-msgstr "Почетна:"
+msgstr ""
 
 #: /ayatanawebmail/dialog.py:294
 msgid "Compose:"
-msgstr "Састави:"
+msgstr ""
 
 #: /ayatanawebmail/dialog.py:296
 msgid "Sent:"
-msgstr "Послато:"
+msgstr ""
 
 #: /ayatanawebmail/dialog.py:298
 msgid "Inbox:"
-msgstr "Примљено:"
+msgstr ""
 
 #: /ayatanawebmail/dialog.py:300
 msgid "Message:"
@@ -226,7 +221,7 @@ msgstr ""
 
 #: /ayatanawebmail/dialog.py:348
 msgid "Enable notifications:"
-msgstr "Омогући обавештења:"
+msgstr ""
 
 #: /ayatanawebmail/dialog.py:350
 msgid "Play sound when a message is received:"
@@ -250,7 +245,7 @@ msgstr ""
 
 #: /ayatanawebmail/dialog.py:366
 msgid "Custom sound to play:"
-msgstr "Произвољни звук за пуштање:"
+msgstr ""
 
 #: /ayatanawebmail/dialog.py:382
 msgid "Report a bug"
@@ -294,9 +289,8 @@ msgid "Limit the number of mails to retrieve per folder."
 msgstr ""
 
 #: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:3
-#, fuzzy
 msgid "Enable notifications"
-msgstr "Омогући обавештења:"
+msgstr ""
 
 #: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:4
 msgid "Show OSD notifications when new messages arrive."
@@ -327,9 +321,8 @@ msgid "Run this command when new messages arrive."
 msgstr ""
 
 #: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:11
-#, fuzzy
 msgid "Custom sound"
-msgstr "Произвољни звук за пуштање:"
+msgstr ""
 
 #: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:12
 msgid "Play a custom sound when new messages arrive."
@@ -350,30 +343,3 @@ msgstr ""
 #: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:16
 msgid "Action to perform when a message is activated."
 msgstr ""
-
-#~ msgid "Choose an account"
-#~ msgstr "Изаберите налог"
-
-#~ msgid "Account data"
-#~ msgstr "Подаци о налогу"
-
-#~ msgid "Login:"
-#~ msgstr "Пријава:"
-
-#~ msgid "Ayatana Webmail"
-#~ msgstr "Пошта Јунитија"
-
-#~ msgid "Compose Mail"
-#~ msgstr "Саставите поруку"
-
-#~ msgid "Sent"
-#~ msgstr "Послато"
-
-#~ msgid "Inbox"
-#~ msgstr "Пријемно сандуче"
-
-#~ msgid "Ayatana Webmail (service)"
-#~ msgstr "Пошта Јунитија (услуга)"
-
-#~ msgid "Display notifications about new mail"
-#~ msgstr "Приказује обавештења о новој пошти"
