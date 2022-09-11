@@ -1,0 +1,10 @@
+ayatanawebmail/accounts.py
+ayatanawebmail/actions.py
+ayatanawebmail/appdata.py
+ayatanawebmail/application.py
+ayatanawebmail/common.py
+ayatanawebmail/dialog.py
+ayatanawebmail/idler.py
+ayatanawebmail/imaplib2.py
+ayatanawebmail/__init__.py
+data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml
