@@ -51,6 +51,9 @@ for strRoot, lstDirnames, lstFilenames in os.walk('po'):
 
     for strFilename in lstFilenames:
 
+        if not strFilename.endswith('.po'):
+            continue
+
         strLocale = os.path.splitext(strFilename)[0]
 
         if strLocale != APPNAME:
