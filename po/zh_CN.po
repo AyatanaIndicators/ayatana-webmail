@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-11 12:53+0200\n"
+"POT-Creation-Date: 2022-09-14 08:22+0200\n"
 "PO-Revision-Date: 2022-01-25 09:55+0000\n"
 "Last-Translator: Eric <alchemillatruth@purelymail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -20,345 +20,345 @@ msgstr ""
 "X-Generator: Weblate 4.11-dev\n"
 "X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
 
-#: /ayatanawebmail/accounts.py:18
+#: ayatanawebmail/accounts.py:18
 msgid "Select account"
 msgstr "选择账户"
 
-#: /ayatanawebmail/accounts.py:29
+#: ayatanawebmail/accounts.py:29
 msgid "Which account's command/web page would you like to open?"
 msgstr "您想要打开哪个账户的命令行/网页页面？"
 
-#: /ayatanawebmail/actions.py:15
+#: ayatanawebmail/actions.py:15
 msgid "Message actions"
 msgstr "消息操作"
 
-#: /ayatanawebmail/actions.py:15
+#: ayatanawebmail/actions.py:15
 msgid "Delete"
 msgstr "删除"
 
-#: /ayatanawebmail/actions.py:15
+#: ayatanawebmail/actions.py:15
 msgid "Mark as read"
 msgstr "标记为已读"
 
-#: /ayatanawebmail/actions.py:15
+#: ayatanawebmail/actions.py:15
 msgid "Open message/Run command"
 msgstr "打开消息/运行命令"
 
-#: /ayatanawebmail/actions.py:24
+#: ayatanawebmail/actions.py:24
 msgid "Sender"
 msgstr "发件人"
 
-#: /ayatanawebmail/actions.py:26
+#: ayatanawebmail/actions.py:26
 msgid "Subject"
 msgstr "标题"
 
-#: /ayatanawebmail/application.py:178
+#: ayatanawebmail/application.py:178
 msgid "Open webmail home page"
 msgstr "打开网页版邮箱"
 
-#: /ayatanawebmail/application.py:185
+#: ayatanawebmail/application.py:185
 msgid "Clear"
 msgstr "清除"
 
-#: /ayatanawebmail/application.py:192
+#: ayatanawebmail/application.py:192
 msgid "Settings"
 msgstr "设置"
 
-#: /ayatanawebmail/application.py:945
+#: ayatanawebmail/application.py:945
 msgid "No subject"
 msgstr "无主题"
 
-#: /ayatanawebmail/application.py:1105
+#: ayatanawebmail/application.py:1105
 msgid "Connection error"
 msgstr "连接错误"
 
-#: /ayatanawebmail/application.py:1106
+#: ayatanawebmail/application.py:1106
 #, python-brace-format
 msgid ""
 "Unable to connect to account \"{accountName}\", the application will now "
 "exit."
 msgstr "不能连接到账户 \"{accountName}\"，程序现在退出。"
 
-#: /ayatanawebmail/application.py:1131
+#: ayatanawebmail/application.py:1131
 #, fuzzy, python-format
 msgid "You have %d unread message"
 msgid_plural "You have %d unread messages"
 msgstr[0] "您有%d封未读邮件"
 
-#: /ayatanawebmail/application.py:1158
+#: ayatanawebmail/application.py:1158
 #, python-format
 msgid "from %(t0)s, %(t1)s and others"
 msgstr "来自%(t0)s，%(t1)s与其他人"
 
-#: /ayatanawebmail/application.py:1160
+#: ayatanawebmail/application.py:1160
 #, python-format
 msgid "from %(t0)s and %(t1)s"
 msgstr "来自%(t0)s与%(t1)s"
 
-#: /ayatanawebmail/application.py:1162
+#: ayatanawebmail/application.py:1162
 #, python-format
 msgid "from %s"
 msgstr "来自%s"
 
-#: /ayatanawebmail/application.py:1175
+#: ayatanawebmail/application.py:1175
 #, python-format
 msgid "New mail from %s"
 msgstr "%s 发来的新邮件"
 
-#: /ayatanawebmail/dialog.py:17
+#: ayatanawebmail/dialog.py:17
 msgid "Custom"
 msgstr ""
 
-#: /ayatanawebmail/dialog.py:61
+#: ayatanawebmail/dialog.py:61
 msgid ""
 "If this string starts with http:// or https://, the application will open it "
 "in your browser - otherwise, it will be run as a command"
 msgstr ""
 
-#: /ayatanawebmail/dialog.py:91 /ayatanawebmail/dialog.py:105
+#: ayatanawebmail/dialog.py:91 ayatanawebmail/dialog.py:105
 msgid "(None)"
 msgstr "（无）"
 
-#: /ayatanawebmail/dialog.py:133
+#: ayatanawebmail/dialog.py:133
 msgid "Ayatana Webmail Preferences"
 msgstr ""
 
-#: /ayatanawebmail/dialog.py:141
+#: ayatanawebmail/dialog.py:141
 msgid "Accounts"
 msgstr "账户"
 
-#: /ayatanawebmail/dialog.py:142
+#: ayatanawebmail/dialog.py:142
 msgid "Options"
 msgstr "选项"
 
-#: /ayatanawebmail/dialog.py:143
+#: ayatanawebmail/dialog.py:143
 msgid "Support"
 msgstr "支持"
 
-#: /ayatanawebmail/dialog.py:144
+#: ayatanawebmail/dialog.py:144
 msgid "About"
 msgstr "关于"
 
-#: /ayatanawebmail/dialog.py:203
+#: ayatanawebmail/dialog.py:203
 msgid "Failed to connect to mail account. The returned error was:"
 msgstr "连接到邮件账户失败。返回的错误是："
 
-#: /ayatanawebmail/dialog.py:204
+#: ayatanawebmail/dialog.py:204
 msgid "Connection failure"
 msgstr "连接失败"
 
-#: /ayatanawebmail/dialog.py:232
+#: ayatanawebmail/dialog.py:232
 msgid "Add"
 msgstr "添加"
 
-#: /ayatanawebmail/dialog.py:234
+#: ayatanawebmail/dialog.py:234
 msgid "Remove"
 msgstr "移除"
 
-#: /ayatanawebmail/dialog.py:276
+#: ayatanawebmail/dialog.py:276
 #, fuzzy
 msgid ""
 "The application will append this string to \"Inbox\" to access a specific "
 "message - you can use the $MSG_THREAD and $MSG_UID placeholders"
 msgstr "附加一个字符串 - 您可以使用$MSG_THREAD和$MSG_UID占位符。"
 
-#: /ayatanawebmail/dialog.py:278
+#: ayatanawebmail/dialog.py:278
 #, fuzzy
 msgid "Account:"
 msgstr "账户"
 
-#: /ayatanawebmail/dialog.py:280
+#: ayatanawebmail/dialog.py:280
 #, fuzzy
 msgid "Server:"
 msgstr "服务器信息"
 
-#: /ayatanawebmail/dialog.py:282
+#: ayatanawebmail/dialog.py:282
 msgid "Host:"
 msgstr "服务器地址："
 
-#: /ayatanawebmail/dialog.py:284
+#: ayatanawebmail/dialog.py:284
 msgid "Port:"
 msgstr "端口："
 
-#: /ayatanawebmail/dialog.py:286
+#: ayatanawebmail/dialog.py:286
 msgid "Username:"
 msgstr ""
 
-#: /ayatanawebmail/dialog.py:288
+#: ayatanawebmail/dialog.py:288
 msgid "Password:"
 msgstr "密码："
 
-#: /ayatanawebmail/dialog.py:290
+#: ayatanawebmail/dialog.py:290
 msgid "Folders:"
 msgstr "文件夹："
 
-#: /ayatanawebmail/dialog.py:292
+#: ayatanawebmail/dialog.py:292
 msgid "Home:"
 msgstr "主页："
 
-#: /ayatanawebmail/dialog.py:294
+#: ayatanawebmail/dialog.py:294
 msgid "Compose:"
 msgstr "撰写邮件："
 
-#: /ayatanawebmail/dialog.py:296
+#: ayatanawebmail/dialog.py:296
 msgid "Sent:"
 msgstr "已发邮件："
 
-#: /ayatanawebmail/dialog.py:298
+#: ayatanawebmail/dialog.py:298
 msgid "Inbox:"
 msgstr "收件箱："
 
-#: /ayatanawebmail/dialog.py:300
+#: ayatanawebmail/dialog.py:300
 #, fuzzy
 msgid "Message:"
 msgstr "消息操作"
 
-#: /ayatanawebmail/dialog.py:336
+#: ayatanawebmail/dialog.py:336
 msgid "Mark message as read"
 msgstr "标记为已读"
 
-#: /ayatanawebmail/dialog.py:337
+#: ayatanawebmail/dialog.py:337
 msgid "Open message in browser/Execute command"
 msgstr "在浏览器中打开邮件/执行命令"
 
-#: /ayatanawebmail/dialog.py:338
+#: ayatanawebmail/dialog.py:338
 msgid "Ask me what to do"
 msgstr "询问做什么"
 
-#: /ayatanawebmail/dialog.py:348
+#: ayatanawebmail/dialog.py:348
 msgid "Enable notifications:"
 msgstr "启用通知："
 
-#: /ayatanawebmail/dialog.py:350
+#: ayatanawebmail/dialog.py:350
 msgid "Play sound when a message is received:"
 msgstr "收到邮件时播放声音："
 
-#: /ayatanawebmail/dialog.py:352
+#: ayatanawebmail/dialog.py:352
 msgid "Merge messages from the same conversation:"
 msgstr "合并同一对话中的邮件："
 
-#: /ayatanawebmail/dialog.py:354
+#: ayatanawebmail/dialog.py:354
 msgid "Hide count when zero:"
 msgstr "当为0时隐藏计数："
 
-#: /ayatanawebmail/dialog.py:356
+#: ayatanawebmail/dialog.py:356
 msgid "When a message is activated:"
 msgstr "当邮件被激活时："
 
-#: /ayatanawebmail/dialog.py:359
+#: ayatanawebmail/dialog.py:359
 msgid "Execute this command when a message is received:"
 msgstr "当收到邮件时执行此命令："
 
-#: /ayatanawebmail/dialog.py:366
+#: ayatanawebmail/dialog.py:366
 msgid "Custom sound to play:"
 msgstr "自定义要播放的声音："
 
-#: /ayatanawebmail/dialog.py:382
+#: ayatanawebmail/dialog.py:382
 msgid "Report a bug"
 msgstr ""
 
-#: /ayatanawebmail/dialog.py:384
+#: ayatanawebmail/dialog.py:384
 #, fuzzy
 msgid "Request a feature"
 msgstr "报告Bug/提出建议"
 
-#: /ayatanawebmail/dialog.py:386 /ayatanawebmail/dialog.py:389
+#: ayatanawebmail/dialog.py:386 ayatanawebmail/dialog.py:389
 #, python-brace-format
 msgid "It's a good idea to add the {labelname} label to your issue."
 msgstr ""
 
-#: /ayatanawebmail/dialog.py:387
+#: ayatanawebmail/dialog.py:387
 msgid "Ask a question"
 msgstr "问个问题"
 
-#: /ayatanawebmail/dialog.py:390
+#: ayatanawebmail/dialog.py:390
 msgid "Help translate"
 msgstr "帮助翻译"
 
-#: /ayatanawebmail/dialog.py:392
+#: ayatanawebmail/dialog.py:392
 msgid "Source code"
 msgstr "源代码"
 
-#: /ayatanawebmail/dialog.py:394
+#: ayatanawebmail/dialog.py:394
 msgid "Home page"
 msgstr "主页"
 
-#: /ayatanawebmail/dialog.py:414
+#: ayatanawebmail/dialog.py:414
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
 "  aerowolf https://launchpad.net/~aerowolf-tom"
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:1
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:1
 msgid "Maximum item count"
 msgstr ""
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:2
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:2
 msgid "Limit the number of mails to retrieve per folder."
 msgstr ""
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:3
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:3
 #, fuzzy
 msgid "Enable notifications"
 msgstr "启用通知："
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:4
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:4
 msgid "Show OSD notifications when new messages arrive."
 msgstr ""
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:5
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:5
 msgid "Enable sound"
 msgstr ""
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:6
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:6
 #, fuzzy
 msgid "Play sound when new messages arrive."
 msgstr "收到邮件时播放声音："
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:7
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:7
 #, fuzzy
 msgid "Hide message count"
 msgstr "打开消息/运行命令"
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:8
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:8
 msgid "Hide message count when there are no messages."
 msgstr ""
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:9
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:9
 msgid "Execute on receive"
 msgstr ""
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:10
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:10
 #, fuzzy
 msgid "Run this command when new messages arrive."
 msgstr "当收到邮件时执行此命令："
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:11
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:11
 #, fuzzy
 msgid "Custom sound"
 msgstr "自定义要播放的声音："
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:12
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:12
 #, fuzzy
 msgid "Play a custom sound when new messages arrive."
 msgstr "收到邮件时播放声音："
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:13
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:13
 #, fuzzy
 msgid "Merge messages"
 msgstr "标记为已读"
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:14
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:14
 #, fuzzy
 msgid "Merge messages belonging to the same conversation."
 msgstr "合并同一对话中的邮件："
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:15
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:15
 #, fuzzy
 msgid "Message action"
 msgstr "消息操作"
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:16
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:16
 #, fuzzy
 msgid "Action to perform when a message is activated."
 msgstr "当邮件被激活时："

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-11 12:53+0200\n"
+"POT-Creation-Date: 2022-09-14 08:22+0200\n"
 "PO-Revision-Date: 2021-09-24 14:40+0000\n"
 "Last-Translator: Wellington Terumi Uemura <wellingtonuemura@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
@@ -20,59 +20,59 @@ msgstr ""
 "X-Generator: Weblate 4.9-dev\n"
 "X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
 
-#: /ayatanawebmail/accounts.py:18
+#: ayatanawebmail/accounts.py:18
 msgid "Select account"
 msgstr "Selecione a conta"
 
-#: /ayatanawebmail/accounts.py:29
+#: ayatanawebmail/accounts.py:29
 msgid "Which account's command/web page would you like to open?"
 msgstr "Qual a página do comando/web da conta que você gostaria de abrir?"
 
-#: /ayatanawebmail/actions.py:15
+#: ayatanawebmail/actions.py:15
 msgid "Message actions"
 msgstr "Ações das mensagens"
 
-#: /ayatanawebmail/actions.py:15
+#: ayatanawebmail/actions.py:15
 msgid "Delete"
 msgstr "Excluir"
 
-#: /ayatanawebmail/actions.py:15
+#: ayatanawebmail/actions.py:15
 msgid "Mark as read"
 msgstr "Marque como lido"
 
-#: /ayatanawebmail/actions.py:15
+#: ayatanawebmail/actions.py:15
 msgid "Open message/Run command"
 msgstr "Abra a mensagem/Execute o comando"
 
-#: /ayatanawebmail/actions.py:24
+#: ayatanawebmail/actions.py:24
 msgid "Sender"
 msgstr "Remetente"
 
-#: /ayatanawebmail/actions.py:26
+#: ayatanawebmail/actions.py:26
 msgid "Subject"
 msgstr "Assunto"
 
-#: /ayatanawebmail/application.py:178
+#: ayatanawebmail/application.py:178
 msgid "Open webmail home page"
 msgstr "Abra a página inicial do webmail"
 
-#: /ayatanawebmail/application.py:185
+#: ayatanawebmail/application.py:185
 msgid "Clear"
 msgstr "Remover"
 
-#: /ayatanawebmail/application.py:192
+#: ayatanawebmail/application.py:192
 msgid "Settings"
 msgstr "Configurações"
 
-#: /ayatanawebmail/application.py:945
+#: ayatanawebmail/application.py:945
 msgid "No subject"
 msgstr "Sem assunto"
 
-#: /ayatanawebmail/application.py:1105
+#: ayatanawebmail/application.py:1105
 msgid "Connection error"
 msgstr "Erro de conexão"
 
-#: /ayatanawebmail/application.py:1106
+#: ayatanawebmail/application.py:1106
 #, python-brace-format
 msgid ""
 "Unable to connect to account \"{accountName}\", the application will now "
@@ -81,85 +81,85 @@ msgstr ""
 "Não foi possível conectar-se à conta \"{accountName}\", o aplicativo será "
 "encerrado."
 
-#: /ayatanawebmail/application.py:1131
+#: ayatanawebmail/application.py:1131
 #, fuzzy, python-format
 msgid "You have %d unread message"
 msgid_plural "You have %d unread messages"
 msgstr[0] "Você tem %d e-mail não lido"
 msgstr[1] "Você tem %d e-mails não lidos"
 
-#: /ayatanawebmail/application.py:1158
+#: ayatanawebmail/application.py:1158
 #, python-format
 msgid "from %(t0)s, %(t1)s and others"
 msgstr "de %(t0)s, %(t1)s e outros"
 
-#: /ayatanawebmail/application.py:1160
+#: ayatanawebmail/application.py:1160
 #, python-format
 msgid "from %(t0)s and %(t1)s"
 msgstr "de %(t0)s e %(t1)s"
 
-#: /ayatanawebmail/application.py:1162
+#: ayatanawebmail/application.py:1162
 #, python-format
 msgid "from %s"
 msgstr "de %s"
 
-#: /ayatanawebmail/application.py:1175
+#: ayatanawebmail/application.py:1175
 #, python-format
 msgid "New mail from %s"
 msgstr "Novo email de %s"
 
-#: /ayatanawebmail/dialog.py:17
+#: ayatanawebmail/dialog.py:17
 msgid "Custom"
 msgstr ""
 
-#: /ayatanawebmail/dialog.py:61
+#: ayatanawebmail/dialog.py:61
 msgid ""
 "If this string starts with http:// or https://, the application will open it "
 "in your browser - otherwise, it will be run as a command"
 msgstr ""
 
-#: /ayatanawebmail/dialog.py:91 /ayatanawebmail/dialog.py:105
+#: ayatanawebmail/dialog.py:91 ayatanawebmail/dialog.py:105
 msgid "(None)"
 msgstr "(Nenhum)"
 
-#: /ayatanawebmail/dialog.py:133
+#: ayatanawebmail/dialog.py:133
 msgid "Ayatana Webmail Preferences"
 msgstr "Preferências do Ayatana Webmail"
 
-#: /ayatanawebmail/dialog.py:141
+#: ayatanawebmail/dialog.py:141
 msgid "Accounts"
 msgstr "Contas"
 
-#: /ayatanawebmail/dialog.py:142
+#: ayatanawebmail/dialog.py:142
 msgid "Options"
 msgstr "Preferências"
 
-#: /ayatanawebmail/dialog.py:143
+#: ayatanawebmail/dialog.py:143
 msgid "Support"
 msgstr "Suporte"
 
-#: /ayatanawebmail/dialog.py:144
+#: ayatanawebmail/dialog.py:144
 msgid "About"
 msgstr "Sobre"
 
-#: /ayatanawebmail/dialog.py:203
+#: ayatanawebmail/dialog.py:203
 msgid "Failed to connect to mail account. The returned error was:"
 msgstr ""
 "Houve uma falha ao se conectar à conta de e-mail. O erro retornado foi:"
 
-#: /ayatanawebmail/dialog.py:204
+#: ayatanawebmail/dialog.py:204
 msgid "Connection failure"
 msgstr "Falha na conexão"
 
-#: /ayatanawebmail/dialog.py:232
+#: ayatanawebmail/dialog.py:232
 msgid "Add"
 msgstr "Adicione"
 
-#: /ayatanawebmail/dialog.py:234
+#: ayatanawebmail/dialog.py:234
 msgid "Remove"
 msgstr "Remova"
 
-#: /ayatanawebmail/dialog.py:276
+#: ayatanawebmail/dialog.py:276
 #, fuzzy
 msgid ""
 "The application will append this string to \"Inbox\" to access a specific "
@@ -168,200 +168,200 @@ msgstr ""
 "Anexe um string adicional - você pode usar os marcadores $MSG_THREAD e "
 "$MSG_UID."
 
-#: /ayatanawebmail/dialog.py:278
+#: ayatanawebmail/dialog.py:278
 #, fuzzy
 msgid "Account:"
 msgstr "Contas"
 
-#: /ayatanawebmail/dialog.py:280
+#: ayatanawebmail/dialog.py:280
 #, fuzzy
 msgid "Server:"
 msgstr "Dados do servidor"
 
-#: /ayatanawebmail/dialog.py:282
+#: ayatanawebmail/dialog.py:282
 msgid "Host:"
 msgstr "Servidor:"
 
-#: /ayatanawebmail/dialog.py:284
+#: ayatanawebmail/dialog.py:284
 msgid "Port:"
 msgstr "Porta:"
 
-#: /ayatanawebmail/dialog.py:286
+#: ayatanawebmail/dialog.py:286
 msgid "Username:"
 msgstr ""
 
-#: /ayatanawebmail/dialog.py:288
+#: ayatanawebmail/dialog.py:288
 msgid "Password:"
 msgstr "Senha:"
 
-#: /ayatanawebmail/dialog.py:290
+#: ayatanawebmail/dialog.py:290
 msgid "Folders:"
 msgstr "Pastas:"
 
-#: /ayatanawebmail/dialog.py:292
+#: ayatanawebmail/dialog.py:292
 msgid "Home:"
 msgstr "Pessoal:"
 
-#: /ayatanawebmail/dialog.py:294
+#: ayatanawebmail/dialog.py:294
 msgid "Compose:"
 msgstr "Redigir:"
 
-#: /ayatanawebmail/dialog.py:296
+#: ayatanawebmail/dialog.py:296
 msgid "Sent:"
 msgstr "Enviados:"
 
-#: /ayatanawebmail/dialog.py:298
+#: ayatanawebmail/dialog.py:298
 msgid "Inbox:"
 msgstr "Caixa de entrada:"
 
-#: /ayatanawebmail/dialog.py:300
+#: ayatanawebmail/dialog.py:300
 #, fuzzy
 msgid "Message:"
 msgstr "Ações das mensagens"
 
-#: /ayatanawebmail/dialog.py:336
+#: ayatanawebmail/dialog.py:336
 msgid "Mark message as read"
 msgstr "Marque a mensagem como lida"
 
-#: /ayatanawebmail/dialog.py:337
+#: ayatanawebmail/dialog.py:337
 msgid "Open message in browser/Execute command"
 msgstr "Abra a mensagem no navegador/Execute o comando"
 
-#: /ayatanawebmail/dialog.py:338
+#: ayatanawebmail/dialog.py:338
 msgid "Ask me what to do"
 msgstr "Me pergunte o que fazer"
 
-#: /ayatanawebmail/dialog.py:348
+#: ayatanawebmail/dialog.py:348
 msgid "Enable notifications:"
 msgstr "Ative as notificações:"
 
-#: /ayatanawebmail/dialog.py:350
+#: ayatanawebmail/dialog.py:350
 msgid "Play sound when a message is received:"
 msgstr "Toque um som quando uma mensagem for recebida:"
 
-#: /ayatanawebmail/dialog.py:352
+#: ayatanawebmail/dialog.py:352
 msgid "Merge messages from the same conversation:"
 msgstr "Mescle as mensagens da mesma conversa:"
 
-#: /ayatanawebmail/dialog.py:354
+#: ayatanawebmail/dialog.py:354
 msgid "Hide count when zero:"
 msgstr "Oculte a contagem quando for zero:"
 
-#: /ayatanawebmail/dialog.py:356
+#: ayatanawebmail/dialog.py:356
 msgid "When a message is activated:"
 msgstr "Quando uma mensagem está ativada:"
 
-#: /ayatanawebmail/dialog.py:359
+#: ayatanawebmail/dialog.py:359
 msgid "Execute this command when a message is received:"
 msgstr "Execute este comando quando uma mensagem for recebida:"
 
-#: /ayatanawebmail/dialog.py:366
+#: ayatanawebmail/dialog.py:366
 msgid "Custom sound to play:"
 msgstr "Som personalizado para tocar:"
 
-#: /ayatanawebmail/dialog.py:382
+#: ayatanawebmail/dialog.py:382
 msgid "Report a bug"
 msgstr ""
 
-#: /ayatanawebmail/dialog.py:384
+#: ayatanawebmail/dialog.py:384
 msgid "Request a feature"
 msgstr ""
 
-#: /ayatanawebmail/dialog.py:386 /ayatanawebmail/dialog.py:389
+#: ayatanawebmail/dialog.py:386 ayatanawebmail/dialog.py:389
 #, python-brace-format
 msgid "It's a good idea to add the {labelname} label to your issue."
 msgstr ""
 
-#: /ayatanawebmail/dialog.py:387
+#: ayatanawebmail/dialog.py:387
 msgid "Ask a question"
 msgstr "Faça uma pergunta"
 
-#: /ayatanawebmail/dialog.py:390
+#: ayatanawebmail/dialog.py:390
 msgid "Help translate"
 msgstr "Ajude a traduzir"
 
-#: /ayatanawebmail/dialog.py:392
+#: ayatanawebmail/dialog.py:392
 msgid "Source code"
 msgstr "Código fonte"
 
-#: /ayatanawebmail/dialog.py:394
+#: ayatanawebmail/dialog.py:394
 msgid "Home page"
 msgstr "Página inicial"
 
-#: /ayatanawebmail/dialog.py:414
+#: ayatanawebmail/dialog.py:414
 msgid "translator-credits"
 msgstr "créditos da tradução"
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:1
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:1
 msgid "Maximum item count"
 msgstr ""
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:2
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:2
 msgid "Limit the number of mails to retrieve per folder."
 msgstr ""
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:3
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:3
 #, fuzzy
 msgid "Enable notifications"
 msgstr "Ative as notificações:"
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:4
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:4
 msgid "Show OSD notifications when new messages arrive."
 msgstr ""
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:5
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:5
 msgid "Enable sound"
 msgstr ""
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:6
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:6
 #, fuzzy
 msgid "Play sound when new messages arrive."
 msgstr "Toque um som quando uma mensagem for recebida:"
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:7
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:7
 #, fuzzy
 msgid "Hide message count"
 msgstr "Abra a mensagem/Execute o comando"
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:8
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:8
 msgid "Hide message count when there are no messages."
 msgstr ""
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:9
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:9
 msgid "Execute on receive"
 msgstr ""
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:10
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:10
 #, fuzzy
 msgid "Run this command when new messages arrive."
 msgstr "Execute este comando quando uma mensagem for recebida:"
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:11
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:11
 #, fuzzy
 msgid "Custom sound"
 msgstr "Som personalizado para tocar:"
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:12
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:12
 #, fuzzy
 msgid "Play a custom sound when new messages arrive."
 msgstr "Toque um som quando uma mensagem for recebida:"
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:13
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:13
 #, fuzzy
 msgid "Merge messages"
 msgstr "Marque a mensagem como lida"
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:14
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:14
 #, fuzzy
 msgid "Merge messages belonging to the same conversation."
 msgstr "Mescle as mensagens da mesma conversa:"
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:15
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:15
 #, fuzzy
 msgid "Message action"
 msgstr "Ações das mensagens"
 
-#: /data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:16
+#: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:16
 #, fuzzy
 msgid "Action to perform when a message is activated."
 msgstr "Quando uma mensagem está ativada:"
