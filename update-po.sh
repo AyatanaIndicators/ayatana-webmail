@@ -28,7 +28,9 @@ cat LINGUAS | while read lingua; do
 		intltool-update --gettext-package ${GETTEXT_DOMAIN} $(basename ${lingua})
 	fi
 
-	sed -e 's@\.\.@@g'			\
+	sed -E					\
+	    -e 's@^#: \.\./@#: @g'		\
+	    -e 's@(:[0-9]+) \.\./@\1 @g'	\
 	    -i ${lingua}.po
 
 done
