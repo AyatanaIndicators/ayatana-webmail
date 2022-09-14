@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-14 08:22+0200\n"
-"PO-Revision-Date: 2021-05-01 17:02+0000\n"
-"Last-Translator: Tomáš Marný <tomik.marny@gmail.com>\n"
+"PO-Revision-Date: 2022-09-14 08:07+0000\n"
+"Last-Translator: Milan Korecky <milan.korecky@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/ayatana-indicators/"
 "ayatana-webmail/cs/>\n"
 "Language: cs\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 4.14.1-dev\n"
 "X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
 
 #: ayatanawebmail/accounts.py:18
@@ -80,12 +80,12 @@ msgid ""
 msgstr "Nelze se připojit k účtu „{accountName}“, aplikace bude nyní ukončena."
 
 #: ayatanawebmail/application.py:1131
-#, fuzzy, python-format
+#, python-format
 msgid "You have %d unread message"
 msgid_plural "You have %d unread messages"
-msgstr[0] "Máte %d nepřečtený e-mailů"
+msgstr[0] "Máte %d nepřečtený e-mail"
 msgstr[1] "Máte %d nepřečtených e-mailů"
-msgstr[2] "You have %d unread mails"
+msgstr[2] "Máte %d nepřečtené e-maily"
 
 #: ayatanawebmail/application.py:1158
 #, python-format
@@ -109,13 +109,15 @@ msgstr "Nový e-mail od %s"
 
 #: ayatanawebmail/dialog.py:17
 msgid "Custom"
-msgstr ""
+msgstr "Vlastní nastavení"
 
 #: ayatanawebmail/dialog.py:61
 msgid ""
 "If this string starts with http:// or https://, the application will open it "
 "in your browser - otherwise, it will be run as a command"
 msgstr ""
+"Pokud tento řetězec začíná http:// nebo https://, aplikace jej otevře ve "
+"vašem prohlížeči – jinak bude spuštěna jako příkaz"
 
 #: ayatanawebmail/dialog.py:91 ayatanawebmail/dialog.py:105
 msgid "(None)"
@@ -158,23 +160,20 @@ msgid "Remove"
 msgstr "Odstranit"
 
 #: ayatanawebmail/dialog.py:276
-#, fuzzy
 msgid ""
 "The application will append this string to \"Inbox\" to access a specific "
 "message - you can use the $MSG_THREAD and $MSG_UID placeholders"
 msgstr ""
-"Připojte další řetězec - můžete použít zástupné symboly $ MSG_THREAD a $ "
-"MSG_UID."
+"Aplikace připojí tento řetězec k \"Doručené\" pro přístup ke konkrétní "
+"zprávě - můžete použít zástupné symboly $MSG_THREAD a $MSG_UID"
 
 #: ayatanawebmail/dialog.py:278
-#, fuzzy
 msgid "Account:"
-msgstr "Účty"
+msgstr "Účet:"
 
 #: ayatanawebmail/dialog.py:280
-#, fuzzy
 msgid "Server:"
-msgstr "Údaje o serveru"
+msgstr "Údaje o serveru:"
 
 #: ayatanawebmail/dialog.py:282
 msgid "Host:"
@@ -186,7 +185,7 @@ msgstr "Port:"
 
 #: ayatanawebmail/dialog.py:286
 msgid "Username:"
-msgstr ""
+msgstr "Uživatelské jméno:"
 
 #: ayatanawebmail/dialog.py:288
 msgid "Password:"
@@ -213,9 +212,8 @@ msgid "Inbox:"
 msgstr "Přijaté:"
 
 #: ayatanawebmail/dialog.py:300
-#, fuzzy
 msgid "Message:"
-msgstr "Akce zpráv"
+msgstr "Zpráva:"
 
 #: ayatanawebmail/dialog.py:336
 msgid "Mark message as read"
@@ -259,17 +257,16 @@ msgstr "Vlastní zvuk:"
 
 #: ayatanawebmail/dialog.py:382
 msgid "Report a bug"
-msgstr ""
+msgstr "Nahlásit chybu"
 
 #: ayatanawebmail/dialog.py:384
-#, fuzzy
 msgid "Request a feature"
-msgstr "Nahlásit chybu / Požádat o funkci"
+msgstr "Požádat o funkci"
 
 #: ayatanawebmail/dialog.py:386 ayatanawebmail/dialog.py:389
 #, python-brace-format
 msgid "It's a good idea to add the {labelname} label to your issue."
-msgstr ""
+msgstr "K problému je vhodné přidat štítek {labelname}."
 
 #: ayatanawebmail/dialog.py:387
 msgid "Ask a question"
@@ -295,77 +292,67 @@ msgstr ""
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:1
 msgid "Maximum item count"
-msgstr ""
+msgstr "Maximální počet položek"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:2
 msgid "Limit the number of mails to retrieve per folder."
-msgstr ""
+msgstr "Omezte počet e-mailů k načtení na složku."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:3
-#, fuzzy
 msgid "Enable notifications"
-msgstr "Povolit oznámení:"
+msgstr "Povolit oznámení"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:4
 msgid "Show OSD notifications when new messages arrive."
-msgstr ""
+msgstr "Zobrazovat oznámení OSD při příchodu nových zpráv."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:5
 msgid "Enable sound"
-msgstr ""
+msgstr "Povolit zvuk"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:6
-#, fuzzy
 msgid "Play sound when new messages arrive."
-msgstr "Přehrát zvuk při přijetí zprávy:"
+msgstr "Přehrát zvuk při přijetí zprávy."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:7
-#, fuzzy
 msgid "Hide message count"
-msgstr "Otevřít zprávu/Spustit příkaz"
+msgstr "Skrýt počet zpráv"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:8
 msgid "Hide message count when there are no messages."
-msgstr ""
+msgstr "Skrýt počet zpráv, když nejsou žádné zprávy."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:9
 msgid "Execute on receive"
-msgstr ""
+msgstr "Provést při příjmu"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:10
-#, fuzzy
 msgid "Run this command when new messages arrive."
-msgstr "Po přijetí zprávy proveďte tento příkaz:"
+msgstr "Po přijetí zprávy proveďte tento příkaz."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:11
-#, fuzzy
 msgid "Custom sound"
-msgstr "Vlastní zvuk:"
+msgstr "Vlastní zvuk"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:12
-#, fuzzy
 msgid "Play a custom sound when new messages arrive."
-msgstr "Přehrát zvuk při přijetí zprávy:"
+msgstr "Přehrát vlastní zvuk při přijetí zprávy."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:13
-#, fuzzy
 msgid "Merge messages"
-msgstr "Označit zprávy jako přečtené"
+msgstr "Sloučit zprávy"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:14
-#, fuzzy
 msgid "Merge messages belonging to the same conversation."
-msgstr "Sloučit zprávy ze stejné konverzace:"
+msgstr "Sloučit zprávy ze stejné konverzace."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:15
-#, fuzzy
 msgid "Message action"
-msgstr "Akce zpráv"
+msgstr "Akce zprávy"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:16
-#, fuzzy
 msgid "Action to perform when a message is activated."
-msgstr "Když je zpráva aktivována:"
+msgstr "Akce, která se má provést při aktivaci zprávy."
 
 #, python-brace-format
 #~ msgid "You can run \"{command}\" to delete all your login settings."
