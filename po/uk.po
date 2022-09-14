@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-14 08:22+0200\n"
-"PO-Revision-Date: 2022-04-23 12:18+0000\n"
+"PO-Revision-Date: 2022-09-16 14:19+0000\n"
 "Last-Translator: Sergii Horichenko <m@sgg.im>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/ayatana-"
-"indicators/ayatana-webmail/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/"
+"ayatana-indicators/ayatana-webmail/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.12.1-dev\n"
+"X-Generator: Weblate 4.14.1-dev\n"
 "X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
 
 #: ayatanawebmail/accounts.py:18
@@ -83,22 +83,22 @@ msgstr ""
 "закриється."
 
 #: ayatanawebmail/application.py:1131
-#, fuzzy, python-format
+#, python-format
 msgid "You have %d unread message"
 msgid_plural "You have %d unread messages"
-msgstr[0] "У вас %d непрочитаний лист"
-msgstr[1] "У вас %d непрочитаних листи"
-msgstr[2] "У вас %d непрочитаних листів"
+msgstr[0] "У Вас %d непрочитане повідомлення"
+msgstr[1] "У Вас %d непрочитаних повідомлення"
+msgstr[2] "У Вас %d непрочитаних повідомлень"
 
 #: ayatanawebmail/application.py:1158
 #, python-format
 msgid "from %(t0)s, %(t1)s and others"
-msgstr "Від %(t0)s, %(t1)s та інших"
+msgstr "від %(t0)s, %(t1)s та інших"
 
 #: ayatanawebmail/application.py:1160
 #, python-format
 msgid "from %(t0)s and %(t1)s"
-msgstr "Від %(t0)s та %(t1)s"
+msgstr "від %(t0)s та %(t1)s"
 
 #: ayatanawebmail/application.py:1162
 #, python-format
@@ -108,17 +108,19 @@ msgstr "від %s"
 #: ayatanawebmail/application.py:1175
 #, python-format
 msgid "New mail from %s"
-msgstr "Нове повідомлення від %s"
+msgstr "Свіжа пошта від %s"
 
 #: ayatanawebmail/dialog.py:17
 msgid "Custom"
-msgstr ""
+msgstr "Користувацькі"
 
 #: ayatanawebmail/dialog.py:61
 msgid ""
 "If this string starts with http:// or https://, the application will open it "
 "in your browser - otherwise, it will be run as a command"
 msgstr ""
+"Якщо цей рядок починається з http:// або з https://, програма відкриє його у "
+"браузері, або ж, в іншому випадку, буде виконаний як команда"
 
 #: ayatanawebmail/dialog.py:91 ayatanawebmail/dialog.py:105
 msgid "(None)"
@@ -166,16 +168,16 @@ msgid ""
 "The application will append this string to \"Inbox\" to access a specific "
 "message - you can use the $MSG_THREAD and $MSG_UID placeholders"
 msgstr ""
+"Пргорама додасть цей рядок у \"Вхідні\" для доступу до конкретного "
+"повідомлення - можете використовувати змінні $MSG_THREAD та $MSG_UID"
 
 #: ayatanawebmail/dialog.py:278
-#, fuzzy
 msgid "Account:"
-msgstr "Облікові записи"
+msgstr "Обліковий запис:"
 
 #: ayatanawebmail/dialog.py:280
-#, fuzzy
 msgid "Server:"
-msgstr "Дані серверу"
+msgstr "Сервер:"
 
 #: ayatanawebmail/dialog.py:282
 msgid "Host:"
@@ -187,7 +189,7 @@ msgstr "Порт:"
 
 #: ayatanawebmail/dialog.py:286
 msgid "Username:"
-msgstr ""
+msgstr "Логін:"
 
 #: ayatanawebmail/dialog.py:288
 msgid "Password:"
@@ -214,9 +216,8 @@ msgid "Inbox:"
 msgstr "Вхідні:"
 
 #: ayatanawebmail/dialog.py:300
-#, fuzzy
 msgid "Message:"
-msgstr "Дії з повідомленнями"
+msgstr "Повідомлення:"
 
 #: ayatanawebmail/dialog.py:336
 msgid "Mark message as read"
@@ -260,17 +261,16 @@ msgstr "Вибрати звук сповіщення:"
 
 #: ayatanawebmail/dialog.py:382
 msgid "Report a bug"
-msgstr ""
+msgstr "Повідомити про помилку"
 
 #: ayatanawebmail/dialog.py:384
-#, fuzzy
 msgid "Request a feature"
-msgstr "Повідомити про помилку/Запит про довідку"
+msgstr "Замовити нову функцію"
 
 #: ayatanawebmail/dialog.py:386 ayatanawebmail/dialog.py:389
 #, python-brace-format
 msgid "It's a good idea to add the {labelname} label to your issue."
-msgstr ""
+msgstr "Було б непогано додати до Вашої проблеми мітку {labelname}."
 
 #: ayatanawebmail/dialog.py:387
 msgid "Ask a question"
@@ -296,77 +296,67 @@ msgstr ""
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:1
 msgid "Maximum item count"
-msgstr ""
+msgstr "Максимальна кількість елементів"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:2
 msgid "Limit the number of mails to retrieve per folder."
-msgstr ""
+msgstr "Обмежує кількість листів для збереження в одній папці."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:3
-#, fuzzy
 msgid "Enable notifications"
-msgstr "Увімкнути сповіщення:"
+msgstr "Увімкнути сповіщення"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:4
 msgid "Show OSD notifications when new messages arrive."
-msgstr ""
+msgstr "Показувати OSD (екранні) сповіщення при надходженні нових повідомлень."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:5
 msgid "Enable sound"
-msgstr ""
+msgstr "Увімкнути звук"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:6
-#, fuzzy
 msgid "Play sound when new messages arrive."
-msgstr "При отримання повідомлення відтворювати звук:"
+msgstr "При надходженні нового повідомлення відтворювати звук."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:7
-#, fuzzy
 msgid "Hide message count"
-msgstr "Відкрити повідомлення/Виконати команду"
+msgstr "Приховати лічильник повідомлень"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:8
 msgid "Hide message count when there are no messages."
-msgstr ""
+msgstr "Приховувати лічильник повідомлень, якщо їх немає."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:9
 msgid "Execute on receive"
-msgstr ""
+msgstr "Виконати після отримання"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:10
-#, fuzzy
 msgid "Run this command when new messages arrive."
-msgstr "При отриманні повідомлення виконати цю команду:"
+msgstr "При надходженні нових повідомлень виконувати цю команду."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:11
-#, fuzzy
 msgid "Custom sound"
-msgstr "Вибрати звук сповіщення:"
+msgstr "Власний звук"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:12
-#, fuzzy
 msgid "Play a custom sound when new messages arrive."
-msgstr "При отримання повідомлення відтворювати звук:"
+msgstr "При надходженні нових повідомлень відтворювати власний звук."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:13
-#, fuzzy
 msgid "Merge messages"
-msgstr "Позначити повідомлення як прочитане"
+msgstr "Об'єднувати повідомлення"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:14
-#, fuzzy
 msgid "Merge messages belonging to the same conversation."
-msgstr "Об'єднувати повідомлення тієї самої розмови:"
+msgstr "Об'єднувати повідомлення з однієї розмови."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:15
-#, fuzzy
 msgid "Message action"
-msgstr "Дії з повідомленнями"
+msgstr "Дія з повідомленням"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:16
-#, fuzzy
 msgid "Action to perform when a message is activated."
-msgstr "Коли повідомлення активне:"
+msgstr "Дія, яку потрібно виконати при активації повідомлення."
 
 #, python-brace-format
 #~ msgid "You can run \"{command}\" to delete all your login settings."
