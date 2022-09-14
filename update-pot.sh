@@ -27,5 +27,7 @@ mv data/usr/share/applications/ayatana-webmail.desktop.keep      data/usr/share/
 rm ./build -Rf
 rm ./data/usr/share/locale/ -Rf
 
-sed -e 's@#: \.\./@#: @g'		\
+sed -E					\
+    -e 's@^#: \.\./@#: @g'		\
+    -e 's@(:[0-9]+) \.\./@\1 @g'	\
     -i po/${GETTEXT_DOMAIN}.pot
