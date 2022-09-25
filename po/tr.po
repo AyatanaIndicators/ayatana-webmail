@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-14 08:22+0200\n"
-"PO-Revision-Date: 2020-12-02 19:29+0000\n"
-"Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
-"Language-Team: Turkish <https://hosted.weblate.org/projects/ayatana-"
-"indicators/ayatana-webmail/tr/>\n"
+"PO-Revision-Date: 2022-09-26 14:17+0000\n"
+"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/"
+"ayatana-indicators/ayatana-webmail/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.14.1\n"
 "X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
 
 #: ayatanawebmail/accounts.py:18
@@ -80,11 +80,11 @@ msgid ""
 msgstr "\"{accountName}\" hesabına bağlanılamadı, uygulama şimdi çıkacak."
 
 #: ayatanawebmail/application.py:1131
-#, fuzzy, python-format
+#, python-format
 msgid "You have %d unread message"
 msgid_plural "You have %d unread messages"
-msgstr[0] "%d okunmamış e-postanız var"
-msgstr[1] "%d okunmamış e-postanız var"
+msgstr[0] "%d okunmamış mesajınız var"
+msgstr[1] "%d okunmamış mesajınız var"
 
 #: ayatanawebmail/application.py:1158
 #, python-format
@@ -108,13 +108,15 @@ msgstr "%s kişisinden yeni e-posta"
 
 #: ayatanawebmail/dialog.py:17
 msgid "Custom"
-msgstr ""
+msgstr "Özel"
 
 #: ayatanawebmail/dialog.py:61
 msgid ""
 "If this string starts with http:// or https://, the application will open it "
 "in your browser - otherwise, it will be run as a command"
 msgstr ""
+"Bu dizge http:// veya https:// ile başlıyorsa, uygulama bunu tarayıcınızda "
+"açacaktır - aksi takdirde, bir komut olarak çalıştırılacaktır"
 
 #: ayatanawebmail/dialog.py:91 ayatanawebmail/dialog.py:105
 msgid "(None)"
@@ -157,35 +159,32 @@ msgid "Remove"
 msgstr "Sil"
 
 #: ayatanawebmail/dialog.py:276
-#, fuzzy
 msgid ""
 "The application will append this string to \"Inbox\" to access a specific "
 "message - you can use the $MSG_THREAD and $MSG_UID placeholders"
 msgstr ""
-"Ek bir dizge ekleyin - $MSG_THREAD ve $MSG_UID yer tutucularını "
-"kullanabilirsiniz."
+"Uygulama, belirli bir mesaja erişmek için bu dizgeyi \"Gelen kutusu\"na "
+"ekleyecektir - $MSG_THREAD ve $MSG_UID yer tutucularını kullanabilirsiniz"
 
 #: ayatanawebmail/dialog.py:278
-#, fuzzy
 msgid "Account:"
-msgstr "Hesaplar"
+msgstr "Hesap:"
 
 #: ayatanawebmail/dialog.py:280
-#, fuzzy
 msgid "Server:"
-msgstr "Sunucu bilgileri"
+msgstr "Sunucu:"
 
 #: ayatanawebmail/dialog.py:282
 msgid "Host:"
-msgstr "Sunucu:"
+msgstr "Ana makine:"
 
 #: ayatanawebmail/dialog.py:284
 msgid "Port:"
-msgstr "Port:"
+msgstr "Bağlantı noktası:"
 
 #: ayatanawebmail/dialog.py:286
 msgid "Username:"
-msgstr ""
+msgstr "Kullanıcı adı:"
 
 #: ayatanawebmail/dialog.py:288
 msgid "Password:"
@@ -212,9 +211,8 @@ msgid "Inbox:"
 msgstr "Gelen kutusu:"
 
 #: ayatanawebmail/dialog.py:300
-#, fuzzy
 msgid "Message:"
-msgstr "Mesaj eylemleri"
+msgstr "Mesaj:"
 
 #: ayatanawebmail/dialog.py:336
 msgid "Mark message as read"
@@ -258,21 +256,20 @@ msgstr "Çalınacak özel ses:"
 
 #: ayatanawebmail/dialog.py:382
 msgid "Report a bug"
-msgstr ""
+msgstr "Hata bildir"
 
 #: ayatanawebmail/dialog.py:384
-#, fuzzy
 msgid "Request a feature"
-msgstr "Hata bildir/Özellik iste"
+msgstr "Özellik talebinde bulun"
 
 #: ayatanawebmail/dialog.py:386 ayatanawebmail/dialog.py:389
 #, python-brace-format
 msgid "It's a good idea to add the {labelname} label to your issue."
-msgstr ""
+msgstr "Sorununuza {labelname} etiketini eklemek iyi bir fikirdir."
 
 #: ayatanawebmail/dialog.py:387
 msgid "Ask a question"
-msgstr "Bir soru sor"
+msgstr "Soru sor"
 
 #: ayatanawebmail/dialog.py:390
 msgid "Help translate"
@@ -292,77 +289,67 @@ msgstr "Oğuz Ersen"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:1
 msgid "Maximum item count"
-msgstr ""
+msgstr "Azami öge sayısı"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:2
 msgid "Limit the number of mails to retrieve per folder."
-msgstr ""
+msgstr "Klasör başına alınacak posta sayısını sınırla."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:3
-#, fuzzy
 msgid "Enable notifications"
-msgstr "Bildirimleri etkinleştir:"
+msgstr "Bildirimleri etkinleştir"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:4
 msgid "Show OSD notifications when new messages arrive."
-msgstr ""
+msgstr "Yeni mesajlar geldiğinde ekran üzeri bildirimlerini göster."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:5
 msgid "Enable sound"
-msgstr ""
+msgstr "Sesi etkinleştir"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:6
-#, fuzzy
 msgid "Play sound when new messages arrive."
-msgstr "Bir mesaj alındığında ses çal:"
+msgstr "Yeni mesajlar geldiğinde ses çal."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:7
-#, fuzzy
 msgid "Hide message count"
-msgstr "Mesajı aç /Komutu çalıştır"
+msgstr "Mesaj sayısını gizle"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:8
 msgid "Hide message count when there are no messages."
-msgstr ""
+msgstr "Mesaj olmadığında mesaj sayısını gizle."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:9
 msgid "Execute on receive"
-msgstr ""
+msgstr "Alındığında çalıştır"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:10
-#, fuzzy
 msgid "Run this command when new messages arrive."
-msgstr "Bir mesaj alındığında bu komutu çalıştır:"
+msgstr "Yeni mesajlar geldiğinde bu komutu çalıştır."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:11
-#, fuzzy
 msgid "Custom sound"
-msgstr "Çalınacak özel ses:"
+msgstr "Özel ses"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:12
-#, fuzzy
 msgid "Play a custom sound when new messages arrive."
-msgstr "Bir mesaj alındığında ses çal:"
+msgstr "Yeni mesajlar geldiğinde özel bir ses çal."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:13
-#, fuzzy
 msgid "Merge messages"
-msgstr "Mesajı okundu olarak işaretle"
+msgstr "Mesajları birleştir"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:14
-#, fuzzy
 msgid "Merge messages belonging to the same conversation."
-msgstr "Aynı görüşmedeki mesajları birleştir:"
+msgstr "Aynı konuşmaya ait mesajları birleştir."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:15
-#, fuzzy
 msgid "Message action"
-msgstr "Mesaj eylemleri"
+msgstr "Mesaj eylemi"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:16
-#, fuzzy
 msgid "Action to perform when a message is activated."
-msgstr "Bir mesaj etkinleştirildiğinde:"
+msgstr "Bir mesaj etkinleştirildiğinde gerçekleştirilecek eylem."
 
 #, python-brace-format
 #~ msgid "You can run \"{command}\" to delete all your login settings."
