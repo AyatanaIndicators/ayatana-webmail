@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ayatana-webmail 22.6.28\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-14 08:22+0200\n"
-"PO-Revision-Date: 2022-09-23 08:20+0000\n"
+"PO-Revision-Date: 2022-09-29 13:15+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-webmail/he/>\n"
@@ -303,7 +303,7 @@ msgstr "הפעלת התראות"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:4
 msgid "Show OSD notifications when new messages arrive."
-msgstr ""
+msgstr "להציג התראות על המסך כשמגיעה הודעה חדשה."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:5
 msgid "Enable sound"
@@ -319,46 +319,39 @@ msgstr "הסתרת מספר ההודעות"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:8
 msgid "Hide message count when there are no messages."
-msgstr ""
+msgstr "להסתיר את מספר ההודעות כשאין הודעות."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:9
 msgid "Execute on receive"
-msgstr ""
+msgstr "הפעלה עם קבלה"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:10
-#, fuzzy
 msgid "Run this command when new messages arrive."
-msgstr "להריץ פקודה כשמתקבלת הודעה:"
+msgstr "להריץ את הפקודה הזאת כשמתקבלת הודעה."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:11
-#, fuzzy
 msgid "Custom sound"
-msgstr "צליל משלך להשמעה:"
+msgstr "צליל משלך"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:12
-#, fuzzy
 msgid "Play a custom sound when new messages arrive."
-msgstr "לנגן צליל כאשר מתקבלת הודעה:"
+msgstr "לנגן צליל משלך כאשר מתקבלת הודעה."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:13
-#, fuzzy
 msgid "Merge messages"
-msgstr "סימון ההודעה כנקראה"
+msgstr "מיזוג הודעות"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:14
-#, fuzzy
 msgid "Merge messages belonging to the same conversation."
-msgstr "מיזוג הודעות מאותו הדיון:"
+msgstr "מיזוג הודעות מאותו הדיון."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:15
-#, fuzzy
 msgid "Message action"
-msgstr "פעולות על הודעות"
+msgstr "פעולה על הודעה"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:16
-#, fuzzy
 msgid "Action to perform when a message is activated."
-msgstr "כאשר הודעה מופעלת:"
+msgstr "פעולה שתבוצע עם הפעלת הודעה."
 
 #~ msgid ""
 #~ "Please visit the following link and enable access for less secure apps:"
