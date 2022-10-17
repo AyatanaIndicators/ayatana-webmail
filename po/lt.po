@@ -8,17 +8,18 @@ msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-14 08:22+0200\n"
-"PO-Revision-Date: 2021-08-08 18:33+0000\n"
+"PO-Revision-Date: 2022-10-18 21:00+0000\n"
 "Last-Translator: Gediminas Murauskas <muziejusinfo@gmail.com>\n"
-"Language-Team: Lithuanian <https://hosted.weblate.org/projects/ayatana-"
-"indicators/ayatana-webmail/lt/>\n"
+"Language-Team: Lithuanian <https://hosted.weblate.org/projects/"
+"ayatana-indicators/ayatana-webmail/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
-"%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 4.8-dev\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
+"19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
+"1 : 2);\n"
+"X-Generator: Weblate 4.15-dev\n"
 "X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
 
 #: ayatanawebmail/accounts.py:18
@@ -83,12 +84,12 @@ msgstr ""
 "užverta."
 
 #: ayatanawebmail/application.py:1131
-#, fuzzy, python-format
+#, python-format
 msgid "You have %d unread message"
 msgid_plural "You have %d unread messages"
-msgstr[0] "Turite %d neskaitytą laišką"
-msgstr[1] "Turite %d neskaitytus laiškus"
-msgstr[2] "Turite %d neskaitytų laiškų"
+msgstr[0] "Turite %d neskaitytą pranešimą"
+msgstr[1] "Turite %d neskaitytus pranešimus"
+msgstr[2] "Turite %d neskaitytų pranešimų"
 
 #: ayatanawebmail/application.py:1158
 #, python-format
@@ -112,13 +113,15 @@ msgstr "Naujas laiškas nuo %s"
 
 #: ayatanawebmail/dialog.py:17
 msgid "Custom"
-msgstr ""
+msgstr "Pasirinktinis"
 
 #: ayatanawebmail/dialog.py:61
 msgid ""
 "If this string starts with http:// or https://, the application will open it "
 "in your browser - otherwise, it will be run as a command"
 msgstr ""
+"Jei ši eilutė prasideda http:// arba https://, programa ją atidarys "
+"naršyklėje, priešingu atveju ji bus paleista kaip komanda"
 
 #: ayatanawebmail/dialog.py:91 ayatanawebmail/dialog.py:105
 msgid "(None)"
@@ -170,14 +173,12 @@ msgstr ""
 "vietaženklius."
 
 #: ayatanawebmail/dialog.py:278
-#, fuzzy
 msgid "Account:"
-msgstr "Paskyros"
+msgstr "Paskyra:"
 
 #: ayatanawebmail/dialog.py:280
-#, fuzzy
 msgid "Server:"
-msgstr "Serverio duomenys"
+msgstr "Serveris:"
 
 #: ayatanawebmail/dialog.py:282
 msgid "Host:"
@@ -189,7 +190,7 @@ msgstr "Prievadas:"
 
 #: ayatanawebmail/dialog.py:286
 msgid "Username:"
-msgstr ""
+msgstr "Vartotojo vardas:"
 
 #: ayatanawebmail/dialog.py:288
 msgid "Password:"
@@ -216,9 +217,8 @@ msgid "Inbox:"
 msgstr "Gauta:"
 
 #: ayatanawebmail/dialog.py:300
-#, fuzzy
 msgid "Message:"
-msgstr "Veiksmai su laišku"
+msgstr "Pranešimas:"
 
 #: ayatanawebmail/dialog.py:336
 msgid "Mark message as read"
@@ -262,17 +262,16 @@ msgstr "Atkurti šį tinkintą garsą:"
 
 #: ayatanawebmail/dialog.py:382
 msgid "Report a bug"
-msgstr ""
+msgstr "Pranešti apie klaidą"
 
 #: ayatanawebmail/dialog.py:384
-#, fuzzy
 msgid "Request a feature"
-msgstr "Pranešti apie klaidą/Prašyti naujos ypatybės"
+msgstr "Funkcijų užklausa"
 
 #: ayatanawebmail/dialog.py:386 ayatanawebmail/dialog.py:389
 #, python-brace-format
 msgid "It's a good idea to add the {labelname} label to your issue."
-msgstr ""
+msgstr "Patartina prie problemos pridėti {labelname} etiketę."
 
 #: ayatanawebmail/dialog.py:387
 msgid "Ask a question"
@@ -296,77 +295,67 @@ msgstr "Moo, Enigma, Gediminas Murauskas"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:1
 msgid "Maximum item count"
-msgstr ""
+msgstr "Didžiausias elementų skaičius"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:2
 msgid "Limit the number of mails to retrieve per folder."
-msgstr ""
+msgstr "Apribokite laiškų, kuriuos galima gauti viename aplanke, skaičių."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:3
-#, fuzzy
 msgid "Enable notifications"
-msgstr "Įjungti pranešimus:"
+msgstr "Įjungti pranešimus"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:4
 msgid "Show OSD notifications when new messages arrive."
-msgstr ""
+msgstr "Rodyti OSD pranešimus, kai gaunami nauji pranešimai."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:5
 msgid "Enable sound"
-msgstr ""
+msgstr "Įjungti garsą"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:6
-#, fuzzy
 msgid "Play sound when new messages arrive."
-msgstr "Gavus laišką, atkurti garsą:"
+msgstr "Leisti garsą, kai gaunami nauji pranešimai."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:7
-#, fuzzy
 msgid "Hide message count"
-msgstr "Atverti laišką/Vykdyti komandą"
+msgstr "Slėpti pranešimų skaičių"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:8
 msgid "Hide message count when there are no messages."
-msgstr ""
+msgstr "Slėpti pranešimų skaičių, kai pranešimų nėra."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:9
 msgid "Execute on receive"
-msgstr ""
+msgstr "Vykdyti gavus"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:10
-#, fuzzy
 msgid "Run this command when new messages arrive."
-msgstr "Gavus el. laišką, vykdyti šią komandą:"
+msgstr "Vykdyti šią komandą, kai ateina nauji pranešimai."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:11
-#, fuzzy
 msgid "Custom sound"
-msgstr "Atkurti šį tinkintą garsą:"
+msgstr "Pasirinktinis garsas"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:12
-#, fuzzy
 msgid "Play a custom sound when new messages arrive."
-msgstr "Gavus laišką, atkurti garsą:"
+msgstr "Paleisti pasirinktinį garsą, kai gaunate naujus pranešimus."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:13
-#, fuzzy
 msgid "Merge messages"
-msgstr "Žymėti laišką kaip skaitytą"
+msgstr "Sujungti pranešimus"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:14
-#, fuzzy
 msgid "Merge messages belonging to the same conversation."
-msgstr "Sulieti el. laiškus iš to paties pokalbio:"
+msgstr "Sujungti tam pačiam pokalbiui priklausančius pranešimus."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:15
-#, fuzzy
 msgid "Message action"
-msgstr "Veiksmai su laišku"
+msgstr "Pranešimo veiksmas"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:16
-#, fuzzy
 msgid "Action to perform when a message is activated."
-msgstr "Aktyvavus el. laišką:"
+msgstr "Veiksmas, atliekamas suaktyvinus pranešimą."
 
 #, python-brace-format
 #~ msgid "You can run \"{command}\" to delete all your login settings."
