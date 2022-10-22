@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-14 08:22+0200\n"
-"PO-Revision-Date: 2022-10-18 21:00+0000\n"
+"PO-Revision-Date: 2022-10-23 15:03+0000\n"
 "Last-Translator: Gediminas Murauskas <muziejusinfo@gmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-webmail/lt/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
 "19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
 "1 : 2);\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 4.14.2-dev\n"
 "X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
 
 #: ayatanawebmail/accounts.py:18
@@ -164,13 +164,12 @@ msgid "Remove"
 msgstr "Šalinti"
 
 #: ayatanawebmail/dialog.py:276
-#, fuzzy
 msgid ""
 "The application will append this string to \"Inbox\" to access a specific "
 "message - you can use the $MSG_THREAD and $MSG_UID placeholders"
 msgstr ""
-"Pridėti papildomą eilutę - galite naudoti $MSG_THREAD ir $MSG_UID "
-"vietaženklius."
+"Programa pridės šią eilutę prie „Gautieji“, kad pasiektų konkretų pranešimą -"
+" galite naudoti $MSG_THREAD ir $MSG_UID vietos rezervavimo ženklus"
 
 #: ayatanawebmail/dialog.py:278
 msgid "Account:"
