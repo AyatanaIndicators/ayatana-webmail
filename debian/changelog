@@ -1,3 +1,10 @@
+ayatana-webmail (22.12.15) unstable; urgency=medium
+
+  * Upstream-provided Debian package for ayatana-webmail.
+    See upstream ChangeLog for recent changes.
+
+ -- Mike Gabriel <mike.gabriel@das-netzwerkteam.de>  Thu, 15 Dec 2022 22:08:28 +0100
+
 ayatana-webmail (22.6.28) unstable; urgency=medium
 
   * Upstream-provided Debian package for ayatana-webmail.

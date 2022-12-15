@@ -5,7 +5,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: ayatana-webmail 22.6.28\n"
+"Project-Id-Version: ayatana-webmail 22.12.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-14 08:22+0200\n"
 "PO-Revision-Date: 2021-11-24 14:52+0000\n"

@@ -1,6 +1,98 @@
+2022-12-15 Mike Gabriel
+
+        * release 22.12.15 (HEAD -> main, tag: 22.12.15)
+
+2022-11-26 Boyuan Yang
+
+        * Translated using Weblate (Chinese (Simplified)) (142cec3)
+
+2022-10-22 Gediminas Murauskas
+
+        * Translated using Weblate (Lithuanian) (2e9340c)
+
+2022-10-19 Kristjan Räts
+
+        * Translated using Weblate (Estonian) (ea0b164)
+
+2022-10-17 Gediminas Murauskas
+
+        * Translated using Weblate (Lithuanian) (eeda965)
+
+2022-09-29 이정희
+
+        * Translated using Weblate (Korean) (11d1e23)
+
+2022-09-28 Yaron Shahrabani
+
+        * Translated using Weblate (Hebrew) (b32d6de)
+
+2022-09-25 Oğuz Ersen
+
+        * Translated using Weblate (Turkish) (51c8f6a)
+
+2022-09-22 Yaron Shahrabani
+
+        * Translated using Weblate (Hebrew) (42c2142)
+
+2022-09-19 Yaron Shahrabani
+
+        * Translated using Weblate (Hebrew) (46e92eb)
+
+2022-09-14 Sergii Horichenko
+
+        * Translated using Weblate (Ukrainian) (0135e76)
+        * Translated using Weblate (Russian) (47ba3af)
+
+2022-09-14 Wellington Terumi Uemura
+
+        * Translated using Weblate (Portuguese (Brazil)) (1921ab2)
+
+2022-09-15 Quentin PAGÈS
+
+        * Translated using Weblate (Occitan) (d014a4d)
+
+2022-09-14 Mike Gabriel
+
+        * Translated using Weblate (German) (2485efd)
+
+2022-09-14 Milan Korecky
+
+        * Translated using Weblate (Czech) (13afcf7)
+
+2022-09-13 Eric
+
+        * Translated using Weblate (Chinese (Simplified)) (3825f33)
+
+2022-09-14 Mike Gabriel
+
+        * update-pot.sh: Also catch multi-file source file references.
+          (9d9c216)
+        * update-po.sh: Also catch multi-file source file references.
+          (cf8f574)
+        * po/*.po{,t}: Translation strings update (esp. source file
+          references). (ee1af17)
+
+2022-09-13 Robert Tari
+
+        * Merge branch 'sunweaver-pr/update-translations' (f82e673)
+
+2022-09-11 Mike Gabriel
+
+        * po/*.po: Update translation strings. (5685a91)
+        * po/ayatanawebmail.pot: Update, include .gschema.xml strings.
+          (1f5a3d9)
+        * update.po{,t}: Standardize way (like in other Ayatana projects) of
+          updating translation files. (eb4ba01)
+        * setup.py: Ignore all files except .po files when creating .mo files
+          from .po files. (09346f6)
+
+2022-07-09 Robert Tari
+
+        * Do not use implicit debugging (51c7b29)
+
 2022-06-28 Mike Gabriel
 
-        * release 22.6.28 (HEAD -> main, tag: 22.6.28)
+        * release 22.6.28 (4dea8e0) (tag: 22.6.28)
 
 2022-05-05 Robert Tari
 
