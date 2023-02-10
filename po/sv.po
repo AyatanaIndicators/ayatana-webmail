@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: ayatana-webmail 22.12.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-14 08:22+0200\n"
-"PO-Revision-Date: 2020-12-24 10:29+0000\n"
-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/ayatana-"
-"indicators/ayatana-webmail/sv/>\n"
+"PO-Revision-Date: 2023-02-11 12:35+0000\n"
+"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/"
+"ayatana-indicators/ayatana-webmail/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.1-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: ayatanawebmail/accounts.py:18
 msgid "Select account"
@@ -81,11 +81,11 @@ msgstr ""
 "avslutas nu."
 
 #: ayatanawebmail/application.py:1131
-#, fuzzy, python-format
+#, python-format
 msgid "You have %d unread message"
 msgid_plural "You have %d unread messages"
-msgstr[0] "Du har %d oläst mail"
-msgstr[1] "Du har %d olästa mail"
+msgstr[0] "Du har %d oläst meddelande"
+msgstr[1] "Du har %d olästa meddelanden"
 
 #: ayatanawebmail/application.py:1158
 #, python-format
@@ -293,77 +293,67 @@ msgstr "Luna Jernberg, 2020"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:1
 msgid "Maximum item count"
-msgstr ""
+msgstr "Maximalt antal objekt"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:2
 msgid "Limit the number of mails to retrieve per folder."
-msgstr ""
+msgstr "Begränsa antalet mail att hämta per mapp."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:3
-#, fuzzy
 msgid "Enable notifications"
-msgstr "Aktivera notifieringar:"
+msgstr "Aktivera notifieringar"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:4
 msgid "Show OSD notifications when new messages arrive."
-msgstr ""
+msgstr "Visa OSD-aviseringar när nya meddelanden dyker upp."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:5
 msgid "Enable sound"
-msgstr ""
+msgstr "Aktivera ljud"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:6
-#, fuzzy
 msgid "Play sound when new messages arrive."
-msgstr "Spela ett ljud när ett meddelande är mottaget:"
+msgstr "Spela ett ljud när ett nytt meddelande dyker upp."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:7
-#, fuzzy
 msgid "Hide message count"
-msgstr "Öppna meddelande/Kör kommando"
+msgstr "Dölj meddelandeantal"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:8
 msgid "Hide message count when there are no messages."
-msgstr ""
+msgstr "Dölj meddelandeantal när det inte finns några meddelanden."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:9
 msgid "Execute on receive"
-msgstr ""
+msgstr "Utför vid mottagning"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:10
-#, fuzzy
 msgid "Run this command when new messages arrive."
-msgstr "Utför detta kommando när ett meddelande har tagits emot:"
+msgstr "Kör det här kommandot när nya meddelanden kommer."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:11
-#, fuzzy
 msgid "Custom sound"
-msgstr "Anpassat ljud att spela:"
+msgstr "Anpassat ljud"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:12
-#, fuzzy
 msgid "Play a custom sound when new messages arrive."
-msgstr "Spela ett ljud när ett meddelande är mottaget:"
+msgstr "Spela ett anpassat ljud när ett nytt meddelande är mottaget."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:13
-#, fuzzy
 msgid "Merge messages"
-msgstr "Markera meddelande som läst"
+msgstr "Slå samman meddelanden"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:14
-#, fuzzy
 msgid "Merge messages belonging to the same conversation."
-msgstr "Sammanfoga meddelanden från samma konversation:"
+msgstr "Slå samman meddelanden som hör till samma konversation."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:15
-#, fuzzy
 msgid "Message action"
-msgstr "Meddelandeåtgärder"
+msgstr "Meddelandeåtgärd"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:16
-#, fuzzy
 msgid "Action to perform when a message is activated."
-msgstr "När ett meddelande är aktiverat:"
+msgstr "Åtgärd som ska utföras när ett meddelande aktiveras."
 
 #~ msgid ""
 #~ "Please visit the following link and enable access for less secure apps:"
