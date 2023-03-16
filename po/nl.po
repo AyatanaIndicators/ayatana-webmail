@@ -8,59 +8,61 @@ msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-14 08:22+0200\n"
-"PO-Revision-Date: 2018-06-04 07:33+0000\n"
-"Language-Team: Dutch <nl@li.org>\n"
+"PO-Revision-Date: 2023-03-17 10:41+0000\n"
+"Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/ayatana-indicators/"
+"ayatana-webmail/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.2-dev\n"
 "X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
-"X-Generator: Launchpad (build a296f04231dee355be5db73cc878b9e21689a253)\n"
 
 #: ayatanawebmail/accounts.py:18
 msgid "Select account"
-msgstr ""
+msgstr "Kies een account"
 
 #: ayatanawebmail/accounts.py:29
 msgid "Which account's command/web page would you like to open?"
-msgstr ""
+msgstr "Welke opdracht/webpagina van een account dient te worden geopend?"
 
 #: ayatanawebmail/actions.py:15
 msgid "Message actions"
-msgstr ""
+msgstr "Berichtacties"
 
 #: ayatanawebmail/actions.py:15
 msgid "Delete"
-msgstr ""
+msgstr "Verwijderen"
 
 #: ayatanawebmail/actions.py:15
 msgid "Mark as read"
-msgstr ""
+msgstr "Markeren als gelezen"
 
 #: ayatanawebmail/actions.py:15
 msgid "Open message/Run command"
-msgstr ""
+msgstr "Bericht openen/Opdracht uitvoeren"
 
 #: ayatanawebmail/actions.py:24
 msgid "Sender"
-msgstr ""
+msgstr "Afzender"
 
 #: ayatanawebmail/actions.py:26
 msgid "Subject"
-msgstr ""
+msgstr "Onderwerp"
 
 #: ayatanawebmail/application.py:178
 msgid "Open webmail home page"
-msgstr ""
+msgstr "Webmailpagina openen"
 
 #: ayatanawebmail/application.py:185
 msgid "Clear"
-msgstr ""
+msgstr "Wissen"
 
 #: ayatanawebmail/application.py:192
 msgid "Settings"
-msgstr ""
+msgstr "Instellingen"
 
 #: ayatanawebmail/application.py:945
 msgid "No subject"
@@ -68,7 +70,7 @@ msgstr "Geen onderwerp"
 
 #: ayatanawebmail/application.py:1105
 msgid "Connection error"
-msgstr ""
+msgstr "Verbindingsfout"
 
 #: ayatanawebmail/application.py:1106
 #, python-brace-format
@@ -76,13 +78,15 @@ msgid ""
 "Unable to connect to account \"{accountName}\", the application will now "
 "exit."
 msgstr ""
+"Er kan geen verbinding worden gemaakt met “{accountName}” - het programma "
+"wordt afgesloten."
 
 #: ayatanawebmail/application.py:1131
-#, fuzzy, python-format
+#, python-format
 msgid "You have %d unread message"
 msgid_plural "You have %d unread messages"
-msgstr[0] "U heeft %d ongelezen bericht"
-msgstr[1] "U heeft %d ongelezen berichten"
+msgstr[0] "Je hebt %d ongelezen bericht"
+msgstr[1] "Je hebt %d ongelezen berichten"
 
 #: ayatanawebmail/application.py:1158
 #, python-format
@@ -106,17 +110,19 @@ msgstr "Nieuw bericht van %s"
 
 #: ayatanawebmail/dialog.py:17
 msgid "Custom"
-msgstr ""
+msgstr "Aangepast"
 
 #: ayatanawebmail/dialog.py:61
 msgid ""
 "If this string starts with http:// or https://, the application will open it "
 "in your browser - otherwise, it will be run as a command"
 msgstr ""
+"Als de tekenreeks met http:// of https:// begint, dan wordt het programma "
+"geopend in je webbrowser - als dat niet zo is, wordt de opdracht uitgevoerd"
 
 #: ayatanawebmail/dialog.py:91 ayatanawebmail/dialog.py:105
 msgid "(None)"
-msgstr ""
+msgstr "(Geen)"
 
 #: ayatanawebmail/dialog.py:133
 msgid "Ayatana Webmail Preferences"
@@ -132,43 +138,45 @@ msgstr "Instellingen"
 
 #: ayatanawebmail/dialog.py:143
 msgid "Support"
-msgstr ""
+msgstr "Ondersteuning"
 
 #: ayatanawebmail/dialog.py:144
 msgid "About"
-msgstr ""
+msgstr "Over"
 
 #: ayatanawebmail/dialog.py:203
 msgid "Failed to connect to mail account. The returned error was:"
 msgstr ""
+"Er kan geen verbinding worden gemaakt met het e-mailaccount. Foutmelding:"
 
 #: ayatanawebmail/dialog.py:204
 msgid "Connection failure"
-msgstr ""
+msgstr "Verbindingsfout"
 
 #: ayatanawebmail/dialog.py:232
 msgid "Add"
-msgstr ""
+msgstr "Toevoegen"
 
 #: ayatanawebmail/dialog.py:234
 msgid "Remove"
-msgstr ""
+msgstr "Verwijderen"
 
 #: ayatanawebmail/dialog.py:276
 msgid ""
 "The application will append this string to \"Inbox\" to access a specific "
 "message - you can use the $MSG_THREAD and $MSG_UID placeholders"
 msgstr ""
+"Het programma kent deze tekenreeks toe aan het postvak in om een specifiek "
+"bericht te openen - je kunt $MSG_THREAD en $MSG_UID als tijdelijke "
+"aanduiding gebruiken"
 
 #: ayatanawebmail/dialog.py:278
-#, fuzzy
 msgid "Account:"
-msgstr "Accounts"
+msgstr "Account:"
 
 #: ayatanawebmail/dialog.py:280
-#, fuzzy
 msgid "Server:"
-msgstr "Servergegevens:"
+msgstr "Server:"
 
 #: ayatanawebmail/dialog.py:282
 msgid "Host:"
@@ -180,7 +188,7 @@ msgstr "Poort:"
 
 #: ayatanawebmail/dialog.py:286
 msgid "Username:"
-msgstr ""
+msgstr "Gebruikersnaam:"
 
 #: ayatanawebmail/dialog.py:288
 msgid "Password:"
@@ -188,7 +196,7 @@ msgstr "Wachtwoord:"
 
 #: ayatanawebmail/dialog.py:290
 msgid "Folders:"
-msgstr ""
+msgstr "Mappen:"
 
 #: ayatanawebmail/dialog.py:292
 msgid "Home:"
@@ -208,145 +216,144 @@ msgstr "Postvak in:"
 
 #: ayatanawebmail/dialog.py:300
 msgid "Message:"
-msgstr ""
+msgstr "Bericht:"
 
 #: ayatanawebmail/dialog.py:336
 msgid "Mark message as read"
-msgstr ""
+msgstr "Bericht markeren als gelezen"
 
 #: ayatanawebmail/dialog.py:337
 msgid "Open message in browser/Execute command"
-msgstr ""
+msgstr "Bericht openen in webbrowser/Opdracht uitvoeren"
 
 #: ayatanawebmail/dialog.py:338
 msgid "Ask me what to do"
-msgstr ""
+msgstr "Om actie vragen"
 
 #: ayatanawebmail/dialog.py:348
 msgid "Enable notifications:"
-msgstr "Notificaties inschakelen:"
+msgstr "Meldingen inschakelen:"
 
 #: ayatanawebmail/dialog.py:350
 msgid "Play sound when a message is received:"
-msgstr ""
+msgstr "Geluid afspelen bij ontvangen van bericht:"
 
 #: ayatanawebmail/dialog.py:352
 msgid "Merge messages from the same conversation:"
-msgstr ""
+msgstr "Berichten van dezelfde afzender als gesprek tonen:"
 
 #: ayatanawebmail/dialog.py:354
 msgid "Hide count when zero:"
-msgstr ""
+msgstr "Verbergen indien nul:"
 
 #: ayatanawebmail/dialog.py:356
 msgid "When a message is activated:"
-msgstr ""
+msgstr "Na openen van een bericht:"
 
 #: ayatanawebmail/dialog.py:359
 msgid "Execute this command when a message is received:"
-msgstr ""
+msgstr "Opdracht uitvoeren bij ontvangen van bericht:"
 
 #: ayatanawebmail/dialog.py:366
 msgid "Custom sound to play:"
-msgstr ""
+msgstr "Eigen geluid afspelen:"
 
 #: ayatanawebmail/dialog.py:382
 msgid "Report a bug"
-msgstr ""
+msgstr "Bug melden"
 
 #: ayatanawebmail/dialog.py:384
 msgid "Request a feature"
-msgstr ""
+msgstr "Idee delen"
 
 #: ayatanawebmail/dialog.py:386 ayatanawebmail/dialog.py:389
 #, python-brace-format
 msgid "It's a good idea to add the {labelname} label to your issue."
-msgstr ""
+msgstr "Voeg bij voorkeur “{labelname}” toe aan je ‘issue’."
 
 #: ayatanawebmail/dialog.py:387
 msgid "Ask a question"
-msgstr ""
+msgstr "Vraag stellen"
 
 #: ayatanawebmail/dialog.py:390
 msgid "Help translate"
-msgstr ""
+msgstr "Helpen met vertalen"
 
 #: ayatanawebmail/dialog.py:392
 msgid "Source code"
-msgstr ""
+msgstr "Broncode"
 
 #: ayatanawebmail/dialog.py:394
 msgid "Home page"
-msgstr ""
+msgstr "Website"
 
 #: ayatanawebmail/dialog.py:414
 msgid "translator-credits"
-msgstr ""
+msgstr "Heimen Stoffels <vistausss@fastmail.com>"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:1
 msgid "Maximum item count"
-msgstr ""
+msgstr "Maximaal aantal items"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:2
 msgid "Limit the number of mails to retrieve per folder."
-msgstr ""
+msgstr "Beperk het aantal per map op te halen berichten."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:3
-#, fuzzy
 msgid "Enable notifications"
-msgstr "Notificaties inschakelen:"
+msgstr "Meldingen tonen"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:4
 msgid "Show OSD notifications when new messages arrive."
-msgstr ""
+msgstr "Toon meldingen bij het ontvangen van nieuwe berichten."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:5
 msgid "Enable sound"
-msgstr ""
+msgstr "Geluid afspelen"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:6
 msgid "Play sound when new messages arrive."
-msgstr ""
+msgstr "Speel een geluid af bij het ontvangen van nieuwe berichten."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:7
 msgid "Hide message count"
-msgstr ""
+msgstr "Berichtaantal verbergen"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:8
 msgid "Hide message count when there are no messages."
-msgstr ""
+msgstr "Verberg het berichtaantal als er geen berichten zijn."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:9
 msgid "Execute on receive"
-msgstr ""
+msgstr "Uitvoeren na ontvangen"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:10
 msgid "Run this command when new messages arrive."
-msgstr ""
+msgstr "Voer deze opdracht uit bij het ontvangen van nieuwe berichten."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:11
 msgid "Custom sound"
-msgstr ""
+msgstr "Eigen geluid"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:12
 msgid "Play a custom sound when new messages arrive."
-msgstr ""
+msgstr "Speel een eigen geluid af bij het ontvangen van nieuwe berichten."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:13
 msgid "Merge messages"
-msgstr ""
+msgstr "Berichten als gesprek tonen"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:14
 msgid "Merge messages belonging to the same conversation."
-msgstr ""
+msgstr "Toon berichten van dezelfde afzender als gesprek."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:15
 msgid "Message action"
-msgstr ""
+msgstr "Berichtactie"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:16
 msgid "Action to perform when a message is activated."
-msgstr ""
+msgstr "Voer deze actie uit na het openen van een bericht."
 
 #~ msgid "Choose an account"
 #~ msgstr "Een account kiezen"
