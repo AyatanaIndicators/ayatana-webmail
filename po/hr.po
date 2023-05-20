@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-14 08:22+0200\n"
-"PO-Revision-Date: 2020-09-09 01:36+0000\n"
+"PO-Revision-Date: 2023-05-21 17:52+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
-"Language-Team: Croatian <https://hosted.weblate.org/projects/ayatana-"
-"indicators/ayatana-webmail/hr/>\n"
+"Language-Team: Croatian <https://hosted.weblate.org/projects/"
+"ayatana-indicators/ayatana-webmail/hr/>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.3-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.18-dev\n"
 "X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
 
 #: ayatanawebmail/accounts.py:18
@@ -83,12 +83,12 @@ msgstr ""
 "zatvoriti."
 
 #: ayatanawebmail/application.py:1131
-#, fuzzy, python-format
+#, python-format
 msgid "You have %d unread message"
 msgid_plural "You have %d unread messages"
-msgstr[0] "Imate %d nepročitanu poruku"
-msgstr[1] "Imate %d nepročitane poruke"
-msgstr[2] "Imate %d nepročitanih poruka"
+msgstr[0] "Imaš %d nepročitanu poruku"
+msgstr[1] "Imaš %d nepročitane poruke"
+msgstr[2] "Imaš %d nepročitanih poruka"
 
 #: ayatanawebmail/application.py:1158
 #, python-format
@@ -112,13 +112,15 @@ msgstr "Nova pošta od %s"
 
 #: ayatanawebmail/dialog.py:17
 msgid "Custom"
-msgstr ""
+msgstr "Prilagođeno"
 
 #: ayatanawebmail/dialog.py:61
 msgid ""
 "If this string starts with http:// or https://, the application will open it "
 "in your browser - otherwise, it will be run as a command"
 msgstr ""
+"Ako ovaj niz počinje s http:// ili https://, program će ga otvoriti u tvom "
+"pregledniku – u protivnom će se pokrenuti kao naredba"
 
 #: ayatanawebmail/dialog.py:91 ayatanawebmail/dialog.py:105
 msgid "(None)"
@@ -161,35 +163,32 @@ msgid "Remove"
 msgstr "Ukloni"
 
 #: ayatanawebmail/dialog.py:276
-#, fuzzy
 msgid ""
 "The application will append this string to \"Inbox\" to access a specific "
 "message - you can use the $MSG_THREAD and $MSG_UID placeholders"
 msgstr ""
-"Dodaj dodatni znakovni niz – možeš koristiti rezervirana mjesta $ MSG_THREAD "
-"i $ MSG_UID."
+"Program će dodati znakovni niz u sandučić „Dolazno” za pristupanje određenoj "
+"poruci – možeš koristiti rezervirana mjesta $ MSG_THREAD i $ MSG_UID"
 
 #: ayatanawebmail/dialog.py:278
-#, fuzzy
 msgid "Account:"
-msgstr "Korisnički računi"
+msgstr "Račun:"
 
 #: ayatanawebmail/dialog.py:280
-#, fuzzy
 msgid "Server:"
-msgstr "Podaci poslužitelja"
+msgstr "Poslužitelj:"
 
 #: ayatanawebmail/dialog.py:282
 msgid "Host:"
-msgstr "Poslužitelj:"
+msgstr "Računalo:"
 
 #: ayatanawebmail/dialog.py:284
 msgid "Port:"
-msgstr "Port:"
+msgstr "Priključak:"
 
 #: ayatanawebmail/dialog.py:286
 msgid "Username:"
-msgstr ""
+msgstr "Korisničko ime:"
 
 #: ayatanawebmail/dialog.py:288
 msgid "Password:"
@@ -216,9 +215,8 @@ msgid "Inbox:"
 msgstr "Dolazno:"
 
 #: ayatanawebmail/dialog.py:300
-#, fuzzy
 msgid "Message:"
-msgstr "Radnje poruke"
+msgstr "Poruka:"
 
 #: ayatanawebmail/dialog.py:336
 msgid "Mark message as read"
@@ -262,17 +260,16 @@ msgstr "Poseban zvuk za reprodukciju:"
 
 #: ayatanawebmail/dialog.py:382
 msgid "Report a bug"
-msgstr ""
+msgstr "Prijavi grešku"
 
 #: ayatanawebmail/dialog.py:384
-#, fuzzy
 msgid "Request a feature"
-msgstr "Prijavi grešku/Zatraži funkciju"
+msgstr "Zatraži funkciju"
 
 #: ayatanawebmail/dialog.py:386 ayatanawebmail/dialog.py:389
 #, python-brace-format
 msgid "It's a good idea to add the {labelname} label to your issue."
-msgstr ""
+msgstr "Bilo bi dobro dodati oznaku {labelname} za tvoj problem."
 
 #: ayatanawebmail/dialog.py:387
 msgid "Ask a question"
@@ -296,77 +293,67 @@ msgstr "Milo Ivir <mail@milotype.de>, 2020."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:1
 msgid "Maximum item count"
-msgstr ""
+msgstr "Maksimalni broj elemenata"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:2
 msgid "Limit the number of mails to retrieve per folder."
-msgstr ""
+msgstr "Ograniči broj e-mailova za preuzimanje po mapi."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:3
-#, fuzzy
 msgid "Enable notifications"
-msgstr "Aktiviraj obavijesti:"
+msgstr "Aktiviraj obavijesti"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:4
 msgid "Show OSD notifications when new messages arrive."
-msgstr ""
+msgstr "Prikaži OSD obavijesti pri primitku novih poruka."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:5
 msgid "Enable sound"
-msgstr ""
+msgstr "Aktiviraj zvuk"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:6
-#, fuzzy
 msgid "Play sound when new messages arrive."
-msgstr "Odsviraj zvuk, kad se primi poruka:"
+msgstr "Odsviraj zvuk pri primitku novih poruka."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:7
-#, fuzzy
 msgid "Hide message count"
-msgstr "Otvori poruku/Pokreni naredbu"
+msgstr "Sakrij broj poruka"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:8
 msgid "Hide message count when there are no messages."
-msgstr ""
+msgstr "Sakrij broj poruka kad nema poruka."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:9
 msgid "Execute on receive"
-msgstr ""
+msgstr "Izvrši pri primitku"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:10
-#, fuzzy
 msgid "Run this command when new messages arrive."
-msgstr "Izvrši ovu naredbu kad se primi poruka:"
+msgstr "Izvrši ovu naredbu pri primitku novih poruka."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:11
-#, fuzzy
 msgid "Custom sound"
-msgstr "Poseban zvuk za reprodukciju:"
+msgstr "Prilagođen zvuk"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:12
-#, fuzzy
 msgid "Play a custom sound when new messages arrive."
-msgstr "Odsviraj zvuk, kad se primi poruka:"
+msgstr "Odsviraj prilagođeni zvuk pri primitku novih poruka."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:13
-#, fuzzy
 msgid "Merge messages"
-msgstr "Označi poruku kao pročitanu"
+msgstr "Sjedini poruke"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:14
-#, fuzzy
 msgid "Merge messages belonging to the same conversation."
-msgstr "Sjedini poruke iz istog razgovora:"
+msgstr "Sjedini poruke istog razgovora."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:15
-#, fuzzy
 msgid "Message action"
-msgstr "Radnje poruke"
+msgstr "Radnja za poruku"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:16
-#, fuzzy
 msgid "Action to perform when a message is activated."
-msgstr "Kad je poruka aktivirana:"
+msgstr "Radnja pri primitku nove poruke je aktivirana."
 
 #, python-brace-format
 #~ msgid "You can run \"{command}\" to delete all your login settings."
