@@ -983,7 +983,7 @@ class AyatanaWebmail(object):
 
                     try:
 
-                        subprocess.call((self.strCommand, sender, ilabel))
+                        subprocess.call((self.strCommand, sender, ilabel, oConnection.strHost))
 
                     except OSError as e:
 
