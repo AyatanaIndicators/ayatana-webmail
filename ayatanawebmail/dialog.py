@@ -335,6 +335,7 @@ class PreferencesDialog(Gtk.Dialog):
         self.oComboMessageAction = Gtk.ComboBoxText()
         self.oComboMessageAction.append(str(MESSAGEACTION['MARK']), _('Mark message as read'))
         self.oComboMessageAction.append(str(MESSAGEACTION['OPEN']), _('Open message in browser/Execute command'))
+        self.oComboMessageAction.set_tooltip_text(_('The arguments the script gets are: (1) the message\'s sender, (2) message\'s subject and (3) the account\'s host address'))
         self.oComboMessageAction.append(str(MESSAGEACTION['ASK']), _('Ask me what to do'))
         self.oComboMessageAction.set_active_id(str(self.nMessageAction))
         self.oSwitchMerge = Gtk.Switch(active=self.bMergeConversation, halign=Gtk.Align.END)
