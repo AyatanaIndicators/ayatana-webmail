@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-14 08:22+0200\n"
-"PO-Revision-Date: 2022-09-16 14:19+0000\n"
+"PO-Revision-Date: 2023-06-23 20:35+0000\n"
 "Last-Translator: Wellington Terumi Uemura <wellingtonuemura@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-webmail/pt_BR/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.14.1-dev\n"
+"X-Generator: Weblate 4.18.1\n"
 "X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
 
 #: ayatanawebmail/accounts.py:18
@@ -180,7 +180,7 @@ msgstr "Servidor:"
 
 #: ayatanawebmail/dialog.py:282
 msgid "Host:"
-msgstr "Servidor:"
+msgstr "Host:"
 
 #: ayatanawebmail/dialog.py:284
 msgid "Port:"
@@ -337,7 +337,7 @@ msgstr "Som personalizado"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:12
 msgid "Play a custom sound when new messages arrive."
-msgstr "Toque um som quando uma nova mensagem chegar."
+msgstr "Toque um som personalizado quando uma nova mensagem chegar."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:13
 msgid "Merge messages"
