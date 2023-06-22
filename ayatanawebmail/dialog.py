@@ -358,6 +358,7 @@ class PreferencesDialog(Gtk.Dialog):
         commandbox = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=10)
         commandbox.add(Gtk.Label(_('Execute this command when a message is received:'), xalign=0))
         commandbox.pack_end(self.commandchooser, True, True, 0)
+        commandbox.set_tooltip_text (_('If a command is set, it will be called with the following parameters: sender, subject, IMAP host'))
 
         if self.commandchooser.get_allocated_width() < 180:
             self.commandchooser.set_size_request(180, 0)
