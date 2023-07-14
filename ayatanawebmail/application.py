@@ -484,6 +484,10 @@ class AyatanaWebmail(object):
         self.bNoNetwork = True
         self.oMessagingMenu = MessagingMenu(self.onMenuItemClicked, self.openDialog, self.updateMessageAges, self.fnCheckNetwork)
 
+        self.pGnomeSettings = Gio.Settings.new ('org.gnome.desktop.interface')
+        self.pGnomeSettings.connect ('changed::color-scheme', self.onColorSchemeChanged)
+        self.onColorSchemeChanged (self.pGnomeSettings, 'color-scheme')
+
         self.initKeyring()
         self.initConfig()
         DBusGMainLoop(set_as_default=True)
@@ -506,6 +510,12 @@ class AyatanaWebmail(object):
             GLib.MainLoop().run()
         except KeyboardInterrupt:
             self.close(0)
+
+    def onColorSchemeChanged (self, pSettings, sKey):
+
+        sColorScheme = pSettings.get_string (sKey)
+        bDark = (sColorScheme == 'prefer-dark')
+        Gtk.Settings.get_default().props.gtk_application_prefer_dark_theme = bDark
 
     def onPrepareForSleep(self, bGoing):
 
