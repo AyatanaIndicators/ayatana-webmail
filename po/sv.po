@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail 22.12.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-14 08:22+0200\n"
+"POT-Creation-Date: 2023-10-11 00:04+0200\n"
 "PO-Revision-Date: 2023-02-13 16:36+0000\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/"
-"ayatana-indicators/ayatana-webmail/sv/>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/ayatana-"
+"indicators/ayatana-webmail/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -63,15 +63,15 @@ msgstr "Rensa"
 msgid "Settings"
 msgstr "Inställningar"
 
-#: ayatanawebmail/application.py:945
+#: ayatanawebmail/application.py:955
 msgid "No subject"
 msgstr "Inget ämne"
 
-#: ayatanawebmail/application.py:1105
+#: ayatanawebmail/application.py:1115
 msgid "Connection error"
 msgstr "Anslutningsfel"
 
-#: ayatanawebmail/application.py:1106
+#: ayatanawebmail/application.py:1116
 #, python-brace-format
 msgid ""
 "Unable to connect to account \"{accountName}\", the application will now "
@@ -80,29 +80,29 @@ msgstr ""
 "Kunde inte ansluta till konto \"{accountName}\", applikationen kommer att "
 "avslutas nu."
 
-#: ayatanawebmail/application.py:1131
+#: ayatanawebmail/application.py:1141
 #, python-format
 msgid "You have %d unread message"
 msgid_plural "You have %d unread messages"
 msgstr[0] "Du har %d oläst meddelande"
 msgstr[1] "Du har %d olästa meddelanden"
 
-#: ayatanawebmail/application.py:1158
+#: ayatanawebmail/application.py:1168
 #, python-format
 msgid "from %(t0)s, %(t1)s and others"
 msgstr "från %(t0)s,%(t1)s och andra"
 
-#: ayatanawebmail/application.py:1160
+#: ayatanawebmail/application.py:1170
 #, python-format
 msgid "from %(t0)s and %(t1)s"
 msgstr "från %(t0)s och %(t1)s"
 
-#: ayatanawebmail/application.py:1162
+#: ayatanawebmail/application.py:1172
 #, python-format
 msgid "from %s"
 msgstr "från %s"
 
-#: ayatanawebmail/application.py:1175
+#: ayatanawebmail/application.py:1185
 #, python-format
 msgid "New mail from %s"
 msgstr "Nya mail från %s"
@@ -253,41 +253,47 @@ msgstr "När ett meddelande är aktiverat:"
 msgid "Execute this command when a message is received:"
 msgstr "Utför detta kommando när ett meddelande har tagits emot:"
 
-#: ayatanawebmail/dialog.py:366
+#: ayatanawebmail/dialog.py:361
+msgid ""
+"If a command is set, it will be called with the following parameters: "
+"sender, subject, IMAP host"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:367
 msgid "Custom sound to play:"
 msgstr "Anpassat ljud att spela:"
 
-#: ayatanawebmail/dialog.py:382
+#: ayatanawebmail/dialog.py:383
 msgid "Report a bug"
 msgstr "Rapportera en bugg"
 
-#: ayatanawebmail/dialog.py:384
+#: ayatanawebmail/dialog.py:385
 msgid "Request a feature"
 msgstr "Fråga om en funktion"
 
-#: ayatanawebmail/dialog.py:386 ayatanawebmail/dialog.py:389
+#: ayatanawebmail/dialog.py:387 ayatanawebmail/dialog.py:390
 #, python-brace-format
 msgid "It's a good idea to add the {labelname} label to your issue."
 msgstr ""
 "Det är en bra idé att lägga till etiketten {labelname} till ditt ärende."
 
-#: ayatanawebmail/dialog.py:387
+#: ayatanawebmail/dialog.py:388
 msgid "Ask a question"
 msgstr "Ställ en fråga"
 
-#: ayatanawebmail/dialog.py:390
+#: ayatanawebmail/dialog.py:391
 msgid "Help translate"
 msgstr "Hjälp till att översätta"
 
-#: ayatanawebmail/dialog.py:392
+#: ayatanawebmail/dialog.py:393
 msgid "Source code"
 msgstr "Källkod"
 
-#: ayatanawebmail/dialog.py:394
+#: ayatanawebmail/dialog.py:395
 msgid "Home page"
 msgstr "Hemsida"
 
-#: ayatanawebmail/dialog.py:414
+#: ayatanawebmail/dialog.py:415
 msgid "translator-credits"
 msgstr "Luna Jernberg, 2020"
 

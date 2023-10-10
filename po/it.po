@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-14 08:22+0200\n"
+"POT-Creation-Date: 2023-10-11 00:04+0200\n"
 "PO-Revision-Date: 2023-06-28 11:52+0000\n"
 "Last-Translator: Sylke Vicious <silkevicious@tuta.io>\n"
-"Language-Team: Italian <https://hosted.weblate.org/projects/"
-"ayatana-indicators/ayatana-webmail/it/>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/ayatana-"
+"indicators/ayatana-webmail/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -64,15 +64,15 @@ msgstr "Pulisci"
 msgid "Settings"
 msgstr "Impostazioni"
 
-#: ayatanawebmail/application.py:945
+#: ayatanawebmail/application.py:955
 msgid "No subject"
 msgstr "Nessun oggetto"
 
-#: ayatanawebmail/application.py:1105
+#: ayatanawebmail/application.py:1115
 msgid "Connection error"
 msgstr "Errore di connessione"
 
-#: ayatanawebmail/application.py:1106
+#: ayatanawebmail/application.py:1116
 #, python-brace-format
 msgid ""
 "Unable to connect to account \"{accountName}\", the application will now "
@@ -81,29 +81,29 @@ msgstr ""
 "Impossibile connettersi all'account «{accountName}», l'applicazione si "
 "chiuderà."
 
-#: ayatanawebmail/application.py:1131
+#: ayatanawebmail/application.py:1141
 #, python-format
 msgid "You have %d unread message"
 msgid_plural "You have %d unread messages"
 msgstr[0] "C'è %d messaggio non letto"
 msgstr[1] "Ci sono %d messaggi non letti"
 
-#: ayatanawebmail/application.py:1158
+#: ayatanawebmail/application.py:1168
 #, python-format
 msgid "from %(t0)s, %(t1)s and others"
 msgstr "Da %(t0)s, %(t1)s e altri"
 
-#: ayatanawebmail/application.py:1160
+#: ayatanawebmail/application.py:1170
 #, python-format
 msgid "from %(t0)s and %(t1)s"
 msgstr "Da %(t0)s e %(t1)s"
 
-#: ayatanawebmail/application.py:1162
+#: ayatanawebmail/application.py:1172
 #, python-format
 msgid "from %s"
 msgstr "da %s"
 
-#: ayatanawebmail/application.py:1175
+#: ayatanawebmail/application.py:1185
 #, python-format
 msgid "New mail from %s"
 msgstr "Nuova e-mail da %s"
@@ -253,40 +253,47 @@ msgstr "Quando un messaggio è selezionato:"
 msgid "Execute this command when a message is received:"
 msgstr "Esegui questo comando quando un messaggio è stato ricevuto:"
 
-#: ayatanawebmail/dialog.py:366
+#: ayatanawebmail/dialog.py:361
+msgid ""
+"If a command is set, it will be called with the following parameters: "
+"sender, subject, IMAP host"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:367
 msgid "Custom sound to play:"
 msgstr "Suono personalizzato:"
 
-#: ayatanawebmail/dialog.py:382
+#: ayatanawebmail/dialog.py:383
 msgid "Report a bug"
 msgstr "Segnala un errore"
 
-#: ayatanawebmail/dialog.py:384
+#: ayatanawebmail/dialog.py:385
 msgid "Request a feature"
 msgstr "Richiedi una funzionalità"
 
-#: ayatanawebmail/dialog.py:386 ayatanawebmail/dialog.py:389
+#: ayatanawebmail/dialog.py:387 ayatanawebmail/dialog.py:390
 #, python-brace-format
 msgid "It's a good idea to add the {labelname} label to your issue."
-msgstr "È una buona idea aggiungere l'etichetta {labelname} al vostro problema."
+msgstr ""
+"È una buona idea aggiungere l'etichetta {labelname} al vostro problema."
 
-#: ayatanawebmail/dialog.py:387
+#: ayatanawebmail/dialog.py:388
 msgid "Ask a question"
 msgstr "Fai una domanda"
 
-#: ayatanawebmail/dialog.py:390
+#: ayatanawebmail/dialog.py:391
 msgid "Help translate"
 msgstr "Aiuta a tradurre"
 
-#: ayatanawebmail/dialog.py:392
+#: ayatanawebmail/dialog.py:393
 msgid "Source code"
 msgstr "Codice sorgente"
 
-#: ayatanawebmail/dialog.py:394
+#: ayatanawebmail/dialog.py:395
 msgid "Home page"
 msgstr "Pagina principale"
 
-#: ayatanawebmail/dialog.py:414
+#: ayatanawebmail/dialog.py:415
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
@@ -338,7 +345,8 @@ msgstr "Suono personalizzato"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:12
 msgid "Play a custom sound when new messages arrive."
-msgstr "Riproduci un suono personalizzato alla ricezione di un nuovo messaggio."
+msgstr ""
+"Riproduci un suono personalizzato alla ricezione di un nuovo messaggio."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:13
 msgid "Merge messages"

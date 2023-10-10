@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-14 08:22+0200\n"
+"POT-Creation-Date: 2023-10-11 00:04+0200\n"
 "PO-Revision-Date: 2023-08-21 22:45+0000\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
-"Language-Team: Turkish <https://hosted.weblate.org/projects/"
-"ayatana-indicators/ayatana-webmail/tr/>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/ayatana-"
+"indicators/ayatana-webmail/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -64,44 +64,44 @@ msgstr "Temizle"
 msgid "Settings"
 msgstr "Ayarlar"
 
-#: ayatanawebmail/application.py:945
+#: ayatanawebmail/application.py:955
 msgid "No subject"
 msgstr "Başlık yok"
 
-#: ayatanawebmail/application.py:1105
+#: ayatanawebmail/application.py:1115
 msgid "Connection error"
 msgstr "Bağlantı hatası"
 
-#: ayatanawebmail/application.py:1106
+#: ayatanawebmail/application.py:1116
 #, python-brace-format
 msgid ""
 "Unable to connect to account \"{accountName}\", the application will now "
 "exit."
 msgstr "\"{accountName}\" hesabına bağlanılamadı, uygulama şimdi çıkacak."
 
-#: ayatanawebmail/application.py:1131
+#: ayatanawebmail/application.py:1141
 #, python-format
 msgid "You have %d unread message"
 msgid_plural "You have %d unread messages"
 msgstr[0] "%d okunmamış mesajınız var"
 msgstr[1] "%d okunmamış mesajınız var"
 
-#: ayatanawebmail/application.py:1158
+#: ayatanawebmail/application.py:1168
 #, python-format
 msgid "from %(t0)s, %(t1)s and others"
 msgstr "%(t0)s, %(t1)s ve diğerlerinden"
 
-#: ayatanawebmail/application.py:1160
+#: ayatanawebmail/application.py:1170
 #, python-format
 msgid "from %(t0)s and %(t1)s"
 msgstr "%(t0)s ve %(t1)s'den"
 
-#: ayatanawebmail/application.py:1162
+#: ayatanawebmail/application.py:1172
 #, python-format
 msgid "from %s"
 msgstr "%s'den"
 
-#: ayatanawebmail/application.py:1175
+#: ayatanawebmail/application.py:1185
 #, python-format
 msgid "New mail from %s"
 msgstr "%s kişisinden yeni e-posta"
@@ -250,40 +250,46 @@ msgstr "Bir mesaj etkinleştirildiğinde:"
 msgid "Execute this command when a message is received:"
 msgstr "Bir mesaj alındığında bu komutu çalıştır:"
 
-#: ayatanawebmail/dialog.py:366
+#: ayatanawebmail/dialog.py:361
+msgid ""
+"If a command is set, it will be called with the following parameters: "
+"sender, subject, IMAP host"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:367
 msgid "Custom sound to play:"
 msgstr "Çalınacak özel ses:"
 
-#: ayatanawebmail/dialog.py:382
+#: ayatanawebmail/dialog.py:383
 msgid "Report a bug"
 msgstr "Hata bildir"
 
-#: ayatanawebmail/dialog.py:384
+#: ayatanawebmail/dialog.py:385
 msgid "Request a feature"
 msgstr "Özellik talebinde bulun"
 
-#: ayatanawebmail/dialog.py:386 ayatanawebmail/dialog.py:389
+#: ayatanawebmail/dialog.py:387 ayatanawebmail/dialog.py:390
 #, python-brace-format
 msgid "It's a good idea to add the {labelname} label to your issue."
 msgstr "Sorununuza {labelname} etiketini eklemek iyi bir fikirdir."
 
-#: ayatanawebmail/dialog.py:387
+#: ayatanawebmail/dialog.py:388
 msgid "Ask a question"
 msgstr "Soru sor"
 
-#: ayatanawebmail/dialog.py:390
+#: ayatanawebmail/dialog.py:391
 msgid "Help translate"
 msgstr "Çeviriye yardım et"
 
-#: ayatanawebmail/dialog.py:392
+#: ayatanawebmail/dialog.py:393
 msgid "Source code"
 msgstr "Kaynak kodları"
 
-#: ayatanawebmail/dialog.py:394
+#: ayatanawebmail/dialog.py:395
 msgid "Home page"
 msgstr "Ana sayfa"
 
-#: ayatanawebmail/dialog.py:414
+#: ayatanawebmail/dialog.py:415
 msgid "translator-credits"
 msgstr "Oğuz Ersen"
 

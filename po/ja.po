@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-14 08:22+0200\n"
+"POT-Creation-Date: 2023-10-11 00:04+0200\n"
 "PO-Revision-Date: 2020-10-23 08:26+0000\n"
 "Last-Translator: Kei Homma <kei.homma@soundmouse.co.jp>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/ayatana-"
@@ -64,15 +64,15 @@ msgstr "クリア"
 msgid "Settings"
 msgstr "設定"
 
-#: ayatanawebmail/application.py:945
+#: ayatanawebmail/application.py:955
 msgid "No subject"
 msgstr "件名なし"
 
-#: ayatanawebmail/application.py:1105
+#: ayatanawebmail/application.py:1115
 msgid "Connection error"
 msgstr "接続エラー"
 
-#: ayatanawebmail/application.py:1106
+#: ayatanawebmail/application.py:1116
 #, python-brace-format
 msgid ""
 "Unable to connect to account \"{accountName}\", the application will now "
@@ -80,28 +80,28 @@ msgid ""
 msgstr ""
 "アカウント「{accountName}」に接続出来ません、アプリケーションが終了します."
 
-#: ayatanawebmail/application.py:1131
+#: ayatanawebmail/application.py:1141
 #, fuzzy, python-format
 msgid "You have %d unread message"
 msgid_plural "You have %d unread messages"
 msgstr[0] "%d 未読メールがあります"
 
-#: ayatanawebmail/application.py:1158
+#: ayatanawebmail/application.py:1168
 #, python-format
 msgid "from %(t0)s, %(t1)s and others"
 msgstr "%(t0)s、%(t1)sなどから"
 
-#: ayatanawebmail/application.py:1160
+#: ayatanawebmail/application.py:1170
 #, python-format
 msgid "from %(t0)s and %(t1)s"
 msgstr ""
 
-#: ayatanawebmail/application.py:1162
+#: ayatanawebmail/application.py:1172
 #, python-format
 msgid "from %s"
 msgstr "%sから"
 
-#: ayatanawebmail/application.py:1175
+#: ayatanawebmail/application.py:1185
 #, python-format
 msgid "New mail from %s"
 msgstr "%sからの新着メール"
@@ -249,41 +249,47 @@ msgstr "メッセージがアクティブ化された場合:"
 msgid "Execute this command when a message is received:"
 msgstr "メッセージを受信した時にこのコマンドを実行します:"
 
-#: ayatanawebmail/dialog.py:366
+#: ayatanawebmail/dialog.py:361
+msgid ""
+"If a command is set, it will be called with the following parameters: "
+"sender, subject, IMAP host"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:367
 msgid "Custom sound to play:"
 msgstr "再生するカスタムサウンド:"
 
-#: ayatanawebmail/dialog.py:382
+#: ayatanawebmail/dialog.py:383
 msgid "Report a bug"
 msgstr ""
 
-#: ayatanawebmail/dialog.py:384
+#: ayatanawebmail/dialog.py:385
 #, fuzzy
 msgid "Request a feature"
 msgstr "バグを報告する/機能をリクエストする"
 
-#: ayatanawebmail/dialog.py:386 ayatanawebmail/dialog.py:389
+#: ayatanawebmail/dialog.py:387 ayatanawebmail/dialog.py:390
 #, python-brace-format
 msgid "It's a good idea to add the {labelname} label to your issue."
 msgstr ""
 
-#: ayatanawebmail/dialog.py:387
+#: ayatanawebmail/dialog.py:388
 msgid "Ask a question"
 msgstr "質問する"
 
-#: ayatanawebmail/dialog.py:390
+#: ayatanawebmail/dialog.py:391
 msgid "Help translate"
 msgstr "翻訳を手伝う"
 
-#: ayatanawebmail/dialog.py:392
+#: ayatanawebmail/dialog.py:393
 msgid "Source code"
 msgstr "ソースコード"
 
-#: ayatanawebmail/dialog.py:394
+#: ayatanawebmail/dialog.py:395
 msgid "Home page"
 msgstr "ホームページ"
 
-#: ayatanawebmail/dialog.py:414
+#: ayatanawebmail/dialog.py:415
 msgid "translator-credits"
 msgstr ""
 

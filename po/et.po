@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-14 08:22+0200\n"
+"POT-Creation-Date: 2023-10-11 00:04+0200\n"
 "PO-Revision-Date: 2022-10-20 11:07+0000\n"
 "Last-Translator: Kristjan Räts <kristjanrats@gmail.com>\n"
-"Language-Team: Estonian <https://hosted.weblate.org/projects/"
-"ayatana-indicators/ayatana-webmail/et/>\n"
+"Language-Team: Estonian <https://hosted.weblate.org/projects/ayatana-"
+"indicators/ayatana-webmail/et/>\n"
 "Language: et\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -64,44 +64,44 @@ msgstr "Puhasta"
 msgid "Settings"
 msgstr "Seaded"
 
-#: ayatanawebmail/application.py:945
+#: ayatanawebmail/application.py:955
 msgid "No subject"
 msgstr "Teema puudub"
 
-#: ayatanawebmail/application.py:1105
+#: ayatanawebmail/application.py:1115
 msgid "Connection error"
 msgstr "Ühenduse viga"
 
-#: ayatanawebmail/application.py:1106
+#: ayatanawebmail/application.py:1116
 #, python-brace-format
 msgid ""
 "Unable to connect to account \"{accountName}\", the application will now "
 "exit."
 msgstr "Kontoga \"{accountName}\" ei saa ühendust; rakendus lõpetab töö."
 
-#: ayatanawebmail/application.py:1131
+#: ayatanawebmail/application.py:1141
 #, python-format
 msgid "You have %d unread message"
 msgid_plural "You have %d unread messages"
 msgstr[0] "Sul on %d lugemata sõnum"
 msgstr[1] "Sul on %d lugemata sõnumit"
 
-#: ayatanawebmail/application.py:1158
+#: ayatanawebmail/application.py:1168
 #, python-format
 msgid "from %(t0)s, %(t1)s and others"
 msgstr "%(t0)s, %(t1)s ja teistelt"
 
-#: ayatanawebmail/application.py:1160
+#: ayatanawebmail/application.py:1170
 #, python-format
 msgid "from %(t0)s and %(t1)s"
 msgstr "%(t0)s ja %(t1)s"
 
-#: ayatanawebmail/application.py:1162
+#: ayatanawebmail/application.py:1172
 #, python-format
 msgid "from %s"
 msgstr "%s"
 
-#: ayatanawebmail/application.py:1175
+#: ayatanawebmail/application.py:1185
 #, python-format
 msgid "New mail from %s"
 msgstr "Uus kiri %s-lt"
@@ -251,40 +251,46 @@ msgstr "Kui sõnum on aktiveeritud:"
 msgid "Execute this command when a message is received:"
 msgstr "Sõnumi saamisel käivita see käsk:"
 
-#: ayatanawebmail/dialog.py:366
+#: ayatanawebmail/dialog.py:361
+msgid ""
+"If a command is set, it will be called with the following parameters: "
+"sender, subject, IMAP host"
+msgstr ""
+
+#: ayatanawebmail/dialog.py:367
 msgid "Custom sound to play:"
 msgstr "Kohandatud heli, mida mängida:"
 
-#: ayatanawebmail/dialog.py:382
+#: ayatanawebmail/dialog.py:383
 msgid "Report a bug"
 msgstr ""
 
-#: ayatanawebmail/dialog.py:384
+#: ayatanawebmail/dialog.py:385
 msgid "Request a feature"
 msgstr ""
 
-#: ayatanawebmail/dialog.py:386 ayatanawebmail/dialog.py:389
+#: ayatanawebmail/dialog.py:387 ayatanawebmail/dialog.py:390
 #, python-brace-format
 msgid "It's a good idea to add the {labelname} label to your issue."
 msgstr ""
 
-#: ayatanawebmail/dialog.py:387
+#: ayatanawebmail/dialog.py:388
 msgid "Ask a question"
 msgstr "Küsi küsimus"
 
-#: ayatanawebmail/dialog.py:390
+#: ayatanawebmail/dialog.py:391
 msgid "Help translate"
 msgstr "Aita tõlkida"
 
-#: ayatanawebmail/dialog.py:392
+#: ayatanawebmail/dialog.py:393
 msgid "Source code"
 msgstr "Lähtekood"
 
-#: ayatanawebmail/dialog.py:394
+#: ayatanawebmail/dialog.py:395
 msgid "Home page"
 msgstr "Koduleht"
 
-#: ayatanawebmail/dialog.py:414
+#: ayatanawebmail/dialog.py:415
 msgid "translator-credits"
 msgstr "Tõlkijad"
 
