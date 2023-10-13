@@ -1,6 +1,113 @@
+2023-10-13 Mike Gabriel
+
+        * release 23.10.13 (HEAD -> main, tag: 23.10.13)
+        * Translated using Weblate (German) (de31ace)
+
+2023-10-12 Serhii Horichenko
+
+        * Translated using Weblate (Ukrainian) (19c2ad2)
+
+2023-10-10 Oğuz Ersen
+
+        * Translated using Weblate (Turkish) (8da169a)
+
+2023-10-12 Serhii Horichenko
+
+        * Translated using Weblate (Russian) (d27e4b3)
+
+2023-10-11 Wellington Terumi Uemura
+
+        * Translated using Weblate (Portuguese (Brazil)) (7d19961)
+
+2023-10-11 Heimen Stoffels
+
+        * Translated using Weblate (Dutch) (d00931d)
+
+2023-10-11 Mike Gabriel
+
+        * po/: Update translation files. (1562a20)
+
+2023-09-15 gallegonovato
+
+        * Translated using Weblate (Spanish) (d0a94f4)
+
+2023-09-11 Mike Gabriel
+
+        * po/: Drop duplicate translation files. Thanks for pointing out,
+          weblate. (0b4037b)
+
+2023-09-10 Serhii Horichenko
+
+        * Translated using Weblate (Ukrainian) (3fc2e1c)
+        * Translated using Weblate (Russian) (6c712d9)
+
+2023-08-20 Sabri Ünal
+
+        * Translated using Weblate (Turkish) (8b408af)
+
+2023-07-14 Robert Tari
+
+        * ayatanawebmail/application.py: Add colour scheme handler (71e3215)
+
+2023-07-01 spnux
+
+        * Translated using Weblate (French) (41b1b63)
+
+2023-06-27 Sylke Vicious
+
+        * Translated using Weblate (Italian) (18c77a3)
+
+2023-06-22 Wellington Terumi Uemura
+
+        * Translated using Weblate (Portuguese (Brazil)) (68aaebd)
+
+2023-06-22 Robert Tari
+
+        * ayatanawebmail/appdata.py: Drop APPRECOMMENDS (bfd2375)
+        * ayatanawebmail/dialog.py: Add a tooltip to the command chooser
+          (457f1e1)
+
+2023-06-21 Robert Tari
+
+        * Merge pull request #33 from doronbehar/exec-on-receive/more-info
+          (af15cbb)
+
+2023-06-21 Doron Behar
+
+        * Pass host information when calling exec-on-receive (da5577b)
+
+2023-05-20 Milo Ivir
+
+        * Translated using Weblate (Croatian) (8818fcf)
+
+2023-05-02 Eryk Michalak
+
+        * Translated using Weblate (Polish) (aea28d9)
+
+2023-03-16 Heimen Stoffels
+
+        * Translated using Weblate (Dutch) (3cb12d9)
+
+2023-03-03 gallegonovato
+
+        * Translated using Weblate (Spanish) (bf479cb)
+
+2023-02-12 Anders Jonsson
+
+        * Translated using Weblate (Swedish) (0836b7b)
+
+2023-02-10 Luna Jernberg
+
+        * Translated using Weblate (Swedish) (8bfe8b8)
+
+2023-02-05 ssantos
+
+        * Translated using Weblate (Portuguese) (64fe3b0)
+
 2022-12-15 Mike Gabriel
 
-        * release 22.12.15 (HEAD -> main, tag: 22.12.15)
+        * Translated using Weblate (German) (c13288e)
+        * release 22.12.15 (ca0c384) (tag: 22.12.15)
 
 2022-11-26 Boyuan Yang
 
