@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-11 00:04+0200\n"
-"PO-Revision-Date: 2022-12-16 22:48+0000\n"
+"PO-Revision-Date: 2023-10-13 05:47+0000\n"
 "Last-Translator: Mike Gabriel <mike.gabriel@das-netzwerkteam.de>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/ayatana-"
-"indicators/ayatana-webmail/de/>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/"
+"ayatana-indicators/ayatana-webmail/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15\n"
+"X-Generator: Weblate 5.1-dev\n"
 "X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
 
 #: ayatanawebmail/accounts.py:18
@@ -152,7 +152,7 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:204
 msgid "Connection failure"
-msgstr "Verbindungsfehler"
+msgstr "Verbindung fehlgeschlagen"
 
 #: ayatanawebmail/dialog.py:232
 msgid "Add"
@@ -260,6 +260,8 @@ msgid ""
 "If a command is set, it will be called with the following parameters: "
 "sender, subject, IMAP host"
 msgstr ""
+"Ist ein Kommando hier hinterlegt, wird es mit den folgenden Parametern "
+"aufgerufen: Absender, Betreff, IMAP-Server"
 
 #: ayatanawebmail/dialog.py:367
 msgid "Custom sound to play:"
