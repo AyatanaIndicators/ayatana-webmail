@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-11 00:04+0200\n"
-"PO-Revision-Date: 2024-03-23 23:01+0000\n"
+"PO-Revision-Date: 2024-03-25 13:01+0000\n"
 "Last-Translator: Steve <steve.kueffer.ch@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-webmail/fr/>\n"
@@ -167,15 +167,15 @@ msgid ""
 msgstr ""
 "L'application ajoutera cette chaîne à \"Inbox\" pour accéder au message "
 "spécifique - vous pouvez utiliser les variables spéciales $MSG_THREAD et "
-"$MSG_UID."
+"$MSG_UID"
 
 #: ayatanawebmail/dialog.py:278
 msgid "Account:"
-msgstr "Comptes:"
+msgstr "Comptes :"
 
 #: ayatanawebmail/dialog.py:280
 msgid "Server:"
-msgstr "Données du serveur:"
+msgstr "Données du serveur :"
 
 #: ayatanawebmail/dialog.py:282
 msgid "Host:"
@@ -215,7 +215,7 @@ msgstr "Boîte de réception :"
 
 #: ayatanawebmail/dialog.py:300
 msgid "Message:"
-msgstr "Message:"
+msgstr "Message :"
 
 #: ayatanawebmail/dialog.py:336
 msgid "Mark message as read"
@@ -325,7 +325,7 @@ msgstr "Activer le son"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:6
 msgid "Play sound when new messages arrive."
-msgstr "Jouer un son à la réception d'un message :"
+msgstr "Jouer un son à la réception d'un message ."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:7
 msgid "Hide message count"
@@ -357,7 +357,7 @@ msgstr "Fusionner les messages"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:14
 msgid "Merge messages belonging to the same conversation."
-msgstr "Fusionner les messages de la même conversation"
+msgstr "Fusionner les messages de la même conversation."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:15
 msgid "Message action"
