@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-11 00:04+0200\n"
-"PO-Revision-Date: 2024-04-01 02:24+0000\n"
+"PO-Revision-Date: 2024-04-18 07:54+0000\n"
 "Last-Translator: 复予 <clonewith@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-webmail/zh_Hans/>\n"
@@ -107,13 +107,14 @@ msgstr "%s 发来的新邮件"
 
 #: ayatanawebmail/dialog.py:17
 msgid "Custom"
-msgstr ""
+msgstr "自定义"
 
 #: ayatanawebmail/dialog.py:61
 msgid ""
 "If this string starts with http:// or https://, the application will open it "
 "in your browser - otherwise, it will be run as a command"
-msgstr ""
+msgstr "如果字符串以 http:// 或 https:// 开头，应用会在浏览器中打开它 – "
+"否则会将其作为命令执行"
 
 #: ayatanawebmail/dialog.py:91 ayatanawebmail/dialog.py:105
 msgid "(None)"
@@ -121,7 +122,7 @@ msgstr "（无）"
 
 #: ayatanawebmail/dialog.py:133
 msgid "Ayatana Webmail Preferences"
-msgstr ""
+msgstr "Ayatana 网络邮件首选项"
 
 #: ayatanawebmail/dialog.py:141
 msgid "Accounts"
@@ -181,7 +182,7 @@ msgstr "端口："
 
 #: ayatanawebmail/dialog.py:286
 msgid "Username:"
-msgstr ""
+msgstr "用户名："
 
 #: ayatanawebmail/dialog.py:288
 msgid "Password:"
@@ -251,7 +252,7 @@ msgstr "当收到邮件时执行此命令："
 msgid ""
 "If a command is set, it will be called with the following parameters: "
 "sender, subject, IMAP host"
-msgstr ""
+msgstr "如果设置了命令，则会带以下参数被调用：发送者、主题、IMAP 主机"
 
 #: ayatanawebmail/dialog.py:367
 msgid "Custom sound to play:"
@@ -259,7 +260,7 @@ msgstr "自定义要播放的声音："
 
 #: ayatanawebmail/dialog.py:383
 msgid "Report a bug"
-msgstr ""
+msgstr "报告缺陷"
 
 #: ayatanawebmail/dialog.py:385
 msgid "Request a feature"
@@ -268,7 +269,7 @@ msgstr "请求功能"
 #: ayatanawebmail/dialog.py:387 ayatanawebmail/dialog.py:390
 #, python-brace-format
 msgid "It's a good idea to add the {labelname} label to your issue."
-msgstr ""
+msgstr "在您的问题中添加 {labelname} 标签是个好选择。"
 
 #: ayatanawebmail/dialog.py:388
 msgid "Ask a question"
@@ -296,11 +297,11 @@ msgstr ""
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:1
 msgid "Maximum item count"
-msgstr ""
+msgstr "最大项目数"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:2
 msgid "Limit the number of mails to retrieve per folder."
-msgstr ""
+msgstr "限制每个文件夹获取的邮件数目。"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:3
 msgid "Enable notifications"
@@ -308,7 +309,7 @@ msgstr "启用通知"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:4
 msgid "Show OSD notifications when new messages arrive."
-msgstr ""
+msgstr "新消息到达时显示 OSD 通知。"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:5
 msgid "Enable sound"
@@ -324,11 +325,11 @@ msgstr "隐藏邮件数"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:8
 msgid "Hide message count when there are no messages."
-msgstr ""
+msgstr "没有消息时隐藏消息数。"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:9
 msgid "Execute on receive"
-msgstr ""
+msgstr "接收时执行"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:10
 msgid "Run this command when new messages arrive."
