@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 00:04+0200\n"
+"POT-Creation-Date: 2024-05-15 08:47+0200\n"
 "PO-Revision-Date: 2018-06-04 07:34+0000\n"
 "Language-Team: Bulgarian <bg@li.org>\n"
 "Language: bg\n"
@@ -59,6 +59,7 @@ msgid "Clear"
 msgstr ""
 
 #: ayatanawebmail/application.py:192
+#: data/usr/share/applications/ayatana-webmail.desktop:35
 msgid "Settings"
 msgstr ""
 
@@ -354,6 +355,38 @@ msgstr ""
 msgid "Action to perform when a message is activated."
 msgstr ""
 
+#: data/usr/share/applications/ayatana-webmail.desktop:4
+msgid "Ayatana Webmail"
+msgstr "Известяване за поща"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:5
+msgid "Webmail notifications and actions for any desktop"
+msgstr ""
+
+#: data/usr/share/applications/ayatana-webmail.desktop:15
+msgid "Mark all as read"
+msgstr ""
+
+#: data/usr/share/applications/ayatana-webmail.desktop:20
+msgid "Compose Mail"
+msgstr "Напиши писмо"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:25
+msgid "Sent"
+msgstr "Изпратени"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:30
+msgid "Inbox"
+msgstr "Входящи"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
+msgid "Ayatana Webmail (service)"
+msgstr "Ayatana Webmail (услуга)"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
+msgid "Display notifications about new mail"
+msgstr "Покажи известия при ново писмо"
+
 #~ msgid "Choose an account"
 #~ msgstr "Избор на акаунт"
 
@@ -362,21 +395,3 @@ msgstr ""
 
 #~ msgid "Login:"
 #~ msgstr "Потребител:"
-
-#~ msgid "Ayatana Webmail"
-#~ msgstr "Известяване за поща"
-
-#~ msgid "Compose Mail"
-#~ msgstr "Напиши писмо"
-
-#~ msgid "Sent"
-#~ msgstr "Изпратени"
-
-#~ msgid "Inbox"
-#~ msgstr "Входящи"
-
-#~ msgid "Ayatana Webmail (service)"
-#~ msgstr "Ayatana Webmail (услуга)"
-
-#~ msgid "Display notifications about new mail"
-#~ msgstr "Покажи известия при ново писмо"

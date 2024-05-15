@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 00:04+0200\n"
+"POT-Creation-Date: 2024-05-15 08:47+0200\n"
 "PO-Revision-Date: 2018-06-04 07:33+0000\n"
 "Language-Team: Galician <gl@li.org>\n"
 "Language: gl\n"
@@ -59,6 +59,7 @@ msgid "Clear"
 msgstr ""
 
 #: ayatanawebmail/application.py:192
+#: data/usr/share/applications/ayatana-webmail.desktop:35
 msgid "Settings"
 msgstr ""
 
@@ -355,6 +356,38 @@ msgstr ""
 msgid "Action to perform when a message is activated."
 msgstr ""
 
+#: data/usr/share/applications/ayatana-webmail.desktop:4
+msgid "Ayatana Webmail"
+msgstr "Correo de Ayatana"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:5
+msgid "Webmail notifications and actions for any desktop"
+msgstr ""
+
+#: data/usr/share/applications/ayatana-webmail.desktop:15
+msgid "Mark all as read"
+msgstr ""
+
+#: data/usr/share/applications/ayatana-webmail.desktop:20
+msgid "Compose Mail"
+msgstr "Crear unha nova mensaxe de correo-e"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:25
+msgid "Sent"
+msgstr "Enviado"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:30
+msgid "Inbox"
+msgstr "Caixa de entrada"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
+msgid "Ayatana Webmail (service)"
+msgstr "Ayatana Webmail (servizo)"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
+msgid "Display notifications about new mail"
+msgstr "Mostra notificacións de novas mensaxes de correo-e"
+
 #~ msgid "Choose an account"
 #~ msgstr "Escolla unha conta"
 
@@ -363,21 +396,3 @@ msgstr ""
 
 #~ msgid "Login:"
 #~ msgstr "Usuario:"
-
-#~ msgid "Ayatana Webmail"
-#~ msgstr "Correo de Ayatana"
-
-#~ msgid "Compose Mail"
-#~ msgstr "Crear unha nova mensaxe de correo-e"
-
-#~ msgid "Sent"
-#~ msgstr "Enviado"
-
-#~ msgid "Inbox"
-#~ msgstr "Caixa de entrada"
-
-#~ msgid "Ayatana Webmail (service)"
-#~ msgstr "Ayatana Webmail (servizo)"
-
-#~ msgid "Display notifications about new mail"
-#~ msgstr "Mostra notificacións de novas mensaxes de correo-e"

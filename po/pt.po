@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 00:04+0200\n"
+"POT-Creation-Date: 2024-05-15 08:48+0200\n"
 "PO-Revision-Date: 2023-11-09 14:33+0000\n"
 "Last-Translator: Ivo Xavier <ivofernandes12@gmail.com>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/"
-"ayatana-indicators/ayatana-webmail/pt/>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/ayatana-"
+"indicators/ayatana-webmail/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -61,6 +61,7 @@ msgid "Clear"
 msgstr "Remover"
 
 #: ayatanawebmail/application.py:192
+#: data/usr/share/applications/ayatana-webmail.desktop:35
 msgid "Settings"
 msgstr "Configurações"
 
@@ -362,6 +363,38 @@ msgstr "Ação da mensagem"
 msgid "Action to perform when a message is activated."
 msgstr "Ação que será executada quando uma mensagem estiver ativada."
 
+#: data/usr/share/applications/ayatana-webmail.desktop:4
+msgid "Ayatana Webmail"
+msgstr "Ayatana Webmail"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:5
+msgid "Webmail notifications and actions for any desktop"
+msgstr "As notificações e as ações do Webmail para qualquer desktop"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:15
+msgid "Mark all as read"
+msgstr "Marque tudo como lido"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:20
+msgid "Compose Mail"
+msgstr "Compor Mensagem"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:25
+msgid "Sent"
+msgstr "Enviado"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:30
+msgid "Inbox"
+msgstr "Caixa de entrada"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
+msgid "Ayatana Webmail (service)"
+msgstr "Ayatana Webmail (serviço)"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
+msgid "Display notifications about new mail"
+msgstr "Mostrar notificações sobre novos mails"
+
 #~ msgid ""
 #~ "Please visit the following link and enable access for less secure apps:"
 #~ msgstr "Visite a ligação a seguir e ative o acesso às apps menos seguras:"
@@ -377,27 +410,3 @@ msgstr "Ação que será executada quando uma mensagem estiver ativada."
 
 #~ msgid "Login:"
 #~ msgstr "Utilizador:"
-
-#~ msgid "Ayatana Webmail"
-#~ msgstr "Ayatana Webmail"
-
-#~ msgid "Webmail notifications and actions for any desktop"
-#~ msgstr "As notificações e as ações do Webmail para qualquer desktop"
-
-#~ msgid "Mark all as read"
-#~ msgstr "Marque tudo como lido"
-
-#~ msgid "Compose Mail"
-#~ msgstr "Compor Mensagem"
-
-#~ msgid "Sent"
-#~ msgstr "Enviado"
-
-#~ msgid "Inbox"
-#~ msgstr "Caixa de entrada"
-
-#~ msgid "Ayatana Webmail (service)"
-#~ msgstr "Ayatana Webmail (serviço)"
-
-#~ msgid "Display notifications about new mail"
-#~ msgstr "Mostrar notificações sobre novos mails"

@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail 24.5.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 00:04+0200\n"
+"POT-Creation-Date: 2024-05-15 08:47+0200\n"
 "PO-Revision-Date: 2023-10-16 04:09+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew <https://hosted.weblate.org/projects/"
-"ayatana-indicators/ayatana-webmail/he/>\n"
+"Language-Team: Hebrew <https://hosted.weblate.org/projects/ayatana-"
+"indicators/ayatana-webmail/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -61,6 +61,7 @@ msgid "Clear"
 msgstr "מחיקה"
 
 #: ayatanawebmail/application.py:192
+#: data/usr/share/applications/ayatana-webmail.desktop:35
 msgid "Settings"
 msgstr "הגדרות"
 
@@ -361,33 +362,41 @@ msgstr "פעולה על הודעה"
 msgid "Action to perform when a message is activated."
 msgstr "פעולה שתבוצע עם הפעלת הודעה."
 
+#: data/usr/share/applications/ayatana-webmail.desktop:4
+msgid "Ayatana Webmail"
+msgstr "דוא״ל של Ayatana"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:5
+msgid "Webmail notifications and actions for any desktop"
+msgstr "התראות דוא״ל ופעולות לכל שולחן עבודה"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:15
+msgid "Mark all as read"
+msgstr "סימון הכול כנקרא"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:20
+msgid "Compose Mail"
+msgstr "כתיבת הודעה"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:25
+msgid "Sent"
+msgstr "נשלח"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:30
+msgid "Inbox"
+msgstr "דואר נכנס"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
+msgid "Ayatana Webmail (service)"
+msgstr "דוא״ל של Ayatana (שירות)"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
+msgid "Display notifications about new mail"
+msgstr "הצגת התראות על הודעות חדשות"
+
 #~ msgid ""
 #~ "Please visit the following link and enable access for less secure apps:"
 #~ msgstr "נא לבקר בקישור הבא ולהפעיל גישה ליישומים פחות מאובטחים:"
 
 #~ msgid "Access blocked by Google"
 #~ msgstr "הגישה נחסמה על ידי Google"
-
-#~ msgid "Ayatana Webmail (service)"
-#~ msgstr "דוא״ל של Ayatana (שירות)"
-
-#~ msgid "Display notifications about new mail"
-#~ msgstr "הצגת התראות על הודעות חדשות"
-
-#~ msgid "Ayatana Webmail"
-#~ msgstr "דוא״ל של Ayatana"
-
-#~ msgid "Webmail notifications and actions for any desktop"
-#~ msgstr "התראות דוא״ל ופעולות לכל שולחן עבודה"
-
-#~ msgid "Mark all as read"
-#~ msgstr "סימון הכול כנקרא"
-
-#~ msgid "Compose Mail"
-#~ msgstr "כתיבת הודעה"
-
-#~ msgid "Sent"
-#~ msgstr "נשלח"
-
-#~ msgid "Inbox"
-#~ msgstr "דואר נכנס"

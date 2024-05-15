@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail 24.5.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 00:04+0200\n"
+"POT-Creation-Date: 2024-05-15 08:48+0200\n"
 "PO-Revision-Date: 2023-11-09 14:33+0000\n"
 "Last-Translator: bittin1ddc447d824349b2 <bittin@reimu.nl>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/"
-"ayatana-indicators/ayatana-webmail/sv/>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/ayatana-"
+"indicators/ayatana-webmail/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -60,6 +60,7 @@ msgid "Clear"
 msgstr "Rensa"
 
 #: ayatanawebmail/application.py:192
+#: data/usr/share/applications/ayatana-webmail.desktop:35
 msgid "Settings"
 msgstr "Inställningar"
 
@@ -363,33 +364,41 @@ msgstr "Meddelandeåtgärd"
 msgid "Action to perform when a message is activated."
 msgstr "Åtgärd som ska utföras när ett meddelande aktiveras."
 
+#: data/usr/share/applications/ayatana-webmail.desktop:4
+msgid "Ayatana Webmail"
+msgstr "Ayatana Webmail"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:5
+msgid "Webmail notifications and actions for any desktop"
+msgstr "Webmail-notifieringar och åtgärder för alla skrivbord"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:15
+msgid "Mark all as read"
+msgstr "Markera alla som lästa"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:20
+msgid "Compose Mail"
+msgstr "Skriv Mail"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:25
+msgid "Sent"
+msgstr "Skickat"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:30
+msgid "Inbox"
+msgstr "Inkorg"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
+msgid "Ayatana Webmail (service)"
+msgstr "Ayatana Webmail (tjänst)"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
+msgid "Display notifications about new mail"
+msgstr "Visa notifieringar om nya mail"
+
 #~ msgid ""
 #~ "Please visit the following link and enable access for less secure apps:"
 #~ msgstr "Besök följande länk och aktivera åtkomst för mindre säkra appar:"
 
 #~ msgid "Access blocked by Google"
 #~ msgstr "Åtkomst blockerad av Google"
-
-#~ msgid "Ayatana Webmail (service)"
-#~ msgstr "Ayatana Webmail (tjänst)"
-
-#~ msgid "Display notifications about new mail"
-#~ msgstr "Visa notifieringar om nya mail"
-
-#~ msgid "Ayatana Webmail"
-#~ msgstr "Ayatana Webmail"
-
-#~ msgid "Webmail notifications and actions for any desktop"
-#~ msgstr "Webmail-notifieringar och åtgärder för alla skrivbord"
-
-#~ msgid "Mark all as read"
-#~ msgstr "Markera alla som lästa"
-
-#~ msgid "Compose Mail"
-#~ msgstr "Skriv Mail"
-
-#~ msgid "Sent"
-#~ msgstr "Skickat"
-
-#~ msgid "Inbox"
-#~ msgstr "Inkorg"

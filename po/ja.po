@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 00:04+0200\n"
+"POT-Creation-Date: 2024-05-15 08:47+0200\n"
 "PO-Revision-Date: 2020-10-23 08:26+0000\n"
 "Last-Translator: Kei Homma <kei.homma@soundmouse.co.jp>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/ayatana-"
@@ -61,6 +61,7 @@ msgid "Clear"
 msgstr "クリア"
 
 #: ayatanawebmail/application.py:192
+#: data/usr/share/applications/ayatana-webmail.desktop:35
 msgid "Settings"
 msgstr "設定"
 
@@ -366,6 +367,38 @@ msgstr "メッセージのアクション"
 msgid "Action to perform when a message is activated."
 msgstr "メッセージがアクティブ化された場合:"
 
+#: data/usr/share/applications/ayatana-webmail.desktop:4
+msgid "Ayatana Webmail"
+msgstr "Ayatana ウェブメール"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:5
+msgid "Webmail notifications and actions for any desktop"
+msgstr "デスクトップのウェブメール通知とアクション"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:15
+msgid "Mark all as read"
+msgstr "すべて既読にする"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:20
+msgid "Compose Mail"
+msgstr "メールを作成する"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:25
+msgid "Sent"
+msgstr "送信済み"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:30
+msgid "Inbox"
+msgstr "受信トレイ"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
+msgid "Ayatana Webmail (service)"
+msgstr "Ayatana ウェブメール (サービス)"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
+msgid "Display notifications about new mail"
+msgstr "新着メールの通知を表示"
+
 #, python-brace-format
 #~ msgid "You can run \"{command}\" to delete all your login settings."
 #~ msgstr "{command}より全てのログイン設定を消去することができます。"
@@ -393,27 +426,3 @@ msgstr "メッセージがアクティブ化された場合:"
 
 #~ msgid "Repository"
 #~ msgstr "リポジトリ"
-
-#~ msgid "Ayatana Webmail"
-#~ msgstr "Ayatana ウェブメール"
-
-#~ msgid "Webmail notifications and actions for any desktop"
-#~ msgstr "デスクトップのウェブメール通知とアクション"
-
-#~ msgid "Mark all as read"
-#~ msgstr "すべて既読にする"
-
-#~ msgid "Compose Mail"
-#~ msgstr "メールを作成する"
-
-#~ msgid "Sent"
-#~ msgstr "送信済み"
-
-#~ msgid "Inbox"
-#~ msgstr "受信トレイ"
-
-#~ msgid "Ayatana Webmail (service)"
-#~ msgstr "Ayatana ウェブメール (サービス)"
-
-#~ msgid "Display notifications about new mail"
-#~ msgstr "新着メールの通知を表示"

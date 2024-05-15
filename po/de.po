@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 00:04+0200\n"
+"POT-Creation-Date: 2024-05-15 08:47+0200\n"
 "PO-Revision-Date: 2023-10-13 05:47+0000\n"
 "Last-Translator: Mike Gabriel <mike.gabriel@das-netzwerkteam.de>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/"
-"ayatana-indicators/ayatana-webmail/de/>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/ayatana-"
+"indicators/ayatana-webmail/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -61,6 +61,7 @@ msgid "Clear"
 msgstr "Löschen"
 
 #: ayatanawebmail/application.py:192
+#: data/usr/share/applications/ayatana-webmail.desktop:35
 msgid "Settings"
 msgstr "Einstellungen"
 
@@ -372,6 +373,38 @@ msgstr "Nachrichtenaktion"
 msgid "Action to perform when a message is activated."
 msgstr "Aktion, die ausgeführt werden soll, wenn eine Nachricht aktiviert ist."
 
+#: data/usr/share/applications/ayatana-webmail.desktop:4
+msgid "Ayatana Webmail"
+msgstr "Ayatana-Webmail"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:5
+msgid "Webmail notifications and actions for any desktop"
+msgstr "Webmail-Benachrichtigungen und -Aktionen für beliebige Desktops"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:15
+msgid "Mark all as read"
+msgstr "Alle als gelesen markieren"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:20
+msgid "Compose Mail"
+msgstr "Verfassen"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:25
+msgid "Sent"
+msgstr "Gesendet"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:30
+msgid "Inbox"
+msgstr "Posteingang"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
+msgid "Ayatana Webmail (service)"
+msgstr "Ayatana Webmail (Dienst)"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
+msgid "Display notifications about new mail"
+msgstr "Benachrichtigungen bei neuen E-Mails anzeigen"
+
 #, python-brace-format
 #~ msgid "You can run \"{command}\" to delete all your login settings."
 #~ msgstr "Sie können »{command}« ausführen, um alle Anmeldedaten zu löschen."
@@ -408,27 +441,3 @@ msgstr "Aktion, die ausgeführt werden soll, wenn eine Nachricht aktiviert ist."
 
 #~ msgid "Repository"
 #~ msgstr "Paketquelle"
-
-#~ msgid "Ayatana Webmail"
-#~ msgstr "Ayatana-Webmail"
-
-#~ msgid "Webmail notifications and actions for any desktop"
-#~ msgstr "Webmail-Benachrichtigungen und -Aktionen für beliebige Desktops"
-
-#~ msgid "Mark all as read"
-#~ msgstr "Alle als gelesen markieren"
-
-#~ msgid "Compose Mail"
-#~ msgstr "Verfassen"
-
-#~ msgid "Sent"
-#~ msgstr "Gesendet"
-
-#~ msgid "Inbox"
-#~ msgstr "Posteingang"
-
-#~ msgid "Ayatana Webmail (service)"
-#~ msgstr "Ayatana Webmail (Dienst)"
-
-#~ msgid "Display notifications about new mail"
-#~ msgstr "Benachrichtigungen bei neuen E-Mails anzeigen"

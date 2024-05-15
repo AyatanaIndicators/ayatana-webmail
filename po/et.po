@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 00:04+0200\n"
+"POT-Creation-Date: 2024-05-15 08:47+0200\n"
 "PO-Revision-Date: 2022-10-20 11:07+0000\n"
 "Last-Translator: Kristjan Räts <kristjanrats@gmail.com>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/ayatana-"
@@ -61,6 +61,7 @@ msgid "Clear"
 msgstr "Puhasta"
 
 #: ayatanawebmail/application.py:192
+#: data/usr/share/applications/ayatana-webmail.desktop:35
 msgid "Settings"
 msgstr "Seaded"
 
@@ -368,6 +369,39 @@ msgstr "Sõnumi tegevused"
 msgid "Action to perform when a message is activated."
 msgstr "Kui sõnum on aktiveeritud:"
 
+#: data/usr/share/applications/ayatana-webmail.desktop:4
+msgid "Ayatana Webmail"
+msgstr "Ayatana Webmail"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:5
+msgid "Webmail notifications and actions for any desktop"
+msgstr "Veebimeili teavitused ja tegevused igale töölauale"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:15
+msgid "Mark all as read"
+msgstr "Märgi kõik loetuks"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:20
+msgid "Compose Mail"
+msgstr "Koosta kiri"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:25
+msgid "Sent"
+msgstr "Saadetud"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:30
+msgid "Inbox"
+msgstr "Postkast"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
+#, fuzzy
+msgid "Ayatana Webmail (service)"
+msgstr "Ayatana Webmaili Seadistus"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
+msgid "Display notifications about new mail"
+msgstr ""
+
 #~ msgid ""
 #~ "Please visit the following link and enable access for less secure apps:"
 #~ msgstr ""
@@ -385,21 +419,3 @@ msgstr "Kui sõnum on aktiveeritud:"
 
 #~ msgid "Login:"
 #~ msgstr "Kasutajanimi:"
-
-#~ msgid "Ayatana Webmail"
-#~ msgstr "Ayatana Webmail"
-
-#~ msgid "Webmail notifications and actions for any desktop"
-#~ msgstr "Veebimeili teavitused ja tegevused igale töölauale"
-
-#~ msgid "Mark all as read"
-#~ msgstr "Märgi kõik loetuks"
-
-#~ msgid "Compose Mail"
-#~ msgstr "Koosta kiri"
-
-#~ msgid "Sent"
-#~ msgstr "Saadetud"
-
-#~ msgid "Inbox"
-#~ msgstr "Postkast"

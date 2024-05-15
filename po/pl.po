@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 00:04+0200\n"
+"POT-Creation-Date: 2024-05-15 08:48+0200\n"
 "PO-Revision-Date: 2023-05-03 19:52+0000\n"
 "Last-Translator: Eryk Michalak <gnu.ewm@protonmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/ayatana-"
@@ -63,6 +63,7 @@ msgid "Clear"
 msgstr "Wyczyść"
 
 #: ayatanawebmail/application.py:192
+#: data/usr/share/applications/ayatana-webmail.desktop:35
 msgid "Settings"
 msgstr ""
 
@@ -360,6 +361,39 @@ msgstr ""
 msgid "Action to perform when a message is activated."
 msgstr ""
 
+#: data/usr/share/applications/ayatana-webmail.desktop:4
+#, fuzzy
+msgid "Ayatana Webmail"
+msgstr "Klient poczty Ayatana Webmail (usługa)"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:5
+msgid "Webmail notifications and actions for any desktop"
+msgstr ""
+
+#: data/usr/share/applications/ayatana-webmail.desktop:15
+msgid "Mark all as read"
+msgstr ""
+
+#: data/usr/share/applications/ayatana-webmail.desktop:20
+msgid "Compose Mail"
+msgstr "Utwórz wiadomość"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:25
+msgid "Sent"
+msgstr "Wysłane"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:30
+msgid "Inbox"
+msgstr "Odebrane"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
+msgid "Ayatana Webmail (service)"
+msgstr "Klient poczty Ayatana Webmail (usługa)"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
+msgid "Display notifications about new mail"
+msgstr "Wyświetla powiadomienia o nowych wiadomościach"
+
 #~ msgid "Choose an account"
 #~ msgstr "Konto"
 
@@ -368,18 +402,3 @@ msgstr ""
 
 #~ msgid "Login:"
 #~ msgstr "Nazwa użytkownika:"
-
-#~ msgid "Compose Mail"
-#~ msgstr "Utwórz wiadomość"
-
-#~ msgid "Sent"
-#~ msgstr "Wysłane"
-
-#~ msgid "Inbox"
-#~ msgstr "Odebrane"
-
-#~ msgid "Ayatana Webmail (service)"
-#~ msgstr "Klient poczty Ayatana Webmail (usługa)"
-
-#~ msgid "Display notifications about new mail"
-#~ msgstr "Wyświetla powiadomienia o nowych wiadomościach"

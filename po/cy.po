@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 00:04+0200\n"
+"POT-Creation-Date: 2024-05-15 08:47+0200\n"
 "PO-Revision-Date: 2018-06-04 07:33+0000\n"
 "Language-Team: Welsh <cy@li.org>\n"
 "Language: cy\n"
@@ -60,6 +60,7 @@ msgid "Clear"
 msgstr ""
 
 #: ayatanawebmail/application.py:192
+#: data/usr/share/applications/ayatana-webmail.desktop:35
 msgid "Settings"
 msgstr ""
 
@@ -355,6 +356,43 @@ msgstr ""
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:16
 msgid "Action to perform when a message is activated."
+msgstr ""
+
+#: data/usr/share/applications/ayatana-webmail.desktop:4
+#, fuzzy
+msgid "Ayatana Webmail"
+msgstr "Dewisiadau Ayatana Webmail"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:5
+msgid "Webmail notifications and actions for any desktop"
+msgstr ""
+
+#: data/usr/share/applications/ayatana-webmail.desktop:15
+msgid "Mark all as read"
+msgstr ""
+
+#: data/usr/share/applications/ayatana-webmail.desktop:20
+#, fuzzy
+msgid "Compose Mail"
+msgstr "Ysgrifennu:"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:25
+#, fuzzy
+msgid "Sent"
+msgstr "Anfonwyd:"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:30
+#, fuzzy
+msgid "Inbox"
+msgstr "Mewnflwch:"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
+#, fuzzy
+msgid "Ayatana Webmail (service)"
+msgstr "Dewisiadau Ayatana Webmail"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
+msgid "Display notifications about new mail"
 msgstr ""
 
 #~ msgid "Choose an account"

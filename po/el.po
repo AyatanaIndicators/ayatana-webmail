@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 00:04+0200\n"
+"POT-Creation-Date: 2024-05-15 08:47+0200\n"
 "PO-Revision-Date: 2021-02-05 23:41+0000\n"
 "Last-Translator: Michalis <michalisntovas@yahoo.gr>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/ayatana-indicators/"
@@ -61,6 +61,7 @@ msgid "Clear"
 msgstr ""
 
 #: ayatanawebmail/application.py:192
+#: data/usr/share/applications/ayatana-webmail.desktop:35
 msgid "Settings"
 msgstr ""
 
@@ -357,6 +358,40 @@ msgstr ""
 msgid "Action to perform when a message is activated."
 msgstr ""
 
+#: data/usr/share/applications/ayatana-webmail.desktop:4
+#, fuzzy
+msgid "Ayatana Webmail"
+msgstr "Προτιμήσεις Ayatana Webmail"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:5
+msgid "Webmail notifications and actions for any desktop"
+msgstr ""
+
+#: data/usr/share/applications/ayatana-webmail.desktop:15
+msgid "Mark all as read"
+msgstr ""
+
+#: data/usr/share/applications/ayatana-webmail.desktop:20
+msgid "Compose Mail"
+msgstr "Σύνθεση ηλεκτρονικού μηνύματος"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:25
+msgid "Sent"
+msgstr "Απεσταλμένα"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:30
+msgid "Inbox"
+msgstr "Εισερχόμενα"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
+#, fuzzy
+msgid "Ayatana Webmail (service)"
+msgstr "Προτιμήσεις Ayatana Webmail"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
+msgid "Display notifications about new mail"
+msgstr "Εμφάνιση ειδοποιήσεων για νέα μηνύματα"
+
 #~ msgid "Choose an account"
 #~ msgstr "Επιλέξτε έναν λογαριασμό"
 
@@ -365,15 +400,3 @@ msgstr ""
 
 #~ msgid "Login:"
 #~ msgstr "Είσοδος:"
-
-#~ msgid "Compose Mail"
-#~ msgstr "Σύνθεση ηλεκτρονικού μηνύματος"
-
-#~ msgid "Sent"
-#~ msgstr "Απεσταλμένα"
-
-#~ msgid "Inbox"
-#~ msgstr "Εισερχόμενα"
-
-#~ msgid "Display notifications about new mail"
-#~ msgstr "Εμφάνιση ειδοποιήσεων για νέα μηνύματα"
