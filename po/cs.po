@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 00:04+0200\n"
+"POT-Creation-Date: 2024-05-15 08:47+0200\n"
 "PO-Revision-Date: 2023-10-21 10:04+0000\n"
 "Last-Translator: Jozef Mlich <jmlich83@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/ayatana-indicators/"
@@ -61,6 +61,7 @@ msgid "Clear"
 msgstr "Vyčistit"
 
 #: ayatanawebmail/application.py:192
+#: data/usr/share/applications/ayatana-webmail.desktop:35
 msgid "Settings"
 msgstr "Nastavení"
 
@@ -362,6 +363,38 @@ msgstr "Akce zprávy"
 msgid "Action to perform when a message is activated."
 msgstr "Akce, která se má provést při aktivaci zprávy."
 
+#: data/usr/share/applications/ayatana-webmail.desktop:4
+msgid "Ayatana Webmail"
+msgstr "Ayatana Webmail"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:5
+msgid "Webmail notifications and actions for any desktop"
+msgstr "Oznámení a akce webmailu pro jakékoli pracovní prostředí"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:15
+msgid "Mark all as read"
+msgstr "Označit vše jako přečtené"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:20
+msgid "Compose Mail"
+msgstr "Napsat e-mail"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:25
+msgid "Sent"
+msgstr "Odeslané"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:30
+msgid "Inbox"
+msgstr "Příchozí"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
+msgid "Ayatana Webmail (service)"
+msgstr "Ayatana Webmail (služba)"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
+msgid "Display notifications about new mail"
+msgstr "Zobrazovat upozornění o novém e-mailu"
+
 #, python-brace-format
 #~ msgid "You can run \"{command}\" to delete all your login settings."
 #~ msgstr ""
@@ -400,27 +433,3 @@ msgstr "Akce, která se má provést při aktivaci zprávy."
 
 #~ msgid "Repository"
 #~ msgstr "Úložiště"
-
-#~ msgid "Ayatana Webmail"
-#~ msgstr "Ayatana Webmail"
-
-#~ msgid "Webmail notifications and actions for any desktop"
-#~ msgstr "Oznámení a akce webmailu pro jakékoli pracovní prostředí"
-
-#~ msgid "Mark all as read"
-#~ msgstr "Označit vše jako přečtené"
-
-#~ msgid "Compose Mail"
-#~ msgstr "Napsat e-mail"
-
-#~ msgid "Sent"
-#~ msgstr "Odeslané"
-
-#~ msgid "Inbox"
-#~ msgstr "Příchozí"
-
-#~ msgid "Ayatana Webmail (service)"
-#~ msgstr "Ayatana Webmail (služba)"
-
-#~ msgid "Display notifications about new mail"
-#~ msgstr "Zobrazovat upozornění o novém e-mailu"

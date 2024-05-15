@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 00:04+0200\n"
+"POT-Creation-Date: 2024-05-15 08:47+0200\n"
 "PO-Revision-Date: 2020-10-11 16:26+0000\n"
 "Last-Translator: Rob Pearson <rob.dunedin@gmail.com>\n"
 "Language-Team: English (Australia) <https://hosted.weblate.org/projects/"
@@ -61,6 +61,7 @@ msgid "Clear"
 msgstr "Clear"
 
 #: ayatanawebmail/application.py:192
+#: data/usr/share/applications/ayatana-webmail.desktop:35
 msgid "Settings"
 msgstr "Settings"
 
@@ -372,6 +373,38 @@ msgstr "Message actions"
 msgid "Action to perform when a message is activated."
 msgstr "When a message is activated:"
 
+#: data/usr/share/applications/ayatana-webmail.desktop:4
+msgid "Ayatana Webmail"
+msgstr "Ayatana Webmail"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:5
+msgid "Webmail notifications and actions for any desktop"
+msgstr "Webmail notifications and actions for any desktop"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:15
+msgid "Mark all as read"
+msgstr "Mark all as read"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:20
+msgid "Compose Mail"
+msgstr "Compose Mail"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:25
+msgid "Sent"
+msgstr "Sent"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:30
+msgid "Inbox"
+msgstr "Inbox"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
+msgid "Ayatana Webmail (service)"
+msgstr "Ayatana Webmail (service)"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
+msgid "Display notifications about new mail"
+msgstr "Display notifications about new mail"
+
 #, python-brace-format
 #~ msgid "You can run \"{command}\" to delete all your login settings."
 #~ msgstr "You can run \"{command}\" to delete all your login settings."
@@ -407,27 +440,3 @@ msgstr "When a message is activated:"
 
 #~ msgid "Repository"
 #~ msgstr "Repository"
-
-#~ msgid "Ayatana Webmail"
-#~ msgstr "Ayatana Webmail"
-
-#~ msgid "Webmail notifications and actions for any desktop"
-#~ msgstr "Webmail notifications and actions for any desktop"
-
-#~ msgid "Mark all as read"
-#~ msgstr "Mark all as read"
-
-#~ msgid "Compose Mail"
-#~ msgstr "Compose Mail"
-
-#~ msgid "Sent"
-#~ msgstr "Sent"
-
-#~ msgid "Inbox"
-#~ msgstr "Inbox"
-
-#~ msgid "Ayatana Webmail (service)"
-#~ msgstr "Ayatana Webmail (service)"
-
-#~ msgid "Display notifications about new mail"
-#~ msgstr "Display notifications about new mail"

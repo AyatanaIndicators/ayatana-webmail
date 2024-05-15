@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 00:04+0200\n"
+"POT-Creation-Date: 2024-05-15 08:47+0200\n"
 "PO-Revision-Date: 2020-10-30 00:26+0000\n"
 "Last-Translator: Joan CiberSheep <cibersheep@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/ayatana-"
@@ -61,6 +61,7 @@ msgid "Clear"
 msgstr "Neteja"
 
 #: ayatanawebmail/application.py:192
+#: data/usr/share/applications/ayatana-webmail.desktop:35
 msgid "Settings"
 msgstr "Paràmetres"
 
@@ -372,6 +373,38 @@ msgstr "Accions del missatge"
 msgid "Action to perform when a message is activated."
 msgstr "Quan s'activa un missatge:"
 
+#: data/usr/share/applications/ayatana-webmail.desktop:4
+msgid "Ayatana Webmail"
+msgstr "Correu de l'Ayatana"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:5
+msgid "Webmail notifications and actions for any desktop"
+msgstr "Notificacions i accions de correu web per a qualsevol escriptori"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:15
+msgid "Mark all as read"
+msgstr "Marca-ho tot com a llegit"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:20
+msgid "Compose Mail"
+msgstr "Redacta un missatge"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:25
+msgid "Sent"
+msgstr "Enviat"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:30
+msgid "Inbox"
+msgstr "Safata d’entrada"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
+msgid "Ayatana Webmail (service)"
+msgstr "Correu web Ayatana (servei)"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
+msgid "Display notifications about new mail"
+msgstr "Mostra notifications quan hi hagi correu nou"
+
 #, python-brace-format
 #~ msgid "You can run \"{command}\" to delete all your login settings."
 #~ msgstr ""
@@ -410,27 +443,3 @@ msgstr "Quan s'activa un missatge:"
 
 #~ msgid "Repository"
 #~ msgstr "Dipòsit"
-
-#~ msgid "Ayatana Webmail"
-#~ msgstr "Correu de l'Ayatana"
-
-#~ msgid "Webmail notifications and actions for any desktop"
-#~ msgstr "Notificacions i accions de correu web per a qualsevol escriptori"
-
-#~ msgid "Mark all as read"
-#~ msgstr "Marca-ho tot com a llegit"
-
-#~ msgid "Compose Mail"
-#~ msgstr "Redacta un missatge"
-
-#~ msgid "Sent"
-#~ msgstr "Enviat"
-
-#~ msgid "Inbox"
-#~ msgstr "Safata d’entrada"
-
-#~ msgid "Ayatana Webmail (service)"
-#~ msgstr "Correu web Ayatana (servei)"
-
-#~ msgid "Display notifications about new mail"
-#~ msgstr "Mostra notifications quan hi hagi correu nou"

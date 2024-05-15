@@ -8,3 +8,5 @@ ayatanawebmail/idler.py
 ayatanawebmail/imaplib2.py
 ayatanawebmail/__init__.py
 data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml
+data/usr/share/applications/ayatana-webmail.desktop
+data/etc/xdg/autostart/ayatana-webmail-autostart.desktop

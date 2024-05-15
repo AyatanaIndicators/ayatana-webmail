@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 00:04+0200\n"
+"POT-Creation-Date: 2024-05-15 08:48+0200\n"
 "PO-Revision-Date: 2023-10-13 04:14+0000\n"
 "Last-Translator: Serhii Horichenko <m@sgg.im>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/"
-"ayatana-indicators/ayatana-webmail/ru/>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/ayatana-"
+"indicators/ayatana-webmail/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -62,6 +62,7 @@ msgid "Clear"
 msgstr "Очистить"
 
 #: ayatanawebmail/application.py:192
+#: data/usr/share/applications/ayatana-webmail.desktop:35
 msgid "Settings"
 msgstr "Настройки"
 
@@ -363,6 +364,38 @@ msgstr "Действие с сообщением"
 msgid "Action to perform when a message is activated."
 msgstr "Действие, выполняемое при активации сообщения."
 
+#: data/usr/share/applications/ayatana-webmail.desktop:4
+msgid "Ayatana Webmail"
+msgstr "Ayatana Webmail"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:5
+msgid "Webmail notifications and actions for any desktop"
+msgstr "Оповещения веб-почты и действия для любого компьютера"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:15
+msgid "Mark all as read"
+msgstr "Пометить все как прочитанное"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:20
+msgid "Compose Mail"
+msgstr "Написать письмо"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:25
+msgid "Sent"
+msgstr "Отправленные"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:30
+msgid "Inbox"
+msgstr "Входящие"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
+msgid "Ayatana Webmail (service)"
+msgstr "Ayatana Webmail (служба)"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
+msgid "Display notifications about new mail"
+msgstr "Отображать уведомления о новой почте"
+
 #, python-brace-format
 #~ msgid "You can run \"{command}\" to delete all your login settings."
 #~ msgstr ""
@@ -401,27 +434,3 @@ msgstr "Действие, выполняемое при активации со�
 
 #~ msgid "Repository"
 #~ msgstr "Репозиторий"
-
-#~ msgid "Ayatana Webmail"
-#~ msgstr "Ayatana Webmail"
-
-#~ msgid "Webmail notifications and actions for any desktop"
-#~ msgstr "Оповещения веб-почты и действия для любого компьютера"
-
-#~ msgid "Mark all as read"
-#~ msgstr "Пометить все как прочитанное"
-
-#~ msgid "Compose Mail"
-#~ msgstr "Написать письмо"
-
-#~ msgid "Sent"
-#~ msgstr "Отправленные"
-
-#~ msgid "Inbox"
-#~ msgstr "Входящие"
-
-#~ msgid "Ayatana Webmail (service)"
-#~ msgstr "Ayatana Webmail (служба)"
-
-#~ msgid "Display notifications about new mail"
-#~ msgstr "Отображать уведомления о новой почте"

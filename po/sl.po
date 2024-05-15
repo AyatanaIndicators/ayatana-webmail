@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 00:04+0200\n"
+"POT-Creation-Date: 2024-05-15 08:48+0200\n"
 "PO-Revision-Date: 2018-06-04 07:33+0000\n"
 "Language-Team: Slovenian <sl@li.org>\n"
 "Language: sl\n"
@@ -60,6 +60,7 @@ msgid "Clear"
 msgstr "Počisti"
 
 #: ayatanawebmail/application.py:192
+#: data/usr/share/applications/ayatana-webmail.desktop:35
 msgid "Settings"
 msgstr "Nastavitve"
 
@@ -359,6 +360,38 @@ msgstr ""
 msgid "Action to perform when a message is activated."
 msgstr ""
 
+#: data/usr/share/applications/ayatana-webmail.desktop:4
+msgid "Ayatana Webmail"
+msgstr ""
+
+#: data/usr/share/applications/ayatana-webmail.desktop:5
+msgid "Webmail notifications and actions for any desktop"
+msgstr ""
+
+#: data/usr/share/applications/ayatana-webmail.desktop:15
+msgid "Mark all as read"
+msgstr "Označi vse kot prebrano"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:20
+msgid "Compose Mail"
+msgstr "Sestavi pošto"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:25
+msgid "Sent"
+msgstr "Poslano"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:30
+msgid "Inbox"
+msgstr "Prejeto"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
+msgid "Ayatana Webmail (service)"
+msgstr ""
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
+msgid "Display notifications about new mail"
+msgstr "Prikaži obvestila o novi pošti"
+
 #~ msgid "Web page"
 #~ msgstr "Spletna stran"
 
@@ -382,18 +415,3 @@ msgstr ""
 
 #~ msgid "Repository"
 #~ msgstr "Skladišče"
-
-#~ msgid "Mark all as read"
-#~ msgstr "Označi vse kot prebrano"
-
-#~ msgid "Compose Mail"
-#~ msgstr "Sestavi pošto"
-
-#~ msgid "Sent"
-#~ msgstr "Poslano"
-
-#~ msgid "Inbox"
-#~ msgstr "Prejeto"
-
-#~ msgid "Display notifications about new mail"
-#~ msgstr "Prikaži obvestila o novi pošti"

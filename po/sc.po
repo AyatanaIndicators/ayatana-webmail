@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail 24.5.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 00:04+0200\n"
+"POT-Creation-Date: 2024-05-15 08:48+0200\n"
 "PO-Revision-Date: 2020-10-27 14:36+0000\n"
 "Last-Translator: Adrià Martín <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://hosted.weblate.org/projects/ayatana-"
@@ -60,6 +60,7 @@ msgid "Clear"
 msgstr "Lìmpia"
 
 #: ayatanawebmail/application.py:192
+#: data/usr/share/applications/ayatana-webmail.desktop:35
 msgid "Settings"
 msgstr "Cunfiguratzione"
 
@@ -363,6 +364,38 @@ msgstr "Atziones de su messàgiu"
 msgid "Action to perform when a message is activated."
 msgstr "Cando unu messàgiu est seletzionadu:"
 
+#: data/usr/share/applications/ayatana-webmail.desktop:4
+msgid "Ayatana Webmail"
+msgstr "Ayatana Webmail"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:5
+msgid "Webmail notifications and actions for any desktop"
+msgstr "Notìficas e atziones de posta eletrònica pro cale si siat sistema"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:15
+msgid "Mark all as read"
+msgstr "Marca totu comente lèghidu"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:20
+msgid "Compose Mail"
+msgstr "Iscrìe unu messàgiu"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:25
+msgid "Sent"
+msgstr "Imbiadu"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:30
+msgid "Inbox"
+msgstr "In intrada"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
+msgid "Ayatana Webmail (service)"
+msgstr "Ayatana Webmail (servìtziu)"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
+msgid "Display notifications about new mail"
+msgstr "Ammustra notìficas cando ddoe est posta noa"
+
 #~ msgid ""
 #~ "Please visit the following link and enable access for less secure apps:"
 #~ msgstr ""
@@ -371,27 +404,3 @@ msgstr "Cando unu messàgiu est seletzionadu:"
 
 #~ msgid "Access blocked by Google"
 #~ msgstr "Google at blocadu s'atzessu"
-
-#~ msgid "Ayatana Webmail (service)"
-#~ msgstr "Ayatana Webmail (servìtziu)"
-
-#~ msgid "Display notifications about new mail"
-#~ msgstr "Ammustra notìficas cando ddoe est posta noa"
-
-#~ msgid "Ayatana Webmail"
-#~ msgstr "Ayatana Webmail"
-
-#~ msgid "Webmail notifications and actions for any desktop"
-#~ msgstr "Notìficas e atziones de posta eletrònica pro cale si siat sistema"
-
-#~ msgid "Mark all as read"
-#~ msgstr "Marca totu comente lèghidu"
-
-#~ msgid "Compose Mail"
-#~ msgstr "Iscrìe unu messàgiu"
-
-#~ msgid "Sent"
-#~ msgstr "Imbiadu"
-
-#~ msgid "Inbox"
-#~ msgstr "In intrada"

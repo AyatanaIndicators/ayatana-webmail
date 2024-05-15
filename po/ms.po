@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 00:04+0200\n"
+"POT-Creation-Date: 2024-05-15 08:48+0200\n"
 "PO-Revision-Date: 2020-09-05 16:36+0000\n"
 "Last-Translator: antuketot76 <antuketot76@protonmail.com>\n"
 "Language-Team: Malay <https://hosted.weblate.org/projects/ayatana-indicators/"
@@ -61,6 +61,7 @@ msgid "Clear"
 msgstr "Bersih"
 
 #: ayatanawebmail/application.py:192
+#: data/usr/share/applications/ayatana-webmail.desktop:35
 msgid "Settings"
 msgstr "Seting"
 
@@ -370,6 +371,38 @@ msgstr "Tindakan mesej"
 msgid "Action to perform when a message is activated."
 msgstr "Apabila mesej diaktifkan:"
 
+#: data/usr/share/applications/ayatana-webmail.desktop:4
+msgid "Ayatana Webmail"
+msgstr "Ayatana Webmail"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:5
+msgid "Webmail notifications and actions for any desktop"
+msgstr "Notifikasi Webmail dan arahan untuk semua desktop"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:15
+msgid "Mark all as read"
+msgstr "Tandakan semua sudah dibaca"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:20
+msgid "Compose Mail"
+msgstr "Gubah Mel"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:25
+msgid "Sent"
+msgstr "Dihantar"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:30
+msgid "Inbox"
+msgstr "Kotak Masuk"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
+msgid "Ayatana Webmail (service)"
+msgstr "Ayatana Webmail (servis)"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
+msgid "Display notifications about new mail"
+msgstr "Papar pemberitahuan mengenai mel baru"
+
 #, python-brace-format
 #~ msgid "You can run \"{command}\" to delete all your login settings."
 #~ msgstr "Anda boleh jalankan \"{command}\" untuk nyahkan semua seting masuk."
@@ -405,27 +438,3 @@ msgstr "Apabila mesej diaktifkan:"
 
 #~ msgid "Repository"
 #~ msgstr "Tempat Simpanan"
-
-#~ msgid "Ayatana Webmail"
-#~ msgstr "Ayatana Webmail"
-
-#~ msgid "Webmail notifications and actions for any desktop"
-#~ msgstr "Notifikasi Webmail dan arahan untuk semua desktop"
-
-#~ msgid "Mark all as read"
-#~ msgstr "Tandakan semua sudah dibaca"
-
-#~ msgid "Compose Mail"
-#~ msgstr "Gubah Mel"
-
-#~ msgid "Sent"
-#~ msgstr "Dihantar"
-
-#~ msgid "Inbox"
-#~ msgstr "Kotak Masuk"
-
-#~ msgid "Ayatana Webmail (service)"
-#~ msgstr "Ayatana Webmail (servis)"
-
-#~ msgid "Display notifications about new mail"
-#~ msgstr "Papar pemberitahuan mengenai mel baru"

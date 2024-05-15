@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 00:04+0200\n"
+"POT-Creation-Date: 2024-05-15 08:47+0200\n"
 "PO-Revision-Date: 2021-02-08 21:50+0000\n"
 "Last-Translator: Ács Zoltán <acszoltan111@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/ayatana-"
@@ -61,6 +61,7 @@ msgid "Clear"
 msgstr "Törlés"
 
 #: ayatanawebmail/application.py:192
+#: data/usr/share/applications/ayatana-webmail.desktop:35
 msgid "Settings"
 msgstr "Beállítások"
 
@@ -372,6 +373,38 @@ msgstr "Levélműveletek"
 msgid "Action to perform when a message is activated."
 msgstr "Levél kiválasztásakor:"
 
+#: data/usr/share/applications/ayatana-webmail.desktop:4
+msgid "Ayatana Webmail"
+msgstr "Ayatana Webmail"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:5
+msgid "Webmail notifications and actions for any desktop"
+msgstr "Webmail értesítések és műveletek bármelyik asztal számára"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:15
+msgid "Mark all as read"
+msgstr "Az összes megjelölése olvasottként"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:20
+msgid "Compose Mail"
+msgstr "Levélírás"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:25
+msgid "Sent"
+msgstr "Elküldött levelek"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:30
+msgid "Inbox"
+msgstr "Beérkező levelek"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
+msgid "Ayatana Webmail (service)"
+msgstr "Ayatana Webmail (szolgáltatás)"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
+msgid "Display notifications about new mail"
+msgstr "Értesítések megjelenítése új levelekről"
+
 #~ msgid "Web page"
 #~ msgstr "Weboldal"
 
@@ -404,27 +437,3 @@ msgstr "Levél kiválasztásakor:"
 
 #~ msgid "Repository"
 #~ msgstr "Csomagtároló"
-
-#~ msgid "Ayatana Webmail"
-#~ msgstr "Ayatana Webmail"
-
-#~ msgid "Webmail notifications and actions for any desktop"
-#~ msgstr "Webmail értesítések és műveletek bármelyik asztal számára"
-
-#~ msgid "Mark all as read"
-#~ msgstr "Az összes megjelölése olvasottként"
-
-#~ msgid "Compose Mail"
-#~ msgstr "Levélírás"
-
-#~ msgid "Sent"
-#~ msgstr "Elküldött levelek"
-
-#~ msgid "Inbox"
-#~ msgstr "Beérkező levelek"
-
-#~ msgid "Ayatana Webmail (service)"
-#~ msgstr "Ayatana Webmail (szolgáltatás)"
-
-#~ msgid "Display notifications about new mail"
-#~ msgstr "Értesítések megjelenítése új levelekről"

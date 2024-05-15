@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 00:04+0200\n"
+"POT-Creation-Date: 2024-05-15 08:48+0200\n"
 "PO-Revision-Date: 2018-06-04 07:33+0000\n"
 "Language-Team: Serbian <gnom@prevod.org>\n"
 "Language: sr\n"
@@ -60,6 +60,7 @@ msgid "Clear"
 msgstr ""
 
 #: ayatanawebmail/application.py:192
+#: data/usr/share/applications/ayatana-webmail.desktop:35
 msgid "Settings"
 msgstr ""
 
@@ -357,6 +358,38 @@ msgstr ""
 msgid "Action to perform when a message is activated."
 msgstr ""
 
+#: data/usr/share/applications/ayatana-webmail.desktop:4
+msgid "Ayatana Webmail"
+msgstr "Пошта Јунитија"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:5
+msgid "Webmail notifications and actions for any desktop"
+msgstr ""
+
+#: data/usr/share/applications/ayatana-webmail.desktop:15
+msgid "Mark all as read"
+msgstr ""
+
+#: data/usr/share/applications/ayatana-webmail.desktop:20
+msgid "Compose Mail"
+msgstr "Саставите поруку"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:25
+msgid "Sent"
+msgstr "Послато"
+
+#: data/usr/share/applications/ayatana-webmail.desktop:30
+msgid "Inbox"
+msgstr "Пријемно сандуче"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
+msgid "Ayatana Webmail (service)"
+msgstr "Пошта Јунитија (услуга)"
+
+#: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
+msgid "Display notifications about new mail"
+msgstr "Приказује обавештења о новој пошти"
+
 #~ msgid "Choose an account"
 #~ msgstr "Изаберите налог"
 
@@ -365,21 +398,3 @@ msgstr ""
 
 #~ msgid "Login:"
 #~ msgstr "Пријава:"
-
-#~ msgid "Ayatana Webmail"
-#~ msgstr "Пошта Јунитија"
-
-#~ msgid "Compose Mail"
-#~ msgstr "Саставите поруку"
-
-#~ msgid "Sent"
-#~ msgstr "Послато"
-
-#~ msgid "Inbox"
-#~ msgstr "Пријемно сандуче"
-
-#~ msgid "Ayatana Webmail (service)"
-#~ msgstr "Пошта Јунитија (услуга)"
-
-#~ msgid "Display notifications about new mail"
-#~ msgstr "Приказује обавештења о новој пошти"

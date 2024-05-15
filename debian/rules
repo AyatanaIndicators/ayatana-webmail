@@ -1,14 +1,30 @@
 #!/usr/bin/make -f
 # -*- mode: makefile; coding: utf-8 -*-
 
-%:
-		dh $@ --with python3 --buildsystem=pybuild
+export PYBUILD_SYSTEM=distutils
+export PYBUILD_NAME=ayatana-webmail
 
-override_dh_auto_clean:
-	dh_auto_clean
+%:
+	dh $@ --with python3 --buildsystem=pybuild
+
+override_dh_clean:
+	dh_clean
+	rm -Rfv .pybuild/
 	rm -Rfv data/usr/share/locale
-	rm -fv ayatana-webmail.egg-info/PKG-INFO
-	rm -fv ayatana-webmail.egg-info/SOURCES.txt
-	rm -fv ayatana-webmail.egg-info/dependency_links.txt
-	rm -fv ayatana-webmail.egg-info/requires.txt
-	rm -fv ayatana-webmail.egg-info/top_level.txt
+	rm -fv ayatanawebmail.egg-info/PKG-INFO
+	rm -fv ayatanawebmail.egg-info/SOURCES.txt
+	rm -fv ayatanawebmail.egg-info/dependency_links.txt
+	rm -fv ayatanawebmail.egg-info/requires.txt
+	rm -fv ayatanawebmail.egg-info/top_level.txt
+	rm -f data/etc/xdg/autostart/ayatana-webmail-autostart.desktop
+	rm -f data/usr/share/applications/ayatana-webmail.desktop
+
+override_dh_fixperms:
+	dh_fixperms
+	chmod a-x debian/*/usr/share/icons/hicolor/scalable/status/ayatanawebmail-messages-new.svg
+	chmod a-x debian/*/usr/share/icons/hicolor/scalable/status/ayatanawebmail-messages.svg
+	chmod a-x debian/*/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml
+	chmod a-x debian/*/usr/share/icons/hicolor/scalable/apps/ayatanawebmail.svg
+
+override_dh_installchangelogs:
+	dh_installchangelogs NEWS
