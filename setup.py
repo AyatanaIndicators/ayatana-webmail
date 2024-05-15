@@ -7,10 +7,11 @@ from ayatanawebmail.appdata import *
 
 for sFile in ['data/etc/xdg/autostart/ayatana-webmail-autostart.desktop', 'data/usr/share/applications/ayatana-webmail.desktop']:
 
-    oFile = open(sFile, 'r+')
+    oInFile = open("{desktop_file}.in".format(desktop_file=sFile), 'r')
     oConfigParser = configparser.ConfigParser()
     oConfigParser.optionxform = str
-    oConfigParser.read_file(oFile)
+    oConfigParser.read_file(oInFile)
+    oInFile.close()
 
     for strRoot, lstDirnames, lstFilenames in os.walk('po'):
 
@@ -40,10 +41,10 @@ for sFile in ['data/etc/xdg/autostart/ayatana-webmail-autostart.desktop', 'data/
 
         oConfigParser[sSection] = dict(sorted(oConfigParser[sSection].items(), key=lambda lParams: lParams[0]))
 
-    oFile.seek(0)
-    oConfigParser.write(oFile, False)
-    oFile.truncate()
-    oFile.close()
+    oOutFile = open("{desktop_file}".format(desktop_file=sFile), 'w')
+    oConfigParser.write(oOutFile, False)
+    oOutFile.truncate()
+    oOutFile.close()
 
 m_lstDataFiles = []
 
@@ -69,6 +70,8 @@ for strRoot, lstDirnames, lstFilenames in os.walk('data'):
 
     for strFilename in lstFilenames:
 
+        if strFilename.endswith(".in"):
+            continue
         strPath = os.path.join(strRoot, strFilename)
         m_lstDataFiles.append((os.path.dirname(strPath).lstrip('data'), [strPath]))
 
