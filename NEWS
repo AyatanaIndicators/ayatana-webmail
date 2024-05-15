@@ -1,3 +1,9 @@
+Overview of changes in ayatana-webmail 24.5.15
+
+  - ayatanawebmail/imaplib2.py: Fix Python 3.12 bug and drop unused
+    code.
+  - Translation updates.
+
 Overview of changes in ayatana-webmail 23.12.25
 
   - Translation updates.

@@ -4,7 +4,7 @@
 APPNAME = 'ayatanawebmail'
 APPEXECUTABLE='/usr/bin/ayatana-webmail'
 APPDEPENDENCIES = ['gir1.2-messagingmenu-1.0', 'python3-gi', 'gir1.2-gtk-3.0', 'gir1.2-notify-0.7', 'python3-secretstorage', 'gnome-session-canberra', 'python3-psutil', 'python3-babel', 'python3-urllib3']
-APPVERSION = '23.12.25'
+APPVERSION = '24.5.15'
 APPSHOWSETTINGS = 180603
 APPYEAR = '2016'
 APPTITLE = 'Ayatana Webmail'

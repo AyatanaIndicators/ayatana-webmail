@@ -1,785 +1,816 @@
+2024-05-15 Mike Gabriel
+
+        * release 24.5.15 (HEAD -> main, tag: 24.5.15)
+
+2024-05-13 Robert Tari
+
+        * ayatanawebmail/imaplib2.py: Fix Python 3.12 bug and drop unused
+          code (7a893853)
+
+2024-04-18 复予
+
+        * Translated using Weblate (Chinese (Simplified)) (6965a732)
+
+2024-04-01 复予
+
+        * Translated using Weblate (Chinese (Simplified)) (42fb07e0)
+
+2024-03-24 Steve
+
+        * Translated using Weblate (French) (13b1c04e)
+
+2024-03-22 Steve
+
+        * Translated using Weblate (French) (9652c6cc)
+
+2024-03-14 이정희
+
+        * Translated using Weblate (Korean) (eeb5b0b6)
+
 2023-12-26 Mike Gabriel
 
-        * release 23.12.25 (HEAD -> main, tag: 23.12.25)
+        * release 23.12.25 (05772079) (tag: 23.12.25)
 
 2023-11-08 bittin1ddc447d824349b2
 
-        * Translated using Weblate (Swedish) (a837258)
+        * Translated using Weblate (Swedish) (a8372580)
 
 2023-11-08 Ivo Xavier
 
-        * Translated using Weblate (Portuguese) (f7d87c9)
+        * Translated using Weblate (Portuguese) (f7d87c94)
 
 2023-10-24 Moo
 
-        * Translated using Weblate (Lithuanian) (ba9e901)
+        * Translated using Weblate (Lithuanian) (ba9e9017)
 
 2023-10-20 Jozef Mlich
 
-        * Translated using Weblate (Czech) (972cfae)
+        * Translated using Weblate (Czech) (972cfaec)
 
 2023-10-14 Yaron Shahrabani
 
-        * Translated using Weblate (Hebrew) (bb5796f)
+        * Translated using Weblate (Hebrew) (bb5796f0)
 
 2023-10-14 Quentin PAGÈS
 
-        * Translated using Weblate (Occitan) (8811402)
+        * Translated using Weblate (Occitan) (8811402b)
 
 2023-10-14 gallegonovato
 
-        * Translated using Weblate (Spanish) (2498bc1)
+        * Translated using Weblate (Spanish) (2498bc1d)
 
 2023-10-13 Mike Gabriel
 
-        * release 23.10.13 (0e9d431) (tag: 23.10.13)
-        * Translated using Weblate (German) (de31ace)
+        * release 23.10.13 (0e9d4310) (tag: 23.10.13)
+        * Translated using Weblate (German) (de31ace7)
 
 2023-10-12 Serhii Horichenko
 
-        * Translated using Weblate (Ukrainian) (19c2ad2)
+        * Translated using Weblate (Ukrainian) (19c2ad22)
 
 2023-10-10 Oğuz Ersen
 
-        * Translated using Weblate (Turkish) (8da169a)
+        * Translated using Weblate (Turkish) (8da169a7)
 
 2023-10-12 Serhii Horichenko
 
-        * Translated using Weblate (Russian) (d27e4b3)
+        * Translated using Weblate (Russian) (d27e4b35)
 
 2023-10-11 Wellington Terumi Uemura
 
-        * Translated using Weblate (Portuguese (Brazil)) (7d19961)
+        * Translated using Weblate (Portuguese (Brazil)) (7d19961b)
 
 2023-10-11 Heimen Stoffels
 
-        * Translated using Weblate (Dutch) (d00931d)
+        * Translated using Weblate (Dutch) (d00931d2)
 
 2023-10-11 Mike Gabriel
 
-        * po/: Update translation files. (1562a20)
+        * po/: Update translation files. (1562a201)
 
 2023-09-15 gallegonovato
 
-        * Translated using Weblate (Spanish) (d0a94f4)
+        * Translated using Weblate (Spanish) (d0a94f46)
 
 2023-09-11 Mike Gabriel
 
         * po/: Drop duplicate translation files. Thanks for pointing out,
-          weblate. (0b4037b)
+          weblate. (0b4037b6)
 
 2023-09-10 Serhii Horichenko
 
-        * Translated using Weblate (Ukrainian) (3fc2e1c)
-        * Translated using Weblate (Russian) (6c712d9)
+        * Translated using Weblate (Ukrainian) (3fc2e1c6)
+        * Translated using Weblate (Russian) (6c712d98)
 
 2023-08-20 Sabri Ünal
 
-        * Translated using Weblate (Turkish) (8b408af)
+        * Translated using Weblate (Turkish) (8b408af6)
 
 2023-07-14 Robert Tari
 
-        * ayatanawebmail/application.py: Add colour scheme handler (71e3215)
+        * ayatanawebmail/application.py: Add colour scheme handler (71e3215d)
 
 2023-07-01 spnux
 
-        * Translated using Weblate (French) (41b1b63)
+        * Translated using Weblate (French) (41b1b63a)
 
 2023-06-27 Sylke Vicious
 
-        * Translated using Weblate (Italian) (18c77a3)
+        * Translated using Weblate (Italian) (18c77a36)
 
 2023-06-22 Wellington Terumi Uemura
 
-        * Translated using Weblate (Portuguese (Brazil)) (68aaebd)
+        * Translated using Weblate (Portuguese (Brazil)) (68aaebd1)
 
 2023-06-22 Robert Tari
 
-        * ayatanawebmail/appdata.py: Drop APPRECOMMENDS (bfd2375)
+        * ayatanawebmail/appdata.py: Drop APPRECOMMENDS (bfd23755)
         * ayatanawebmail/dialog.py: Add a tooltip to the command chooser
-          (457f1e1)
+          (457f1e15)
 
 2023-06-21 Robert Tari
 
         * Merge pull request #33 from doronbehar/exec-on-receive/more-info
-          (af15cbb)
+          (af15cbb0)
 
 2023-06-21 Doron Behar
 
-        * Pass host information when calling exec-on-receive (da5577b)
+        * Pass host information when calling exec-on-receive (da5577bb)
 
 2023-05-20 Milo Ivir
 
-        * Translated using Weblate (Croatian) (8818fcf)
+        * Translated using Weblate (Croatian) (8818fcf5)
 
 2023-05-02 Eryk Michalak
 
-        * Translated using Weblate (Polish) (aea28d9)
+        * Translated using Weblate (Polish) (aea28d91)
 
 2023-03-16 Heimen Stoffels
 
-        * Translated using Weblate (Dutch) (3cb12d9)
+        * Translated using Weblate (Dutch) (3cb12d99)
 
 2023-03-03 gallegonovato
 
-        * Translated using Weblate (Spanish) (bf479cb)
+        * Translated using Weblate (Spanish) (bf479cb1)
 
 2023-02-12 Anders Jonsson
 
-        * Translated using Weblate (Swedish) (0836b7b)
+        * Translated using Weblate (Swedish) (0836b7bd)
 
 2023-02-10 Luna Jernberg
 
-        * Translated using Weblate (Swedish) (8bfe8b8)
+        * Translated using Weblate (Swedish) (8bfe8b8b)
 
 2023-02-05 ssantos
 
-        * Translated using Weblate (Portuguese) (64fe3b0)
+        * Translated using Weblate (Portuguese) (64fe3b09)
 
 2022-12-15 Mike Gabriel
 
-        * Translated using Weblate (German) (c13288e)
-        * release 22.12.15 (ca0c384) (tag: 22.12.15)
+        * Translated using Weblate (German) (c13288e4)
+        * release 22.12.15 (ca0c384d) (tag: 22.12.15)
 
 2022-11-26 Boyuan Yang
 
-        * Translated using Weblate (Chinese (Simplified)) (142cec3)
+        * Translated using Weblate (Chinese (Simplified)) (142cec3e)
 
 2022-10-22 Gediminas Murauskas
 
-        * Translated using Weblate (Lithuanian) (2e9340c)
+        * Translated using Weblate (Lithuanian) (2e9340c4)
 
 2022-10-19 Kristjan Räts
 
-        * Translated using Weblate (Estonian) (ea0b164)
+        * Translated using Weblate (Estonian) (ea0b1644)
 
 2022-10-17 Gediminas Murauskas
 
-        * Translated using Weblate (Lithuanian) (eeda965)
+        * Translated using Weblate (Lithuanian) (eeda9659)
 
 2022-09-29 이정희
 
-        * Translated using Weblate (Korean) (11d1e23)
+        * Translated using Weblate (Korean) (11d1e23f)
 
 2022-09-28 Yaron Shahrabani
 
-        * Translated using Weblate (Hebrew) (b32d6de)
+        * Translated using Weblate (Hebrew) (b32d6de7)
 
 2022-09-25 Oğuz Ersen
 
-        * Translated using Weblate (Turkish) (51c8f6a)
+        * Translated using Weblate (Turkish) (51c8f6a4)
 
 2022-09-22 Yaron Shahrabani
 
-        * Translated using Weblate (Hebrew) (42c2142)
+        * Translated using Weblate (Hebrew) (42c21423)
 
 2022-09-19 Yaron Shahrabani
 
-        * Translated using Weblate (Hebrew) (46e92eb)
+        * Translated using Weblate (Hebrew) (46e92eb8)
 
 2022-09-14 Sergii Horichenko
 
-        * Translated using Weblate (Ukrainian) (0135e76)
-        * Translated using Weblate (Russian) (47ba3af)
+        * Translated using Weblate (Ukrainian) (0135e76d)
+        * Translated using Weblate (Russian) (47ba3af4)
 
 2022-09-14 Wellington Terumi Uemura
 
-        * Translated using Weblate (Portuguese (Brazil)) (1921ab2)
+        * Translated using Weblate (Portuguese (Brazil)) (1921ab26)
 
 2022-09-15 Quentin PAGÈS
 
-        * Translated using Weblate (Occitan) (d014a4d)
+        * Translated using Weblate (Occitan) (d014a4dd)
 
 2022-09-14 Mike Gabriel
 
-        * Translated using Weblate (German) (2485efd)
+        * Translated using Weblate (German) (2485efd5)
 
 2022-09-14 Milan Korecky
 
-        * Translated using Weblate (Czech) (13afcf7)
+        * Translated using Weblate (Czech) (13afcf73)
 
 2022-09-13 Eric
 
-        * Translated using Weblate (Chinese (Simplified)) (3825f33)
+        * Translated using Weblate (Chinese (Simplified)) (3825f33d)
 
 2022-09-14 Mike Gabriel
 
         * update-pot.sh: Also catch multi-file source file references.
-          (9d9c216)
+          (9d9c2160)
         * update-po.sh: Also catch multi-file source file references.
-          (cf8f574)
+          (cf8f5749)
         * po/*.po{,t}: Translation strings update (esp. source file
-          references). (ee1af17)
+          references). (ee1af17c)
 
 2022-09-13 Robert Tari
 
-        * Merge branch 'sunweaver-pr/update-translations' (f82e673)
+        * Merge branch 'sunweaver-pr/update-translations' (f82e673a)
 
 2022-09-11 Mike Gabriel
 
-        * po/*.po: Update translation strings. (5685a91)
+        * po/*.po: Update translation strings. (5685a913)
         * po/ayatanawebmail.pot: Update, include .gschema.xml strings.
-          (1f5a3d9)
+          (1f5a3d93)
         * update.po{,t}: Standardize way (like in other Ayatana projects) of
-          updating translation files. (eb4ba01)
+          updating translation files. (eb4ba012)
         * setup.py: Ignore all files except .po files when creating .mo files
-          from .po files. (09346f6)
+          from .po files. (09346f62)
 
 2022-07-09 Robert Tari
 
-        * Do not use implicit debugging (51c7b29)
+        * Do not use implicit debugging (51c7b29c)
 
 2022-06-28 Mike Gabriel
 
-        * release 22.6.28 (4dea8e0) (tag: 22.6.28)
+        * release 22.6.28 (4dea8e0e) (tag: 22.6.28)
 
 2022-05-05 Robert Tari
 
-        * ayatanawebmail/dialog.py: Add Horde template (incomplete) (9006184)
-        * debian/control: Drop recommended libunity (87f490f)
-        * ayatanawebmail/application.py: Drop libunity and use dbus (0445a53)
+        * ayatanawebmail/dialog.py: Add Horde template (incomplete)
+          (90061846)
+        * debian/control: Drop recommended libunity (87f490ff)
+        * ayatanawebmail/application.py: Drop libunity and use dbus
+          (0445a53e)
 
 2022-04-23 Sergii Horichenko
 
-        * Translated using Weblate (Ukrainian) (2305d16)
-        * Translated using Weblate (Ukrainian) (64593f9)
-        * Translated using Weblate (Ukrainian) (8bdb10b)
+        * Translated using Weblate (Ukrainian) (2305d168)
+        * Translated using Weblate (Ukrainian) (64593f98)
+        * Translated using Weblate (Ukrainian) (8bdb10bc)
 
 2022-04-04 Robert Tari
 
-        * Merge branch 'IngoMeyer441-fix/idler-stop' (7c0a7db)
+        * Merge branch 'IngoMeyer441-fix/idler-stop' (7c0a7dbe)
 
 2022-04-04 Ingo Meyer
 
-        * Do not fail in the idler stop method on connection drops (7458995)
+        * Do not fail in the idler stop method on connection drops (7458995e)
 
 2022-04-01 Robert Tari
 
         * ayatanawebmail/dialog.py: Drop special warning case for Google
-          (30a122b)
+          (30a122bd)
 
 2022-03-15 이정희
 
-        * Translated using Weblate (Korean) (e7af6fe)
+        * Translated using Weblate (Korean) (e7af6fec)
 
 2022-03-02 Robert Tari
 
-        * Merge branch 'IngoMeyer441-fix/blocked-idler' (4e8949f)
+        * Merge branch 'IngoMeyer441-fix/blocked-idler' (4e8949fd)
 
 2022-03-01 Ingo Meyer
 
-        * Fix blocked idler on calling the `stop` method (aeb27d7)
+        * Fix blocked idler on calling the `stop` method (aeb27d70)
 
 2022-02-27 이정희
 
-        * Translated using Weblate (Korean) (f19ae55)
+        * Translated using Weblate (Korean) (f19ae550)
 
 2022-02-27 Yaron Shahrabani
 
-        * Translated using Weblate (Hebrew) (97b9751)
+        * Translated using Weblate (Hebrew) (97b97513)
 
 2022-02-27 Robert Tari
 
-        * ayatanawebmail/dialog.py: Add GMX mail to server list (0dbadb6)
-        * Hardcode server list (79081b2)
-        * ayatanawebmail/dialog.py: Fix current authors (7ac869d)
+        * ayatanawebmail/dialog.py: Add GMX mail to server list (0dbadb6a)
+        * Hardcode server list (79081b2d)
+        * ayatanawebmail/dialog.py: Fix current authors (7ac869d2)
 
 2022-02-26 Mike Gabriel
 
-        * release 22.2.26 (3232a97) (tag: 22.2.26)
+        * release 22.2.26 (3232a972) (tag: 22.2.26)
 
 2022-02-26 Robert Tari
 
-        * ayatanawebmail/application.py: Fix typo (36c9a6f)
+        * ayatanawebmail/application.py: Fix typo (36c9a6fa)
         * ayatanawebmail/application.py: Fetch X-GM-THRID for GMail accounts
-          only (62a1908)
+          only (62a1908b)
 
 2022-01-24 Eric
 
-        * Translated using Weblate (Chinese (Simplified)) (f02ee93)
+        * Translated using Weblate (Chinese (Simplified)) (f02ee930)
 
 2022-01-05 Robert Tari
 
         * ayatanawebmail/imaplib2.py: Display debug output in debug mode only
-          (822fec4)
+          (822fec45)
 
 2022-01-03 Robert Tari
 
         * ayatanawebmail/application.py: Do not check idler state when
-          reconnecting in callback (79767c9)
+          reconnecting in callback (79767c93)
 
 2022-01-02 ssantos
 
-        * Translated using Weblate (Portuguese) (420d356)
+        * Translated using Weblate (Portuguese) (420d3567)
 
 2021-12-19 Robert Tari
 
-        * Turn on automagic debug mode for developer instance (138a6b2)
+        * Turn on automagic debug mode for developer instance (138a6b27)
         * Do not run helper applications unless ayatana-webmail is running
-          (2be507e)
+          (2be507e9)
 
 2021-11-23 phlostically
 
-        * Translated using Weblate (Esperanto) (552c611)
+        * Translated using Weblate (Esperanto) (552c6119)
 
 2021-11-21 phlostically
 
-        * Translated using Weblate (Esperanto) (df1b59f)
+        * Translated using Weblate (Esperanto) (df1b59fa)
 
 2021-11-20 phlostically
 
-        * Translated using Weblate (Esperanto) (aa8eaae)
+        * Translated using Weblate (Esperanto) (aa8eaaef)
 
 2021-11-17 Yaron Shahrabani
 
-        * Translated using Weblate (Hebrew) (6d5095f)
+        * Translated using Weblate (Hebrew) (6d5095fd)
 
 2021-11-18 phlostically
 
-        * Translated using Weblate (Esperanto) (a62422c)
+        * Translated using Weblate (Esperanto) (a62422c0)
 
 2021-11-16 Phil Clifford
 
-        * Translated using Weblate (Gaelic) (8125cc0)
+        * Translated using Weblate (Gaelic) (8125cc0c)
 
 2021-11-17 Mike Gabriel
 
-        * release 21.11.17 (d379724) (tag: 21.11.17)
+        * release 21.11.17 (d379724b) (tag: 21.11.17)
 
 2021-11-10 mamuiz
 
-        * Translated using Weblate (Indonesian) (b3e1e02)
+        * Translated using Weblate (Indonesian) (b3e1e02d)
 
 2021-09-23 Wellington Terumi Uemura
 
-        * Translated using Weblate (Portuguese (Brazil)) (3703949)
+        * Translated using Weblate (Portuguese (Brazil)) (37039494)
 
 2021-08-28 Weblate
 
-        * Added translation using Weblate (Kurdish (Southern)) (94ee891)
-        * Added translation using Weblate (Kurdish (Northern)) (bd096b2)
+        * Added translation using Weblate (Kurdish (Southern)) (94ee8915)
+        * Added translation using Weblate (Kurdish (Northern)) (bd096b26)
 
 2021-08-28 Mike Gabriel
 
-        * Merge branch 'pr/settings-process-count-hack' (75ea5e3)
+        * Merge branch 'pr/settings-process-count-hack' (75ea5e37)
 
 2021-08-15 Robert Tari
 
-        * Settings process count hack (584adf1)
+        * Settings process count hack (584adf15)
 
 2021-08-07 Gediminas Murauskas
 
-        * Translated using Weblate (Lithuanian) (17de939)
+        * Translated using Weblate (Lithuanian) (17de9395)
 
 2021-07-15 Yaron Shahrabani
 
-        * Translated using Weblate (Hebrew) (c1c6a28)
+        * Translated using Weblate (Hebrew) (c1c6a287)
 
 2021-05-22 Yaron Shahrabani
 
-        * Translated using Weblate (Hebrew) (f3f1cf8)
+        * Translated using Weblate (Hebrew) (f3f1cf8a)
 
 2021-05-01 Tomáš Marný
 
-        * Translated using Weblate (Czech) (23152d8)
+        * Translated using Weblate (Czech) (23152d89)
 
 2021-03-29 Weblate
 
         * Added translation using Weblate (Chinese (Simplified)
-          (zh_LATN@pinyin)) (1b82198)
+          (zh_LATN@pinyin)) (1b821981)
 
 2021-03-18 Reza Almanda
 
-        * Translated using Weblate (Indonesian) (cdc9537)
+        * Translated using Weblate (Indonesian) (cdc9537d)
 
 2021-02-22 J. Lavoie
 
-        * Translated using Weblate (Italian) (625022c)
-        * Translated using Weblate (German) (1439175)
+        * Translated using Weblate (Italian) (625022ce)
+        * Translated using Weblate (German) (14391757)
 
 2021-02-19 J. Lavoie
 
-        * Translated using Weblate (Italian) (76d10f4)
-        * Translated using Weblate (French) (f9843ce)
+        * Translated using Weblate (Italian) (76d10f4b)
+        * Translated using Weblate (French) (f9843ced)
 
 2021-02-07 Ács Zoltán
 
-        * Translated using Weblate (Hungarian) (6e78bee)
+        * Translated using Weblate (Hungarian) (6e78beee)
 
 2021-02-06 Mike Gabriel
 
-        * release 21.2.6 (e03e569) (tag: 21.2.6)
+        * release 21.2.6 (e03e5691) (tag: 21.2.6)
         * Merge branch 'pr/do-not-overwrite-message-indicator-icons'
-          (1a369a6)
+          (1a369a6c)
 
 2021-02-06 Robert Tari
 
         * Use app's own icons in (Ayatana)AppIndicator fallback mode
-          (b7a8dac)
+          (b7a8dac0)
         * Ship app's own status icons instead those of the Message Indicator
-          (b759bd8)
+          (b759bd8a)
 
 2021-02-05 Robert Tari
 
-        * Drop debian/postinstall (a45cc90)
+        * Drop debian/postinstall (a45cc907)
 
 2021-02-04 Michalis
 
-        * Translated using Weblate (Greek) (19b18f8)
+        * Translated using Weblate (Greek) (19b18f85)
 
 2021-01-26 Kristjan Räts
 
-        * Translated using Weblate (Estonian) (aa13ad2)
+        * Translated using Weblate (Estonian) (aa13ad27)
 
 2021-01-26 Robert Tari
 
-        * Merge branch 'sunweaver-pr/add-man-pages' (68996ae)
+        * Merge branch 'sunweaver-pr/add-man-pages' (68996ae5)
 
 2021-01-26 Mike Gabriel
 
         * man/*: Add man pages for all the command line tools we ship.
-          (064032e)
-        * Merge branch 'pr/drop-faenza' (203608f)
+          (064032ea)
+        * Merge branch 'pr/drop-faenza' (203608fd)
 
 2021-01-26 Robert Tari
 
-        * Drop the bundled Faenza icon (02c5007)
+        * Drop the bundled Faenza icon (02c5007d)
         * Merge branch 'sunweaver-pr/fix-ayatanaappindicator-loading'
-          (5e834cf)
+          (5e834cf8)
 
 2021-01-26 Mike Gabriel
 
         * ayatanawebmail/application.py: If no Ayatana Indicator Application
           is running, still attempt loading the AyatanaAppIndicator
           GIO module before falling back to the (dead and rotten)
-          AppIndicator GIO module. (422482e)
+          AppIndicator GIO module. (422482e2)
 
 2021-01-25 Mike Gabriel
 
-        * release 21.1.25 (9ccedfd) (tag: 21.1.25)
-        * debian/control: Add myself to Uploaders: field. (c0d3aa7)
+        * release 21.1.25 (9ccedfdc) (tag: 21.1.25)
+        * debian/control: Add myself to Uploaders: field. (c0d3aa77)
 
 2021-01-17 Kristjan Räts
 
-        * Translated using Weblate (Estonian) (1031b6d)
+        * Translated using Weblate (Estonian) (1031b6df)
 
 2021-01-15 Mike Gabriel
 
-        * Merge branch 'pr/fix-message-text' (3fdbc35)
+        * Merge branch 'pr/fix-message-text' (3fdbc35e)
 
 2021-01-03 Robert Tari
 
-        * Fix grammar bug (781e904)
+        * Fix grammar bug (781e9041)
 
 2020-12-30 J. Lavoie
 
-        * Translated using Weblate (French (Canada)) (70a00cd)
+        * Translated using Weblate (French (Canada)) (70a00cd4)
 
 2020-12-29 Wellington Terumi Uemura
 
-        * Translated using Weblate (Portuguese (Brazil)) (a32e9d5)
+        * Translated using Weblate (Portuguese (Brazil)) (a32e9d59)
 
 2020-12-30 J. Lavoie
 
-        * Translated using Weblate (Italian) (06ffbdf)
-        * Translated using Weblate (French) (0997d16)
-        * Translated using Weblate (English (Canada)) (c10efd3)
+        * Translated using Weblate (Italian) (06ffbdf8)
+        * Translated using Weblate (French) (0997d166)
+        * Translated using Weblate (English (Canada)) (c10efd35)
 
 2020-12-23 Anders Jonsson
 
-        * Translated using Weblate (Swedish) (1e842c8)
+        * Translated using Weblate (Swedish) (1e842c8f)
 
 2020-12-01 Oğuz Ersen
 
-        * Translated using Weblate (Turkish) (a727083)
+        * Translated using Weblate (Turkish) (a7270831)
 
 2020-11-25 Moo
 
-        * Translated using Weblate (Lithuanian) (2ad4843)
+        * Translated using Weblate (Lithuanian) (2ad4843f)
 
 2020-11-26 Ács Zoltán
 
-        * Translated using Weblate (Hungarian) (02911a0)
+        * Translated using Weblate (Hungarian) (02911a06)
 
 2020-11-17 Quentin PAGÈS
 
-        * Translated using Weblate (Occitan) (6b47e0a)
+        * Translated using Weblate (Occitan) (6b47e0a3)
 
 2020-11-18 Moo
 
-        * Translated using Weblate (Lithuanian) (a891a99)
+        * Translated using Weblate (Lithuanian) (a891a999)
 
 2020-11-12 Allan Nordhøy
 
-        * Translated using Weblate (Norwegian Bokmål) (bfee100)
+        * Translated using Weblate (Norwegian Bokmål) (bfee1005)
 
 2020-11-12 Mike Gabriel
 
-        * Translated using Weblate (German) (1d4aa00)
+        * Translated using Weblate (German) (1d4aa009)
 
 2020-11-10 Allan Nordhøy
 
-        * Translated using Weblate (Norwegian Bokmål) (ec1732c)
+        * Translated using Weblate (Norwegian Bokmål) (ec1732cd)
 
 2020-11-07 Quentin PAGÈS
 
-        * Translated using Weblate (Occitan) (036dbec)
+        * Translated using Weblate (Occitan) (036dbecf)
 
 2020-10-31 Weblate
 
-        * Added translation using Weblate (Italian) (6a89179)
-        * Added translation using Weblate (Tamil (Sri Lanka)) (a26be3a)
-        * Added translation using Weblate (Dhivehi) (5bb0f47)
-        * Added translation using Weblate (Venetian) (131151f)
-        * Added translation using Weblate (Kashubian) (d87166a)
-        * Added translation using Weblate (Macedonian) (bf4da27)
-        * Added translation using Weblate (Friulian) (76c2043)
-        * Added translation using Weblate (Tatar) (8f37bb0)
+        * Added translation using Weblate (Italian) (6a891795)
+        * Added translation using Weblate (Tamil (Sri Lanka)) (a26be3a6)
+        * Added translation using Weblate (Dhivehi) (5bb0f47b)
+        * Added translation using Weblate (Venetian) (131151f3)
+        * Added translation using Weblate (Kashubian) (d87166a2)
+        * Added translation using Weblate (Macedonian) (bf4da272)
+        * Added translation using Weblate (Friulian) (76c20436)
+        * Added translation using Weblate (Tatar) (8f37bb04)
 
 2020-10-29 Milan Korecky
 
-        * Translated using Weblate (Czech) (de7cb89)
+        * Translated using Weblate (Czech) (de7cb89d)
 
 2020-10-28 Joan CiberSheep
 
-        * Translated using Weblate (Catalan) (c49c079)
+        * Translated using Weblate (Catalan) (c49c0790)
 
 2020-10-27 Adrià Martín
 
-        * Translated using Weblate (Sardinian) (b342552)
+        * Translated using Weblate (Sardinian) (b342552a)
 
 2020-10-26 Anders Jonsson
 
-        * Translated using Weblate (Swedish) (90ba059)
+        * Translated using Weblate (Swedish) (90ba059d)
 
 2020-10-26 Michele
 
-        * Translated using Weblate (Italian) (a4dfee6)
+        * Translated using Weblate (Italian) (a4dfee60)
 
 2020-10-26 Joan CiberSheep
 
-        * Translated using Weblate (Catalan) (a2e93c2)
+        * Translated using Weblate (Catalan) (a2e93c26)
 
 2020-10-26 Luna Jernberg
 
-        * Translated using Weblate (Swedish) (d809542)
+        * Translated using Weblate (Swedish) (d8095428)
 
 2020-10-26 Michele
 
-        * Translated using Weblate (Italian) (41a0987)
+        * Translated using Weblate (Italian) (41a0987b)
 
 2020-10-26 Weblate
 
-        * Added translation using Weblate (Norwegian Bokmål) (1c3c50c)
-        * Added translation using Weblate (German (Walser)) (2ca906b)
-        * Added translation using Weblate (Shan) (20b864d)
-        * Added translation using Weblate (Meadow Mari) (c5d9d7a)
-        * Added translation using Weblate (Crimean Tatar) (61ce79d)
-        * Added translation using Weblate (Bemba) (aead277)
-        * Added translation using Weblate (Manx) (12f0211)
-        * Added translation using Weblate (Chuvash) (67347fe)
-        * Added translation using Weblate (Corsican) (54d4aa8)
-        * Added translation using Weblate (Chechen) (71c0705)
-        * Added translation using Weblate (Afar) (5e7f19e)
-        * Added translation using Weblate (Silesian) (84a1573)
-        * Added translation using Weblate (Sanskrit) (a6f5701)
-        * Added translation using Weblate (Latin) (9e29c17)
-        * Added translation using Weblate (Nyanja) (f92c618)
-        * Added translation using Weblate (French (Canada)) (7eae797)
-        * Added translation using Weblate (Chinese (Traditional)) (bd74a9d)
-        * Added translation using Weblate (Franco-Provençal) (c8c2548)
-        * Added translation using Weblate (Ossetian) (b4c8943)
-        * Added translation using Weblate (Sindhi) (4691317)
-        * Added translation using Weblate (Northern Sami) (08a3b58)
-        * Added translation using Weblate (Burmese) (8b77da4)
-        * Added translation using Weblate (Greenlandic) (81d3724)
-        * Added translation using Weblate (Assamese) (73e71a1)
-        * Added translation using Weblate (Sardinian) (b78fca8)
-        * Added translation using Weblate (Wolof) (b8fd731)
-        * Added translation using Weblate (Haitian) (6a79272)
-        * Added translation using Weblate (Central Kurdish) (aceb408)
-        * Added translation using Weblate (Uzbek) (8615699)
-        * Added translation using Weblate (Urdu) (d448724)
-        * Added translation using Weblate (Kyrgyz) (1a13420)
-        * Added translation using Weblate (Kurdish) (9c38c20)
-        * Added translation using Weblate (Cornish) (2a3d94e)
-        * Added translation using Weblate (Sinhala) (50237da)
-        * Added translation using Weblate (Central Khmer) (462cba8)
-        * Added translation using Weblate (Kannada) (95bf7f2)
-        * Added translation using Weblate (Korean) (3c68730)
-        * Added translation using Weblate (Albanian) (7f01981)
-        * Added translation using Weblate (Georgian) (ee05bdb)
-        * Added translation using Weblate (Faroese) (cb3413f)
-        * Added translation using Weblate (Persian) (767c2b0)
-        * Added translation using Weblate (Swedish) (181dd90)
-        * Added translation using Weblate (Frisian) (83d33b1)
-        * Added translation using Weblate (Nepali) (2d4882c)
-        * Added translation using Weblate (Indonesian) (b0c2d9c)
-        * Added translation using Weblate (Azerbaijani) (4590fca)
-        * Added translation using Weblate (Interlingua) (9e31a60)
-        * Added translation using Weblate (Arabic) (5b0b763)
-        * Added translation using Weblate (Aragonese) (663564c)
-        * Added translation using Weblate (Amharic) (e7e74ae)
-        * Added translation using Weblate (Swahili) (57f8463)
-        * Added translation using Weblate (Afrikaans) (4ce2835)
-        * Added translation using Weblate (Marathi) (8cd5120)
-        * Added translation using Weblate (Maori) (206fa4f)
-        * Added translation using Weblate (Malayalam) (5f40ec1)
-        * Added translation using Weblate (Malagasy) (ab5887e)
-        * Added translation using Weblate (Hebrew) (95b0c22)
-        * Added translation using Weblate (Hindi) (9b0206b)
-        * Added translation using Weblate (Armenian) (4f2ce4d)
-        * Added translation using Weblate (Icelandic) (ee1f272)
-        * Added translation using Weblate (Vietnamese) (84e0eb3)
-        * Added translation using Weblate (Punjabi) (ed75a7c)
-        * Added translation using Weblate (Pashto) (13ccd05)
-        * Added translation using Weblate (Bosnian) (ea254c1)
-        * Added translation using Weblate (Breton) (24bcb7a)
-        * Added translation using Weblate (Tibetan) (78d3745)
-        * Added translation using Weblate (Asturian) (a364399)
-        * Added translation using Weblate (Belarusian) (22838b3)
-        * Added translation using Weblate (Romanian) (95dd0a0)
-        * Added translation using Weblate (Basque) (8ea26a1)
-        * Added translation using Weblate (Esperanto) (88e3ffd)
-        * Added translation using Weblate (Danish) (1b0893b)
+        * Added translation using Weblate (Norwegian Bokmål) (1c3c50cd)
+        * Added translation using Weblate (German (Walser)) (2ca906b3)
+        * Added translation using Weblate (Shan) (20b864d9)
+        * Added translation using Weblate (Meadow Mari) (c5d9d7aa)
+        * Added translation using Weblate (Crimean Tatar) (61ce79d6)
+        * Added translation using Weblate (Bemba) (aead2779)
+        * Added translation using Weblate (Manx) (12f02111)
+        * Added translation using Weblate (Chuvash) (67347fea)
+        * Added translation using Weblate (Corsican) (54d4aa8e)
+        * Added translation using Weblate (Chechen) (71c0705b)
+        * Added translation using Weblate (Afar) (5e7f19ed)
+        * Added translation using Weblate (Silesian) (84a15738)
+        * Added translation using Weblate (Sanskrit) (a6f5701d)
+        * Added translation using Weblate (Latin) (9e29c173)
+        * Added translation using Weblate (Nyanja) (f92c6180)
+        * Added translation using Weblate (French (Canada)) (7eae7975)
+        * Added translation using Weblate (Chinese (Traditional)) (bd74a9d7)
+        * Added translation using Weblate (Franco-Provençal) (c8c25488)
+        * Added translation using Weblate (Ossetian) (b4c8943c)
+        * Added translation using Weblate (Sindhi) (46913177)
+        * Added translation using Weblate (Northern Sami) (08a3b588)
+        * Added translation using Weblate (Burmese) (8b77da40)
+        * Added translation using Weblate (Greenlandic) (81d3724d)
+        * Added translation using Weblate (Assamese) (73e71a1c)
+        * Added translation using Weblate (Sardinian) (b78fca88)
+        * Added translation using Weblate (Wolof) (b8fd7312)
+        * Added translation using Weblate (Haitian) (6a79272e)
+        * Added translation using Weblate (Central Kurdish) (aceb408c)
+        * Added translation using Weblate (Uzbek) (8615699c)
+        * Added translation using Weblate (Urdu) (d4487242)
+        * Added translation using Weblate (Kyrgyz) (1a13420a)
+        * Added translation using Weblate (Kurdish) (9c38c201)
+        * Added translation using Weblate (Cornish) (2a3d94e3)
+        * Added translation using Weblate (Sinhala) (50237da4)
+        * Added translation using Weblate (Central Khmer) (462cba87)
+        * Added translation using Weblate (Kannada) (95bf7f2b)
+        * Added translation using Weblate (Korean) (3c68730f)
+        * Added translation using Weblate (Albanian) (7f019810)
+        * Added translation using Weblate (Georgian) (ee05bdbf)
+        * Added translation using Weblate (Faroese) (cb3413fe)
+        * Added translation using Weblate (Persian) (767c2b0b)
+        * Added translation using Weblate (Swedish) (181dd90a)
+        * Added translation using Weblate (Frisian) (83d33b1d)
+        * Added translation using Weblate (Nepali) (2d4882cf)
+        * Added translation using Weblate (Indonesian) (b0c2d9c1)
+        * Added translation using Weblate (Azerbaijani) (4590fca0)
+        * Added translation using Weblate (Interlingua) (9e31a603)
+        * Added translation using Weblate (Arabic) (5b0b763f)
+        * Added translation using Weblate (Aragonese) (663564c6)
+        * Added translation using Weblate (Amharic) (e7e74ae5)
+        * Added translation using Weblate (Swahili) (57f8463b)
+        * Added translation using Weblate (Afrikaans) (4ce2835e)
+        * Added translation using Weblate (Marathi) (8cd5120d)
+        * Added translation using Weblate (Maori) (206fa4f3)
+        * Added translation using Weblate (Malayalam) (5f40ec13)
+        * Added translation using Weblate (Malagasy) (ab5887ec)
+        * Added translation using Weblate (Hebrew) (95b0c226)
+        * Added translation using Weblate (Hindi) (9b0206b7)
+        * Added translation using Weblate (Armenian) (4f2ce4de)
+        * Added translation using Weblate (Icelandic) (ee1f272c)
+        * Added translation using Weblate (Vietnamese) (84e0eb32)
+        * Added translation using Weblate (Punjabi) (ed75a7c3)
+        * Added translation using Weblate (Pashto) (13ccd057)
+        * Added translation using Weblate (Bosnian) (ea254c11)
+        * Added translation using Weblate (Breton) (24bcb7a4)
+        * Added translation using Weblate (Tibetan) (78d3745c)
+        * Added translation using Weblate (Asturian) (a3643998)
+        * Added translation using Weblate (Belarusian) (22838b3a)
+        * Added translation using Weblate (Romanian) (95dd0a06)
+        * Added translation using Weblate (Basque) (8ea26a1c)
+        * Added translation using Weblate (Esperanto) (88e3ffde)
+        * Added translation using Weblate (Danish) (1b0893b9)
         * Added translation using Weblate (Chinese (Traditional, Hong Kong))
-          (478eb47)
-        * Added translation using Weblate (Tamil) (ba0064a)
-        * Added translation using Weblate (Filipino) (7894fc1)
-        * Added translation using Weblate (Tajik) (64c4021)
-        * Added translation using Weblate (Tigrinya) (a7ee035)
-        * Added translation using Weblate (Thai) (039fe70)
-        * Added translation using Weblate (Lao) (c26c096)
-        * Added translation using Weblate (Luxembourgish) (7be4f1f)
-        * Added translation using Weblate (Irish) (27a3282)
-        * Added translation using Weblate (Gaelic) (69f2d6d)
-        * Added translation using Weblate (Valencian) (1b610af)
-        * Added translation using Weblate (Gujarati) (8a9447f)
+          (478eb479)
+        * Added translation using Weblate (Tamil) (ba0064a4)
+        * Added translation using Weblate (Filipino) (7894fc15)
+        * Added translation using Weblate (Tajik) (64c40210)
+        * Added translation using Weblate (Tigrinya) (a7ee035c)
+        * Added translation using Weblate (Thai) (039fe700)
+        * Added translation using Weblate (Lao) (c26c0967)
+        * Added translation using Weblate (Luxembourgish) (7be4f1f8)
+        * Added translation using Weblate (Irish) (27a32825)
+        * Added translation using Weblate (Gaelic) (69f2d6d2)
+        * Added translation using Weblate (Valencian) (1b610afb)
+        * Added translation using Weblate (Gujarati) (8a9447f8)
 
 2020-10-24 Ács Zoltán
 
-        * Translated using Weblate (Hungarian) (2242583)
+        * Translated using Weblate (Hungarian) (22425838)
 
 2020-10-24 William Desportes
 
-        * Translated using Weblate (French) (441c9fc)
+        * Translated using Weblate (French) (441c9fc4)
 
 2020-10-23 Quentin PAGÈS
 
-        * Translated using Weblate (Occitan) (2e12ef8)
+        * Translated using Weblate (Occitan) (2e12ef80)
 
 2020-10-22 Kei Homma
 
-        * Translated using Weblate (Japanese) (ea0ed65)
+        * Translated using Weblate (Japanese) (ea0ed65c)
 
 2020-10-10 Yota321
 
-        * Translated using Weblate (Bengali) (0f01398)
+        * Translated using Weblate (Bengali) (0f013980)
 
 2020-10-09 Quentin PAGÈS
 
-        * Translated using Weblate (Occitan) (fad9770)
+        * Translated using Weblate (Occitan) (fad97700)
 
 2020-10-10 Rob Pearson
 
-        * Translated using Weblate (English (United Kingdom)) (5b91251)
-        * Translated using Weblate (English (Australia)) (ffb7188)
+        * Translated using Weblate (English (United Kingdom)) (5b912510)
+        * Translated using Weblate (English (Australia)) (ffb71889)
 
 2020-10-10 Yota321
 
-        * Added translation using Weblate (Bengali) (c1b64a4)
+        * Added translation using Weblate (Bengali) (c1b64a46)
 
 2020-10-08 koffevar
 
-        * Translated using Weblate (Russian) (927381a)
+        * Translated using Weblate (Russian) (927381a8)
 
 2020-10-04 Moo
 
-        * Translated using Weblate (Lithuanian) (6e6239d)
+        * Translated using Weblate (Lithuanian) (6e6239d2)
 
 2020-09-29 Adolfo Jayme Barrientos
 
-        * Translated using Weblate (Catalan) (73000f0)
+        * Translated using Weblate (Catalan) (73000f0b)
 
 2020-09-28 Adolfo Jayme Barrientos
 
-        * Translated using Weblate (Spanish) (64e494c)
+        * Translated using Weblate (Spanish) (64e494c4)
 
 2020-09-25 Quentin PAGÈS
 
-        * Translated using Weblate (Occitan) (9f1a389)
+        * Translated using Weblate (Occitan) (9f1a389b)
 
 2020-09-18 Talking Panda
 
-        * Translated using Weblate (Turkish) (1249fc6)
+        * Translated using Weblate (Turkish) (1249fc62)
 
 2020-09-10 Robert Tari
 
-        * README.md: Add a readme file to the project (80dfeba)
+        * README.md: Add a readme file to the project (80dfebad)
 
 2020-09-08 Milo Ivir
 
-        * Translated using Weblate (Croatian) (b4dcb26)
+        * Translated using Weblate (Croatian) (b4dcb263)
 
 2020-09-06 Baka Gaijin
 
-        * Translated using Weblate (Japanese) (9d366e6)
+        * Translated using Weblate (Japanese) (9d366e65)
 
 2020-09-06 sai vineeth kumar tumu
 
-        * Added translation using Weblate (Telugu) (a88b797)
+        * Added translation using Weblate (Telugu) (a88b7979)
 
 2020-09-04 antuketot76
 
-        * Translated using Weblate (Malay) (d07d2d2)
+        * Translated using Weblate (Malay) (d07d2d27)
 
 2020-09-04 Rokas Kasnauskas
 
-        * Translated using Weblate (Lithuanian) (8d4864b)
+        * Translated using Weblate (Lithuanian) (8d4864ba)
 
 2020-08-23 Robert Tari
 
-        * Do not queue settings dialogs if one is already shown (1c7c5d7)
-        * Fix Debian watch file (1322890)
+        * Do not queue settings dialogs if one is already shown (1c7c5d79)
+        * Fix Debian watch file (13228909)
 
 2020-08-22 Robert Tari
 
         * Use server configuration templates + set minimum folder list height
-          (ef27a57)
+          (ef27a57e)
 
 2020-08-21 Mike Gabriel
 
-        * Translated using Weblate (German) (eb462c2)
+        * Translated using Weblate (German) (eb462c2b)
 
 2020-08-21 Robert Tari
 
-        * Fix duplicate translation strings (dc0910f)
-        * Merge and update translations (54f82d4)
+        * Fix duplicate translation strings (dc0910f5)
+        * Merge and update translations (54f82d46)
 
 2020-08-20 Robert Tari
 
-        * Bring back the translation link on the support page (efc5857)
-        * Remove all GMail references (71e54c5)
+        * Bring back the translation link on the support page (efc5857b)
+        * Remove all GMail references (71e54c50)
 
 2020-08-20 Mike Gabriel
 
-        * Translated using Weblate (German) (4cdf023)
+        * Translated using Weblate (German) (4cdf023a)
 
 2020-08-19 Robert Tari
 
-        * Allow at most max-item-count fetches per connection (5d48084)
+        * Allow at most max-item-count fetches per connection (5d48084e)
 
 2020-08-19 Mike Gabriel
 
-        * debian/source/format: Switch to formate version 1.0. (32dc97f)
+        * debian/source/format: Switch to formate version 1.0. (32dc97fb)
         * debian/control: Drop R³-field. The buildserver hosts are still on
           stretch (and the src:pkg is built on the hosts themselves,
-          not in a chroot).. (5190e90)
+          not in a chroot).. (5190e907)
 
 2020-08-18 Robert Tari
 
-        * Change crash notication message (c1b5c8d) (tag: 20.8.16)
+        * Change crash notication message (c1b5c8d3) (tag: 20.8.16)
 
 2020-08-17 Robert Tari
 
-        * Initial port from Unity Mail (7110500)
+        * Initial port from Unity Mail (71105005)
