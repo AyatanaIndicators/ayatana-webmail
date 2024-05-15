@@ -16,13 +16,13 @@
 
 GETTEXT_DOMAIN="ayatanawebmail"
 
-cp data/etc/xdg/autostart/ayatana-webmail-autostart.desktop      data/etc/xdg/autostart/ayatana-webmail-autostart.desktop.keep
-cp data/usr/share/applications/ayatana-webmail.desktop           data/usr/share/applications/ayatana-webmail.desktop.keep
+cp data/etc/xdg/autostart/ayatana-webmail-autostart.desktop.in data/etc/xdg/autostart/ayatana-webmail-autostart.desktop
+cp data/usr/share/applications/ayatana-webmail.desktop.in      data/usr/share/applications/ayatana-webmail.desktop
 
 ./setup.py build_i18n 1>/dev/null 2>/dev/null
 
-mv data/etc/xdg/autostart/ayatana-webmail-autostart.desktop.keep data/etc/xdg/autostart/ayatana-webmail-autostart.desktop
-mv data/usr/share/applications/ayatana-webmail.desktop.keep      data/usr/share/applications/ayatana-webmail.desktop
+rm data/etc/xdg/autostart/ayatana-webmail-autostart.desktop
+rm data/usr/share/applications/ayatana-webmail.desktop
 
 rm ./build -Rf
 rm ./data/usr/share/locale/ -Rf

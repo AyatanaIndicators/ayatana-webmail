@@ -18,6 +18,9 @@ set -x
 
 GETTEXT_DOMAIN="ayatanawebmail"
 
+cp data/etc/xdg/autostart/ayatana-webmail-autostart.desktop.in data/etc/xdg/autostart/ayatana-webmail-autostart.desktop
+cp data/usr/share/applications/ayatana-webmail.desktop.in      data/usr/share/applications/ayatana-webmail.desktop
+
 cp po/${GETTEXT_DOMAIN}.pot po/${GETTEXT_DOMAIN}.pot~
 
 cd po/
@@ -37,3 +40,6 @@ done
 cd - 1>/dev/null
 
 mv po/${GETTEXT_DOMAIN}.pot~ po/${GETTEXT_DOMAIN}.pot
+
+rm data/etc/xdg/autostart/ayatana-webmail-autostart.desktop
+rm data/usr/share/applications/ayatana-webmail.desktop
