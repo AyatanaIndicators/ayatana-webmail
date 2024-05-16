@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-15 08:48+0200\n"
-"PO-Revision-Date: 2023-10-13 04:14+0000\n"
+"PO-Revision-Date: 2024-05-17 17:01+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/ayatana-indicators/"
 "ayatana-webmail/nl/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.1-dev\n"
+"X-Generator: Weblate 5.6-dev\n"
 "X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
 
 #: ayatanawebmail/accounts.py:18
@@ -119,7 +119,7 @@ msgid ""
 "in your browser - otherwise, it will be run as a command"
 msgstr ""
 "Als de tekenreeks met http:// of https:// begint, dan wordt het programma "
-"geopend in je webbrowser - als dat niet zo is, wordt de opdracht uitgevoerd"
+"geopend in je webbrowser. Als dat niet zo is, wordt de opdracht uitgevoerd."
 
 #: ayatanawebmail/dialog.py:91 ayatanawebmail/dialog.py:105
 msgid "(None)"
@@ -370,16 +370,15 @@ msgstr "Ayatana Webmail"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:5
 msgid "Webmail notifications and actions for any desktop"
-msgstr ""
+msgstr "Webmailmeldingen en -acties voor iedere werkomgeving"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:15
-#, fuzzy
 msgid "Mark all as read"
-msgstr "Markeren als gelezen"
+msgstr "Alles markeren als gelezen"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:20
 msgid "Compose Mail"
-msgstr "Stel een e-mail op"
+msgstr "E-mail opstellen"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:25
 msgid "Sent"
@@ -387,7 +386,7 @@ msgstr "Verzonden"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:30
 msgid "Inbox"
-msgstr "Postvak IN"
+msgstr "Postvak in"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
 msgid "Ayatana Webmail (service)"
@@ -395,7 +394,7 @@ msgstr "Ayatana Webmail (service)"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
 msgid "Display notifications about new mail"
-msgstr "Meldingen geven voor nieuwe e-mails"
+msgstr "Meldingen tonen bij nieuwe e-mails"
 
 #~ msgid "Choose an account"
 #~ msgstr "Een account kiezen"
