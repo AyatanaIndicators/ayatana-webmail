@@ -1,3 +1,14 @@
+Overview of changes in ayatana-webmail 24.5.17
+
+  - .desktop files: Stop in-place adding translations to .desktop
+    files. Use non-changed .desktop.in files as input templates
+    instead.
+  - update-po{,t}.sh: Adjust to .desktop -> .desktop.in renamings.
+  - po/POTFILES.in: Add .desktop(.in) files.
+  - po/LINGUAS: Use nb_NO.po, not nb.po.
+  - po/ayatanawebmail.pot: Update translation template file.
+  - po: Update all translation languages.
+
 Overview of changes in ayatana-webmail 24.5.15
 
   - ayatanawebmail/imaplib2.py: Fix Python 3.12 bug and drop unused

@@ -1,6 +1,26 @@
+2024-05-17 Mike Gabriel
+
+        * release 24.5.17 (HEAD -> main, tag: 24.5.17)
+
+2024-05-15 Robert Tari
+
+        * Merge branch 'sunweaver-pr/desktop-in-plus-translation-fixes'
+          (26278e2a)
+
 2024-05-15 Mike Gabriel
 
-        * release 24.5.15 (HEAD -> main, tag: 24.5.15)
+        * d/rules: Add fixes/improvements from official DEB package.
+          (315cf2cd)
+        * po: Update all translation languages. (8c632a02)
+        * po/ayatanawebmail.pot: Update translation template file. (4831fa4a)
+        * po/LINGUAS: Use nb_NO.po, not nb.po. (d09c2f12)
+        * po/POTFILES.in: Add .desktop(.in) files. (5c05cb3b)
+        * update-po{,t}.sh: Adjust to .desktop -> .desktop.in renamings.
+          (5c8a24d8)
+        * .desktop files: Stop in-place adding translations to .desktop
+          files. Use non-changed .desktop.in files as input
+          templates instead. (95b868ad)
+        * release 24.5.15 (8c9af110) (tag: 24.5.15)
 
 2024-05-13 Robert Tari
 
