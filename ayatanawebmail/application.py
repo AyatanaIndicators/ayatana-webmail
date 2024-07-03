@@ -156,15 +156,8 @@ class MessagingMenu(object):
 
         else:
 
-            try:
-
-                gi.require_version('AyatanaAppIndicator3', '0.1')
-                self.oAppIndicator = importlib.import_module('gi.repository.AyatanaAppIndicator3')
-
-            except Exception as oException:
-
-                gi.require_version('AppIndicator3', '0.1')
-                self.oAppIndicator = importlib.import_module('gi.repository.AppIndicator3')
+            gi.require_version('AyatanaAppIndicator3', '0.1')
+            self.oAppIndicator = importlib.import_module('gi.repository.AyatanaAppIndicator3')
 
         self.oIndicator = self.oAppIndicator.Indicator.new(APPNAME, 'ayatanawebmail-messages', self.oAppIndicator.IndicatorCategory.APPLICATION_STATUS)
         self.oIndicator.set_attention_icon('ayatanawebmail-messages-new')
