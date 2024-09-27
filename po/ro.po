@@ -8,68 +8,70 @@ msgstr ""
 "Project-Id-Version: ayatana-webmail 24.5.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-15 08:48+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-09-29 00:16+0000\n"
+"Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
+"Language-Team: Romanian <https://hosted.weblate.org/projects/"
+"ayatana-indicators/ayatana-webmail/ro/>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
+"X-Generator: Weblate 5.8-dev\n"
 
 #: ayatanawebmail/accounts.py:18
 msgid "Select account"
-msgstr ""
+msgstr "Selectează contul"
 
 #: ayatanawebmail/accounts.py:29
 msgid "Which account's command/web page would you like to open?"
-msgstr ""
+msgstr "Ce comandă/ pagină web a contului doriți să deschideți?"
 
 #: ayatanawebmail/actions.py:15
 msgid "Message actions"
-msgstr ""
+msgstr "Acțiuni legate de mesaje"
 
 #: ayatanawebmail/actions.py:15
 msgid "Delete"
-msgstr ""
+msgstr "Șterge"
 
 #: ayatanawebmail/actions.py:15
 msgid "Mark as read"
-msgstr ""
+msgstr "Marchează ca citit"
 
 #: ayatanawebmail/actions.py:15
 msgid "Open message/Run command"
-msgstr ""
+msgstr "Deschide mesaj/Execută comandă"
 
 #: ayatanawebmail/actions.py:24
 msgid "Sender"
-msgstr ""
+msgstr "Expeditor"
 
 #: ayatanawebmail/actions.py:26
 msgid "Subject"
-msgstr ""
+msgstr "Subiect"
 
 #: ayatanawebmail/application.py:178
 msgid "Open webmail home page"
-msgstr ""
+msgstr "Deschide pagina principală de Webmail"
 
 #: ayatanawebmail/application.py:185
 msgid "Clear"
-msgstr ""
+msgstr "Șterge"
 
 #: ayatanawebmail/application.py:192
 #: data/usr/share/applications/ayatana-webmail.desktop:35
 msgid "Settings"
-msgstr ""
+msgstr "Configurări"
 
 #: ayatanawebmail/application.py:955
 msgid "No subject"
-msgstr ""
+msgstr "Fără subiect"
 
 #: ayatanawebmail/application.py:1115
 msgid "Connection error"
-msgstr ""
+msgstr "Eroare de conexiune"
 
 #: ayatanawebmail/application.py:1116
 #, python-brace-format
@@ -77,310 +79,319 @@ msgid ""
 "Unable to connect to account \"{accountName}\", the application will now "
 "exit."
 msgstr ""
+"Nu a fost posibilă conectarea la contul „{accountName}”, aplicația va ieși "
+"acum."
 
 #: ayatanawebmail/application.py:1141
 #, python-format
 msgid "You have %d unread message"
 msgid_plural "You have %d unread messages"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Aveți %d mesaj necitit"
+msgstr[1] "Aveți %d mesaje necitite"
+msgstr[2] "Aveți %d de mesaje necitite"
 
 #: ayatanawebmail/application.py:1168
 #, python-format
 msgid "from %(t0)s, %(t1)s and others"
-msgstr ""
+msgstr "de la %(t0)s, %(t1)s și alții"
 
 #: ayatanawebmail/application.py:1170
 #, python-format
 msgid "from %(t0)s and %(t1)s"
-msgstr ""
+msgstr "de la %(t0)s și %(t1)s"
 
 #: ayatanawebmail/application.py:1172
 #, python-format
 msgid "from %s"
-msgstr ""
+msgstr "de la %s"
 
 #: ayatanawebmail/application.py:1185
 #, python-format
 msgid "New mail from %s"
-msgstr ""
+msgstr "Mesaj nou de la %s"
 
 #: ayatanawebmail/dialog.py:17
 msgid "Custom"
-msgstr ""
+msgstr "Personalizat"
 
 #: ayatanawebmail/dialog.py:61
 msgid ""
 "If this string starts with http:// or https://, the application will open it "
 "in your browser - otherwise, it will be run as a command"
 msgstr ""
+"Dacă acest șir începe cu http:// sau https://, aplicația îl va deschide în "
+"navigatorul web - în caz contrar, acesta va fi executat ca o comandă"
 
 #: ayatanawebmail/dialog.py:91 ayatanawebmail/dialog.py:105
 msgid "(None)"
-msgstr ""
+msgstr "(Niciunul)"
 
 #: ayatanawebmail/dialog.py:133
 msgid "Ayatana Webmail Preferences"
-msgstr ""
+msgstr "Preferințe Webmail Ayatana"
 
 #: ayatanawebmail/dialog.py:141
 msgid "Accounts"
-msgstr ""
+msgstr "Conturi"
 
 #: ayatanawebmail/dialog.py:142
 msgid "Options"
-msgstr ""
+msgstr "Opțiuni"
 
 #: ayatanawebmail/dialog.py:143
 msgid "Support"
-msgstr ""
+msgstr "Asistență"
 
 #: ayatanawebmail/dialog.py:144
 msgid "About"
-msgstr ""
+msgstr "Despre"
 
 #: ayatanawebmail/dialog.py:203
 msgid "Failed to connect to mail account. The returned error was:"
 msgstr ""
+"A eșuat conectarea la contul de poștă electronică. Eroarea returnată a fost:"
 
 #: ayatanawebmail/dialog.py:204
 msgid "Connection failure"
-msgstr ""
+msgstr "Eroare de conectare"
 
 #: ayatanawebmail/dialog.py:232
 msgid "Add"
-msgstr ""
+msgstr "Adaugă"
 
 #: ayatanawebmail/dialog.py:234
 msgid "Remove"
-msgstr ""
+msgstr "Elimină"
 
 #: ayatanawebmail/dialog.py:276
 msgid ""
 "The application will append this string to \"Inbox\" to access a specific "
 "message - you can use the $MSG_THREAD and $MSG_UID placeholders"
 msgstr ""
+"Aplicația va adăuga acest șir la „Inbox” pentru a accesa un mesaj specific - "
+"puteți utiliza marcajele $MSG_THREAD și $MSG_UID"
 
 #: ayatanawebmail/dialog.py:278
 msgid "Account:"
-msgstr ""
+msgstr "Cont:"
 
 #: ayatanawebmail/dialog.py:280
 msgid "Server:"
-msgstr ""
+msgstr "Server:"
 
 #: ayatanawebmail/dialog.py:282
 msgid "Host:"
-msgstr ""
+msgstr "Gazda:"
 
 #: ayatanawebmail/dialog.py:284
 msgid "Port:"
-msgstr ""
+msgstr "Port:"
 
 #: ayatanawebmail/dialog.py:286
 msgid "Username:"
-msgstr ""
+msgstr "Numele utilizatorului:"
 
 #: ayatanawebmail/dialog.py:288
 msgid "Password:"
-msgstr ""
+msgstr "Parola:"
 
 #: ayatanawebmail/dialog.py:290
 msgid "Folders:"
-msgstr ""
+msgstr "Dosare:"
 
 #: ayatanawebmail/dialog.py:292
 msgid "Home:"
-msgstr ""
+msgstr "Pagina principală:"
 
 #: ayatanawebmail/dialog.py:294
 msgid "Compose:"
-msgstr ""
+msgstr "Compunere:"
 
 #: ayatanawebmail/dialog.py:296
 msgid "Sent:"
-msgstr ""
+msgstr "Trimise:"
 
 #: ayatanawebmail/dialog.py:298
 msgid "Inbox:"
-msgstr ""
+msgstr "Primite:"
 
 #: ayatanawebmail/dialog.py:300
 msgid "Message:"
-msgstr ""
+msgstr "Mesaj:"
 
 #: ayatanawebmail/dialog.py:336
 msgid "Mark message as read"
-msgstr ""
+msgstr "Marchează mesajul ca citit"
 
 #: ayatanawebmail/dialog.py:337
 msgid "Open message in browser/Execute command"
-msgstr ""
+msgstr "Deschideți mesajul în navigator/Executați comanda"
 
 #: ayatanawebmail/dialog.py:338
 msgid "Ask me what to do"
-msgstr ""
+msgstr "Întreabă-mă ce să fac"
 
 #: ayatanawebmail/dialog.py:348
 msgid "Enable notifications:"
-msgstr ""
+msgstr "Activează notificările:"
 
 #: ayatanawebmail/dialog.py:350
 msgid "Play sound when a message is received:"
-msgstr ""
+msgstr "Redă un sunet la primirea unui mesaj:"
 
 #: ayatanawebmail/dialog.py:352
 msgid "Merge messages from the same conversation:"
-msgstr ""
+msgstr "Fuzionați mesajele din aceeași conversație:"
 
 #: ayatanawebmail/dialog.py:354
 msgid "Hide count when zero:"
-msgstr ""
+msgstr "Ascunde numărătoarea când este zero:"
 
 #: ayatanawebmail/dialog.py:356
 msgid "When a message is activated:"
-msgstr ""
+msgstr "Când se activează un mesaj:"
 
 #: ayatanawebmail/dialog.py:359
 msgid "Execute this command when a message is received:"
-msgstr ""
+msgstr "Execută această comandă atunci când este primit un mesaj:"
 
 #: ayatanawebmail/dialog.py:361
 msgid ""
 "If a command is set, it will be called with the following parameters: "
 "sender, subject, IMAP host"
 msgstr ""
+"Dacă este definită o comandă, aceasta va fi apelată cu următorii parametri: "
+"expeditor, subiect, gazdă IMAP"
 
 #: ayatanawebmail/dialog.py:367
 msgid "Custom sound to play:"
-msgstr ""
+msgstr "Sunet personalizat pentru redare:"
 
 #: ayatanawebmail/dialog.py:383
 msgid "Report a bug"
-msgstr ""
+msgstr "Raportați o eroare"
 
 #: ayatanawebmail/dialog.py:385
 msgid "Request a feature"
-msgstr ""
+msgstr "Solicitați o caracteristică"
 
 #: ayatanawebmail/dialog.py:387 ayatanawebmail/dialog.py:390
 #, python-brace-format
 msgid "It's a good idea to add the {labelname} label to your issue."
-msgstr ""
+msgstr "Este o idee bună să adăugați eticheta {labelname} la problema dvs."
 
 #: ayatanawebmail/dialog.py:388
 msgid "Ask a question"
-msgstr ""
+msgstr "Puneți o întrebare"
 
 #: ayatanawebmail/dialog.py:391
 msgid "Help translate"
-msgstr ""
+msgstr "Ajutor pentru traducere"
 
 #: ayatanawebmail/dialog.py:393
 msgid "Source code"
-msgstr ""
+msgstr "Cod sursă"
 
 #: ayatanawebmail/dialog.py:395
 msgid "Home page"
-msgstr ""
+msgstr "Pagina principală"
 
 #: ayatanawebmail/dialog.py:415
 msgid "translator-credits"
-msgstr ""
+msgstr "Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:1
 msgid "Maximum item count"
-msgstr ""
+msgstr "Numărul maxim de elemente"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:2
 msgid "Limit the number of mails to retrieve per folder."
-msgstr ""
+msgstr "Limitează numărul de mesaje de recuperat per dosar."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:3
 msgid "Enable notifications"
-msgstr ""
+msgstr "Activează notificările"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:4
 msgid "Show OSD notifications when new messages arrive."
-msgstr ""
+msgstr "Afișează notificări OSD atunci când sosesc mesaje noi."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:5
 msgid "Enable sound"
-msgstr ""
+msgstr "Activează sunetul"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:6
 msgid "Play sound when new messages arrive."
-msgstr ""
+msgstr "Redarea unui sunet la sosirea de mesaje noi."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:7
 msgid "Hide message count"
-msgstr ""
+msgstr "Ascunde numărul de mesaje"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:8
 msgid "Hide message count when there are no messages."
-msgstr ""
+msgstr "Ascunde numărul de mesaje atunci când nu există mesaje."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:9
 msgid "Execute on receive"
-msgstr ""
+msgstr "Se execută la primire"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:10
 msgid "Run this command when new messages arrive."
-msgstr ""
+msgstr "Rulează această comandă atunci când sosesc mesaje noi."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:11
 msgid "Custom sound"
-msgstr ""
+msgstr "Sunet personalizat"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:12
 msgid "Play a custom sound when new messages arrive."
-msgstr ""
+msgstr "Redă un sunet personalizat atunci când sosesc mesaje noi."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:13
 msgid "Merge messages"
-msgstr ""
+msgstr "Fuzionează mesajele"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:14
 msgid "Merge messages belonging to the same conversation."
-msgstr ""
+msgstr "Fuzionează mesajele aparținând aceleiași conversații."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:15
 msgid "Message action"
-msgstr ""
+msgstr "Acțiune mesaj"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:16
 msgid "Action to perform when a message is activated."
-msgstr ""
+msgstr "Acțiunea de efectuat atunci când este activat un mesaj."
 
 #: data/usr/share/applications/ayatana-webmail.desktop:4
 msgid "Ayatana Webmail"
-msgstr ""
+msgstr "Webmail Ayatana"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:5
 msgid "Webmail notifications and actions for any desktop"
-msgstr ""
+msgstr "Notificări și acțiuni Webmail pentru orice mediu de birou"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:15
 msgid "Mark all as read"
-msgstr ""
+msgstr "Marchează toate ca citite"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:20
 msgid "Compose Mail"
-msgstr ""
+msgstr "Compunere mesaj"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:25
 msgid "Sent"
-msgstr ""
+msgstr "Trimise"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:30
 msgid "Inbox"
-msgstr ""
+msgstr "Primite"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
 msgid "Ayatana Webmail (service)"
-msgstr ""
+msgstr "Webmail Ayatana (serviciu)"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
 msgid "Display notifications about new mail"
-msgstr ""
+msgstr "Afișează notificări cu privire la mesaje noi"
