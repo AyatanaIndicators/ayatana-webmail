@@ -8,67 +8,69 @@ msgstr ""
 "Project-Id-Version: ayatana-webmail 24.5.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-15 08:48+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-11-09 09:00+0000\n"
+"Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/ayatana-indicators/"
+"ayatana-webmail/ta/>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #: ayatanawebmail/accounts.py:18
 msgid "Select account"
-msgstr ""
+msgstr "கணக்கைத் தேர்ந்தெடுக்கவும்"
 
 #: ayatanawebmail/accounts.py:29
 msgid "Which account's command/web page would you like to open?"
-msgstr ""
+msgstr "எந்த கணக்கின் கட்டளை/வலைப்பக்கத்தை திறக்க விரும்புகிறீர்கள்?"
 
 #: ayatanawebmail/actions.py:15
 msgid "Message actions"
-msgstr ""
+msgstr "செய்தி செயல்கள்"
 
 #: ayatanawebmail/actions.py:15
 msgid "Delete"
-msgstr ""
+msgstr "அழி"
 
 #: ayatanawebmail/actions.py:15
 msgid "Mark as read"
-msgstr ""
+msgstr "படித்தபடி குறி"
 
 #: ayatanawebmail/actions.py:15
 msgid "Open message/Run command"
-msgstr ""
+msgstr "திறந்த செய்தி/ரன் கட்டளை"
 
 #: ayatanawebmail/actions.py:24
 msgid "Sender"
-msgstr ""
+msgstr "அனுப்புநர்"
 
 #: ayatanawebmail/actions.py:26
 msgid "Subject"
-msgstr ""
+msgstr "பொருள்"
 
 #: ayatanawebmail/application.py:178
 msgid "Open webmail home page"
-msgstr ""
+msgstr "வெப்மெயில் முகப்பு பக்கத்தைத் திறக்கவும்"
 
 #: ayatanawebmail/application.py:185
 msgid "Clear"
-msgstr ""
+msgstr "தெளிவான"
 
 #: ayatanawebmail/application.py:192
 #: data/usr/share/applications/ayatana-webmail.desktop:35
 msgid "Settings"
-msgstr ""
+msgstr "அமைப்புகள்"
 
 #: ayatanawebmail/application.py:955
 msgid "No subject"
-msgstr ""
+msgstr "பொருள் இல்லை"
 
 #: ayatanawebmail/application.py:1115
 msgid "Connection error"
-msgstr ""
+msgstr "இணைப்பு பிழை"
 
 #: ayatanawebmail/application.py:1116
 #, python-brace-format
@@ -76,309 +78,316 @@ msgid ""
 "Unable to connect to account \"{accountName}\", the application will now "
 "exit."
 msgstr ""
+"கணக்குடன் \"{கணக்கு பெயர்}\" உடன் இணைக்க முடியவில்லை, பயன்பாடு இப்போது வெளியேறும்."
 
 #: ayatanawebmail/application.py:1141
 #, python-format
 msgid "You have %d unread message"
 msgid_plural "You have %d unread messages"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "உங்களிடம் %d படிக்காத செய்தி உள்ளது"
+msgstr[1] "உங்களிடம் %d படிக்காத செய்திகள் உள்ளன"
 
 #: ayatanawebmail/application.py:1168
 #, python-format
 msgid "from %(t0)s, %(t1)s and others"
-msgstr ""
+msgstr "%(T0) கள், %(T1) கள் மற்றும் பிறவற்றிலிருந்து"
 
 #: ayatanawebmail/application.py:1170
 #, python-format
 msgid "from %(t0)s and %(t1)s"
-msgstr ""
+msgstr "%(T0) கள் மற்றும் %(T1) கள்"
 
 #: ayatanawebmail/application.py:1172
 #, python-format
 msgid "from %s"
-msgstr ""
+msgstr "%s இலிருந்து"
 
 #: ayatanawebmail/application.py:1185
 #, python-format
 msgid "New mail from %s"
-msgstr ""
+msgstr "%S இலிருந்து புதிய அஞ்சல்"
 
 #: ayatanawebmail/dialog.py:17
 msgid "Custom"
-msgstr ""
+msgstr "தனிப்பயன்"
 
 #: ayatanawebmail/dialog.py:61
 msgid ""
 "If this string starts with http:// or https://, the application will open it "
 "in your browser - otherwise, it will be run as a command"
 msgstr ""
+"இந்த சரம் http: // அல்லது https: // உடன் தொடங்கினால், பயன்பாடு அதை உங்கள் உலாவியில் திறக்கும் - "
+"இல்லையெனில், அது ஒரு கட்டளையாக இயக்கப்படும்"
 
 #: ayatanawebmail/dialog.py:91 ayatanawebmail/dialog.py:105
 msgid "(None)"
-msgstr ""
+msgstr "(எதுவுமில்லை)"
 
 #: ayatanawebmail/dialog.py:133
 msgid "Ayatana Webmail Preferences"
-msgstr ""
+msgstr "அயாதானா வெப்மெயில் விருப்பத்தேர்வுகள்"
 
 #: ayatanawebmail/dialog.py:141
 msgid "Accounts"
-msgstr ""
+msgstr "கணக்குகள்"
 
 #: ayatanawebmail/dialog.py:142
 msgid "Options"
-msgstr ""
+msgstr "விருப்பங்கள்"
 
 #: ayatanawebmail/dialog.py:143
 msgid "Support"
-msgstr ""
+msgstr "உதவி"
 
 #: ayatanawebmail/dialog.py:144
 msgid "About"
-msgstr ""
+msgstr "பற்றி"
 
 #: ayatanawebmail/dialog.py:203
 msgid "Failed to connect to mail account. The returned error was:"
-msgstr ""
+msgstr "அஞ்சல் கணக்குடன் இணைக்கத் தவறிவிட்டது. திரும்பிய பிழை:"
 
 #: ayatanawebmail/dialog.py:204
 msgid "Connection failure"
-msgstr ""
+msgstr "இணைப்பு தோல்வி"
 
 #: ayatanawebmail/dialog.py:232
 msgid "Add"
-msgstr ""
+msgstr "கூட்டு"
 
 #: ayatanawebmail/dialog.py:234
 msgid "Remove"
-msgstr ""
+msgstr "அகற்று"
 
 #: ayatanawebmail/dialog.py:276
 msgid ""
 "The application will append this string to \"Inbox\" to access a specific "
 "message - you can use the $MSG_THREAD and $MSG_UID placeholders"
 msgstr ""
+"பயன்பாடு இந்த சரத்தை ஒரு குறிப்பிட்ட செய்தியை அணுக \"இன்பாக்சில்\" சேர்க்கும் - நீங்கள் $ msg_thread மற்றும் $"
+" msg_uid பிளேச்ஓல்டர்களைப் பயன்படுத்தலாம்"
 
 #: ayatanawebmail/dialog.py:278
 msgid "Account:"
-msgstr ""
+msgstr "கணக்கு:"
 
 #: ayatanawebmail/dialog.py:280
 msgid "Server:"
-msgstr ""
+msgstr "சேவையகம்:"
 
 #: ayatanawebmail/dialog.py:282
 msgid "Host:"
-msgstr ""
+msgstr "புரவலன்:"
 
 #: ayatanawebmail/dialog.py:284
 msgid "Port:"
-msgstr ""
+msgstr "போர்ட்:"
 
 #: ayatanawebmail/dialog.py:286
 msgid "Username:"
-msgstr ""
+msgstr "பயனர்பெயர்:"
 
 #: ayatanawebmail/dialog.py:288
 msgid "Password:"
-msgstr ""
+msgstr "கடவுச்சொல்:"
 
 #: ayatanawebmail/dialog.py:290
 msgid "Folders:"
-msgstr ""
+msgstr "கோப்புறைகள்:"
 
 #: ayatanawebmail/dialog.py:292
 msgid "Home:"
-msgstr ""
+msgstr "வீடு:"
 
 #: ayatanawebmail/dialog.py:294
 msgid "Compose:"
-msgstr ""
+msgstr "எழுதுங்கள்:"
 
 #: ayatanawebmail/dialog.py:296
 msgid "Sent:"
-msgstr ""
+msgstr "அனுப்பப்பட்டது:"
 
 #: ayatanawebmail/dialog.py:298
 msgid "Inbox:"
-msgstr ""
+msgstr "இன்பாக்ச்:"
 
 #: ayatanawebmail/dialog.py:300
 msgid "Message:"
-msgstr ""
+msgstr "செய்தி:"
 
 #: ayatanawebmail/dialog.py:336
 msgid "Mark message as read"
-msgstr ""
+msgstr "வாசிப்பாக செய்தியைக் குறிக்கவும்"
 
 #: ayatanawebmail/dialog.py:337
 msgid "Open message in browser/Execute command"
-msgstr ""
+msgstr "உலாவி/இயக்க கட்டளையில் செய்தியைத் திறக்கவும்"
 
 #: ayatanawebmail/dialog.py:338
 msgid "Ask me what to do"
-msgstr ""
+msgstr "என்ன செய்ய வேண்டும் என்று என்னிடம் கேளுங்கள்"
 
 #: ayatanawebmail/dialog.py:348
 msgid "Enable notifications:"
-msgstr ""
+msgstr "அறிவிப்புகளை இயக்கவும்:"
 
 #: ayatanawebmail/dialog.py:350
 msgid "Play sound when a message is received:"
-msgstr ""
+msgstr "ஒரு செய்தி பெறப்படும்போது ஒலி விளையாடுங்கள்:"
 
 #: ayatanawebmail/dialog.py:352
 msgid "Merge messages from the same conversation:"
-msgstr ""
+msgstr "அதே உரையாடலில் இருந்து செய்திகளை ஒன்றிணைக்கவும்:"
 
 #: ayatanawebmail/dialog.py:354
 msgid "Hide count when zero:"
-msgstr ""
+msgstr "பூச்சியமாக இருக்கும்போது எண்ணிக்கையை மறைக்கவும்:"
 
 #: ayatanawebmail/dialog.py:356
 msgid "When a message is activated:"
-msgstr ""
+msgstr "ஒரு செய்தி செயல்படுத்தப்படும் போது:"
 
 #: ayatanawebmail/dialog.py:359
 msgid "Execute this command when a message is received:"
-msgstr ""
+msgstr "ஒரு செய்தி பெறப்படும்போது இந்த கட்டளையை இயக்கவும்:"
 
 #: ayatanawebmail/dialog.py:361
 msgid ""
 "If a command is set, it will be called with the following parameters: "
 "sender, subject, IMAP host"
 msgstr ""
+"ஒரு கட்டளை அமைக்கப்பட்டால், அது பின்வரும் அளவுருக்களுடன் அழைக்கப்படும்: அனுப்புநர், பொருள், IMAP புரவலன்"
 
 #: ayatanawebmail/dialog.py:367
 msgid "Custom sound to play:"
-msgstr ""
+msgstr "விளையாட தனிப்பயன் ஒலி:"
 
 #: ayatanawebmail/dialog.py:383
 msgid "Report a bug"
-msgstr ""
+msgstr "ஒரு பிழையைப் புகாரளிக்கவும்"
 
 #: ayatanawebmail/dialog.py:385
 msgid "Request a feature"
-msgstr ""
+msgstr "ஒரு அம்சத்தைக் கோருங்கள்"
 
 #: ayatanawebmail/dialog.py:387 ayatanawebmail/dialog.py:390
 #, python-brace-format
 msgid "It's a good idea to add the {labelname} label to your issue."
-msgstr ""
+msgstr "உங்கள் பிரச்சினையில் {லேபிள் பெயர்} லேபிளைச் சேர்ப்பது நல்லது."
 
 #: ayatanawebmail/dialog.py:388
 msgid "Ask a question"
-msgstr ""
+msgstr "கேள்வி கேளுங்கள்"
 
 #: ayatanawebmail/dialog.py:391
 msgid "Help translate"
-msgstr ""
+msgstr "மொழிபெயர்க்க உதவுங்கள்"
 
 #: ayatanawebmail/dialog.py:393
 msgid "Source code"
-msgstr ""
+msgstr "மூலக் குறியீடு"
 
 #: ayatanawebmail/dialog.py:395
 msgid "Home page"
-msgstr ""
+msgstr "முகப்பு பக்கம்"
 
 #: ayatanawebmail/dialog.py:415
 msgid "translator-credits"
-msgstr ""
+msgstr "மொழிபெயர்ப்பாளர்-வரவு"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:1
 msgid "Maximum item count"
-msgstr ""
+msgstr "அதிகபட்ச உருப்படி எண்ணிக்கை"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:2
 msgid "Limit the number of mails to retrieve per folder."
 msgstr ""
+"ஒரு கோப்புறையை மீட்டெடுக்க அஞ்சல்களின் எண்ணிக்கையைக் கட்டுப்படுத்துங்கள்."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:3
 msgid "Enable notifications"
-msgstr ""
+msgstr "அறிவிப்புகளை இயக்கவும்"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:4
 msgid "Show OSD notifications when new messages arrive."
-msgstr ""
+msgstr "புதிய செய்திகள் வரும்போது OSD அறிவிப்புகளைக் காட்டு."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:5
 msgid "Enable sound"
-msgstr ""
+msgstr "ஒலியை இயக்கவும்"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:6
 msgid "Play sound when new messages arrive."
-msgstr ""
+msgstr "புதிய செய்திகள் வரும்போது ஒலி விளையாடுங்கள்."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:7
 msgid "Hide message count"
-msgstr ""
+msgstr "செய்தி எண்ணிக்கையை மறைக்கவும்"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:8
 msgid "Hide message count when there are no messages."
-msgstr ""
+msgstr "செய்திகள் இல்லாதபோது செய்தி எண்ணிக்கையை மறைக்கவும்."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:9
 msgid "Execute on receive"
-msgstr ""
+msgstr "பெறுதல்"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:10
 msgid "Run this command when new messages arrive."
-msgstr ""
+msgstr "புதிய செய்திகள் வரும்போது இந்த கட்டளையை இயக்கவும்."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:11
 msgid "Custom sound"
-msgstr ""
+msgstr "தனிப்பயன் ஒலி"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:12
 msgid "Play a custom sound when new messages arrive."
-msgstr ""
+msgstr "புதிய செய்திகள் வரும்போது தனிப்பயன் ஒலியை இயக்கவும்."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:13
 msgid "Merge messages"
-msgstr ""
+msgstr "செய்திகளை ஒன்றிணைக்கவும்"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:14
 msgid "Merge messages belonging to the same conversation."
-msgstr ""
+msgstr "ஒரே உரையாடலுக்கு சொந்தமான செய்திகளை ஒன்றிணைக்கவும்."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:15
 msgid "Message action"
-msgstr ""
+msgstr "செய்தி நடவடிக்கை"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:16
 msgid "Action to perform when a message is activated."
-msgstr ""
+msgstr "ஒரு செய்தி செயல்படுத்தப்படும் போது செய்ய நடவடிக்கை."
 
 #: data/usr/share/applications/ayatana-webmail.desktop:4
 msgid "Ayatana Webmail"
-msgstr ""
+msgstr "அயாதானா வெப்மெயில்"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:5
 msgid "Webmail notifications and actions for any desktop"
-msgstr ""
+msgstr "எந்த டெச்க்டாப்பிற்கும் வெப்மெயில் அறிவிப்புகள் மற்றும் செயல்கள்"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:15
 msgid "Mark all as read"
-msgstr ""
+msgstr "அனைத்தையும் படித்தபடி குறிக்கவும்"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:20
 msgid "Compose Mail"
-msgstr ""
+msgstr "அஞ்சலை இயற்றுங்கள்"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:25
 msgid "Sent"
-msgstr ""
+msgstr "அனுப்பப்பட்டது"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:30
 msgid "Inbox"
-msgstr ""
+msgstr "இன்பாக்ச்"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
 msgid "Ayatana Webmail (service)"
-msgstr ""
+msgstr "அயாதானா வெப்மெயில் (சேவை)"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
 msgid "Display notifications about new mail"
-msgstr ""
+msgstr "புதிய அஞ்சல் பற்றிய அறிவிப்புகளைக் காண்பி"
