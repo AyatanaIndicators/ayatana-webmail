@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ayatana-webmail 24.5.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-15 08:48+0200\n"
-"PO-Revision-Date: 2024-11-09 09:00+0000\n"
+"PO-Revision-Date: 2024-12-03 17:00+0000\n"
 "Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/ayatana-indicators/"
 "ayatana-webmail/ta/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.2\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #: ayatanawebmail/accounts.py:18
 msgid "Select account"
@@ -78,7 +78,7 @@ msgid ""
 "Unable to connect to account \"{accountName}\", the application will now "
 "exit."
 msgstr ""
-"கணக்குடன் \"{கணக்கு பெயர்}\" உடன் இணைக்க முடியவில்லை, பயன்பாடு இப்போது வெளியேறும்."
+"கணக்குடன் \"{accountName}\" உடன் இணைக்க முடியவில்லை, பயன்பாடு இப்போது வெளியேறும்."
 
 #: ayatanawebmail/application.py:1141
 #, python-format
@@ -90,12 +90,12 @@ msgstr[1] "உங்களிடம் %d படிக்காத செய்�
 #: ayatanawebmail/application.py:1168
 #, python-format
 msgid "from %(t0)s, %(t1)s and others"
-msgstr "%(T0) கள், %(T1) கள் மற்றும் பிறவற்றிலிருந்து"
+msgstr "%(t0)s, %(t1)s மற்றும் பிறவற்றிலிருந்து"
 
 #: ayatanawebmail/application.py:1170
 #, python-format
 msgid "from %(t0)s and %(t1)s"
-msgstr "%(T0) கள் மற்றும் %(T1) கள்"
+msgstr "%(t0)s மற்றும் %(t1)s இருந்து"
 
 #: ayatanawebmail/application.py:1172
 #, python-format
@@ -105,7 +105,7 @@ msgstr "%s இலிருந்து"
 #: ayatanawebmail/application.py:1185
 #, python-format
 msgid "New mail from %s"
-msgstr "%S இலிருந்து புதிய அஞ்சல்"
+msgstr "%s இலிருந்து புதிய அஞ்சல்"
 
 #: ayatanawebmail/dialog.py:17
 msgid "Custom"
@@ -273,7 +273,7 @@ msgstr "ஒரு அம்சத்தைக் கோருங்கள்"
 #: ayatanawebmail/dialog.py:387 ayatanawebmail/dialog.py:390
 #, python-brace-format
 msgid "It's a good idea to add the {labelname} label to your issue."
-msgstr "உங்கள் பிரச்சினையில் {லேபிள் பெயர்} லேபிளைச் சேர்ப்பது நல்லது."
+msgstr "உங்கள் பிரச்சினையில் {labelname} லேபிளைச் சேர்ப்பது நல்லது."
 
 #: ayatanawebmail/dialog.py:388
 msgid "Ask a question"
