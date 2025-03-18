@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: ayatana-webmail 24.5.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-15 08:47+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-03-18 20:47+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
+"Language-Team: Asturian <https://hosted.weblate.org/projects/"
+"ayatana-indicators/ayatana-webmail/ast/>\n"
 "Language: ast\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11-dev\n"
 
 #: ayatanawebmail/accounts.py:18
 msgid "Select account"
@@ -31,11 +33,11 @@ msgstr ""
 
 #: ayatanawebmail/actions.py:15
 msgid "Delete"
-msgstr ""
+msgstr "Desaniciar"
 
 #: ayatanawebmail/actions.py:15
 msgid "Mark as read"
-msgstr ""
+msgstr "Conseñar como lleío"
 
 #: ayatanawebmail/actions.py:15
 msgid "Open message/Run command"
@@ -124,11 +126,11 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:141
 msgid "Accounts"
-msgstr ""
+msgstr "Cuentes"
 
 #: ayatanawebmail/dialog.py:142
 msgid "Options"
-msgstr ""
+msgstr "Opciones"
 
 #: ayatanawebmail/dialog.py:143
 msgid "Support"
@@ -136,7 +138,7 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:144
 msgid "About"
-msgstr ""
+msgstr "Tocante a"
 
 #: ayatanawebmail/dialog.py:203
 msgid "Failed to connect to mail account. The returned error was:"
@@ -162,19 +164,19 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:278
 msgid "Account:"
-msgstr ""
+msgstr "Cuenta:"
 
 #: ayatanawebmail/dialog.py:280
 msgid "Server:"
-msgstr ""
+msgstr "Sirvidor:"
 
 #: ayatanawebmail/dialog.py:282
 msgid "Host:"
-msgstr ""
+msgstr "Agospiu:"
 
 #: ayatanawebmail/dialog.py:284
 msgid "Port:"
-msgstr ""
+msgstr "Puertu:"
 
 #: ayatanawebmail/dialog.py:286
 msgid "Username:"
@@ -186,7 +188,7 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:290
 msgid "Folders:"
-msgstr ""
+msgstr "Carpetes:"
 
 #: ayatanawebmail/dialog.py:292
 msgid "Home:"
@@ -206,11 +208,11 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:300
 msgid "Message:"
-msgstr ""
+msgstr "Mensaxe:"
 
 #: ayatanawebmail/dialog.py:336
 msgid "Mark message as read"
-msgstr ""
+msgstr "Conseñar mensaxe como lleíu"
 
 #: ayatanawebmail/dialog.py:337
 msgid "Open message in browser/Execute command"
@@ -361,7 +363,7 @@ msgstr ""
 
 #: data/usr/share/applications/ayatana-webmail.desktop:15
 msgid "Mark all as read"
-msgstr ""
+msgstr "Conseñar too como lleío"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:20
 msgid "Compose Mail"
