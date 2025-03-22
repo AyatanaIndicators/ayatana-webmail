@@ -1109,6 +1109,12 @@ class AyatanaWebmail(object):
                     oNotification.set_property('body', _('Unable to connect to account "{accountName}", the application will now exit.').format(accountName=oConnection.strLogin))
                     oNotification.set_hint('desktop-entry', GLib.Variant.new_string(APPNAME))
                     oNotification.set_timeout(Notify.EXPIRES_NEVER)
+                    bHasSetAppIcon = hasattr (oNotification, "set_app_icon")
+
+                    if bHasSetAppIcon:
+
+                        oNotification.set_app_icon (APPNAME)
+
                     oNotification.show()
                     self.close(1)
 
@@ -1168,6 +1174,12 @@ class AyatanaWebmail(object):
 
             oNotification = Notify.Notification.new(basemessage.format(number_of_mails), message, APPNAME)
             oNotification.set_hint('desktop-entry', GLib.Variant.new_string(APPNAME))
+            bHasSetAppIcon = hasattr (oNotification, "set_app_icon")
+
+            if bHasSetAppIcon:
+
+                oNotification.set_app_icon (APPNAME)
+
             oNotification.show()
 
         elif number_of_mails:
@@ -1181,4 +1193,10 @@ class AyatanaWebmail(object):
 
             oNotification = Notify.Notification.new(message, lstNotification[1], APPNAME)
             oNotification.set_hint('desktop-entry', GLib.Variant.new_string(APPNAME))
+            bHasSetAppIcon = hasattr (oNotification, "set_app_icon")
+
+            if bHasSetAppIcon:
+
+                oNotification.set_app_icon (APPNAME)
+
             oNotification.show()
