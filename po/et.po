@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-15 08:47+0200\n"
-"PO-Revision-Date: 2022-10-20 11:07+0000\n"
-"Last-Translator: Kristjan Räts <kristjanrats@gmail.com>\n"
-"Language-Team: Estonian <https://hosted.weblate.org/projects/ayatana-"
-"indicators/ayatana-webmail/et/>\n"
+"PO-Revision-Date: 2025-06-27 09:01+0000\n"
+"Last-Translator: Priit Jõerüüt <hwlate@joeruut.com>\n"
+"Language-Team: Estonian <https://hosted.weblate.org/projects/"
+"ayatana-indicators/ayatana-webmail/et/>\n"
 "Language: et\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 "X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
 
 #: ayatanawebmail/accounts.py:18
@@ -30,7 +30,7 @@ msgstr "Millise konto käsu/veebilehe soovid sa avada?"
 
 #: ayatanawebmail/actions.py:15
 msgid "Message actions"
-msgstr "Sõnumi tegevused"
+msgstr "Tegevused e-kirjaga"
 
 #: ayatanawebmail/actions.py:15
 msgid "Delete"
@@ -42,7 +42,7 @@ msgstr "Märgi loetuks"
 
 #: ayatanawebmail/actions.py:15
 msgid "Open message/Run command"
-msgstr "Ava sõnum/käivita käsk"
+msgstr "Ava kiri/käivita käsk"
 
 #: ayatanawebmail/actions.py:24
 msgid "Sender"
@@ -84,8 +84,8 @@ msgstr "Kontoga \"{accountName}\" ei saa ühendust; rakendus lõpetab töö."
 #, python-format
 msgid "You have %d unread message"
 msgid_plural "You have %d unread messages"
-msgstr[0] "Sul on %d lugemata sõnum"
-msgstr[1] "Sul on %d lugemata sõnumit"
+msgstr[0] "Sul on %d lugemata kiri"
+msgstr[1] "Sul on %d lugemata kirja"
 
 #: ayatanawebmail/application.py:1168
 #, python-format
@@ -164,16 +164,17 @@ msgid ""
 "The application will append this string to \"Inbox\" to access a specific "
 "message - you can use the $MSG_THREAD and $MSG_UID placeholders"
 msgstr ""
+"See rakendus võib e-kirja avamiseks või töötlemiseks Saabuvate kirjade "
+"postkastile lisada etteantud sõne, milleksd kasutada ka $MSG_THREAD ja $"
+"MSG_UID muutujaid"
 
 #: ayatanawebmail/dialog.py:278
-#, fuzzy
 msgid "Account:"
-msgstr "Kontod"
+msgstr "Kasutajakonto:"
 
 #: ayatanawebmail/dialog.py:280
-#, fuzzy
 msgid "Server:"
-msgstr "Serveri andmed"
+msgstr "Server:"
 
 #: ayatanawebmail/dialog.py:282
 msgid "Host:"
@@ -185,11 +186,11 @@ msgstr "Port:"
 
 #: ayatanawebmail/dialog.py:286
 msgid "Username:"
-msgstr ""
+msgstr "Kasutajanimi:"
 
 #: ayatanawebmail/dialog.py:288
 msgid "Password:"
-msgstr "Parool:"
+msgstr "Salasõna:"
 
 #: ayatanawebmail/dialog.py:290
 msgid "Folders:"
@@ -212,17 +213,16 @@ msgid "Inbox:"
 msgstr "Sisenevad:"
 
 #: ayatanawebmail/dialog.py:300
-#, fuzzy
 msgid "Message:"
-msgstr "Sõnumi tegevused"
+msgstr "E-kiri:"
 
 #: ayatanawebmail/dialog.py:336
 msgid "Mark message as read"
-msgstr "Märgi sõnum loetuks"
+msgstr "Märgi kiri loetuks"
 
 #: ayatanawebmail/dialog.py:337
 msgid "Open message in browser/Execute command"
-msgstr "Ava sõnum lehitsejas/käivita käsk"
+msgstr "Ava kiri veebibrauseris/käivita käsk"
 
 #: ayatanawebmail/dialog.py:338
 msgid "Ask me what to do"
@@ -234,11 +234,11 @@ msgstr "Luba teavitused:"
 
 #: ayatanawebmail/dialog.py:350
 msgid "Play sound when a message is received:"
-msgstr "Mängi sõnumi saabumisel heli:"
+msgstr "Mängi kirja saabumisel heli:"
 
 #: ayatanawebmail/dialog.py:352
 msgid "Merge messages from the same conversation:"
-msgstr "Ühenda sama vestluse sõnumid:"
+msgstr "Ühenda sama vestluse kirjad:"
 
 #: ayatanawebmail/dialog.py:354
 msgid "Hide count when zero:"
@@ -246,17 +246,19 @@ msgstr "Peida kogus, kui see on null:"
 
 #: ayatanawebmail/dialog.py:356
 msgid "When a message is activated:"
-msgstr "Kui sõnum on aktiveeritud:"
+msgstr "Kui kiri on aktiveeritud:"
 
 #: ayatanawebmail/dialog.py:359
 msgid "Execute this command when a message is received:"
-msgstr "Sõnumi saamisel käivita see käsk:"
+msgstr "E-kirja saabumisel käivita see käsk:"
 
 #: ayatanawebmail/dialog.py:361
 msgid ""
 "If a command is set, it will be called with the following parameters: "
 "sender, subject, IMAP host"
 msgstr ""
+"Käsu seadistamisel lisatakse sellele järgnevad parameetrid: saatja, pealkiri "
+"ja IMAP-i host"
 
 #: ayatanawebmail/dialog.py:367
 msgid "Custom sound to play:"
@@ -264,16 +266,16 @@ msgstr "Kohandatud heli, mida mängida:"
 
 #: ayatanawebmail/dialog.py:383
 msgid "Report a bug"
-msgstr ""
+msgstr "Teata veast"
 
 #: ayatanawebmail/dialog.py:385
 msgid "Request a feature"
-msgstr ""
+msgstr "Paku välja uus idee"
 
 #: ayatanawebmail/dialog.py:387 ayatanawebmail/dialog.py:390
 #, python-brace-format
 msgid "It's a good idea to add the {labelname} label to your issue."
-msgstr ""
+msgstr "Lisa oma veateatele „{labelname}“ silt."
 
 #: ayatanawebmail/dialog.py:388
 msgid "Ask a question"
@@ -293,81 +295,71 @@ msgstr "Koduleht"
 
 #: ayatanawebmail/dialog.py:415
 msgid "translator-credits"
-msgstr "Tõlkijad"
+msgstr "Priit Jõerüüt 2025"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:1
 msgid "Maximum item count"
-msgstr ""
+msgstr "Maksimaalne kirjete arv"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:2
 msgid "Limit the number of mails to retrieve per folder."
-msgstr ""
+msgstr "Piira laaditavate kirjade arvu kausta kohta."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:3
-#, fuzzy
 msgid "Enable notifications"
-msgstr "Luba teavitused:"
+msgstr "Võta teavitused kasutusele"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:4
 msgid "Show OSD notifications when new messages arrive."
-msgstr ""
+msgstr "Uute kirjade saabumisel näita ekraanil kuvatavaid teavitusi."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:5
 msgid "Enable sound"
-msgstr ""
+msgstr "Kasuta heli"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:6
-#, fuzzy
 msgid "Play sound when new messages arrive."
-msgstr "Mängi sõnumi saabumisel heli:"
+msgstr "Anna uue kirja saabumisest heliga märku."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:7
-#, fuzzy
 msgid "Hide message count"
-msgstr "Ava sõnum/käivita käsk"
+msgstr "Peida kirjade arv"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:8
 msgid "Hide message count when there are no messages."
-msgstr ""
+msgstr "Kui kirju pole, siis ära kuva kirjade arvu."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:9
 msgid "Execute on receive"
-msgstr ""
+msgstr "Käsk kirja saabumisel"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:10
-#, fuzzy
 msgid "Run this command when new messages arrive."
-msgstr "Sõnumi saamisel käivita see käsk:"
+msgstr "Uue kirja saabumisel käivita see käsk."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:11
-#, fuzzy
 msgid "Custom sound"
-msgstr "Kohandatud heli, mida mängida:"
+msgstr "Kohandatud heli"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:12
-#, fuzzy
 msgid "Play a custom sound when new messages arrive."
-msgstr "Mängi sõnumi saabumisel heli:"
+msgstr "Anna uue kirja saabumisest märku sinu valitud heliga."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:13
-#, fuzzy
 msgid "Merge messages"
-msgstr "Märgi sõnum loetuks"
+msgstr "Liida kirjad"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:14
-#, fuzzy
 msgid "Merge messages belonging to the same conversation."
-msgstr "Ühenda sama vestluse sõnumid:"
+msgstr "Ühenda sama vestluse kirjad."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:15
-#, fuzzy
 msgid "Message action"
-msgstr "Sõnumi tegevused"
+msgstr "Kirja tegevused"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:16
-#, fuzzy
 msgid "Action to perform when a message is activated."
-msgstr "Kui sõnum on aktiveeritud:"
+msgstr "Tegevus kirja aktiveerimisel."
 
 #: data/usr/share/applications/ayatana-webmail.desktop:4
 msgid "Ayatana Webmail"
@@ -394,13 +386,12 @@ msgid "Inbox"
 msgstr "Postkast"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
-#, fuzzy
 msgid "Ayatana Webmail (service)"
-msgstr "Ayatana Webmaili Seadistus"
+msgstr "Ayatana veebimail (teenus)"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
 msgid "Display notifications about new mail"
-msgstr ""
+msgstr "Uute e-kirjade teavitused"
 
 #~ msgid ""
 #~ "Please visit the following link and enable access for less secure apps:"
