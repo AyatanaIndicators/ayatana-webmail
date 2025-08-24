@@ -8,25 +8,24 @@ msgstr ""
 "Project-Id-Version: ayatana-webmail 24.5.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-15 08:48+0200\n"
-"PO-Revision-Date: 2020-11-13 14:28+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
-"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/ayatana-"
-"indicators/ayatana-webmail/nb_NO/>\n"
+"PO-Revision-Date: 2025-08-25 19:01+0000\n"
+"Last-Translator: Ida Brenna <ida@larald.no>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
+"ayatana-indicators/ayatana-webmail/nb_NO/>\n"
 "Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 5.13\n"
 
 #: ayatanawebmail/accounts.py:18
 msgid "Select account"
 msgstr "Velg konto"
 
 #: ayatanawebmail/accounts.py:29
-#, fuzzy
 msgid "Which account's command/web page would you like to open?"
-msgstr "Hvilken konto sin kommando/nettside ønsker du å åpne?"
+msgstr "Hvilken konto sin kommando-/nettside ønsker du å åpne?"
 
 #: ayatanawebmail/actions.py:15
 msgid "Message actions"
@@ -82,11 +81,11 @@ msgstr ""
 "Kunne ikke koble til kontoen «{accountName}», programmet vil nå avsluttes."
 
 #: ayatanawebmail/application.py:1141
-#, fuzzy, python-format
+#, python-format
 msgid "You have %d unread message"
 msgid_plural "You have %d unread messages"
-msgstr[0] "Du har %d ulest e-post"
-msgstr[1] "Du har %d uleste e-poster"
+msgstr[0] "Du har %d ulest melding"
+msgstr[1] "Du har %d uleste meldinger"
 
 #: ayatanawebmail/application.py:1168
 #, python-format
@@ -104,7 +103,7 @@ msgid "from %s"
 msgstr "fra %s"
 
 #: ayatanawebmail/application.py:1185
-#, fuzzy, python-format
+#, python-format
 msgid "New mail from %s"
 msgstr "Ny e-post fra %s"
 
@@ -145,9 +144,8 @@ msgid "About"
 msgstr "Om"
 
 #: ayatanawebmail/dialog.py:203
-#, fuzzy
 msgid "Failed to connect to mail account. The returned error was:"
-msgstr "Klarte ikke å koble til e-postkonto. Feilen er:"
+msgstr "Klarte ikke å koble til e-postkonto. Feilmeldingen er:"
 
 #: ayatanawebmail/dialog.py:204
 msgid "Connection failure"
@@ -222,7 +220,6 @@ msgid "Mark message as read"
 msgstr "Marker melding som lest"
 
 #: ayatanawebmail/dialog.py:337
-#, fuzzy
 msgid "Open message in browser/Execute command"
 msgstr "Åpne melding i nettleser/kjør kommando"
 
@@ -231,9 +228,8 @@ msgid "Ask me what to do"
 msgstr "Spør meg hva som skal gjøres"
 
 #: ayatanawebmail/dialog.py:348
-#, fuzzy
 msgid "Enable notifications:"
-msgstr "Skru på merknader:"
+msgstr "Skru på varsler:"
 
 #: ayatanawebmail/dialog.py:350
 msgid "Play sound when a message is received:"
@@ -260,6 +256,8 @@ msgid ""
 "If a command is set, it will be called with the following parameters: "
 "sender, subject, IMAP host"
 msgstr ""
+"Hvis en kommando blir definert, vil den kalles med de følgende parametrene: "
+"avsender, emne, IMAP-server"
 
 #: ayatanawebmail/dialog.py:367
 msgid "Custom sound to play:"
@@ -300,77 +298,67 @@ msgstr "Allan Nordhøy <epost@anotheragency.no>"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:1
 msgid "Maximum item count"
-msgstr ""
+msgstr "Maksimum antall objekter"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:2
 msgid "Limit the number of mails to retrieve per folder."
-msgstr ""
+msgstr "Begrens antallet e-poster å hente per mappe."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:3
-#, fuzzy
 msgid "Enable notifications"
-msgstr "Skru på merknader:"
+msgstr "Skru på varslinger"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:4
 msgid "Show OSD notifications when new messages arrive."
-msgstr ""
+msgstr "Vis OSD-varslinger når nye meldinger dukker opp."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:5
 msgid "Enable sound"
-msgstr ""
+msgstr "Aktiver lyd"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:6
-#, fuzzy
 msgid "Play sound when new messages arrive."
-msgstr "Spill lyd når en melding mottas:"
+msgstr "Spill lyd når en melding mottas."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:7
-#, fuzzy
 msgid "Hide message count"
-msgstr "Åpne melding/kjør kommando"
+msgstr "Skjul meldingstelleren"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:8
 msgid "Hide message count when there are no messages."
-msgstr ""
+msgstr "Skjul meldingstelleren når det ikke finnes noen meldinger."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:9
 msgid "Execute on receive"
-msgstr ""
+msgstr "Utfør ved mottak"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:10
-#, fuzzy
 msgid "Run this command when new messages arrive."
-msgstr "Kjør denne kommandoen når en melding mottas:"
+msgstr "Kjør denne kommandoen når en ny melding mottas."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:11
-#, fuzzy
 msgid "Custom sound"
-msgstr "Tilpasset lyd å spille:"
+msgstr "Egendefinert lyd"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:12
-#, fuzzy
 msgid "Play a custom sound when new messages arrive."
-msgstr "Spill lyd når en melding mottas:"
+msgstr "Spill en egendefinert lyd når det kommer en ny melding."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:13
-#, fuzzy
 msgid "Merge messages"
-msgstr "Marker melding som lest"
+msgstr "Slå sammen meldinger"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:14
-#, fuzzy
 msgid "Merge messages belonging to the same conversation."
-msgstr "Flett meldinger fra samme samtale:"
+msgstr "Slå sammen meldinger fra samme samtale."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:15
-#, fuzzy
 msgid "Message action"
-msgstr "Meldingshandlinger"
+msgstr "Meldingshandling"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:16
-#, fuzzy
 msgid "Action to perform when a message is activated."
-msgstr "Når en melding er aktivert:"
+msgstr "Handling som skal utføres når en melding er aktivert."
 
 #: data/usr/share/applications/ayatana-webmail.desktop:4
 msgid "Ayatana Webmail"
@@ -401,9 +389,8 @@ msgid "Ayatana Webmail (service)"
 msgstr "Ayatana-vevpost (tjeneste)"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
-#, fuzzy
 msgid "Display notifications about new mail"
-msgstr "Vis merknader om ny e-post"
+msgstr "Vis varsler om ny e-post"
 
 #~ msgid ""
 #~ "Please visit the following link and enable access for less secure apps:"
