@@ -8,67 +8,69 @@ msgstr ""
 "Project-Id-Version: ayatana-webmail 24.5.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-15 08:47+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-11-15 03:51+0000\n"
+"Last-Translator: BoneNI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://hosted.weblate.org/projects/ayatana-indicators/"
+"ayatana-webmail/lo/>\n"
 "Language: lo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: ayatanawebmail/accounts.py:18
 msgid "Select account"
-msgstr ""
+msgstr "ເລືອກບັນຊີ"
 
 #: ayatanawebmail/accounts.py:29
 msgid "Which account's command/web page would you like to open?"
-msgstr ""
+msgstr "ທ່ານຕ້ອງການເປີດຄຳສັ່ງ/ໜ້າເວັບຂອງບັນຊີໃດ?"
 
 #: ayatanawebmail/actions.py:15
 msgid "Message actions"
-msgstr ""
+msgstr "ການກະທຳກັບຂໍ້ຄວາມ"
 
 #: ayatanawebmail/actions.py:15
 msgid "Delete"
-msgstr ""
+msgstr "ລຶບ"
 
 #: ayatanawebmail/actions.py:15
 msgid "Mark as read"
-msgstr ""
+msgstr "ໝາຍວ່າອ່ານແລ້ວ"
 
 #: ayatanawebmail/actions.py:15
 msgid "Open message/Run command"
-msgstr ""
+msgstr "ເປີດຂໍ້ຄວາມ/ສັ່ງການ"
 
 #: ayatanawebmail/actions.py:24
 msgid "Sender"
-msgstr ""
+msgstr "ຜູ້ສົ່ງ"
 
 #: ayatanawebmail/actions.py:26
 msgid "Subject"
-msgstr ""
+msgstr "ຫົວຂໍ້"
 
 #: ayatanawebmail/application.py:178
 msgid "Open webmail home page"
-msgstr ""
+msgstr "ເປີດໜ້າຫຼັກເວັບເມລ"
 
 #: ayatanawebmail/application.py:185
 msgid "Clear"
-msgstr ""
+msgstr "ລ້າງອອກ"
 
 #: ayatanawebmail/application.py:192
 #: data/usr/share/applications/ayatana-webmail.desktop:35
 msgid "Settings"
-msgstr ""
+msgstr "ການຕັ້ງຄ່າ"
 
 #: ayatanawebmail/application.py:955
 msgid "No subject"
-msgstr ""
+msgstr "ບໍ່ມີຫົວຂໍ້"
 
 #: ayatanawebmail/application.py:1115
 msgid "Connection error"
-msgstr ""
+msgstr "ການເຊື່ອມຕໍ່ຜິດພາດ"
 
 #: ayatanawebmail/application.py:1116
 #, python-brace-format
@@ -76,308 +78,314 @@ msgid ""
 "Unable to connect to account \"{accountName}\", the application will now "
 "exit."
 msgstr ""
+"ບໍ່ສາມາດເຊື່ອມຕໍ່ບັນຊີ \"{accountName}\" ໄດ້, ແອັບພລິເຄຊັນຈະປິດລົງຕອນນີ້."
 
 #: ayatanawebmail/application.py:1141
 #, python-format
 msgid "You have %d unread message"
 msgid_plural "You have %d unread messages"
-msgstr[0] ""
+msgstr[0] "ທ່ານມີ %d ຂໍ້ຄວາມທີ່ຍັງບໍ່ໄດ້ອ່ານ"
 
 #: ayatanawebmail/application.py:1168
 #, python-format
 msgid "from %(t0)s, %(t1)s and others"
-msgstr ""
+msgstr "ຈາກ %(t0)s, %(t1)s ແລະອື່ນໆ"
 
 #: ayatanawebmail/application.py:1170
 #, python-format
 msgid "from %(t0)s and %(t1)s"
-msgstr ""
+msgstr "ຈາກ %(t0)s ແລະ %(t1)s"
 
 #: ayatanawebmail/application.py:1172
 #, python-format
 msgid "from %s"
-msgstr ""
+msgstr "ຈາກ %s"
 
 #: ayatanawebmail/application.py:1185
 #, python-format
 msgid "New mail from %s"
-msgstr ""
+msgstr "ເມລໃໝ່ຈາກ %s"
 
 #: ayatanawebmail/dialog.py:17
 msgid "Custom"
-msgstr ""
+msgstr "ກຳນົດເອງ"
 
 #: ayatanawebmail/dialog.py:61
 msgid ""
 "If this string starts with http:// or https://, the application will open it "
 "in your browser - otherwise, it will be run as a command"
 msgstr ""
+"ຖ້າສະຕຣິງນີ້ເລີ່ມຕົ້ນດ້ວຍ http:// ຫຼື https://, ແອັບພລິເຄຊັນຈະເປີດມັນໃນບຣາວເຊີຂອງທ່ານ - ຖ້າບໍ່ດັ່ງນັ້"
+"ນ, ມັນຈະຖືກເອີ້ນໃຊ້ເປັນຄຳສັ່ງ"
 
 #: ayatanawebmail/dialog.py:91 ayatanawebmail/dialog.py:105
 msgid "(None)"
-msgstr ""
+msgstr "(ບໍ່ມີ)"
 
 #: ayatanawebmail/dialog.py:133
 msgid "Ayatana Webmail Preferences"
-msgstr ""
+msgstr "ຄຸນສົມບັດຂອງ Ayatana Webmail"
 
 #: ayatanawebmail/dialog.py:141
 msgid "Accounts"
-msgstr ""
+msgstr "ບັນຊີ"
 
 #: ayatanawebmail/dialog.py:142
 msgid "Options"
-msgstr ""
+msgstr "ຕົວເລືອກ"
 
 #: ayatanawebmail/dialog.py:143
 msgid "Support"
-msgstr ""
+msgstr "ການຊ່ວຍເຫຼືອ"
 
 #: ayatanawebmail/dialog.py:144
 msgid "About"
-msgstr ""
+msgstr "ກ່ຽວກັບ"
 
 #: ayatanawebmail/dialog.py:203
 msgid "Failed to connect to mail account. The returned error was:"
-msgstr ""
+msgstr "ເຊື່ອມຕໍ່ກັບບັນຊີເມລບໍ່ສຳເລັດ. ຂໍ້ຜິດພາດທີ່ສົ່ງຄືນມາແມ່ນ:"
 
 #: ayatanawebmail/dialog.py:204
 msgid "Connection failure"
-msgstr ""
+msgstr "ການເຊື່ອມຕໍ່ລົ້ມເຫຼວ"
 
 #: ayatanawebmail/dialog.py:232
 msgid "Add"
-msgstr ""
+msgstr "ເພີ່ມ"
 
 #: ayatanawebmail/dialog.py:234
 msgid "Remove"
-msgstr ""
+msgstr "ລຶບອອກ"
 
 #: ayatanawebmail/dialog.py:276
 msgid ""
 "The application will append this string to \"Inbox\" to access a specific "
 "message - you can use the $MSG_THREAD and $MSG_UID placeholders"
 msgstr ""
+"ແອັບພລິເຄຊັນຈະຕໍ່ສະຕຣິງນີ້ໃສ່ \"ກ່ອງຈົດໝາຍ\" ເພື່ອເຂົ້າເຖິງຂໍ້ຄວາມສະເພາະ - ທ່ານສາມາດໃຊ້ຕົວແທນ $"
+"MSG_THREAD ແລະ $MSG_UID ໄດ້"
 
 #: ayatanawebmail/dialog.py:278
 msgid "Account:"
-msgstr ""
+msgstr "ບັນຊີ:"
 
 #: ayatanawebmail/dialog.py:280
 msgid "Server:"
-msgstr ""
+msgstr "ເຊີບເວີ:"
 
 #: ayatanawebmail/dialog.py:282
 msgid "Host:"
-msgstr ""
+msgstr "ໂຮສຕ໌:"
 
 #: ayatanawebmail/dialog.py:284
 msgid "Port:"
-msgstr ""
+msgstr "ພອດ:"
 
 #: ayatanawebmail/dialog.py:286
 msgid "Username:"
-msgstr ""
+msgstr "ຊື່ຜູ້ໃຊ້:"
 
 #: ayatanawebmail/dialog.py:288
 msgid "Password:"
-msgstr ""
+msgstr "ລະຫັດຜ່ານ:"
 
 #: ayatanawebmail/dialog.py:290
 msgid "Folders:"
-msgstr ""
+msgstr "ໂຟລເດີ:"
 
 #: ayatanawebmail/dialog.py:292
 msgid "Home:"
-msgstr ""
+msgstr "ໜ້າຫຼັກ:"
 
 #: ayatanawebmail/dialog.py:294
 msgid "Compose:"
-msgstr ""
+msgstr "ຂຽນ:"
 
 #: ayatanawebmail/dialog.py:296
 msgid "Sent:"
-msgstr ""
+msgstr "ສົ່ງແລ້ວ:"
 
 #: ayatanawebmail/dialog.py:298
 msgid "Inbox:"
-msgstr ""
+msgstr "ກ່ອງຈົດໝາຍ:"
 
 #: ayatanawebmail/dialog.py:300
 msgid "Message:"
-msgstr ""
+msgstr "ຂໍ້ຄວາມ:"
 
 #: ayatanawebmail/dialog.py:336
 msgid "Mark message as read"
-msgstr ""
+msgstr "ໝາຍຂໍ້ຄວາມວ່າອ່ານແລ້ວ"
 
 #: ayatanawebmail/dialog.py:337
 msgid "Open message in browser/Execute command"
-msgstr ""
+msgstr "ເປີດຂໍ້ຄວາມໃນບຣາວເຊີ/ສັ່ງການ"
 
 #: ayatanawebmail/dialog.py:338
 msgid "Ask me what to do"
-msgstr ""
+msgstr "ຖາມຂ້ອຍວ່າຈະເຮັດຫຍັງ"
 
 #: ayatanawebmail/dialog.py:348
 msgid "Enable notifications:"
-msgstr ""
+msgstr "ເປີດໃຊ້ການແຈ້ງເຕືອນ:"
 
 #: ayatanawebmail/dialog.py:350
 msgid "Play sound when a message is received:"
-msgstr ""
+msgstr "ເປີດສຽງເມື່ອໄດ້ຮັບຂໍ້ຄວາມ:"
 
 #: ayatanawebmail/dialog.py:352
 msgid "Merge messages from the same conversation:"
-msgstr ""
+msgstr "ລວມຂໍ້ຄວາມຈາກການສົນທະນາດຽວກັນ:"
 
 #: ayatanawebmail/dialog.py:354
 msgid "Hide count when zero:"
-msgstr ""
+msgstr "ເຊື່ອງການນັບເມື່ອເປັນສູນ:"
 
 #: ayatanawebmail/dialog.py:356
 msgid "When a message is activated:"
-msgstr ""
+msgstr "ເມື່ອຂໍ້ຄວາມຖືກເປີດໃຊ້:"
 
 #: ayatanawebmail/dialog.py:359
 msgid "Execute this command when a message is received:"
-msgstr ""
+msgstr "ສັ່ງການຄຳສັ່ງນີ້ເມື່ອໄດ້ຮັບຂໍ້ຄວາມ:"
 
 #: ayatanawebmail/dialog.py:361
 msgid ""
 "If a command is set, it will be called with the following parameters: "
 "sender, subject, IMAP host"
 msgstr ""
+"ຖ້າຕັ້ງຄ່າຄຳສັ່ງໄວ້, ມັນຈະຖືກເອີ້ນໃຊ້ດ້ວຍພາຣາມິເຕີຕໍ່ໄປນີ້: ຜູ້ສົ່ງ, ຫົວຂໍ້, ໂຮສຕ໌ IMAP"
 
 #: ayatanawebmail/dialog.py:367
 msgid "Custom sound to play:"
-msgstr ""
+msgstr "ສຽງທີ່ກຳນົດເອງເພື່ອເປີດ:"
 
 #: ayatanawebmail/dialog.py:383
 msgid "Report a bug"
-msgstr ""
+msgstr "ລາຍງານຂໍ້ຜິດພາດ"
 
 #: ayatanawebmail/dialog.py:385
 msgid "Request a feature"
-msgstr ""
+msgstr "ຮ້ອງຂໍຄວາມສາມາດໃໝ່"
 
 #: ayatanawebmail/dialog.py:387 ayatanawebmail/dialog.py:390
 #, python-brace-format
 msgid "It's a good idea to add the {labelname} label to your issue."
-msgstr ""
+msgstr "ເປັນຄວາມຄິດທີ່ດີທີ່ຈະເພີ່ມປ້າຍກຳກັບ {labelname} ໃສ່ບັນຫາຂອງທ່ານ."
 
 #: ayatanawebmail/dialog.py:388
 msgid "Ask a question"
-msgstr ""
+msgstr "ຖາມຄຳຖາມ"
 
 #: ayatanawebmail/dialog.py:391
 msgid "Help translate"
-msgstr ""
+msgstr "ຊ່ວຍແປ"
 
 #: ayatanawebmail/dialog.py:393
 msgid "Source code"
-msgstr ""
+msgstr "ລະຫັດຕົ້ນສະບັບ"
 
 #: ayatanawebmail/dialog.py:395
 msgid "Home page"
-msgstr ""
+msgstr "ໜ້າຫຼັກ"
 
 #: ayatanawebmail/dialog.py:415
 msgid "translator-credits"
-msgstr ""
+msgstr "ຜູ້ສະໜັບສະໜູນການແປ"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:1
 msgid "Maximum item count"
-msgstr ""
+msgstr "ຈຳນວນລາຍການສູງສຸດ"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:2
 msgid "Limit the number of mails to retrieve per folder."
-msgstr ""
+msgstr "ຈຳກັດຈຳນວນເມລທີ່ຈະດຶງຂໍ້ມູນຕໍ່ໂຟລເດີ."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:3
 msgid "Enable notifications"
-msgstr ""
+msgstr "ເປີດໃຊ້ການແຈ້ງເຕືອນ"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:4
 msgid "Show OSD notifications when new messages arrive."
-msgstr ""
+msgstr "ສະແດງການແຈ້ງເຕືອນເທິງໜ້າຈໍເມື່ອມີຂໍ້ຄວາມໃໝ່ມາຮອດ."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:5
 msgid "Enable sound"
-msgstr ""
+msgstr "ເປີດໃຊ້ສຽງ"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:6
 msgid "Play sound when new messages arrive."
-msgstr ""
+msgstr "ເປີດສຽງເມື່ອມີຂໍ້ຄວາມໃໝ່ມາຮອດ."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:7
 msgid "Hide message count"
-msgstr ""
+msgstr "ເຊື່ອງການນັບຂໍ້ຄວາມ"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:8
 msgid "Hide message count when there are no messages."
-msgstr ""
+msgstr "ເຊື່ອງການນັບຂໍ້ຄວາມເມື່ອບໍ່ມີຂໍ້ຄວາມ."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:9
 msgid "Execute on receive"
-msgstr ""
+msgstr "ສັ່ງການເມື່ອໄດ້ຮັບ"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:10
 msgid "Run this command when new messages arrive."
-msgstr ""
+msgstr "ເອີ້ນໃຊ້ຄຳສັ່ງນີ້ເມື່ອມີຂໍ້ຄວາມໃໝ່ມາຮອດ."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:11
 msgid "Custom sound"
-msgstr ""
+msgstr "ສຽງທີ່ກຳນົດເອງ"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:12
 msgid "Play a custom sound when new messages arrive."
-msgstr ""
+msgstr "ເປີດສຽງທີ່ກຳນົດເອງເມື່ອມີຂໍ້ຄວາມໃໝ່ມາຮອດ."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:13
 msgid "Merge messages"
-msgstr ""
+msgstr "ລວມຂໍ້ຄວາມ"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:14
 msgid "Merge messages belonging to the same conversation."
-msgstr ""
+msgstr "ລວມຂໍ້ຄວາມທີ່ຢູ່ໃນການສົນທະນາດຽວກັນ."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:15
 msgid "Message action"
-msgstr ""
+msgstr "ການກະທຳກັບຂໍ້ຄວາມ"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:16
 msgid "Action to perform when a message is activated."
-msgstr ""
+msgstr "ການກະທຳທີ່ຈະປະຕິບັດເມື່ອຂໍ້ຄວາມຖືກເປີດໃຊ້."
 
 #: data/usr/share/applications/ayatana-webmail.desktop:4
 msgid "Ayatana Webmail"
-msgstr ""
+msgstr "Ayatana Webmail"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:5
 msgid "Webmail notifications and actions for any desktop"
-msgstr ""
+msgstr "ການແຈ້ງເຕືອນ ແລະ ການກະທຳຂອງເວັບເມລສຳລັບທຸກເດສທັອບ"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:15
 msgid "Mark all as read"
-msgstr ""
+msgstr "ໝາຍທັງໝົດວ່າອ່ານແລ້ວ"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:20
 msgid "Compose Mail"
-msgstr ""
+msgstr "ຂຽນເມລ"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:25
 msgid "Sent"
-msgstr ""
+msgstr "ສົ່ງແລ້ວ"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:30
 msgid "Inbox"
-msgstr ""
+msgstr "ກ່ອງຈົດໝາຍ"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
 msgid "Ayatana Webmail (service)"
-msgstr ""
+msgstr "Ayatana Webmail (ບໍລິການ)"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
 msgid "Display notifications about new mail"
-msgstr ""
+msgstr "ສະແດງການແຈ້ງເຕືອນກ່ຽວກັບເມລໃໝ່"
