@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ayatana-webmail 24.5.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-15 08:47+0200\n"
-"PO-Revision-Date: 2026-02-17 12:09+0000\n"
+"PO-Revision-Date: 2026-05-20 02:11+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/ayatana-"
 "indicators/ayatana-webmail/id/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16\n"
+"X-Generator: Weblate 2026.6.dev0\n"
 
 #: ayatanawebmail/accounts.py:18
 msgid "Select account"
@@ -57,7 +57,7 @@ msgstr "Buka halaman beranda webmail"
 
 #: ayatanawebmail/application.py:185
 msgid "Clear"
-msgstr "Hapus"
+msgstr "Bersihkan"
 
 #: ayatanawebmail/application.py:192
 #: data/usr/share/applications/ayatana-webmail.desktop:35
