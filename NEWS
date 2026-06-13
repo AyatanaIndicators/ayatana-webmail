@@ -1,3 +1,10 @@
+Overview of changes in ayatana-webmail 26.6.13
+
+  - ayatanawebmail/application.py: Fix missing notification icon.
+  - ayatanawebmail/application.py: Drop AppIndicator3 fallback.
+  - Translation updates (thanks to all contributors on
+    hosted.weblate.org).
+
 Overview of changes in ayatana-webmail 24.5.17
 
   - .desktop files: Stop in-place adding translations to .desktop
