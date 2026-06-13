@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-15 08:48+0200\n"
 "PO-Revision-Date: 2026-06-13 18:04+0000\n"
-"Last-Translator: Grzegorz Szymaszek <gszymaszek@short.pl>\n"
+"Last-Translator: Maciej Sopyło <me@klh.io>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/ayatana-"
 "indicators/ayatana-webmail/pl/>\n"
 "Language: pl\n"
@@ -28,7 +28,7 @@ msgstr "Wybierz konto"
 
 #: ayatanawebmail/accounts.py:29
 msgid "Which account's command/web page would you like to open?"
-msgstr ""
+msgstr "Komendę/stronę którego konta otworzyć?"
 
 #: ayatanawebmail/actions.py:15
 msgid "Message actions"
@@ -36,27 +36,27 @@ msgstr ""
 
 #: ayatanawebmail/actions.py:15
 msgid "Delete"
-msgstr ""
+msgstr "Usuń"
 
 #: ayatanawebmail/actions.py:15
 msgid "Mark as read"
-msgstr ""
+msgstr "Oznacz jako przeczytane"
 
 #: ayatanawebmail/actions.py:15
 msgid "Open message/Run command"
-msgstr ""
+msgstr "Otwórz wiadomość/Uruchom komendę"
 
 #: ayatanawebmail/actions.py:24
 msgid "Sender"
-msgstr ""
+msgstr "Nadawca"
 
 #: ayatanawebmail/actions.py:26
 msgid "Subject"
-msgstr ""
+msgstr "Temat"
 
 #: ayatanawebmail/application.py:178
 msgid "Open webmail home page"
-msgstr ""
+msgstr "Otwórz stronę internetową poczty"
 
 #: ayatanawebmail/application.py:185
 msgid "Clear"
@@ -65,7 +65,7 @@ msgstr "Wyczyść"
 #: ayatanawebmail/application.py:192
 #: data/usr/share/applications/ayatana-webmail.desktop:35
 msgid "Settings"
-msgstr ""
+msgstr "Ustawienia"
 
 #: ayatanawebmail/application.py:955
 msgid "No subject"
@@ -73,7 +73,7 @@ msgstr "Brak tematu"
 
 #: ayatanawebmail/application.py:1115
 msgid "Connection error"
-msgstr ""
+msgstr "Błąd połączenia"
 
 #: ayatanawebmail/application.py:1116
 #, python-brace-format
@@ -81,14 +81,16 @@ msgid ""
 "Unable to connect to account \"{accountName}\", the application will now "
 "exit."
 msgstr ""
+"Połączenie z kontem \"{accountName}\" nie powiodło się, aplikacja zostanie "
+"teraz zamknięta."
 
 #: ayatanawebmail/application.py:1141
-#, fuzzy, python-format
+#, python-format
 msgid "You have %d unread message"
 msgid_plural "You have %d unread messages"
-msgstr[0] "%d nieprzeczytana wiadomość"
-msgstr[1] "%d nieprzeczytane wiadomości"
-msgstr[2] "%d nieprzeczytanych wiadomości"
+msgstr[0] "Masz %d nieprzeczytaną wiadomość"
+msgstr[1] "Masz %d nieprzeczytane wiadomości"
+msgstr[2] "Masz %d nieprzeczytanych wiadomości"
 
 #: ayatanawebmail/application.py:1168
 #, python-format
@@ -119,10 +121,12 @@ msgid ""
 "If this string starts with http:// or https://, the application will open it "
 "in your browser - otherwise, it will be run as a command"
 msgstr ""
+"Jeśli tekst zaczyna się od http:// lub https://, aplikacja otworzy go jako "
+"link w przeglądarce - w innym wypadku zostanie uruchomiony jako komenda"
 
 #: ayatanawebmail/dialog.py:91 ayatanawebmail/dialog.py:105
 msgid "(None)"
-msgstr ""
+msgstr "(Brak)"
 
 #: ayatanawebmail/dialog.py:133
 msgid "Ayatana Webmail Preferences"
@@ -138,19 +142,20 @@ msgstr "Opcje"
 
 #: ayatanawebmail/dialog.py:143
 msgid "Support"
-msgstr ""
+msgstr "Wsparcie"
 
 #: ayatanawebmail/dialog.py:144
 msgid "About"
-msgstr ""
+msgstr "O aplikacji"
 
 #: ayatanawebmail/dialog.py:203
 msgid "Failed to connect to mail account. The returned error was:"
 msgstr ""
+"Połączenie z kontem pocztowym nie powiodło się. Wystąpił następujący błąd:"
 
 #: ayatanawebmail/dialog.py:204
 msgid "Connection failure"
-msgstr ""
+msgstr "Połączenie nie powiodło się"
 
 #: ayatanawebmail/dialog.py:232
 msgid "Add"
