@@ -9,22 +9,22 @@ msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-15 08:48+0200\n"
-"PO-Revision-Date: 2023-05-03 19:52+0000\n"
-"Last-Translator: Eryk Michalak <gnu.ewm@protonmail.com>\n"
+"PO-Revision-Date: 2026-06-13 18:04+0000\n"
+"Last-Translator: Grzegorz Szymaszek <gszymaszek@short.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/ayatana-"
 "indicators/ayatana-webmail/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 2026.7.dev0\n"
 "X-Launchpad-Export-Date: 2020-04-04 05:58+0000\n"
 
 #: ayatanawebmail/accounts.py:18
 msgid "Select account"
-msgstr ""
+msgstr "Wybierz konto"
 
 #: ayatanawebmail/accounts.py:29
 msgid "Which account's command/web page would you like to open?"
@@ -154,11 +154,11 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:232
 msgid "Add"
-msgstr ""
+msgstr "Dodaj"
 
 #: ayatanawebmail/dialog.py:234
 msgid "Remove"
-msgstr ""
+msgstr "Usuń"
 
 #: ayatanawebmail/dialog.py:276
 msgid ""
@@ -230,7 +230,7 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:348
 msgid "Enable notifications:"
-msgstr "Powiadomienia"
+msgstr "Włącz powiadomienia:"
 
 #: ayatanawebmail/dialog.py:350
 msgid "Play sound when a message is received:"
@@ -362,9 +362,8 @@ msgid "Action to perform when a message is activated."
 msgstr ""
 
 #: data/usr/share/applications/ayatana-webmail.desktop:4
-#, fuzzy
 msgid "Ayatana Webmail"
-msgstr "Klient poczty Ayatana Webmail (usługa)"
+msgstr "Webmail Ayatany"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:5
 msgid "Webmail notifications and actions for any desktop"
@@ -388,7 +387,7 @@ msgstr "Odebrane"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
 msgid "Ayatana Webmail (service)"
-msgstr "Klient poczty Ayatana Webmail (usługa)"
+msgstr "Webmail Ayatany (usługa)"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:5
 msgid "Display notifications about new mail"
