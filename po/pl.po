@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: ayatana-webmail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-15 08:48+0200\n"
-"PO-Revision-Date: 2026-06-13 18:04+0000\n"
-"Last-Translator: Maciej Sopyło <me@klh.io>\n"
+"PO-Revision-Date: 2026-06-14 21:03+0000\n"
+"Last-Translator: Grzegorz Szymaszek <gszymaszek@short.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/ayatana-"
 "indicators/ayatana-webmail/pl/>\n"
 "Language: pl\n"
@@ -32,7 +32,7 @@ msgstr "Komendę/stronę którego konta otworzyć?"
 
 #: ayatanawebmail/actions.py:15
 msgid "Message actions"
-msgstr ""
+msgstr "Akcje wiadomości"
 
 #: ayatanawebmail/actions.py:15
 msgid "Delete"
@@ -114,7 +114,7 @@ msgstr "Nowa wiadomość od %s"
 
 #: ayatanawebmail/dialog.py:17
 msgid "Custom"
-msgstr ""
+msgstr "Własny"
 
 #: ayatanawebmail/dialog.py:61
 msgid ""
@@ -170,16 +170,16 @@ msgid ""
 "The application will append this string to \"Inbox\" to access a specific "
 "message - you can use the $MSG_THREAD and $MSG_UID placeholders"
 msgstr ""
+"Aplikacja dołączy ten ciąg znaków do „Inbox” aby uzyskać konkretną wiadomość "
+"— możesz użyć zmiennych $MSG_THREAD i $MSG_UID"
 
 #: ayatanawebmail/dialog.py:278
-#, fuzzy
 msgid "Account:"
-msgstr "Konta"
+msgstr "Konto:"
 
 #: ayatanawebmail/dialog.py:280
-#, fuzzy
 msgid "Server:"
-msgstr "Dane serwera"
+msgstr "Serwer:"
 
 #: ayatanawebmail/dialog.py:282
 msgid "Host:"
@@ -191,7 +191,7 @@ msgstr "Port:"
 
 #: ayatanawebmail/dialog.py:286
 msgid "Username:"
-msgstr ""
+msgstr "Nazwa użytkownika:"
 
 #: ayatanawebmail/dialog.py:288
 msgid "Password:"
@@ -199,7 +199,7 @@ msgstr "Hasło:"
 
 #: ayatanawebmail/dialog.py:290
 msgid "Folders:"
-msgstr ""
+msgstr "Foldery:"
 
 #: ayatanawebmail/dialog.py:292
 msgid "Home:"
@@ -219,19 +219,19 @@ msgstr "Odebrane:"
 
 #: ayatanawebmail/dialog.py:300
 msgid "Message:"
-msgstr ""
+msgstr "Wiadomość:"
 
 #: ayatanawebmail/dialog.py:336
 msgid "Mark message as read"
-msgstr ""
+msgstr "Oznacz wiadomość jako przeczytaną"
 
 #: ayatanawebmail/dialog.py:337
 msgid "Open message in browser/Execute command"
-msgstr ""
+msgstr "Otwórz wiadomość w przeglądarce / wykonaj polecenie"
 
 #: ayatanawebmail/dialog.py:338
 msgid "Ask me what to do"
-msgstr ""
+msgstr "Zapytaj co zrobić"
 
 #: ayatanawebmail/dialog.py:348
 msgid "Enable notifications:"
@@ -239,29 +239,31 @@ msgstr "Włącz powiadomienia:"
 
 #: ayatanawebmail/dialog.py:350
 msgid "Play sound when a message is received:"
-msgstr ""
+msgstr "Odtwórz dźwięk po otrzymaniu wiadomości:"
 
 #: ayatanawebmail/dialog.py:352
 msgid "Merge messages from the same conversation:"
-msgstr ""
+msgstr "Połącz wiadomości z jednej konwersacji:"
 
 #: ayatanawebmail/dialog.py:354
 msgid "Hide count when zero:"
-msgstr ""
+msgstr "Ukryj licznik gdy zerowy:"
 
 #: ayatanawebmail/dialog.py:356
 msgid "When a message is activated:"
-msgstr ""
+msgstr "Gdy wiadomość jest uaktywniona:"
 
 #: ayatanawebmail/dialog.py:359
 msgid "Execute this command when a message is received:"
-msgstr ""
+msgstr "Uruchom to polecenie po otrzymaniu wiadomości:"
 
 #: ayatanawebmail/dialog.py:361
 msgid ""
 "If a command is set, it will be called with the following parameters: "
 "sender, subject, IMAP host"
 msgstr ""
+"Jeśli polecenie jest ustawione, zostanie wywołane z następującymi "
+"parametrami: nadawca, temat, serwer IMAP‑a"
 
 #: ayatanawebmail/dialog.py:367
 msgid "Custom sound to play:"
@@ -269,36 +271,44 @@ msgstr "Wybrany dźwięk"
 
 #: ayatanawebmail/dialog.py:383
 msgid "Report a bug"
-msgstr ""
+msgstr "Zgłoś błąd"
 
 #: ayatanawebmail/dialog.py:385
 msgid "Request a feature"
-msgstr ""
+msgstr "Zapytaj o funkcjonalność"
 
 #: ayatanawebmail/dialog.py:387 ayatanawebmail/dialog.py:390
 #, python-brace-format
 msgid "It's a good idea to add the {labelname} label to your issue."
 msgstr ""
+"Dobrym pomysłem jest dodanie etykiety {labelname} do Twojego zgłoszenia."
 
 #: ayatanawebmail/dialog.py:388
 msgid "Ask a question"
-msgstr ""
+msgstr "Zadaj pytanie"
 
 #: ayatanawebmail/dialog.py:391
 msgid "Help translate"
-msgstr ""
+msgstr "Pomóż w tłumaczeniu"
 
 #: ayatanawebmail/dialog.py:393
 msgid "Source code"
-msgstr ""
+msgstr "Kod źródłowy"
 
 #: ayatanawebmail/dialog.py:395
 msgid "Home page"
-msgstr ""
+msgstr "Strona domowa"
 
 #: ayatanawebmail/dialog.py:415
 msgid "translator-credits"
 msgstr ""
+"Launchpad Contributions:\n"
+"  Piotr Sokół <psokol@jabster.pl>\n"
+"\n"
+"Hosted Weblate Contributions:\n"
+"  Eryk Michalak <gnu.ewm@protonmail.com>\n"
+"  Grzegorz Szymaszek <gszymaszek@short.pl>\n"
+"  Maciej Sopyło <me@klh.io>"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:1
 msgid "Maximum item count"
