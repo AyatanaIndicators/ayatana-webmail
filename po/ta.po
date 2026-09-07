@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ayatana-webmail 24.5.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-15 08:48+0200\n"
-"PO-Revision-Date: 2026-08-21 11:52+0000\n"
+"PO-Revision-Date: 2026-09-08 08:51+0000\n"
 "Last-Translator: Alagirisamy Rengaraj <radhaalagirisamy@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/ayatana-indicators/"
 "ayatana-webmail/ta/>\n"
@@ -17,19 +17,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.9.dev0\n"
+"X-Generator: Weblate 2026.9.1\n"
 
 #: ayatanawebmail/accounts.py:18
 msgid "Select account"
-msgstr "கணக்கைத் தேர்வுசெய்"
+msgstr "கணக்கைத் தேர்ந்தெடு"
 
 #: ayatanawebmail/accounts.py:29
 msgid "Which account's command/web page would you like to open?"
-msgstr "எந்த கணக்கின் கட்டளை/வலைப்பக்கத்தை திறக்க விருப்பம்?"
+msgstr "எந்த கணக்கின் கட்டளை/வலைப்பக்கத்தை திறக்க உங்களுக்கு விருப்பம்?"
 
 #: ayatanawebmail/actions.py:15
 msgid "Message actions"
-msgstr "செய்தி செயல்கள்"
+msgstr "செய்திச் செயல்கள்"
 
 #: ayatanawebmail/actions.py:15
 msgid "Delete"
@@ -89,22 +89,22 @@ msgstr[1] "உங்களிடம் %d படிக்காத செய்�
 #: ayatanawebmail/application.py:1168
 #, python-format
 msgid "from %(t0)s, %(t1)s and others"
-msgstr "%(t0)s, %(t1)s மற்றும் பிறவற்றிலிருந்து"
+msgstr "%(t0)sஇங்கிருந்து, %(t1)s மற்றும் பிற"
 
 #: ayatanawebmail/application.py:1170
 #, python-format
 msgid "from %(t0)s and %(t1)s"
-msgstr "%(t0)s மற்றும் %(t1)s இருந்து"
+msgstr "இங்கிருந்து%(t0)s மற்றும் %(t1)s"
 
 #: ayatanawebmail/application.py:1172
 #, python-format
 msgid "from %s"
-msgstr "%s ல் இருந்து"
+msgstr "இங்கிருந்து%s"
 
 #: ayatanawebmail/application.py:1185
 #, python-format
 msgid "New mail from %s"
-msgstr "%s ல் இருந்து புதிய அஞ்சல்"
+msgstr "புதிய அஞ்சல் இங்கிருந்து%s"
 
 #: ayatanawebmail/dialog.py:17
 msgid "Custom"
@@ -144,7 +144,7 @@ msgstr "விவரம்"
 
 #: ayatanawebmail/dialog.py:203
 msgid "Failed to connect to mail account. The returned error was:"
-msgstr "அஞ்சல் கணக்கு இணைப்பு தோல்வியுற்றது. பிழை காட்டியது:"
+msgstr "அஞ்சல் கணக்குடன் இணைக்க தோல்வியுற்றது. காட்டிய பிழையானது:"
 
 #: ayatanawebmail/dialog.py:204
 msgid "Connection failure"
@@ -152,7 +152,7 @@ msgstr "இணைப்பு தோல்வி"
 
 #: ayatanawebmail/dialog.py:232
 msgid "Add"
-msgstr "இணை"
+msgstr "சேர்"
 
 #: ayatanawebmail/dialog.py:234
 msgid "Remove"
@@ -163,8 +163,8 @@ msgid ""
 "The application will append this string to \"Inbox\" to access a specific "
 "message - you can use the $MSG_THREAD and $MSG_UID placeholders"
 msgstr ""
-"ஒரு குறிப்பிட்ட செய்தியை அணுக, இந்த சரத்தை செயலி \"உள்பெட்டி\"ல் சேர்க்கும் - நீங்கள் "
-"$MSG_THREAD மற்றும் $ MSG_UID ஒதுக்கிடங்கள் பயன்படுத்தலாம்"
+"ஒரு குறிப்பிட்ட செய்தியை அணுக, செயலி, இந்த சரத்தை \"உள்பெட்டி\"யில் சேர்க்கும் - நீங்கள் "
+"$MSG_THREAD மற்றும் $ MSG_UID ஒதுக்கிடங்களை பயன்படுத்தலாம்"
 
 #: ayatanawebmail/dialog.py:278
 msgid "Account:"
@@ -228,11 +228,11 @@ msgstr "என்ன செய்ய வேண்டும் என்று �
 
 #: ayatanawebmail/dialog.py:348
 msgid "Enable notifications:"
-msgstr "அறிவிப்புகளை இயக்கவும்:"
+msgstr "அறிவிப்புகளை இயக்கு:"
 
 #: ayatanawebmail/dialog.py:350
 msgid "Play sound when a message is received:"
-msgstr "ஒரு செய்தி பெறும்பொழுது ஒலிக்கவும்:"
+msgstr "ஒரு செய்தி பெறும்பொழுது ஒலி இசைக்கவும்:"
 
 #: ayatanawebmail/dialog.py:352
 msgid "Merge messages from the same conversation:"
@@ -240,7 +240,7 @@ msgstr "ஒரே உரையாடலின் செய்திகளை ஒ
 
 #: ayatanawebmail/dialog.py:354
 msgid "Hide count when zero:"
-msgstr "எண்ணிக்கை பூச்சியமாகும்போதுமறைக்கவும்:"
+msgstr "பூச்சியமாகும்போது எண்ணிக்கை மறைக்கவும்:"
 
 #: ayatanawebmail/dialog.py:356
 msgid "When a message is activated:"
@@ -260,7 +260,7 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:367
 msgid "Custom sound to play:"
-msgstr "தனிப்பயன் ஒலி இயக்கவும்:"
+msgstr "தனிப்பயன் ஒலி இசைக்கவும்:"
 
 #: ayatanawebmail/dialog.py:383
 msgid "Report a bug"
@@ -297,27 +297,27 @@ msgstr "மொழிபெயர்ப்பாளர்-வரவு"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:1
 msgid "Maximum item count"
-msgstr "நிறைவு பொருள் எண்ணிக்கை"
+msgstr "நிறைவு உருப்படி எண்ணிக்கை"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:2
 msgid "Limit the number of mails to retrieve per folder."
-msgstr "ஒரு கோப்புறைக்கு மீட்டெடுக்கும் அஞ்சல்களின் எண்ணிக்கை கட்டுப்படுத்து."
+msgstr "ஒரு கோப்புறைக்கு மீட்டெடுக்கும் அஞ்சல்களின் எண்ணிக்கையை கட்டுப்படுத்து."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:3
 msgid "Enable notifications"
-msgstr "அறிவிப்புகளை செயல்படுத்து"
+msgstr "அறிவிப்புகளை இயக்கு"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:4
 msgid "Show OSD notifications when new messages arrive."
-msgstr "புதிய செய்திகள் வரும்போது திரைமேல் தோற்ற அறிவிப்புகளைக் காட்டு."
+msgstr "புதிய செய்திகள் வரும்போது திரைக்காட்சிஅறிவிப்புகளைக் காட்டு."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:5
 msgid "Enable sound"
-msgstr "ஒலி செயல்படுத்து"
+msgstr "ஒலி இயக்கு"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:6
 msgid "Play sound when new messages arrive."
-msgstr "புதிய செய்திகள் வரும்போது ஒலிக்கவும்."
+msgstr "புதிய செய்திகள் வரும்போது ஒலி இசைக்கவும்."
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:7
 msgid "Hide message count"
@@ -365,7 +365,7 @@ msgstr "அயடானா வலைஅஞ்சல்"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:5
 msgid "Webmail notifications and actions for any desktop"
-msgstr "வலைஅஞ்சல் அறிவிப்புகள் மற்றும் எந்த மேசைக்கணினிக்குமான செய்கைகள்"
+msgstr "எந்த மேசைக்கணினிக்குமான வலைஅஞ்சல் அறிவிப்புகள் மற்றும் செய்கைகள்"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:15
 msgid "Mark all as read"
@@ -373,7 +373,7 @@ msgstr "அனைத்தையும் வாசித்ததாக கு�
 
 #: data/usr/share/applications/ayatana-webmail.desktop:20
 msgid "Compose Mail"
-msgstr "அஞ்சல் இயற்றுங்கள்"
+msgstr "அஞ்சல் உருவாக்கு"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:25
 msgid "Sent"
