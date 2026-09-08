@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: ayatana-webmail 24.5.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-15 08:47+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-09-09 16:51+0000\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <https://hosted.weblate.org/projects/ayatana-"
+"indicators/ayatana-webmail/ka/>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.9.1\n"
 
 #: ayatanawebmail/accounts.py:18
 msgid "Select account"
@@ -31,7 +33,7 @@ msgstr ""
 
 #: ayatanawebmail/actions.py:15
 msgid "Delete"
-msgstr ""
+msgstr "წაშლა"
 
 #: ayatanawebmail/actions.py:15
 msgid "Mark as read"
@@ -43,11 +45,11 @@ msgstr ""
 
 #: ayatanawebmail/actions.py:24
 msgid "Sender"
-msgstr ""
+msgstr "გამომგზავნი"
 
 #: ayatanawebmail/actions.py:26
 msgid "Subject"
-msgstr ""
+msgstr "თემა"
 
 #: ayatanawebmail/application.py:178
 msgid "Open webmail home page"
@@ -55,12 +57,12 @@ msgstr ""
 
 #: ayatanawebmail/application.py:185
 msgid "Clear"
-msgstr ""
+msgstr "გასუფთავება"
 
 #: ayatanawebmail/application.py:192
 #: data/usr/share/applications/ayatana-webmail.desktop:35
 msgid "Settings"
-msgstr ""
+msgstr "მორგება"
 
 #: ayatanawebmail/application.py:955
 msgid "No subject"
@@ -106,7 +108,7 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:17
 msgid "Custom"
-msgstr ""
+msgstr "მორგებული"
 
 #: ayatanawebmail/dialog.py:61
 msgid ""
@@ -116,7 +118,7 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:91 ayatanawebmail/dialog.py:105
 msgid "(None)"
-msgstr ""
+msgstr "(არცერთი)"
 
 #: ayatanawebmail/dialog.py:133
 msgid "Ayatana Webmail Preferences"
@@ -124,19 +126,19 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:141
 msgid "Accounts"
-msgstr ""
+msgstr "ანგარიშები"
 
 #: ayatanawebmail/dialog.py:142
 msgid "Options"
-msgstr ""
+msgstr "მორგება"
 
 #: ayatanawebmail/dialog.py:143
 msgid "Support"
-msgstr ""
+msgstr "მხარდაჭერა"
 
 #: ayatanawebmail/dialog.py:144
 msgid "About"
-msgstr ""
+msgstr "შესახებ"
 
 #: ayatanawebmail/dialog.py:203
 msgid "Failed to connect to mail account. The returned error was:"
@@ -148,11 +150,11 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:232
 msgid "Add"
-msgstr ""
+msgstr "დამატება"
 
 #: ayatanawebmail/dialog.py:234
 msgid "Remove"
-msgstr ""
+msgstr "წაშლა"
 
 #: ayatanawebmail/dialog.py:276
 msgid ""
@@ -162,51 +164,51 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:278
 msgid "Account:"
-msgstr ""
+msgstr "ანგარიში:"
 
 #: ayatanawebmail/dialog.py:280
 msgid "Server:"
-msgstr ""
+msgstr "სერვერი:"
 
 #: ayatanawebmail/dialog.py:282
 msgid "Host:"
-msgstr ""
+msgstr "ჰოსტი:"
 
 #: ayatanawebmail/dialog.py:284
 msgid "Port:"
-msgstr ""
+msgstr "პორტი:"
 
 #: ayatanawebmail/dialog.py:286
 msgid "Username:"
-msgstr ""
+msgstr "მომხმარებლის სახელი:"
 
 #: ayatanawebmail/dialog.py:288
 msgid "Password:"
-msgstr ""
+msgstr "პაროლი:"
 
 #: ayatanawebmail/dialog.py:290
 msgid "Folders:"
-msgstr ""
+msgstr "საქაღალდეები:"
 
 #: ayatanawebmail/dialog.py:292
 msgid "Home:"
-msgstr ""
+msgstr "საწყისი:"
 
 #: ayatanawebmail/dialog.py:294
 msgid "Compose:"
-msgstr ""
+msgstr "შედგენა:"
 
 #: ayatanawebmail/dialog.py:296
 msgid "Sent:"
-msgstr ""
+msgstr "გაგზავნილია:"
 
 #: ayatanawebmail/dialog.py:298
 msgid "Inbox:"
-msgstr ""
+msgstr "საფოსტო ყუთი:"
 
 #: ayatanawebmail/dialog.py:300
 msgid "Message:"
-msgstr ""
+msgstr "შეტყობინება:"
 
 #: ayatanawebmail/dialog.py:336
 msgid "Mark message as read"
@@ -285,7 +287,7 @@ msgstr ""
 
 #: ayatanawebmail/dialog.py:415
 msgid "translator-credits"
-msgstr ""
+msgstr "თემური დოღონაძე"
 
 #: data/usr/share/glib-2.0/schemas/org.ayatana.webmail.gschema.xml.h:1
 msgid "Maximum item count"
@@ -369,11 +371,11 @@ msgstr ""
 
 #: data/usr/share/applications/ayatana-webmail.desktop:25
 msgid "Sent"
-msgstr ""
+msgstr "გაგზავნილი"
 
 #: data/usr/share/applications/ayatana-webmail.desktop:30
 msgid "Inbox"
-msgstr ""
+msgstr "საფოსტო ყუთი"
 
 #: data/etc/xdg/autostart/ayatana-webmail-autostart.desktop:4
 msgid "Ayatana Webmail (service)"
