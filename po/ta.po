@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ayatana-webmail 24.5.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-15 08:48+0200\n"
-"PO-Revision-Date: 2026-09-28 08:51+0000\n"
+"PO-Revision-Date: 2026-10-04 07:51+0000\n"
 "Last-Translator: Alagirisamy Rengaraj <radhaalagirisamy@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/ayatana-indicators/"
 "ayatana-webmail/ta/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.10.dev0\n"
+"X-Generator: Weblate 2026.10.1.dev0\n"
 
 #: ayatanawebmail/accounts.py:18
 msgid "Select account"
@@ -228,7 +228,7 @@ msgstr "என்ன செய்ய வேண்டும் என்று �
 
 #: ayatanawebmail/dialog.py:348
 msgid "Enable notifications:"
-msgstr "அறிவிப்புகளை இயக்கு:"
+msgstr "அறிவிப்புகளை இயலச்செய்:"
 
 #: ayatanawebmail/dialog.py:350
 msgid "Play sound when a message is received:"
